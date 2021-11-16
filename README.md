@@ -1,2 +1,2 @@
 # ppp-notes
-powerpizzapodcast notes search engine
+Power Pizza Podcast notes search engine.

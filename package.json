@@ -1,0 +1,17 @@
+{
+  "name": "ppp-notes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "parse": "node parse.js",
+    "archive": "git archive -o `basename $PWD`.zip -9 HEAD",
+    "deploy": "surge ./output --domain ppp-notes.surge.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "rss-parser": "^3.12.0"
+  }
+}
