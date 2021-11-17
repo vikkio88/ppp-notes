@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "rollup -c -w",
+    "build": "rollup -c",
+    "start": "sirv public --no-clear",
     "parse": "node parse.js",
     "archive": "git archive -o `basename $PWD`.zip -9 HEAD",
     "deploy": "surge ./output --domain ppp-notes.surge.sh"
@@ -12,6 +15,16 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "rss-parser": "^3.12.0"
+    "@tarekraafat/autocomplete.js": "^10.2.6",
+    "rss-parser": "^3.12.0",
+    "sirv-cli": "^1.0.14"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "rollup": "^2.60.0",
+    "rollup-plugin-css-only": "^3.1.0",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-terser": "^7.0.2"
   }
 }
