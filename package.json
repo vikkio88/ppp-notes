@@ -16,6 +16,7 @@
   "license": "ISC",
   "dependencies": {
     "@tarekraafat/autocomplete.js": "^10.2.6",
+    "nodejs-file-downloader": "^4.8.1",
     "rss-parser": "^3.12.0",
     "sirv-cli": "^1.0.14"
   },
