@@ -9,7 +9,7 @@
     "start": "sirv public --no-clear",
     "parse": "node parse.js",
     "archive": "git archive -o `basename $PWD`.zip -9 HEAD",
-    "deploy": "surge ./output --domain ppp-notes.surge.sh"
+    "deploy": "surge ./public --domain ppp-notes.surge.sh"
   },
   "keywords": [],
   "author": "",
