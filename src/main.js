@@ -1,30 +1,26 @@
 import autoComplete from "@tarekraafat/autocomplete.js";
 
 const autoCompleteJS = new autoComplete({
-    placeHolder: "Start typing...",
+    placeHolder: "Cerca note 🍕...",
     data: {
         src: async () => {
             try {
-                // Loading placeholder text
                 document
                     .getElementById("autoComplete")
-                    .setAttribute("placeholder", "Loading...");
-                // Fetch External Data Source
+                    .setAttribute("placeholder", "Sto cercando 🍕...");
                 const source = await fetch(
-                    "/links_2021-11-16T23.08.18.947Z.json"
+                    "/links.json"
                 );
                 const data = await source.json();
-                // Post Loading placeholder text
                 document
                     .getElementById("autoComplete")
                     .setAttribute("placeholder", autoCompleteJS.placeHolder);
-                // Returns Fetched data
                 return data;
             } catch (error) {
                 return error;
             }
         },
-        keys: ["description", "title"]
+        keys: ["description"]
     },
     resultItem: {
         highlight: {
@@ -34,13 +30,9 @@ const autoCompleteJS = new autoComplete({
     resultsList: {
         element: (list, data) => {
             if (!data.results.length) {
-                // Create "No Results" message element
                 const message = document.createElement("div");
-                // Add class to the created element
                 message.setAttribute("class", "no_result");
-                // Add message text content
                 message.innerHTML = `<span>Found No Results for "${data.query}"</span>`;
-                // Append message element to the results list
                 list.prepend(message);
             }
         },
@@ -49,14 +41,42 @@ const autoCompleteJS = new autoComplete({
 });
 
 autoCompleteJS.input.addEventListener("selection", function (event) {
-    const feedback = event.detail;
+    const result = event.detail;
     autoCompleteJS.input.blur();
-    // Prepare User's Selected Value
-    const selection = feedback.selection.value[feedback.selection.key];
-    // Render selected choice to selection div
-    document.querySelector(".selection").innerHTML = `${JSON.stringify(feedback.results, null, 2)}`;
-    // Replace Input value with the selected value
+    const selection = result.selection.value[result.selection.key];
+    document.querySelector(".results").innerHTML = parseResult(result);
     autoCompleteJS.input.value = selection;
-    // Console log autoComplete data feedback
-    console.log(feedback);
+    console.log(result);
 });
+
+
+function resultCard({ value }) {
+    return `<div class="result">
+    <h3>${value.title}</h3>
+    <a href="${value.fileurl}" target="_blank">Play 🔊</a>
+    <a href="${value.link}" target="_blank">${value.description} 🔗</a>
+    </div>`;
+
+}
+
+/*
+ "value": {
+    "link": "https://youtu.be/U--k2MbikBk",
+    "description": "📺 Puntata video!!",
+    "title": "267: Un Ideo"
+  },
+*/
+function parseResult(result) {
+    let template = `${resultCard(result.selection)}`;
+
+    if (result.results.length < 2) {
+        return template;
+    }
+
+    template += '<h2>Altri Risultati</h2>';
+    for (let match of result.results) {
+        template += resultCard(match);
+    }
+
+    return template;
+}

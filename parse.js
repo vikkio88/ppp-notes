@@ -129,7 +129,7 @@ const main = async () => {
     const show = Show.fromFeed(data);
     console.log(`\t parsing links...`);
     
-    save(show, 'shows_');
+    save(show, 'shows');
     const links = [];
     for(const episode of show.podcasts) {
         console.log(`\t\t- ${episode.title}`);
@@ -139,8 +139,9 @@ const main = async () => {
             if(stringCleaner.isValidURL(row) && previous){
                 links.push({
                     link: row,
-                    description: previous,
-                    title: episode.title
+                    description: previous.replace("►",""),
+                    title: episode.title,
+                    fileUrl: episode.fileUrl,
                 });
                 previous = null;
             }else{
@@ -150,15 +151,20 @@ const main = async () => {
         console.log('\t\t...done\n');
     }
 
-    save(links, 'links_');
+    save(links, 'links', true);
     console.log('...all done bye <3\n');
 }
 
-const save = (data, prefix = '') => {
+const save = (data, prefix, toPublic = false) => {
     let filename = (new Date()).toISOString().replace(/:/gm,'.');
-    filename = `${prefix}${filename}.json`
+    filename = `${prefix}_${filename}.json`
     console.log(`\t saving ${filename} file...`);
     fs.writeFileSync(`output/${filename}`, JSON.stringify(data));
+
+    if (toPublic) {
+        fs.copyFileSync(`output/${filename}`, `public/${prefix}.json`)
+        console.log(`\t moving ${prefix}.json to public src folder...`);
+    }
 }
 
 
