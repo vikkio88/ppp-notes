@@ -135,15 +135,17 @@ const main = async () => {
 };
 
 const save = (data, prefix, toPublic = false) => {
-    let filename = (new Date()).toISOString().replace(/:/gm, '.');
+    const now = (new Date()).toISOString();
+    let filename = now.replace(/:/gm, '.');
     filename = `${prefix}_${filename}.json`;
     console.log(`\t saving ${filename} file...`);
     fs.writeFileSync(`output/${filename}`, JSON.stringify(data));
 
     if (toPublic) {
-        fs.copyFileSync(`output/${filename}`, `public/${filename}`);
-        fs.writeFileSync(`src/linkUrl.js`, `export const LINK_URL = '/${filename}';`)
         console.log(`\t moving ${filename} to public src folder...`);
+        fs.copyFileSync(`output/${filename}`, `public/${filename}`);
+        console.log(`\t generating consts`);
+        fs.writeFileSync(`src/consts.js`, `export const LINK_URL = '/${filename}';\nexport const LAST_UPDATE = new Date('${now}');`);
     }
 };
 

@@ -51,8 +51,18 @@ nav a {
 
 
 footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font-size: smaller;
     position: fixed;
     bottom: 0;
-    padding: 2em;
+    padding: 0.5em;
+    background-color: #fafafa;
+    opacity: .7;
+}
+
+.lastUpdate {
+    font-size: smaller;
 }

@@ -1,5 +1,5 @@
 import autoComplete from "@tarekraafat/autocomplete.js";
-import { LINK_URL } from './linkUrl.js';
+import { LINK_URL, LAST_UPDATE } from './consts.js';
 
 const autoCompleteJS = new autoComplete({
     placeHolder: "Cerca note 🍕...",
@@ -81,3 +81,8 @@ function parseResult(result) {
 
     return template;
 }
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    document.querySelector(".lastUpdate").innerHTML = `Aggiornato: ${LAST_UPDATE.toLocaleString()}`;
+});

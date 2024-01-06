@@ -4,3 +4,4 @@ node_modules/
 build/
 public/*.json
 downloads/*.mp3
+src/consts.js
