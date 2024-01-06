@@ -141,8 +141,9 @@ const save = (data, prefix, toPublic = false) => {
     fs.writeFileSync(`output/${filename}`, JSON.stringify(data));
 
     if (toPublic) {
-        fs.copyFileSync(`output/${filename}`, `public/${prefix}.json`);
-        console.log(`\t moving ${prefix}.json to public src folder...`);
+        fs.copyFileSync(`output/${filename}`, `public/${filename}`);
+        fs.writeFileSync(`src/linkUrl.js`, `export const LINK_URL = '/${filename}';`)
+        console.log(`\t moving ${filename} to public src folder...`);
     }
 };
 

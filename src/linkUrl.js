@@ -1,0 +1,1 @@
+export const LINK_URL = '/links_2024-01-06T14.00.43.819Z.json';

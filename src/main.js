@@ -1,4 +1,5 @@
 import autoComplete from "@tarekraafat/autocomplete.js";
+import { LINK_URL } from './linkUrl.js';
 
 const autoCompleteJS = new autoComplete({
     placeHolder: "Cerca note 🍕...",
@@ -9,7 +10,7 @@ const autoCompleteJS = new autoComplete({
                     .getElementById("autoComplete")
                     .setAttribute("placeholder", "Sto cercando 🍕...");
                 const source = await fetch(
-                    "/links.json"
+                    LINK_URL
                 );
                 const data = await source.json();
                 document
