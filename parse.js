@@ -1,29 +1,8 @@
 const Parser = require('rss-parser');
 const fs = require('fs');
+const stringCleaner = require('./libs/stringCleaner');
 
 const URL = 'https://www.spreaker.com/show/3039391/episodes/feed';
-
-const stringCleaner = {
-    rmHtml(string) {
-        return string.replace(/<br.+?>/gm, '\n').replace(/<(?:.|\n)*?>/gm, '').replace(/&\w+;/gm, ' ');
-    },
-    booleanize(string, fallback = false) {
-        if (!string) {
-            return fallback;
-        }
-
-        return string.toLowerCase() === 'yes' ? true : false;
-    },
-    isValidURL(str) {
-        const pattern = new RegExp('^(https?:\\/\\/)?'+ // protocol
-          '((([a-z\\d]([a-z\\d-]*[a-z\\d])*)\\.)+[a-z]{2,}|'+ // domain name
-          '((\\d{1,3}\\.){3}\\d{1,3}))'+ // OR ip (v4) address
-          '(\\:\\d+)?(\\/[-a-z\\d%_.~+]*)*'+ // port and path
-          '(\\?[;&a-z\\d%_.~+=-]*)?'+ // query string
-          '(\\#[-a-z\\d_]*)?$','i'); // fragment locator
-        return !!pattern.test(str);
-    }
-};
 
 class Show {
     constructor(title, description, link, feedUrl, copyright, image, author, email, language, explicit, podcasts) {
@@ -54,7 +33,7 @@ class Show {
         if (items && items.length) {
             podcasts = items.map(item => {
                 return (Podcast.fromFeed(item)).toJs();
-            })
+            });
         }
 
         return new Show(title, description, link, feedUrl, copyright, image, author, email, language, explicit, podcasts);
@@ -73,7 +52,7 @@ class Show {
             language: this.language,
             explicit: this.explicit,
             podcasts: this.podcasts
-        }
+        };
     }
 
 }
@@ -108,14 +87,14 @@ class Podcast {
             contentSnippet: this.contentSnippet,
             guid: this.guid,
             isoDate: this.isoDate
-        }
+        };
     }
 
 }
 
 
 
-const parser = new Parser()
+const parser = new Parser();
 
 
 const feedParser = async url => {
@@ -128,23 +107,23 @@ const main = async () => {
     const data = await feedParser(URL);
     const show = Show.fromFeed(data);
     console.log(`\t parsing links...`);
-    
+
     save(show, 'shows');
     const links = [];
-    for(const episode of show.podcasts) {
+    for (const episode of show.podcasts) {
         console.log(`\t\t- ${episode.title}`);
-        const rows = episode.content.replace(/\n+/gm,'\n').split('\n');
+        const rows = episode.content.replace(/\n+/gm, '\n').split('\n');
         let previous = null;
-        for (const row of rows){
-            if(stringCleaner.isValidURL(row) && previous){
+        for (const row of rows) {
+            if (stringCleaner.isValidURL(row) && previous) {
                 links.push({
                     link: row,
-                    description: previous.replace("►",""),
+                    description: previous.replace("►", ""),
                     title: episode.title,
                     fileUrl: episode.fileUrl,
                 });
                 previous = null;
-            }else{
+            } else {
                 previous = row;
             }
         }
@@ -153,19 +132,19 @@ const main = async () => {
 
     save(links, 'links', true);
     console.log('...all done bye <3\n');
-}
+};
 
 const save = (data, prefix, toPublic = false) => {
-    let filename = (new Date()).toISOString().replace(/:/gm,'.');
-    filename = `${prefix}_${filename}.json`
+    let filename = (new Date()).toISOString().replace(/:/gm, '.');
+    filename = `${prefix}_${filename}.json`;
     console.log(`\t saving ${filename} file...`);
     fs.writeFileSync(`output/${filename}`, JSON.stringify(data));
 
     if (toPublic) {
-        fs.copyFileSync(`output/${filename}`, `public/${prefix}.json`)
+        fs.copyFileSync(`output/${filename}`, `public/${prefix}.json`);
         console.log(`\t moving ${prefix}.json to public src folder...`);
     }
-}
+};
 
 
 main();

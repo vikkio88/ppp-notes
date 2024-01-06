@@ -9,7 +9,8 @@
     "start": "sirv public --no-clear",
     "parse": "node parse.js",
     "archive": "git archive -o `basename $PWD`.zip -9 HEAD",
-    "deploy": "surge ./public --domain ppp-notes.surge.sh"
+    "deploy": "surge ./public --domain ppp-notes.surge.sh",
+    "test": "vitest"
   },
   "keywords": [],
   "author": "",
@@ -26,6 +27,7 @@
     "rollup": "^2.60.0",
     "rollup-plugin-css-only": "^3.1.0",
     "rollup-plugin-livereload": "^2.0.5",
-    "rollup-plugin-terser": "^7.0.2"
+    "rollup-plugin-terser": "^7.0.2",
+    "vitest": "^1.1.3"
   }
 }
