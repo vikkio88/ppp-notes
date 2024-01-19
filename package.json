@@ -12,6 +12,7 @@
     "archive": "git archive -o `basename $PWD`.zip -9 HEAD",
     "deploy": "surge ./public --domain ppp-notes.surge.sh",
     "bdeploy": "npm run build && npm run deploy",
+    "update": "npm run parse && npm run bdeploy",
     "test": "vitest"
   },
   "keywords": [],
