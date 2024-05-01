@@ -54,7 +54,7 @@ autoCompleteJS.input.addEventListener("selection", function (event) {
 function resultCard({ value }) {
     return `<div class="result">
     <h3>${value.title}</h3>
-    <a href="${value.fileurl}" target="_blank">Play 🔊</a>
+    <a href="${value.fileUrl}" target="_blank">Play 🔊</a>
     <a href="${value.link}" target="_blank">${value.description} 🔗</a>
     </div>`;
 
