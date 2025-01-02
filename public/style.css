@@ -1,68 +1,118 @@
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: rgba(255, 122, 122, 1);
-    background-color: #F6F0ED;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255, 122, 122, 1);
+  background-color: #f6f0ed;
 }
 
 nav {
-    padding: 1em;
+  padding: 1em;
 }
 
 nav a {
-    color: #D91E36;
-    text-decoration: none;
-    cursor: pointer;
-    margin: 1em;
+  color: #d91e36;
+  text-decoration: none;
+  cursor: pointer;
+  margin: 1em;
 }
 
 .results {
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 2rem;
 }
 
 .result {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    border-radius: 15px;
-    background-color: #fafafa;
-    padding: 1em;
-    padding-top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border-radius: 15px;
+  background-color: #fafafa;
+  padding: 1em;
+  padding-top: 0;
 }
 
+li a,
+.episodeInfo a,
 .result a {
-    color: #D91E36;
-    text-decoration: none;
-    cursor: pointer;
-    margin: .5em;
+  color: #d91e36;
+  text-decoration: none;
+  cursor: pointer;
+  margin: 0.5em;
+}
+
+li a:hover {
+  text-decoration: underline;
 }
 
 .results h2 {
-    margin: 0;
-    font-size: 1em;
+  margin: 0;
+  font-size: 1em;
 }
 
-
 footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: smaller;
-    position: fixed;
-    bottom: 0;
-    padding: 0.5em;
-    background-color: #fafafa;
-    opacity: .7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: smaller;
+  position: fixed;
+  bottom: 0;
+  padding: 0.5em;
+  background-color: #fafafa;
+  opacity: 0.7;
 }
 
 .lastUpdate {
-    font-size: smaller;
+  font-size: smaller;
+}
+
+details {
+  border-radius: 15px;
+  background-color: #fafafa;
+  margin-bottom: 0.2rem;
+}
+
+
+
+summary {
+    border-radius: 15px;
+    background-color: rgba(255, 122, 122, 1);
+    color: #fafafa;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+
+details[open] summary {
+    list-style-type: "\1f355";
+}
+
+.episodeInfo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+ul {
+  list-style-type: "\1f355";
+}
+
+li {
+  padding: 0.4rem;
+  font-size: 1.1rem;
+}
+
+details h2 {
+    text-align: center;
+    font-size: 2rem;
 }
