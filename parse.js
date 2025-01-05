@@ -171,6 +171,8 @@ const main = async () => {
       title: episode.title,
       fileUrl: episode.fileUrl,
       links: currentEpisodeLinks,
+      content: episode.content,
+      date: episode.isoDate,
     });
     console.log("\t\t...done\n");
   }

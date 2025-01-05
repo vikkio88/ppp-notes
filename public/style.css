@@ -94,11 +94,22 @@ details[open] summary {
 
 .episodeInfo {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 1rem;
   font-size: 1.5rem;
+}
+
+.episodeInfo > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.episodeInfo > div.date {
+  font-size: .9rem;
 }
 
 ul {
@@ -136,4 +147,25 @@ details h2 {
   100% {
     transform: rotate(360deg);
   }
+}
+
+dialog {
+  z-index: 10;
+  margin-top: 10px;
+  border: none;
+  border-radius: 1rem;
+}
+
+dialog::backdrop {
+  background-color: rgba(255, 122, 122, .25);
+}
+
+body:has(dialog[open]) {
+  overflow: hidden;
+}
+
+button {
+  background-color: #fafafa;
+  border-color: rgba(255, 122, 122, 1);
+  border-radius: 5px;
 }

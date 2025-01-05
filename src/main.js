@@ -67,11 +67,45 @@ function resultCard({ value }) {
     </div>`;
 }
 
+function info(dialogId) {
+  const dialog = document.getElementById(dialogId);
+  if (dialog) {
+    dialog.showModal();
+    dialog.addEventListener("click", (e) => {
+      const dialogDimensions = dialog.getBoundingClientRect();
+      if (
+        e.clientX < dialogDimensions.left ||
+        e.clientX > dialogDimensions.right ||
+        e.clientY < dialogDimensions.top ||
+        e.clientY > dialogDimensions.bottom
+      ) {
+        dialog.close();
+      }
+    });
+    const dialogExit = document.getElementById(`close-${dialogId}`);
+    if (dialogExit) {
+      dialogExit.addEventListener("click", () => dialog.close());
+    }
+  }
+}
+
+function wrapURLs(input) {
+  const urlRegex = /(https?:\/\/[^\s]+)/g;
+  return input.replace(
+    urlRegex,
+    '<a href="$1" target="_blank" rel="noopener noreferrer">$1</a>'
+  );
+}
+
 function episodeAccordion(episode) {
   return `<details name="episodes">
   <summary>${episode.title}</summary>
   <div class="episodeInfo">
-    <a href="${episode.fileUrl}" target="_blank">Ascolta 🔉</a>
+    <div class="date">${new Date(episode.date).toLocaleDateString()}</div>
+    <div>
+      <a href="${episode.fileUrl}" target="_blank">Ascolta 🔉</a>
+      <a onclick="info('${episode.fileUrl}')">Scontrino 🧾</a>
+    </div>
   </div>
   ${
     episode.links && episode.links.length > 0
@@ -89,6 +123,16 @@ function episodeAccordion(episode) {
       ? `<h2> No links in this episode</h2>`
       : ""
   }
+  <dialog id="${episode.fileUrl}">
+    <button id="close-${episode.fileUrl}">x</button>
+    <h2>Scontrino</h2>
+    <h3>${episode.title}</h3>
+    <div>
+      <pre>
+        ${wrapURLs(episode.content)}
+      </pre>
+    </div>
+  </dialog>
   </details>`;
 }
 
@@ -121,4 +165,6 @@ document.addEventListener("DOMContentLoaded", function () {
   document.querySelector(
     ".lastUpdate"
   ).innerHTML = `Aggiornato: ${LAST_UPDATE.toLocaleString()}`;
+
+  window.info = info;
 });
