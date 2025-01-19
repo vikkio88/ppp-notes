@@ -1,0 +1,171 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255, 122, 122, 1);
+  background-color: #f6f0ed;
+}
+
+nav {
+  padding: 1em;
+}
+
+nav a {
+  color: #d91e36;
+  text-decoration: none;
+  cursor: pointer;
+  margin: 1em;
+}
+
+.results {
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border-radius: 15px;
+  background-color: #fafafa;
+  padding: 1em;
+  padding-top: 0;
+}
+
+li a,
+.episodeInfo a,
+.result a {
+  color: #d91e36;
+  text-decoration: none;
+  cursor: pointer;
+  margin: 0.5em;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+.results h2 {
+  margin: 0;
+  font-size: 1em;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: smaller;
+  position: fixed;
+  bottom: 0;
+  padding: 0.5em;
+  background-color: #fafafa;
+  opacity: 0.7;
+}
+
+.lastUpdate {
+  font-size: smaller;
+}
+
+details {
+  border-radius: 15px;
+  background-color: #fafafa;
+  margin-bottom: 0.2rem;
+}
+
+summary {
+  border-radius: 15px;
+  background-color: rgba(255, 122, 122, 1);
+  color: #fafafa;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 1rem;
+}
+
+details[open] summary {
+  list-style-type: "\1f355";
+}
+
+.episodeInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+.episodeInfo > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.episodeInfo > div.date {
+  font-size: .9rem;
+}
+
+ul {
+  list-style-type: "\1f355";
+}
+
+li {
+  padding: 0.4rem;
+  font-size: 1.1rem;
+}
+
+details h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.spinner {
+  margin-top: 5rem;
+  border: 3px solid rgba(255, 122, 122, 1);
+  border-top: 3px solid #f6f0ed;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 0.5s linear infinite;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+dialog {
+  z-index: 10;
+  margin-top: 10px;
+  border: none;
+  border-radius: 1rem;
+}
+
+dialog::backdrop {
+  background-color: rgba(255, 122, 122, .25);
+}
+
+body:has(dialog[open]) {
+  overflow: hidden;
+}
+
+button {
+  background-color: #fafafa;
+  border-color: rgba(255, 122, 122, 1);
+  border-radius: 5px;
+}

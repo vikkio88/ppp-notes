@@ -1,0 +1,23 @@
+{
+  "name": "ppp-astro",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "bunx --bun astro dev",
+    "build": "bunx --bun astro build",
+    "preview": "bunx --bun astro preview",
+    "astro": "bunx --bun astro",
+    "build:clean": "bun scripts/clean.ts",
+    "feed:update": "bun scripts/parse.ts"
+  },
+  "dependencies": {
+    "astro": "^5.1.7"
+  },
+  "module": "index.ts",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
