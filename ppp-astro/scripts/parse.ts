@@ -215,7 +215,7 @@ const main = async () => {
   console.log(`\t generating env`);
   fs.writeFileSync(
     `.env`,
-    `LINK_URL='/${linksFile}'\nEPISODES_URL='/${episodesFile}'\nLAST_UPDATE ='${now()}'`
+    `PUBLIC_LINK_URL='/${linksFile}'\nPUBLIC_EPISODES_URL='/${episodesFile}'\nLAST_UPDATE ='${now()}'`
   );
 
   console.log("...all done bye <3\n");

@@ -1,0 +1,17 @@
+---
+const { LAST_UPDATE } = import.meta.env;
+const date = new Date(LAST_UPDATE);
+---
+
+<footer>
+  <div class="lastUpdate">
+    last update: {date.toLocaleDateString()}
+    {date.toLocaleTimeString()}
+  </div>
+  <span>
+    made with ♥ and <a
+      href="https://github.com/vikkio88/ppp-notes"
+      target="_blank">astro 🚀</a
+    > by <a href="https://vikkio.me" target="_blank" rel="me">vikkio</a>
+  </span>
+</footer>

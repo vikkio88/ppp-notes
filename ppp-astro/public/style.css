@@ -7,6 +7,12 @@ body {
   background-color: #f6f0ed;
 }
 
+.centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 nav {
   padding: 1em;
 }
@@ -18,11 +24,17 @@ nav a {
   margin: 1em;
 }
 
+header a {
+  color: #d91e36;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .results {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 .result {
@@ -89,7 +101,7 @@ summary {
 }
 
 details[open] summary {
-  list-style-type: "\1f355";
+  list-style-type: "\1f355 ";
 }
 
 .episodeInfo {
@@ -109,7 +121,7 @@ details[open] summary {
 }
 
 .episodeInfo > div.date {
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 
 ul {
@@ -157,7 +169,7 @@ dialog {
 }
 
 dialog::backdrop {
-  background-color: rgba(255, 122, 122, .25);
+  background-color: rgba(255, 122, 122, 0.25);
 }
 
 body:has(dialog[open]) {
@@ -168,4 +180,32 @@ button {
   background-color: #fafafa;
   border-color: rgba(255, 122, 122, 1);
   border-radius: 5px;
+}
+
+input.search {
+  height: 3rem;
+  width: 80vw;
+  margin: 0;
+  padding: 0 2rem 0 3.2rem;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  font-size: 1rem;
+  text-overflow: ellipsis;
+  color: rgba(255, 122, 122, 0.3);
+  outline: 0;
+  border-radius: 10rem;
+  border: 0.05rem solid rgba(255, 122, 122, 0.5);
+  background-image: url(images/search.svg);
+  background-size: 1.4rem;
+  background-position: left 1.05rem top 0.8rem;
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  background-color: #fff;
+  transition: all 0.4s ease;
+}
+
+input.search::placeholder {
+  color: rgba(255, 122, 122, 0.5);
+  opacity: 0.8;
 }
