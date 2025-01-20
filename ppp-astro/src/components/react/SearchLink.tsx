@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
 import ResultCard from "./ResultCard";
 const { PUBLIC_LINK_URL } = import.meta.env;
 
@@ -10,6 +10,7 @@ type Link = {
 };
 
 export function SearchLink() {
+  const searchRef = useRef<HTMLInputElement>(null);
   const [isLoading, setIsLoading] = useState(false);
   const [results, setResults] = useState<Link[] | null>(null);
   const search = (value: string) => {
@@ -18,7 +19,6 @@ export function SearchLink() {
     fetch(`/data/${PUBLIC_LINK_URL}`)
       .then((res) => res.json())
       .then((r) => {
-        console.log({ r });
         setResults(
           r.filter(
             (l: Link) =>
@@ -28,6 +28,13 @@ export function SearchLink() {
         );
         setIsLoading(false);
       });
+  };
+  const reset = () => {
+    if (searchRef.current?.value) {
+      searchRef.current.value = "";
+    }
+    searchRef.current?.focus();
+    setResults(null);
   };
   return (
     <>
@@ -42,7 +49,6 @@ export function SearchLink() {
 
           if (searchInput) {
             const searchValue = searchInput.value;
-            searchInput.value = "";
             search(searchValue);
           }
         }}
@@ -53,16 +59,30 @@ export function SearchLink() {
           className="search"
           autoComplete="off"
           placeholder="🍕 Cerca tra gli episodi..."
+          ref={searchRef}
         ></input>
-        {isLoading && <div className="spinner">🍕</div>}
-        {!isLoading && results != null && (
+      </form>
+      {isLoading && <div className="spinner">🍕</div>}
+      {!isLoading && results != null && results.length > 0 && (
+        <>
+          <div className="resultInfo">
+            <button onClick={reset}>Reset</button>
+          </div>
           <div className="results">
             {results.map((l, i) => (
               <ResultCard key={`link_${i}`} linkEntry={l} />
             ))}
           </div>
-        )}
-      </form>
+        </>
+      )}
+      {!isLoading && results != null && results.length < 1 && (
+        <div className="resultInfo">
+
+          <h2>Nessun Link Trovato</h2>
+          <h1>🍕</h1>
+          <button onClick={reset}>Reset</button>
+        </div>
+      )}
     </>
   );
 }

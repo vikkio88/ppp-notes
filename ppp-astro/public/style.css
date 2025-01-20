@@ -176,15 +176,9 @@ body:has(dialog[open]) {
   overflow: hidden;
 }
 
-button {
-  background-color: #fafafa;
-  border-color: rgba(255, 122, 122, 1);
-  border-radius: 5px;
-}
-
 input.search {
   height: 3rem;
-  width: 80vw;
+  width: 50vw;
   margin: 0;
   padding: 0 2rem 0 3.2rem;
   box-sizing: border-box;
@@ -192,9 +186,9 @@ input.search {
   -webkit-box-sizing: border-box;
   font-size: 1rem;
   text-overflow: ellipsis;
-  color: rgba(255, 122, 122, 0.3);
+  color: rgba(255, 122, 122, 0.9);
   outline: 0;
-  border-radius: 10rem;
+  border-radius: 15px;
   border: 0.05rem solid rgba(255, 122, 122, 0.5);
   background-image: url(images/search.svg);
   background-size: 1.4rem;
@@ -203,9 +197,36 @@ input.search {
   background-origin: border-box;
   background-color: #fff;
   transition: all 0.4s ease;
+  margin-bottom: 2rem;
+}
+@media only screen and (max-width: 768px) {
+  input.search {
+    width: 90vw;
+  }
 }
 
 input.search::placeholder {
   color: rgba(255, 122, 122, 0.5);
-  opacity: 0.8;
+  opacity: 0.9;
+}
+
+.resultInfo {
+  text-align: center;
+}
+
+.resultInfo > h2 {
+  margin-top: 4rem;
+}
+
+button {
+  color: rgba(255, 122, 122, 0.9);
+  background-color: #fafafa;
+  border-color: rgba(255, 122, 122);
+  padding: .5rem 1.5rem;
+  font-size: 1.2rem;
+}
+
+button.small {
+  padding: 0 .5rem;
+  font-size: 1rem;
 }
