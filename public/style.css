@@ -7,6 +7,12 @@ body {
   background-color: #f6f0ed;
 }
 
+.centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 nav {
   padding: 1em;
 }
@@ -18,11 +24,21 @@ nav a {
   margin: 1em;
 }
 
+header a {
+  color: rgba(255, 122, 122, 1);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+header a:hover {
+  color: rgba(255, 122, 122, .8);
+}
+
 .results {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 .result {
@@ -89,7 +105,7 @@ summary {
 }
 
 details[open] summary {
-  list-style-type: "\1f355";
+  list-style-type: "\1f355 ";
 }
 
 .episodeInfo {
@@ -109,7 +125,7 @@ details[open] summary {
 }
 
 .episodeInfo > div.date {
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 
 ul {
@@ -157,15 +173,64 @@ dialog {
 }
 
 dialog::backdrop {
-  background-color: rgba(255, 122, 122, .25);
+  background-color: rgba(255, 122, 122, 0.25);
 }
 
 body:has(dialog[open]) {
   overflow: hidden;
 }
 
+input.search {
+  height: 3rem;
+  width: 50vw;
+  margin: 0;
+  padding: 0 2rem 0 3.2rem;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  font-size: 1rem;
+  text-overflow: ellipsis;
+  color: rgba(255, 122, 122, 0.9);
+  outline: 0;
+  border-radius: 15px;
+  border: 0.05rem solid rgba(255, 122, 122, 0.5);
+  background-image: url(images/search.svg);
+  background-size: 1.4rem;
+  background-position: left 1.05rem top 0.8rem;
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  background-color: #fff;
+  transition: all 0.4s ease;
+  margin-bottom: 2rem;
+}
+@media only screen and (max-width: 768px) {
+  input.search {
+    width: 90vw;
+  }
+}
+
+input.search::placeholder {
+  color: rgba(255, 122, 122, 0.5);
+  opacity: 0.9;
+}
+
+.resultInfo {
+  text-align: center;
+}
+
+.resultInfo > h2 {
+  margin-top: 4rem;
+}
+
 button {
+  color: rgba(255, 122, 122, 0.9);
   background-color: #fafafa;
-  border-color: rgba(255, 122, 122, 1);
-  border-radius: 5px;
+  border-color: rgba(255, 122, 122);
+  padding: .3rem 1rem;
+  font-size: 1.1rem;
+}
+
+button.small {
+  padding: 0 .5rem;
+  font-size: 1rem;
 }
