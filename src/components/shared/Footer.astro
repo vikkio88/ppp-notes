@@ -1,12 +1,11 @@
 ---
-const { LAST_UPDATE } = import.meta.env;
-const date = new Date(LAST_UPDATE);
+import { format } from "date-fns";
+const lastUpdate = format(new Date(), "dd/MM/yyyy hh:mm");
 ---
 
 <footer>
   <div class="lastUpdate">
-    last update: {date.toLocaleDateString()}
-    {date.toLocaleTimeString()}
+    last update: {lastUpdate}
   </div>
   <span>
     made with ♥ and <a
