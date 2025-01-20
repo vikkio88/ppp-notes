@@ -12,7 +12,7 @@ export default function ResultCard({ linkEntry }: Props) {
     <div className="result">
       <h3>{linkEntry.title}</h3>
       <a href={linkEntry.fileUrl} target="_blank">
-        Play 🔊
+        Ascolta 🔊
       </a>
       <a href={linkEntry.link} target="_blank">
         {linkEntry.description} 🔗

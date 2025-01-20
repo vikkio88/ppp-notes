@@ -25,9 +25,13 @@ nav a {
 }
 
 header a {
-  color: #d91e36;
+  color: rgba(255, 122, 122, 1);
   text-decoration: none;
   cursor: pointer;
+}
+
+header a:hover {
+  color: rgba(255, 122, 122, .8);
 }
 
 .results {
@@ -222,8 +226,8 @@ button {
   color: rgba(255, 122, 122, 0.9);
   background-color: #fafafa;
   border-color: rgba(255, 122, 122);
-  padding: .5rem 1.5rem;
-  font-size: 1.2rem;
+  padding: .3rem 1rem;
+  font-size: 1.1rem;
 }
 
 button.small {
