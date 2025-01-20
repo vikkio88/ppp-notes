@@ -1,0 +1,39 @@
+---
+import Layout from "../layouts/Layout.astro";
+import episodes from "../../public/data/episodes_2025-01-19T12.52.20.563Z.json";
+import Accordion from "../components/shared/Accordion.astro";
+---
+
+<Layout>
+  <div class="results">
+    {episodes.map((e) => <Accordion episode={e} />)}
+  </div>
+  <script lang="ts" is:inline>
+    function info(dialogId) {
+      //: string) {
+      const dialog = document.getElementById(dialogId);
+      // as
+      //   | HTMLDialogElement
+      //   | undefined;
+      console.log(dialog, dialogId);
+      if (dialog) {
+        dialog.showModal();
+        dialog.addEventListener("click", (e) => {
+          const dialogDimensions = dialog.getBoundingClientRect();
+          if (
+            e.clientX < dialogDimensions.left ||
+            e.clientX > dialogDimensions.right ||
+            e.clientY < dialogDimensions.top ||
+            e.clientY > dialogDimensions.bottom
+          ) {
+            dialog.close();
+          }
+        });
+        const dialogExit = document.getElementById(`close-${dialogId}`);
+        if (dialogExit) {
+          dialogExit.addEventListener("click", () => dialog.close());
+        }
+      }
+    }
+  </script>
+</Layout>

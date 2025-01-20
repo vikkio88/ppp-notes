@@ -1,36 +1,28 @@
 {
-  "name": "ppp-notes",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "ppp-astro",
+  "type": "module",
+  "version": "0.0.1",
   "scripts": {
-    "dev": "rollup -c -w",
-    "build": "rollup -c",
-    "start": "sirv public --no-clear",
-    "clean": "rm output/*.json && rm public/*.json",
-    "parse": "node parse.js",
-    "archive": "git archive -o `basename $PWD`.zip -9 HEAD",
-    "deploy": "surge ./public --domain ppp-notes.surge.sh",
-    "bdeploy": "npm run build && npm run deploy",
-    "update": "npm run clean && npm run parse && npm run bdeploy",
-    "test": "vitest"
+    "dev": "bunx --bun astro dev",
+    "build": "bunx --bun astro build",
+    "preview": "bunx --bun astro preview",
+    "astro": "bunx --bun astro",
+    "build:clean": "bun scripts/clean.ts",
+    "feed:update": "bun scripts/parse.ts"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "@tarekraafat/autocomplete.js": "^10.2.6",
-    "nodejs-file-downloader": "^4.8.1",
-    "rss-parser": "^3.12.0",
-    "sirv-cli": "^1.0.14"
+    "@astrojs/react": "^4.1.5",
+    "@types/react": "^19.0.7",
+    "@types/react-dom": "^19.0.3",
+    "astro": "^5.1.7",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   },
+  "module": "index.ts",
   "devDependencies": {
-    "@rollup/plugin-commonjs": "^21.0.1",
-    "@rollup/plugin-node-resolve": "^13.0.6",
-    "rollup": "^2.60.0",
-    "rollup-plugin-css-only": "^3.1.0",
-    "rollup-plugin-livereload": "^2.0.5",
-    "rollup-plugin-terser": "^7.0.2",
-    "vitest": "^1.1.3"
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
   }
 }

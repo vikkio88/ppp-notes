@@ -1,22 +1,32 @@
 const Parser = require("rss-parser");
 const fs = require("fs");
 const stringCleaner = require("./libs/stringCleaner");
-
-const URL = "https://www.spreaker.com/show/3039391/episodes/feed";
+import { URL, OUTPUT_DIR, PUBLIC_DATA_DIR } from "./config";
 
 class Show {
+  title: string;
+  description: string;
+  link: string;
+  feedUrl: string;
+  copyright: string;
+  image: string;
+  author: string;
+  email: string;
+  language: string;
+  explicit: boolean;
+  podcasts: Podcast[];
   constructor(
-    title,
-    description,
-    link,
-    feedUrl,
-    copyright,
-    image,
-    author,
-    email,
-    language,
-    explicit,
-    podcasts
+    title: string,
+    description: string,
+    link: string,
+    feedUrl: string,
+    copyright: string,
+    image: string,
+    author: string,
+    email: string,
+    language: string,
+    explicit: boolean,
+    podcasts: Podcast[]
   ) {
     this.title = title;
     this.description = description;
@@ -32,7 +42,7 @@ class Show {
     this.podcasts = podcasts;
   }
 
-  static fromFeed(data) {
+  static fromFeed(data: any) {
     let {
       title,
       description,
@@ -52,7 +62,7 @@ class Show {
     let podcasts = items;
 
     if (items && items.length) {
-      podcasts = items.map((item) => {
+      podcasts = items.map((item: unknown) => {
         return Podcast.fromFeed(item).toJs();
       });
     }
@@ -90,7 +100,22 @@ class Show {
 }
 
 class Podcast {
-  constructor(title, pubDate, fileUrl, content, contentSnippet, guid, isoDate) {
+  title: string;
+  pubDate: string;
+  fileUrl: string;
+  content: string;
+  contentSnippet: string;
+  guid: string;
+  isoDate: string;
+  constructor(
+    title: string,
+    pubDate: string,
+    fileUrl: string,
+    content: string,
+    contentSnippet: string,
+    guid: string,
+    isoDate: string
+  ) {
     this.title = title;
     this.pubDate = pubDate;
     this.fileUrl = fileUrl;
@@ -100,9 +125,9 @@ class Podcast {
     this.isoDate = isoDate;
   }
 
-  static fromFeed(data) {
+  static fromFeed(data: unknown) {
     let { title, pubDate, enclosure, content, contentSnippet, guid, isoDate } =
-      data;
+      data as Podcast & { enclosure: { url: string } };
     const fileUrl = enclosure.url;
     content = stringCleaner.rmHtml(content);
     contentSnippet = stringCleaner.rmHtml(contentSnippet);
@@ -133,7 +158,7 @@ class Podcast {
 
 const parser = new Parser();
 
-const feedParser = async (url) => {
+const feedParser = async (url: string) => {
   const feed = await parser.parseURL(url);
   return feed;
 };
@@ -181,13 +206,16 @@ const main = async () => {
   const episodesFile = save(episodes, "episodes");
 
   for (const filename of [linksFile, episodesFile]) {
-    console.log(`\t moving ${filename} to public src folder...`);
-    fs.copyFileSync(`output/${filename}`, `public/${filename}`);
+    console.log(`\t moving ${filename} to public data folder...`);
+    fs.copyFileSync(
+      `${OUTPUT_DIR}/${filename}`,
+      `${PUBLIC_DATA_DIR}/${filename}`
+    );
   }
-  console.log(`\t generating consts`);
+  console.log(`\t generating env`);
   fs.writeFileSync(
-    `src/consts.js`,
-    `export const LINK_URL = '/${linksFile}';\nexport const EPISODES_URL = '/${episodesFile}';\nexport const LAST_UPDATE = new Date('${now()}');`
+    `.env`,
+    `PUBLIC_LINK_URL='/${linksFile}'\nPUBLIC_EPISODES_URL='/${episodesFile}'\nLAST_UPDATE ='${now()}'`
   );
 
   console.log("...all done bye <3\n");
@@ -195,11 +223,11 @@ const main = async () => {
 
 const now = () => new Date().toISOString();
 
-const save = (data, prefix) => {
+const save = (data: any, prefix: string) => {
   let filename = now().replace(/:/gm, ".");
   filename = `${prefix}_${filename}.json`;
   console.log(`\t saving ${filename} file...`);
-  fs.writeFileSync(`output/${filename}`, JSON.stringify(data));
+  fs.writeFileSync(`${OUTPUT_DIR}/${filename}`, JSON.stringify(data));
 
   return filename;
 };
