@@ -1,16 +1,16 @@
 ---
 import { format } from "date-fns";
-const lastUpdate = format(new Date(), "dd/MM/yyyy hh:mm");
+const lastUpdate = () => format(new Date(), "dd/MM/yyyy hh:mm");
 ---
 
 <footer>
-  <div class="lastUpdate">
-    last update: {lastUpdate}
-  </div>
-  <span>
-    made with ♥ and <a
-      href="https://github.com/vikkio88/ppp-notes"
-      target="_blank">astro 🚀</a
-    > by <a href="https://vikkio.me" target="_blank" rel="me">vikkio</a>
-  </span>
+    <div class="lastUpdate">
+        last update: {lastUpdate()}
+    </div>
+    <span>
+        made with ♥ and <a
+            href="https://github.com/vikkio88/ppp-notes"
+            target="_blank">astro 🚀</a
+        > by <a href="https://vikkio.me" target="_blank" rel="me">vikkio</a>
+    </span>
 </footer>
