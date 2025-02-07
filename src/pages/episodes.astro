@@ -17,7 +17,6 @@ const episodes = await getCollection("episodes");
             // as
             //   | HTMLDialogElement
             //   | undefined;
-            console.log(dialog, dialogId);
             if (dialog) {
                 dialog.showModal();
                 dialog.addEventListener("click", (e) => {

@@ -1,9 +1,9 @@
 const Parser = require("rss-parser");
 const fs = require("fs");
 const stringCleaner = require("./libs/stringCleaner");
-import { URL, OUTPUT_DIR, PUBLIC_DATA_DIR } from "./config";
+import { URL, OUTPUT_DIR } from "./config";
 
-class Show {
+export class Show {
   title: string;
   description: string;
   link: string;
@@ -99,7 +99,7 @@ class Show {
   }
 }
 
-class Podcast {
+export class Podcast {
   title: string;
   pubDate: string;
   fileUrl: string;
@@ -202,21 +202,8 @@ const main = async () => {
     console.log("\t\t...done\n");
   }
 
-  const linksFile = save(links, "links");
-  const episodesFile = save(episodes, "episodes");
-
-  for (const filename of [linksFile, episodesFile]) {
-    console.log(`\t moving ${filename} to public data folder...`);
-    fs.copyFileSync(
-      `${OUTPUT_DIR}/${filename}`,
-      `${PUBLIC_DATA_DIR}/${filename}`
-    );
-  }
-  console.log(`\t generating env`);
-  fs.writeFileSync(
-    `.env`,
-    `PUBLIC_LINK_URL='/${linksFile}'\nPUBLIC_EPISODES_URL='/${episodesFile}'\nLAST_UPDATE ='${now()}'`
-  );
+  save(links, "links");
+  save(episodes, "episodes");
 
   console.log("...all done bye <3\n");
 };
