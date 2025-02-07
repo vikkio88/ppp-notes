@@ -1,11 +1,12 @@
 ---
 import { format } from "date-fns";
-const lastUpdate = () => format(new Date(), "dd/MM/yyyy H:mm");
+
+const lastUpdate = format(new Date(), "dd/MM/yyyy H:mm");
 ---
 
 <footer>
     <div class="lastUpdate">
-        last update: {lastUpdate()}
+        last update: {lastUpdate}
     </div>
     <span>
         made with ♥ and <a

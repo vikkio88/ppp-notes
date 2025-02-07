@@ -1,0 +1,48 @@
+---
+import type { CollectionEntry } from "astro:content";
+import { render } from "astro:content";
+
+interface Props {
+  episode: CollectionEntry<"episodes">;
+}
+const { episode } = Astro.props;
+
+const { Content } = await render(episode);
+---
+
+<details>
+  <summary>{episode.data.title}</summary>
+  <div class="episodeInfo">
+    <div class="date">{new Date(episode.data.date!).toLocaleDateString()}</div>
+    <div>
+      <a href={episode.data.link!} target="_blank">Ascolta 🔉</a>
+      <a onclick={`info("${episode.id}")`}>Scontrino 🧾</a>
+    </div>
+  </div>
+  {
+    episode.data.links!.length > 0 && (
+      <ul>
+        {episode.data.links!.map((l: any) => (
+          <li>
+            <a href={l.href} target="_blank">
+              {l.description}
+            </a>
+          </li>
+        ))}
+      </ul>
+    )
+  }
+  {
+    episode.data.links!.length === 0 && (
+      <h2>Nessun link trovato nello scontrino</h2>
+    )
+  }
+  <dialog id={episode.id}>
+    <button class="small" id={`close-${episode.id}`}>x</button>
+    <h2>Scontrino</h2>
+    <h3>{episode.data.title}</h3>
+    <div>
+      <Content />
+    </div>
+  </dialog>
+</details>

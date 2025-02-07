@@ -1,25 +1,14 @@
 ---
-import fs from "node:fs";
+import { getCollection } from "astro:content";
+import Episode from "../components/Episode.astro";
 import Layout from "../layouts/Layout.astro";
-import Accordion from "../components/shared/Accordion.astro";
 
-type Episode = {
-    title: string;
-    pubDate: string;
-    fileUrl: string;
-    content: string;
-    contentSnippet: string;
-    guid: string;
-    isoDate: string;
-};
-const episodes = JSON.parse(
-    fs.readFileSync(`output/${import.meta.env.PUBLIC_EPISODES_URL}`).toString(),
-) as Episode[];
+const episodes = await getCollection("episodes");
 ---
 
 <Layout>
     <div class="results">
-        {episodes.map((e) => <Accordion episode={e} />)}
+        {episodes.map((e) => <Episode episode={e} />)}
     </div>
     <script lang="ts" is:inline>
         function info(dialogId) {
