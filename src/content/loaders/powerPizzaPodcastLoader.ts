@@ -1,6 +1,6 @@
-import { feedLoader } from '@ascorbic/feed-loader';
+import { feedLoader, type Item } from '@ascorbic/feed-loader';
 import type { Loader, LoaderContext } from 'astro/loaders';
-import { DataEntry, z } from 'astro:content';
+import { z } from 'astro:content';
 import type { ZodObject, ZodSchema } from 'astro:schema';
 
 interface Link {
@@ -19,14 +19,15 @@ function parseLinks(episode: any): Link[] {
 
     const SCONTRINO_SEPARATOR = "+++ Scontrino +++";
 
-    let scontrino: string;
-    if (episode.data.description!.includes(SCONTRINO_SEPARATOR)) {
-        scontrino = episode.data.description!.split(SCONTRINO_SEPARATOR)[1];
-    } else {
-        scontrino = episode.data.description!;
-    }
+    const description = (episode.data as Item).description!;
+
+    const scontrino = description.includes(SCONTRINO_SEPARATOR)
+        ? description.split(SCONTRINO_SEPARATOR)[1]
+        : description;
     const scontrinoLines = scontrino
+        // Replace double line breaks with a single one
         .replaceAll("<br /><br />", "<br />")
+        // Swap line breaks inside links with the link closing tag
         .replaceAll("<br /></a>", "</a><br />")
         .split("<br />")
         .map((l) => l.trim());
@@ -77,7 +78,6 @@ export function powerPizzaPodcastLoader(): Loader {
             await feedLoaderInstance.load(context);
 
             const data = context.store.values();
-            console.log("Raw data from feed loader has", data.length, "records");
             context.store.clear();
 
             for (const episode of data) {

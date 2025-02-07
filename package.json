@@ -7,7 +7,9 @@
     "build": "bunx --bun astro build",
     "preview": "bunx --bun astro preview",
     "astro": "bunx --bun astro",
-    "site:update-deploy": "bun build:clean && bun run build && bun site:deploy",
+    "build:clean": "bun scripts/clean.ts",
+    "feed:update": "bun scripts/parse.ts",
+    "site:update-deploy": "bun build:clean && bun feed:update && bun run build && bun site:deploy",
     "site:deploy": "bunx surge dist --domain ppp-notes.surge.sh"
   },
   "dependencies": {

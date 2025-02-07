@@ -2,15 +2,17 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   color: rgba(255, 122, 122, 1);
   background-color: #f6f0ed;
+  min-height: 100vh;
+  margin: 0;
 }
 
 .centered {
   display: flex;
   flex-direction: column;
   align-items: center;
+  flex-grow: 1;
 }
 
 nav {
@@ -78,7 +80,6 @@ footer {
   justify-content: center;
   align-items: center;
   font-size: smaller;
-  position: fixed;
   bottom: 0;
   padding: 0.5em;
   background-color: #fafafa;
@@ -141,6 +142,29 @@ li {
 details h2 {
   text-align: center;
   font-size: 2rem;
+}
+
+.spinner {
+  margin-top: 5rem;
+  border: 3px solid rgba(255, 122, 122, 1);
+  border-top: 3px solid #f6f0ed;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 0.5s linear infinite;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 dialog {
