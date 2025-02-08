@@ -20,13 +20,20 @@ interface SearchResult {
 
 export function Search({ links }: Props) {
   const inputRef = useRef<HTMLInputElement>(null);
-  const [inputVal, setInputVal] = useState("");
   const [searchResults, setSearchResults] = useState<SearchResult[] | null>(
     null
   );
 
-  const handleChange = (e: React.FormEvent<HTMLInputElement>) => {
-    setInputVal(e.currentTarget.value);
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    const searchValue = inputRef.current?.value ?? "";
+    if (searchValue && searchValue.length > 3) {
+      setSearchResults(fuse.search(searchValue) ?? []);
+    }
+  };
+  const reset = () => {
+    if (inputRef.current) inputRef.current.value = "";
+    setSearchResults(null);
   };
 
   const fuse = useMemo(
@@ -41,27 +48,20 @@ export function Search({ links }: Props) {
     [links]
   );
 
-  useEffect(() => {
-    // Add search result only if
-    // input value is more than one character
-    let inputResult = inputVal.length > 1 ? fuse.search(inputVal) : [];
-    setSearchResults(inputResult);
-  }, [inputVal]);
-
   return (
     <>
-      <input
-        name="search"
-        type="search"
-        className="search"
-        autoComplete="off"
-        placeholder="🍕 Cerca tra gli episodi..."
-        ref={inputRef}
-        value={inputVal}
-        onChange={handleChange}
-      ></input>
-      {inputVal.length > 0 && <button onClick={() => setInputVal("")}>Reset</button>}
-      {searchResults != null && searchResults.length > 0 && (
+      <form onSubmit={handleSubmit}>
+        <input
+          name="search"
+          type="search"
+          className="search"
+          autoComplete="off"
+          placeholder="🍕 Cerca tra gli scontrini degli episodi..."
+          ref={inputRef}
+        />
+      </form>
+      {Boolean(searchResults) && <button onClick={reset}>Reset</button>}
+      {Array.isArray(searchResults) && searchResults.length > 0 && (
         <>
           <div className="results">
             {searchResults.map(({ item, refIndex }) => (
@@ -70,7 +70,7 @@ export function Search({ links }: Props) {
           </div>
         </>
       )}
-      {searchResults != null && inputVal.length > 1 && searchResults.length === 0 && (
+      {Array.isArray(searchResults) && searchResults.length < 1 && (
         <div className="resultInfo">
           <h2>Nessun Link Trovato</h2>
           <h1>🍕</h1>

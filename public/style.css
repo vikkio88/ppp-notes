@@ -75,15 +75,17 @@ li a:hover {
 }
 
 footer {
+  margin-top: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   font-size: smaller;
+  position: fixed;
   bottom: 0;
+  right: 0;
   padding: 0.5em;
   background-color: #fafafa;
-  opacity: 0.7;
 }
 
 .lastUpdate {
