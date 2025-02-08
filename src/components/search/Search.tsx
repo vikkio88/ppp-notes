@@ -73,7 +73,7 @@ export function Search({ links }: Props) {
       {Array.isArray(searchResults) && searchResults.length < 1 && (
         <div className="resultInfo">
           <h2>Nessun Link Trovato</h2>
-          <h1>🍕</h1>
+          <h1 className="shake">🍕</h1>
         </div>
       )}
     </>

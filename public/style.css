@@ -33,7 +33,7 @@ header a {
 }
 
 header a:hover {
-  color: rgba(255, 122, 122, .8);
+  color: rgba(255, 122, 122, 0.8);
 }
 
 .results {
@@ -160,14 +160,6 @@ details h2 {
   justify-content: center;
   font-size: 2rem;
 }
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
 
 dialog {
   z-index: 10;
@@ -230,11 +222,44 @@ button {
   color: rgba(255, 122, 122, 0.9);
   background-color: #fafafa;
   border-color: rgba(255, 122, 122);
-  padding: .3rem 1rem;
+  padding: 0.3rem 1rem;
   font-size: 1.1rem;
 }
 
 button.small {
-  padding: 0 .5rem;
+  padding: 0 0.5rem;
   font-size: 1rem;
+}
+
+/* Animations */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.shake {
+  animation: shake 2.8s ease infinite;
+}
+@keyframes shake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: translateX(-10px);
+  }
+  20%,
+  40%,
+  60%,
+  80% {
+    transform: translateX(10px);
+  }
 }
