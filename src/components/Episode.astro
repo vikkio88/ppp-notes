@@ -1,16 +1,15 @@
 ---
 import type { CollectionEntry } from "astro:content";
 import { render } from "astro:content";
-
 interface Props {
   episode: CollectionEntry<"episodes">;
 }
-const { episode } = Astro.props;
 
+const { episode } = Astro.props;
 const { Content } = await render(episode);
 ---
 
-<details>
+<details name="episodes">
   <summary>{episode.data.title}</summary>
   <div class="episodeInfo">
     <div class="date">{new Date(episode.data.date!).toLocaleDateString()}</div>
