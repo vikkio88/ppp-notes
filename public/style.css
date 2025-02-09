@@ -86,6 +86,11 @@ footer {
   right: 0;
   padding: 0.5em;
   background-color: #fafafa;
+  opacity: .7;
+}
+
+footer:hover {
+  opacity: 1;
 }
 
 .lastUpdate {
@@ -184,7 +189,7 @@ input.search {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  font-size: 1rem;
+  font-size: 1.4rem;
   text-overflow: ellipsis;
   color: rgba(255, 122, 122, 0.9);
   outline: 0;

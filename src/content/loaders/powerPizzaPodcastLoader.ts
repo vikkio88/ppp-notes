@@ -9,7 +9,7 @@ type Link = {
   description: string;
 };
 
-type EpisodeWrapper = {
+export type EpisodeWrapper = {
   data: Item;
 };
 const SCONTRINO_SEPARATOR = "+++ Scontrino +++";

@@ -1,6 +1,7 @@
 ---
 import type { CollectionEntry } from "astro:content";
 import { render } from "astro:content";
+import { format } from "date-fns";
 interface Props {
   episode: CollectionEntry<"episodes">;
 }
@@ -12,7 +13,7 @@ const { Content } = await render(episode);
 <details name="episodes">
   <summary>{episode.data.title}</summary>
   <div class="episodeInfo">
-    <div class="date">{new Date(episode.data.date!).toLocaleDateString()}</div>
+    <div class="date">{format(episode.data.date!, 'dd-MM-yyyy')}</div>
     <div>
       <a href={episode.data.link!} target="_blank">Ascolta 🔉</a>
       <a onclick={`info("${episode.id}")`}>Scontrino 🧾</a>
