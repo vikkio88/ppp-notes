@@ -1,13 +1,7 @@
 import Fuse from "fuse.js";
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useMemo, useRef, useState } from "react";
 import ResultCard from "./ResultCard";
-
-export interface SearchableLink {
-  episodeTitle: string;
-  episodeAudioUrl: string;
-  url: string;
-  description: string;
-}
+import type { SearchableLink } from "../../types";
 
 interface Props {
   links: SearchableLink[];
@@ -27,14 +21,17 @@ export function Search({ links }: Props) {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     const searchValue = inputRef.current?.value ?? "";
-    if (searchValue && searchValue.length > 3) {
+    if (searchValue && searchValue.length > 2) {
       setSearchResults(fuse.search(searchValue) ?? []);
     }
   };
   const reset = () => {
     if (inputRef.current) inputRef.current.value = "";
     setSearchResults(null);
+    inputRef.current?.focus();
   };
+
+  // const check = () => {};
 
   const fuse = useMemo(
     () =>
@@ -53,14 +50,29 @@ export function Search({ links }: Props) {
       <form onSubmit={handleSubmit}>
         <input
           name="search"
-          type="search"
+          type="text"
           className="search"
           autoComplete="off"
-          placeholder="🍕 Cerca tra gli scontrini degli episodi..."
+          placeholder="🍕 Cerca tra gli scontrini..."
           ref={inputRef}
+          // onChange={check}
         />
+        {/* To activate when suggestions are ready */}
+        {/* {!Boolean(searchResults) && (
+          <div className="row">
+            <button className="small">Cerca 🔗</button>
+            <button className="small" onClick={(e) => e.preventDefault()}>
+              🍕 Random
+            </button>
+          </div>
+        )} */}
       </form>
-      {Boolean(searchResults) && <button onClick={reset}>Reset</button>}
+
+      {Boolean(searchResults) && (
+        <button className="small" onClick={reset}>
+          Reset
+        </button>
+      )}
       {Array.isArray(searchResults) && searchResults.length > 0 && (
         <>
           <div className="results">

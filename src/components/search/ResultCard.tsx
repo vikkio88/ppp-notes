@@ -1,4 +1,4 @@
-import type { SearchableLink } from "./Search";
+import type { SearchableLink } from "../../types";
 
 export type Props = {
   link: SearchableLink;

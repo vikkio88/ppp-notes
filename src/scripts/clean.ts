@@ -1,5 +1,5 @@
 import { $ } from "bun";
-import { OUTPUT_DIR } from "./config";
+import { OUTPUT_DIR } from "../config";
 async function tryDo(func: () => void) {
   try {
     await func();

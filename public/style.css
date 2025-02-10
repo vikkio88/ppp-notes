@@ -2,13 +2,15 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: rgba(255, 122, 122, 1);
+  color: rgba(51, 51, 51, 0.8);
   background-color: #f6f0ed;
+  font-family: "Raleway", Arial, sans-serif;
   min-height: 100vh;
   margin: 0;
 }
 
 .centered {
+  margin-top: 5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,20 +22,28 @@ nav {
 }
 
 nav a {
-  color: #d91e36;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 1em;
+  color: rgba(51, 51, 51, 0.7);
   text-decoration: none;
   cursor: pointer;
   margin: 1em;
+  padding: .2rem .5rem;
+}
+nav a:hover {
+  color: rgba(51, 51, 51, 1);
+  background-color: rgba(51, 51, 51, .2);
 }
 
 header a {
-  color: rgba(255, 122, 122, 1);
+  color: rgba(51, 51, 51, 0.7);
   text-decoration: none;
   cursor: pointer;
-}
-
-header a:hover {
-  color: rgba(255, 122, 122, 0.8);
 }
 
 .results {
@@ -59,7 +69,7 @@ header a:hover {
 li a,
 .episodeInfo a,
 .result a {
-  color: #d91e36;
+  color: rgba(51, 51, 51, 0.7);
   text-decoration: none;
   cursor: pointer;
   margin: 0.5em;
@@ -67,6 +77,7 @@ li a,
 
 li a:hover {
   text-decoration: underline;
+  color: rgba(51, 51, 51, 1);
 }
 
 .results h2 {
@@ -86,7 +97,7 @@ footer {
   right: 0;
   padding: 0.5em;
   background-color: #fafafa;
-  opacity: .7;
+  opacity: 0.7;
 }
 
 footer:hover {
@@ -105,7 +116,7 @@ details {
 
 summary {
   border-radius: 15px;
-  background-color: rgba(255, 122, 122, 1);
+  background-color: rgba(51, 51, 51, 1);
   color: #fafafa;
   font-weight: bold;
   font-size: 1.2rem;
@@ -181,9 +192,23 @@ body:has(dialog[open]) {
   overflow: hidden;
 }
 
+button {
+  border-radius: 15px;
+  color: rgba(255, 122, 122, 0.9);
+  background-color: #fafafa;
+  border-color: rgba(255, 122, 122);
+  padding: 0.3rem 1rem;
+  font-size: 1.1rem;
+}
+
+button.small {
+  padding: 0 0.5rem;
+  font-size: 1rem;
+}
+
 input.search {
   height: 3rem;
-  width: 50vw;
+  width: 60vw;
   margin: 0;
   padding: 0 2rem 0 3.2rem;
   box-sizing: border-box;
@@ -191,10 +216,10 @@ input.search {
   -webkit-box-sizing: border-box;
   font-size: 1.4rem;
   text-overflow: ellipsis;
-  color: rgba(255, 122, 122, 0.9);
+  color: rgba(51, 51, 51, 0.7);
   outline: 0;
   border-radius: 15px;
-  border: 0.05rem solid rgba(255, 122, 122, 0.5);
+  border: 0.05rem solid rgba(51, 51, 51, 1);
   background-image: url(images/search.svg);
   background-size: 1.4rem;
   background-position: left 1.05rem top 0.8rem;
@@ -207,12 +232,28 @@ input.search {
 @media only screen and (max-width: 768px) {
   input.search {
     width: 90vw;
+    font-size: 1rem;
   }
 }
 
 input.search::placeholder {
-  color: rgba(255, 122, 122, 0.5);
+  color: rgba(51, 51, 51, 0.6);
   opacity: 0.9;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 0 3rem;
+}
+
+.row > button {
+  padding: 0.5rem 1rem;
+  flex: 1;
 }
 
 .resultInfo {
@@ -221,19 +262,6 @@ input.search::placeholder {
 
 .resultInfo > h2 {
   margin-top: 4rem;
-}
-
-button {
-  color: rgba(255, 122, 122, 0.9);
-  background-color: #fafafa;
-  border-color: rgba(255, 122, 122);
-  padding: 0.3rem 1rem;
-  font-size: 1.1rem;
-}
-
-button.small {
-  padding: 0 0.5rem;
-  font-size: 1rem;
 }
 
 /* Animations */

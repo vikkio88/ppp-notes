@@ -1,18 +1,10 @@
-import { feedLoader, type Item } from "@ascorbic/feed-loader";
+import { feedLoader } from "@ascorbic/feed-loader";
 import type { Loader, LoaderContext } from "astro/loaders";
 import { z } from "astro:content";
 import type { ZodObject, ZodSchema } from "astro:schema";
-import { URL } from "../../../scripts/config";
-
-type Link = {
-  href: string;
-  description: string;
-};
-
-export type EpisodeWrapper = {
-  data: Item;
-};
-const SCONTRINO_SEPARATOR = "+++ Scontrino +++";
+import { URL } from "../../config";
+import { parseLinks } from "../../libs/linkParser";
+import type { EpisodeWrapper } from "../../types";
 
 export function powerPizzaPodcastLoader(): Loader {
   const feedLoaderInstance = feedLoader({
@@ -65,51 +57,3 @@ export function powerPizzaPodcastLoader(): Loader {
     schema: powerPizzaPodcastSchema,
   };
 }
-
-
-/**
- * Extract links from "Scontrino" content
- *
- * This parser decorates the default feed object, coming from the feed loader, with the list of links in the "scontrino".
- * It allows to reuse them across the project without errors.
- */
-function parseLinks(episode: EpisodeWrapper): Link[] {
-    const links: Link[] = [];
-  
-    const description = episode.data.description;
-    if (!description) {
-      return [];
-    }
-  
-    const scontrino = description.includes(SCONTRINO_SEPARATOR)
-      ? description.split(SCONTRINO_SEPARATOR)[1]
-      : description;
-    const scontrinoLines = scontrino
-      // Replace double line breaks with a single one
-      .replaceAll("<br /><br />", "<br />")
-      // Swap line breaks inside links with the link closing tag
-      .replaceAll("<br /></a>", "</a><br />")
-      .split("<br />")
-      .map((l) => l.trim());
-    const rawLinkIndexes = scontrinoLines
-      .map((l, i) => (l.startsWith("<a") ? i : -1))
-      .filter((i) => i !== -1);
-    for (const index of rawLinkIndexes) {
-      const rawLink = scontrinoLines[index];
-  
-      // Supports multiple links with the same description
-      let descriptionIndex = index - 1;
-      while (
-        scontrinoLines[descriptionIndex].startsWith("<a") &&
-        descriptionIndex > 0
-      ) {
-        descriptionIndex--;
-      }
-      const description = scontrinoLines[descriptionIndex].replace("►", "");
-      const href = rawLink.match(/\>(.*)\<\/a\>/)![1];
-  
-      links.push({ href, description });
-    }
-  
-    return links;
-  }

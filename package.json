@@ -7,9 +7,9 @@
     "build": "bunx --bun astro build",
     "preview": "bunx --bun astro preview",
     "astro": "bunx --bun astro",
-    "build:clean": "bun scripts/clean.ts",
-    "feed:update": "bun scripts/parse.ts",
-    "site:update-deploy": "bun build:clean && bun feed:update && bun run build && bun site:deploy",
+    "build:clean": "bun src/scripts/clean.ts",
+    "data:dump": "bun src/scripts/parse.ts",
+    "site:update-deploy": "bun build:clean && bun run build && bun site:deploy",
     "site:deploy": "bunx surge dist --domain ppp-notes.surge.sh"
   },
   "dependencies": {
@@ -19,12 +19,14 @@
     "@types/react-dom": "^19.0.3",
     "astro": "5.2.5",
     "date-fns": "^4.1.0",
+    "feedparser": "^2.2.10",
     "fuse.js": "^7.1.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "@types/feedparser": "^2.2.8"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
