@@ -1,10 +1,27 @@
 ---
-import { SearchLink } from "../components/react/SearchLink";
+import type { CollectionEntry } from "astro:content";
+import { getCollection } from "astro:content";
+import type { SearchableLink } from "../types";
+import { Search } from "../components/search/Search";
 import Layout from "../layouts/Layout.astro";
+
+const episodes: CollectionEntry<"episodes">[] = await getCollection("episodes");
+
+const searchableLinks: SearchableLink[] = [];
+for (const episode of episodes) {
+  for (const link of episode.data.links!) {
+    searchableLinks.push({
+      episodeTitle: episode.data.title!,
+      episodeAudioUrl: episode.data.link!,
+      url: link.href,
+      description: link.description,
+    });
+  }
+}
 ---
 
 <Layout>
   <div class="centered">
-    <SearchLink client:load />
+    <Search client:load links={searchableLinks} />
   </div>
 </Layout>

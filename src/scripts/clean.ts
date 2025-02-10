@@ -1,5 +1,5 @@
 import { $ } from "bun";
-import { OUTPUT_DIR, PUBLIC_DATA_DIR } from "./config";
+import { OUTPUT_DIR } from "../config";
 async function tryDo(func: () => void) {
   try {
     await func();
@@ -10,5 +10,4 @@ async function tryDo(func: () => void) {
 
 tryDo(async () => await $`ls ${OUTPUT_DIR}/*.json`);
 tryDo(async () => await $`rm ${OUTPUT_DIR}/*.json`);
-tryDo(async () => await $`rm ${PUBLIC_DATA_DIR}/*.json`);
 tryDo(async () => await $`rm .env`);
