@@ -12,8 +12,12 @@ interface SearchResult {
   refIndex: number;
 }
 
+const MIN_SEARCH_SIZE = 3;
+
 export function Search({ links }: Props) {
+  const formRef = useRef<HTMLFormElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
+  const [canSubmit, setCanSubmit] = useState(false);
   const [searchResults, setSearchResults] = useState<SearchResult[] | null>(
     null
   );
@@ -21,7 +25,7 @@ export function Search({ links }: Props) {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     const searchValue = inputRef.current?.value ?? "";
-    if (searchValue && searchValue.length > 2) {
+    if (searchValue && searchValue.length >= MIN_SEARCH_SIZE) {
       setSearchResults(fuse.search(searchValue) ?? []);
     }
   };
@@ -29,9 +33,20 @@ export function Search({ links }: Props) {
     if (inputRef.current) inputRef.current.value = "";
     setSearchResults(null);
     inputRef.current?.focus();
+    setCanSubmit(false);
   };
 
-  // const check = () => {};
+  const check = () => {
+    if (!inputRef.current) return;
+
+    setCanSubmit(inputRef.current.value.length >= MIN_SEARCH_SIZE);
+  };
+
+  const random = () => {
+    if (!inputRef.current || !formRef.current) return;
+    inputRef.current.value = "pizza";
+    formRef.current.requestSubmit();
+  };
 
   const fuse = useMemo(
     () =>
@@ -47,7 +62,7 @@ export function Search({ links }: Props) {
 
   return (
     <>
-      <form onSubmit={handleSubmit}>
+      <form ref={formRef} onSubmit={handleSubmit}>
         <input
           name="search"
           type="text"
@@ -55,17 +70,24 @@ export function Search({ links }: Props) {
           autoComplete="off"
           placeholder="🍕 Cerca tra gli scontrini..."
           ref={inputRef}
-          // onChange={check}
+          onChange={check}
         />
-        {/* To activate when suggestions are ready */}
-        {/* {!Boolean(searchResults) && (
+        {!Boolean(searchResults) && (
           <div className="row">
-            <button className="small">Cerca 🔗</button>
-            <button className="small" onClick={(e) => e.preventDefault()}>
-              🍕 Random
+            <button className="small" disabled={!canSubmit}>
+              Cerca 🔗
+            </button>
+            <button
+              className="small"
+              onClick={(e) => {
+                e.preventDefault();
+                random();
+              }}
+            >
+              Mi sento 🍕
             </button>
           </div>
-        )} */}
+        )}
       </form>
 
       {Boolean(searchResults) && (
