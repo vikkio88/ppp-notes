@@ -1,3 +1,4 @@
+import { slugify } from "../../libs/slugify";
 import type { SearchableLink } from "../../types";
 
 export type Props = {
@@ -7,7 +8,9 @@ export type Props = {
 export default function ResultCard({ link }: Props) {
   return (
     <div className="result">
-      <h3>{link.episodeTitle}</h3>
+      <a href={`/episodes/${slugify(link.episodeTitle)}`}>
+        <h3>{link.episodeTitle}</h3>
+      </a>
       <a href={link.episodeAudioUrl} target="_blank">
         Ascolta 🔊
       </a>

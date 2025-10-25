@@ -1,0 +1,22 @@
+---
+import { getCollection, type CollectionEntry } from "astro:content";
+
+import { slugify } from "../../libs/slugify";
+import Episode from "../../components/Episode.astro";
+import Layout from "../../layouts/Layout.astro";
+type Ep = CollectionEntry<"episodes">;
+
+export async function getStaticPaths() {
+  const episodes = await getCollection("episodes");
+  return episodes.map((e: Ep, index: number) => {
+    return {
+      params: { slug: slugify(e.data.title ?? "") },
+      props: { episode: e },
+    };
+  });
+}
+
+const { episode } = Astro.props;
+---
+
+<Layout title={`🍕 Power Pizza Podcast - ${episode.data.title}`}> <Episode episode={episode} /></Layout>

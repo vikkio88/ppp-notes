@@ -4,45 +4,85 @@ import { render } from "astro:content";
 import { format } from "date-fns";
 interface Props {
   episode: CollectionEntry<"episodes">;
+  isAccordion?: boolean;
 }
 
-const { episode } = Astro.props;
+const { episode, isAccordion = false } = Astro.props;
 const { Content } = await render(episode);
 ---
 
-<details name="episodes">
-  <summary>{episode.data.title}</summary>
-  <div class="episodeInfo">
-    <div class="date">{format(episode.data.date!, 'dd-MM-yyyy')}</div>
-    <div>
-      <a href={episode.data.link!} target="_blank">Ascolta 🔉</a>
-      <a onclick={`info("${episode.id}")`}>Scontrino 🧾</a>
-    </div>
-  </div>
-  {
-    episode.data.links!.length > 0 && (
-      <ul>
-        {episode.data.links!.map((l: any) => (
-          <li>
-            <a href={l.href} target="_blank">
-              {l.description}
-            </a>
-          </li>
-        ))}
-      </ul>
-    )
-  }
-  {
-    episode.data.links!.length === 0 && (
-      <h2>Nessun link trovato nello scontrino</h2>
-    )
-  }
-  <dialog id={episode.id}>
-    <button class="small" id={`close-${episode.id}`}>x</button>
-    <h2>Scontrino</h2>
-    <h3>{episode.data.title}</h3>
-    <div>
-      <Content />
-    </div>
-  </dialog>
-</details>
+{
+  isAccordion && (
+    <details name="episodes">
+      <summary>{episode.data.title}</summary>
+      <div class="episodeInfo">
+        <div class="date">{format(episode.data.date!, "dd-MM-yyyy")}</div>
+        <div>
+          <a href={episode.data.link!} target="_blank">
+            Ascolta 🔉
+          </a>
+          <a onclick={`info("${episode.id}")`}>Scontrino 🧾</a>
+        </div>
+      </div>
+      {episode.data.links!.length > 0 && (
+        <ul>
+          {episode.data.links!.map((l: any) => (
+            <li>
+              <a href={l.href} target="_blank">
+                {l.description}
+              </a>
+            </li>
+          ))}
+        </ul>
+      )}
+      {episode.data.links!.length === 0 && (
+        <h2>Nessun link trovato nello scontrino</h2>
+      )}
+      <dialog id={episode.id}>
+        <button class="small" id={`close-${episode.id}`}>
+          x
+        </button>
+        <h2>Scontrino</h2>
+        <h3>{episode.data.title}</h3>
+        <div>
+          <Content />
+        </div>
+      </dialog>
+    </details>
+  )
+}
+
+{
+  !isAccordion && (
+    <>
+      <div class="episodeInfo">
+        <div class="date">{format(episode.data.date!, "dd-MM-yyyy")}</div>
+        <div>
+          <a href={episode.data.link!} target="_blank">
+            Ascolta 🔉
+          </a>
+          <a onclick={`info("${episode.id}")`}>Scontrino 🧾</a>
+        </div>
+      </div>
+      {episode.data.links!.length > 0 && (
+        <ul>
+          {episode.data.links!.map((l: any) => (
+            <li>
+              <a href={l.href} target="_blank">
+                {l.description}
+              </a>
+            </li>
+          ))}
+        </ul>
+      )}
+      {episode.data.links!.length === 0 && (
+        <h2>Nessun link trovato nello scontrino</h2>
+      )}
+
+      <h2>Scontrino</h2>
+      <div class="scontrino">
+        <Content />
+      </div>
+    </>
+  )
+}
