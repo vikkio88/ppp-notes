@@ -1,0 +1,32 @@
+{
+  "title": "299: Ginocchio",
+  "menews": [],
+  "lorrowap": [],
+  "main": [
+    {
+      "author": "Nick",
+      "description": "Kneecap",
+      "pizza": {
+        "slices": 10,
+        "description": "Marinara con rucola, cipolle, ketamina"
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Director's cut di rebel moon",
+      "pizza": {
+        "slices": 6.5,
+        "description": "Pizza ultra carica con salsiccia, salame piccante, peperoni, cipolla, acciughe, olive, patate fritte, pancetta, friarielli"
+      }
+    }
+  ],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T19:57:39.781Z"
+  },
+  "number": 299
+}

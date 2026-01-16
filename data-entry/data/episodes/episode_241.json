@@ -1,0 +1,28 @@
+{
+  "title": "241: Amalgamo",
+  "main": [
+    {
+      "author": "Lorro",
+      "description": "Spiderman: Across the Spiderverse"
+    },
+    {
+      "author": "Nick",
+      "description": "Spiderman: Across the Spiderverse",
+      "pizza": {
+        "slices": 9.5,
+        "description": "pizza con insalata russa e capricciosa, metà servita"
+      }
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T19:39:52.055Z"
+  },
+  "number": 241
+}

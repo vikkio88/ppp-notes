@@ -1,0 +1,31 @@
+{
+  "title": 294.5,
+  "menews": [],
+  "lorrowap": [],
+  "main": [
+    {
+      "author": "Nick",
+      "description": "Carnage",
+      "pizza": {
+        "slices": 8.5,
+        "description": "Capricciosa pazza, ingredienti misti"
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Furiosa: A mad max saga",
+      "pizza": {
+        "slices": 7.5,
+        "description": "Schiacciata senza pomodoro e mozzarella, ciliegini, kebab, peperoncino"
+      }
+    }
+  ],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T19:57:39.781Z"
+  }
+}

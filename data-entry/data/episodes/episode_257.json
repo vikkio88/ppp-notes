@@ -1,0 +1,40 @@
+{
+  "title": "257: Telegiornanderson",
+  "main": [
+    {
+      "author": "Nick",
+      "description": "Asteroid city",
+      "pizza": {
+        "slices": 5,
+        "description": "pizza con pancake e sciroppo d'acero, colazione da diner"
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Asteroid city",
+      "pizza": {
+        "slices": 6,
+        "description": "pizza zucca e tonno, molto instagrammabile ma poco memorabile"
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Kafka a Teheran",
+      "pizza": {
+        "slices": 8,
+        "description": "pizza con carciofi e taleggio"
+      }
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T19:39:58.504Z"
+  },
+  "number": 257
+}

@@ -1,0 +1,40 @@
+{
+  "title": "135: Il Comic Sans è Bidoof",
+  "main": [
+    {
+      "author": "Lorro",
+      "description": "Justice League: Snyder cut"
+    },
+    {
+      "author": "Nick",
+      "description": "Justice League: Snyder cut",
+      "pizza": {
+        "slices": 2,
+        "description": "due fette nella versione Snyder, poca qualità"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Good omens",
+      "pizza": {
+        "slices": 8,
+        "description": "pizza bianca con gorgonzola e 'nduja"
+      }
+    },
+    {
+      "author": "Other",
+      "description": "Dancing with the birds"
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T09:35:24.293Z"
+  },
+  "number": 135
+}

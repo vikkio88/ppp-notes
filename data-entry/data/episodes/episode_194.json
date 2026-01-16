@@ -1,0 +1,36 @@
+{
+  "title": "194: Lire negli Occhi",
+  "main": [
+    {
+      "author": "Nick",
+      "description": "Nostalgia (2022)",
+      "pizza": {
+        "slices": 9,
+        "description": "margherita con bufala e basilico"
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "RRR",
+      "pizza": {
+        "slices": 10,
+        "description": "rossa, speziata e piccante"
+      }
+    },
+    {
+      "author": "Fabbbio Antonelli",
+      "description": "Anatomy of a scandal"
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T09:44:35.987Z"
+  },
+  "number": 194
+}

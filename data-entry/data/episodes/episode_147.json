@@ -1,0 +1,60 @@
+{
+  "title": "147: Zelda Acqua Secca",
+  "main": [
+    {
+      "author": "Nickc",
+      "description": "Inside",
+      "pizza": {
+        "slices": 8.5,
+        "description": "pizza bianca con proiezioni di ingredienti che cambiano"
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Inside",
+      "pizza": {
+        "slices": 8.5,
+        "description": "pizza bianca col pesto"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Inside",
+      "pizza": {
+        "slices": 8.5,
+        "description": "pizza bianca con acciughe"
+      }
+    },
+    {
+      "author": "Other",
+      "description": "Luca"
+    },
+    {
+      "author": "Other",
+      "description": "Hug the sun"
+    },
+    {
+      "author": "Other",
+      "description": "Blair witch Project"
+    },
+    {
+      "author": "Other",
+      "description": "Super mario bros the movie"
+    },
+    {
+      "author": "Other",
+      "description": "Kung fu panda 1"
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T09:39:41.660Z"
+  },
+  "number": 147
+}

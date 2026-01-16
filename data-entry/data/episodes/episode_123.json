@@ -1,0 +1,24 @@
+{
+  "title": "123: Sono una Sacher",
+  "main": [
+    {
+      "author": "Nick",
+      "description": "L'incredibile storia dell'Isola delle Rose",
+      "pizza": {
+        "slices": 7,
+        "description": "piene, esageratamente riempite di cynar, tipo una bacinella"
+      }
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T09:35:24.293Z"
+  },
+  "number": 123
+}

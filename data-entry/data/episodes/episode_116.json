@@ -1,0 +1,48 @@
+{
+  "title": "116: PPP \"Live\" (actually live per finta)",
+  "main": [
+    {
+      "author": "Lorro",
+      "description": "The queen's gambit",
+      "pizza": {
+        "slices": 10,
+        "description": "ottima bufala con caviale, rischiosa ma perfetta"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "On the rocks",
+      "pizza": {
+        "slices": 7,
+        "description": "pizza normalissima con una planetaria sopra, e gli accessori della planetaria"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Lupin III il primo",
+      "pizza": {
+        "slices": 5,
+        "description": "pizza e mezza con pomodoro, patate, caviale, paprika dolce e piccante"
+      }
+    },
+    {
+      "author": "Other",
+      "description": "Queen's gambit"
+    },
+    {
+      "author": "Other",
+      "description": "Crisis in six scenes"
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T09:32:29.487Z"
+  },
+  "number": 116
+}

@@ -1,0 +1,36 @@
+{
+  "title": "152: SPLASH!!",
+  "main": [
+    {
+      "author": "Nick",
+      "description": "Loki",
+      "pizza": {
+        "slices": 8,
+        "description": "bacinella di pasta con lattine di succhi e coca cola"
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Loki"
+    },
+    {
+      "author": "Sio",
+      "description": "Loki"
+    },
+    {
+      "author": "Other",
+      "description": "Gurren lagann"
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T09:39:41.660Z"
+  },
+  "number": 152
+}

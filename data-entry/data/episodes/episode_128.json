@@ -1,0 +1,28 @@
+{
+  "title": "128: azziP rewoP",
+  "main": [
+    {
+      "author": "Sio",
+      "description": "Tenet",
+      "pizza": {
+        "slices": 4,
+        "description": "sottosopra, servita su piatto trasparente, mangiata sotto il tavolo"
+      }
+    },
+    {
+      "author": "Other",
+      "description": "Tenet"
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T09:35:24.293Z"
+  },
+  "number": 128
+}

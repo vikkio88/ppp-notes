@@ -1,0 +1,32 @@
+{
+  "title": "237: Napoli Comicon (con Errico Porzio)",
+  "main": [
+    {
+      "author": "Nick",
+      "description": "Cocaine Bear",
+      "pizza": {
+        "slices": 3,
+        "description": "marinara con miele"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Winnie the Pooh: Blood and Honey"
+    },
+    {
+      "author": "Nick",
+      "description": "Cocaine Shark"
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T19:39:52.055Z"
+  },
+  "number": 237
+}

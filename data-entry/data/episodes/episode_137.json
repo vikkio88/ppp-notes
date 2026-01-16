@@ -1,0 +1,32 @@
+{
+  "title": "137: Befana vs Chiunque (con Fabbbio Antonelli)",
+  "main": [
+    {
+      "author": "Fabbbio Antonelli",
+      "description": "Three identical strangers",
+      "pizza": {
+        "slices": 8,
+        "description": "pizza regalata, sorpresa e felicità"
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Godzilla vs Kong",
+      "pizza": {
+        "slices": 7,
+        "description": "pizza con gelato e Nutella"
+      }
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T09:35:24.293Z"
+  },
+  "number": 137
+}

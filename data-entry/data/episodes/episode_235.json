@@ -1,0 +1,56 @@
+{
+  "title": "235: La Pensionaccia",
+  "main": [
+    {
+      "author": "Sio",
+      "description": "John Wick 1",
+      "pizza": {
+        "slices": 8,
+        "description": "diavola con friarielli, 6.66→7→8 fette"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "John Wick / Super Mario / Tetris 2023",
+      "pizza": {
+        "slices": 10,
+        "description": "pizza pienissima"
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "John Wick / Vanna Marchi",
+      "pizza": {
+        "slices": 9,
+        "description": "quattro stagioni, pienissimo"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Tetris 2023",
+      "pizza": {
+        "slices": 8.5,
+        "description": "pizza con pollici alzati sopra"
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Vanna Marchi",
+      "pizza": {
+        "slices": 7.5,
+        "description": "quattro stagioni"
+      }
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T19:39:52.055Z"
+  },
+  "number": 235
+}

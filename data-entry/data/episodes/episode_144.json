@@ -1,0 +1,44 @@
+{
+  "title": "144: Un Misterioso Dentifricio",
+  "main": [
+    {
+      "author": "Sio",
+      "description": "My octopus teacher",
+      "pizza": {
+        "slices": 10,
+        "description": "pizza con polpo, colpa e guilt"
+      }
+    },
+    {
+      "author": "Nickc",
+      "description": "Army of the dead",
+      "pizza": {
+        "slices": 1,
+        "description": "big Americas, ingredienti finti di plastica"
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Army of the dead",
+      "pizza": {
+        "slices": 3,
+        "description": "quattro formaggi iperuntina fatta in casa"
+      }
+    },
+    {
+      "author": "Other",
+      "description": "Bohemian rhapsody"
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T09:39:41.660Z"
+  },
+  "number": 144
+}

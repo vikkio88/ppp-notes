@@ -1,0 +1,40 @@
+{
+  "title": "256: La Zoup",
+  "main": [
+    {
+      "author": "Nick",
+      "description": "Anchorman 1",
+      "pizza": {
+        "slices": 6,
+        "description": "pizza con cannelloni sopra"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "RRR",
+      "pizza": {
+        "slices": 10,
+        "description": "pizza perfetta"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "RRR",
+      "pizza": {
+        "slices": 9,
+        "description": "almeno 9 fette di pizza"
+      }
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T19:39:58.504Z"
+  },
+  "number": 256
+}

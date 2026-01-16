@@ -1,0 +1,36 @@
+{
+  "title": "139: PPP Double Feature",
+  "main": [
+    {
+      "author": "Lorro",
+      "description": "Love & Monsters",
+      "pizza": {
+        "slices": 6,
+        "description": "pizza rossa con tantissimi funghi"
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Psycho Goreman",
+      "pizza": {
+        "slices": 8.5,
+        "description": "pizza rossa con salame piccante, sriracha, peperoni piccanti e altri ingredienti rossi"
+      }
+    },
+    {
+      "author": "Other",
+      "description": "The wall film pink floyd"
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T09:39:41.660Z"
+  },
+  "number": 139
+}

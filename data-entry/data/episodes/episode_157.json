@@ -1,0 +1,48 @@
+{
+  "title": "157: Deprovevole vs Deprivevole",
+  "main": [
+    {
+      "author": "Nick",
+      "description": "Paterson",
+      "pizza": {
+        "slices": 9,
+        "description": "marinara con origano e fettine sottilissime di olive"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "I care a lot",
+      "pizza": {
+        "slices": 7.5,
+        "description": "pizza piena di tonno, capperi e peperoncino fresco"
+      }
+    },
+    {
+      "author": "Other",
+      "description": "Aladdin (2019)"
+    },
+    {
+      "author": "Other",
+      "description": "Io sono nessuno"
+    },
+    {
+      "author": "Other",
+      "description": "John Wick"
+    },
+    {
+      "author": "Other",
+      "description": "Spider-Man 3 di Rahimi"
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T09:39:41.660Z"
+  },
+  "number": 157
+}

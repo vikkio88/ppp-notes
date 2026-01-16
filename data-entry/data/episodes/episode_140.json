@@ -1,0 +1,44 @@
+{
+  "title": "140: 👏👏👏👏👏 Cucù",
+  "main": [
+    {
+      "author": "Lorro",
+      "description": "Cosmic sin",
+      "pizza": {
+        "slices": 1,
+        "description": "pizza con la merda sopra"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "The falcon and the winter soldier",
+      "pizza": {
+        "slices": 6,
+        "description": "pizza con costume a forma di pizza, ma fatta male"
+      }
+    },
+    {
+      "author": "Other",
+      "description": "Bohemian rhapsody"
+    },
+    {
+      "author": "Other",
+      "description": "Rocket man"
+    },
+    {
+      "author": "Other",
+      "description": "Fast and furious 6"
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T09:39:41.660Z"
+  },
+  "number": 140
+}

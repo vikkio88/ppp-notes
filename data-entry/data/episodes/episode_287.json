@@ -1,0 +1,40 @@
+{
+  "title": "287: Sette Fette di Una Fetta",
+  "menews": [],
+  "lorrowap": [],
+  "main": [
+    {
+      "author": "Fabbio",
+      "description": "City hunter, Il segreto di Liberato",
+      "pizza": {
+        "slices": 7,
+        "description": "Pizza assaggiata in ristorante di pesce a Hokkaido, primo tentativo di pizza napoletana, buonissima"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Perfect blue",
+      "pizza": {
+        "slices": 9,
+        "description": "Margherita con mandorle col guscio sopra, ti si spaccano i denti, terribile"
+      }
+    },
+    {
+      "author": "Fabbio",
+      "description": "Ripley (2024)",
+      "pizza": {
+        "slices": 8,
+        "description": "Pizza fatta con forno a legna costruito da un nonno"
+      }
+    }
+  ],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T19:52:59.604Z"
+  },
+  "number": 287
+}

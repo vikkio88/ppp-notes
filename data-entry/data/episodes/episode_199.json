@@ -1,0 +1,39 @@
+{
+  "title": 199,
+  "main": [
+    {
+      "author": "Nick",
+      "description": "Thor Love and Thunder",
+      "pizza": {
+        "slices": 5,
+        "description": "5 fette di pizza"
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Tremors",
+      "pizza": {
+        "slices": 9,
+        "description": "diavola"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Batman (1966)",
+      "pizza": {
+        "slices": 10,
+        "description": "4 stagioni con ananas"
+      }
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T09:44:35.987Z"
+  }
+}

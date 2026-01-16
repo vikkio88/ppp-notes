@@ -1,0 +1,40 @@
+{
+  "title": "129: Il Mio Migliore Gioco Preferito",
+  "main": [
+    {
+      "author": "Nick",
+      "description": "Trilogia celtica",
+      "pizza": {
+        "slices": 10,
+        "description": "tantissime foglie e glifi, miniature dei libri dei monaci amanuensi"
+      }
+    },
+    {
+      "author": "Other",
+      "description": "La lega degli straordinari gentlemen"
+    },
+    {
+      "author": "Other",
+      "description": "Vanelsing"
+    },
+    {
+      "author": "Other",
+      "description": "Lykan colony"
+    },
+    {
+      "author": "Other",
+      "description": "Suicide squad"
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T09:35:24.293Z"
+  },
+  "number": 129
+}

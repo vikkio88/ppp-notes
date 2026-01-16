@@ -1,0 +1,48 @@
+{
+  "title": "295: Farina di Pollo",
+  "menews": [],
+  "lorrowap": [],
+  "main": [
+    {
+      "author": "Nick",
+      "description": "Deadpool & Wolverine",
+      "pizza": {
+        "slices": 9,
+        "description": "Marinara coi fagioli, semplice e buona, fa scoreggiare"
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Il ragazzo e l'airone",
+      "pizza": {
+        "slices": 8,
+        "description": "Schiacciata o pizza bianca con friarielli e speck d'anatra"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Mean girls: the musical",
+      "pizza": {
+        "slices": 9.5,
+        "description": "Pizza con wurstel e patatine"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Hadestown",
+      "pizza": {
+        "slices": 10,
+        "description": "Margherita classica"
+      }
+    }
+  ],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T19:57:39.781Z"
+  },
+  "number": 295
+}

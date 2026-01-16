@@ -1,0 +1,40 @@
+{
+  "title": "171: Scacco Pazzo",
+  "main": [
+    {
+      "author": "Sio",
+      "description": "Red Notice",
+      "pizza": {
+        "slices": 6,
+        "description": "margherita a Venezia, turistica"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Roma (2018)",
+      "pizza": {
+        "slices": 9,
+        "description": "bianco e nero, ingredienti misteriosi"
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Le sommet des dieux",
+      "pizza": {
+        "slices": 8.5,
+        "description": "quattro formaggi bianca, alta quota"
+      }
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T09:44:35.987Z"
+  },
+  "number": 171
+}

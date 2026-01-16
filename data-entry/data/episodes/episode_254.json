@@ -1,0 +1,32 @@
+{
+  "title": "254: Insiderito",
+  "main": [
+    {
+      "author": "Lorro",
+      "description": "Teenage mutant ninja turtles (2023)",
+      "pizza": {
+        "slices": 7.5,
+        "description": "pizza newyorkese con un sacco di formaggio, non la più buona ma godibile"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Inside",
+      "pizza": {
+        "slices": 6,
+        "description": "pizza senza ingredienti"
+      }
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T19:39:58.504Z"
+  },
+  "number": 254
+}

@@ -1,0 +1,24 @@
+{
+  "title": "205: Il Talento di PPP",
+  "main": [
+    {
+      "author": "Nick",
+      "description": "Nope",
+      "pizza": {
+        "slices": 9,
+        "description": "marinara con sfilacci di cavallo vegani"
+      }
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T09:44:35.987Z"
+  },
+  "number": 205
+}

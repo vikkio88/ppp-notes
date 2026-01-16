@@ -1,0 +1,32 @@
+{
+  "title": "138: NOT Galaxy Spaghetti",
+  "main": [
+    {
+      "author": "Nick",
+      "description": "La tartaruga rossa",
+      "pizza": {
+        "slices": 9,
+        "description": "marinara con melanzane, rossa e tondina"
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Daylight (1996)",
+      "pizza": {
+        "slices": 8,
+        "description": "pizza rossa con peperoncino e salame piccante"
+      }
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T09:35:24.293Z"
+  },
+  "number": 138
+}

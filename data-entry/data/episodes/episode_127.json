@@ -1,0 +1,36 @@
+{
+  "title": "127: Molti Multilupi",
+  "main": [
+    {
+      "author": "Sio",
+      "description": "If anything happens I love you",
+      "pizza": {
+        "slices": 9,
+        "description": "margherita con habanero chocolate"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "MAD max - Fury Road",
+      "pizza": {
+        "slices": 10,
+        "description": "pizze speciali"
+      }
+    },
+    {
+      "author": "Other",
+      "description": "Wanda vision"
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T09:35:24.293Z"
+  },
+  "number": 127
+}

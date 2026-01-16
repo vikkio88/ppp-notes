@@ -1,0 +1,40 @@
+{
+  "title": "163: Zona Friarielli",
+  "main": [
+    {
+      "author": "Nick",
+      "description": "Squid Game",
+      "pizza": {
+        "slices": 8.5,
+        "description": "marinara col peperoncino e crema di zucca"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Hannah Gadsby Douglas",
+      "pizza": {
+        "slices": 8.5,
+        "description": "crema di zucca e peperoncino, senza pomodoro e mozzarella"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Jin Jeffries: Intolerant",
+      "pizza": {
+        "slices": 6.5,
+        "description": "quattro formaggi con crema di zucca e peperoncino"
+      }
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T09:44:35.987Z"
+  },
+  "number": 163
+}

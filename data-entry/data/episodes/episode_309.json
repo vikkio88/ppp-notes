@@ -1,0 +1,61 @@
+{
+  "title": "309: Spettro Avibile",
+  "number": 309,
+  "meta": {
+    "user": "PePPPeroni",
+    "date": "2026-01-16T09:45:37.210Z"
+  },
+  "menews": [
+    {
+      "author": "Sio",
+      "description": "Stephen King é stato cacciato da X",
+      "tags": []
+    },
+    {
+      "author": "Sio",
+      "description": "Nintendo conferma la retro compatibilità della nuova Switch",
+      "tags": [],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 11,
+        "seconds": 0
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Nintendo annuncia Nintendo Music",
+      "tags": [],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 12,
+        "seconds": 35
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Showa American Story",
+      "tags": [],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 15,
+        "seconds": 15
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Scanlendario 2025",
+      "tags": [],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 57,
+        "seconds": 0
+      }
+    }
+  ],
+  "lorrowap": [],
+  "main": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": []
+}

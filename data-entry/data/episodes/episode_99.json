@@ -1,0 +1,23 @@
+{
+  "title": 99,
+  "main": [
+    {
+      "author": "Sio",
+      "description": "Watchmen",
+      "pizza": {
+        "slices": 9,
+        "description": "fette di pizza melanzane, salamino e aglio, impasto semi integrale, melanzane fritte, 'nduja, mozzarella di bufala, pomodoro salsa di peperoni"
+      }
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T09:27:39.141Z"
+  }
+}

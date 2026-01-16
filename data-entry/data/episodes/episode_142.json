@@ -1,0 +1,40 @@
+{
+  "title": "142: PPP - The Rientro pt.1 (con Guarnaboy)",
+  "main": [
+    {
+      "author": "Lorro",
+      "description": "War (2019, film indiano)",
+      "pizza": {
+        "slices": 8,
+        "description": "fette di naan con burro e aglio"
+      }
+    },
+    {
+      "author": "Guarnaccia",
+      "description": "I Mitchell e le macchine",
+      "pizza": {
+        "slices": 10,
+        "description": "pizze"
+      }
+    },
+    {
+      "author": "Other",
+      "description": "Mitchell vs the machine"
+    },
+    {
+      "author": "Other",
+      "description": "About time"
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T09:39:41.660Z"
+  },
+  "number": 142
+}

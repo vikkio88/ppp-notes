@@ -1,0 +1,32 @@
+{
+  "title": "272: Libro 3.0",
+  "menews": [],
+  "lorrowap": [],
+  "main": [
+    {
+      "author": "Nick",
+      "description": "Poor things",
+      "pizza": {
+        "slices": 10,
+        "description": "Pizza con la vernice e i chiodi e la Scozia e l'Inghilterra"
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Poor things",
+      "pizza": {
+        "slices": 8,
+        "description": "8 fette di pizza per regia, messa in scena e fotografia, a livello di contenuto per me sono 6 fette e mezza"
+      }
+    }
+  ],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T19:52:59.603Z"
+  },
+  "number": 272
+}

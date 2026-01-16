@@ -1,0 +1,36 @@
+{
+  "title": "238: Pronomi Nobili",
+  "main": [
+    {
+      "author": "Nick",
+      "description": "Guardiani della Galassia Vol. 3",
+      "pizza": {
+        "slices": 10,
+        "description": "margherita con basilico"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Guardiani della Galassia Holiday Special"
+    },
+    {
+      "author": "Nick",
+      "description": "Wakanda Forever"
+    },
+    {
+      "author": "Nick",
+      "description": "Antman: Quantumania"
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T19:39:52.055Z"
+  },
+  "number": 238
+}

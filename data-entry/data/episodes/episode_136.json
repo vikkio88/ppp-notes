@@ -1,0 +1,40 @@
+{
+  "title": "136: Grasspiracy",
+  "main": [
+    {
+      "author": "Nick",
+      "description": "Seaspiracy",
+      "pizza": {
+        "slices": 8,
+        "description": "pizza ai frutti di mare, contenuta in reti"
+      }
+    },
+    {
+      "author": "Other",
+      "description": "Hercules"
+    },
+    {
+      "author": "Other",
+      "description": "Rebooted (2019)"
+    },
+    {
+      "author": "Other",
+      "description": "Gli argonauti (1963)"
+    },
+    {
+      "author": "Other",
+      "description": "The breadwinner"
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T09:35:24.293Z"
+  },
+  "number": 136
+}

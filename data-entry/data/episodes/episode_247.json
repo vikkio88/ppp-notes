@@ -1,0 +1,24 @@
+{
+  "title": "247: PPPolemica",
+  "main": [
+    {
+      "author": "Nick",
+      "description": "John Moulaney: Speciale cocaina",
+      "pizza": {
+        "slices": 8.5,
+        "description": "pizza dolce con base Nutella e sopra Fruit Loops"
+      }
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T19:39:58.504Z"
+  },
+  "number": 247
+}

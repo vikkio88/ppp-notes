@@ -1,0 +1,24 @@
+{
+  "title": "293: Provola Pepe e Pollo",
+  "menews": [],
+  "lorrowap": [],
+  "main": [
+    {
+      "author": "Nick",
+      "description": "Inside out 2",
+      "pizza": {
+        "slices": 8,
+        "description": "Margherita vegana con foglia di basilico sopra"
+      }
+    }
+  ],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T19:57:39.781Z"
+  },
+  "number": 293
+}

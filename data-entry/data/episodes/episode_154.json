@@ -1,0 +1,44 @@
+{
+  "title": "154: Gioielli da Mettersi Sotto la Pelle",
+  "main": [
+    {
+      "author": "Nick",
+      "description": "Pad man",
+      "pizza": {
+        "slices": 9,
+        "description": "marinara fatta da persona che non capisce la pizza"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "The year Earth changed",
+      "pizza": {
+        "slices": 9,
+        "description": "pizza con salsiccia e ragù"
+      }
+    },
+    {
+      "author": "Other",
+      "description": "Mother di Bon Jon Ho"
+    },
+    {
+      "author": "Other",
+      "description": "Parasite"
+    },
+    {
+      "author": "Other",
+      "description": "Mother di haronovsky"
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T09:39:41.660Z"
+  },
+  "number": 154
+}

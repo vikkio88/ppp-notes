@@ -1,0 +1,17 @@
+{
+  "name": "scripts",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@ascorbic/feed-loader": "^2.0.1",
+    "@types/bun": "latest",
+    "@types/feedparser": "^2.2.8"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "feedparser": "^2.2.10"
+  }
+}

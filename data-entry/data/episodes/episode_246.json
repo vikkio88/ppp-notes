@@ -1,0 +1,40 @@
+{
+  "title": "246: Radio Mare Fresco",
+  "main": [
+    {
+      "author": "Lorro",
+      "description": "Dungeons and dragons: l'onore dei ladri",
+      "pizza": {
+        "slices": 9,
+        "description": "pizza bianca con salsiccia e patatine, guilty pleasure ben fatto"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Joan is awful",
+      "pizza": {
+        "slices": 6,
+        "description": "margherita fatta da macchina automatica, tecnologia che rovina le cose buone"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Nimona",
+      "pizza": {
+        "slices": 8,
+        "description": "pizza con pesto, ricotta e polpette"
+      }
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T19:39:58.504Z"
+  },
+  "number": 246
+}

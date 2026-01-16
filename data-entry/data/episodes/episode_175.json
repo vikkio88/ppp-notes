@@ -1,0 +1,40 @@
+{
+  "title": "175: Maratona della Pizza (Pizza)",
+  "main": [
+    {
+      "author": "Lorro",
+      "description": "Spotlight",
+      "pizza": {
+        "slices": 8,
+        "description": "rossa, olio piccante"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Drive my car",
+      "pizza": {
+        "slices": 8.5,
+        "description": "bianca con verdure e salsa tipo giapponese, vernice bianca"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Encanto",
+      "pizza": {
+        "slices": 6.99,
+        "description": "margherita col pepe, mozzarella buona"
+      }
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T09:44:35.987Z"
+  },
+  "number": 175
+}

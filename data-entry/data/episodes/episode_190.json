@@ -1,0 +1,32 @@
+{
+  "title": "190: Pesce in Tasca",
+  "main": [
+    {
+      "author": "Lorro",
+      "description": "Doctor Strange: Multiverse of Madness",
+      "pizza": {
+        "slices": 6,
+        "description": "margherita surgelata standard"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Doctor Strange: Multiverse of Madness",
+      "pizza": {
+        "slices": 7,
+        "description": "marinara con diapason al centro"
+      }
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T09:44:35.987Z"
+  },
+  "number": 190
+}

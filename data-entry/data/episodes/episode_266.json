@@ -1,0 +1,31 @@
+{
+  "title": "266: La Pizza del Pane",
+  "menews": [],
+  "lorrowap": [],
+  "main": [
+    {
+      "author": "Nick",
+      "description": "The killer",
+      "pizza": {
+        "slices": 5,
+        "description": "5 fette di pizza enmezzo, appena sotto la sufficienza perché proprio ho detto 'Che palle, uffa'. Ingredienti: Bismarck con mortazza e uova, fa schifo e lo odio"
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Theee thousand years of longing",
+      "pizza": {
+        "slices": 6
+      }
+    }
+  ],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T19:52:59.603Z"
+  },
+  "number": 266
+}

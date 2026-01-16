@@ -1,0 +1,64 @@
+{
+  "title": "174: Topinambur Vegani",
+  "main": [
+    {
+      "author": "Lorro",
+      "description": "Don't Look Up",
+      "pizza": {
+        "slices": 6,
+        "description": "a malapena"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Spider-Man: No Way Home",
+      "pizza": {
+        "slices": 5,
+        "description": "Doctor Strange riscaldato"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Spider-Man: No Way Home",
+      "pizza": {
+        "slices": 5,
+        "description": "Doctor Strange, fette frattali"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Spider-Man: Far From Home",
+      "pizza": {
+        "slices": 2,
+        "description": "Doctor Strange"
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "The Green Knight",
+      "pizza": {
+        "slices": 7,
+        "description": "bianca con spinaci, broccoli e noci"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "The Green Knight",
+      "pizza": {
+        "slices": 9,
+        "description": "funghi, melanzane e topinambur"
+      }
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T09:44:35.987Z"
+  },
+  "number": 174
+}

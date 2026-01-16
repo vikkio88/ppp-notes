@@ -1,0 +1,32 @@
+{
+  "title": "279: Melanzonzola",
+  "menews": [],
+  "lorrowap": [],
+  "main": [
+    {
+      "author": "Sio",
+      "description": "Cojote vs Acme",
+      "pizza": {
+        "slices": 8,
+        "description": "Oh no! Non sono riuscito a vedere gli ingredienti che c'erano sopra perché me l'hanno portata via questa pizza!"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Persepolis",
+      "pizza": {
+        "slices": 9,
+        "description": "Base con carbone vegetale nera, crema di anacardi, cipolla e aneto"
+      }
+    }
+  ],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T19:52:59.604Z"
+  },
+  "number": 279
+}

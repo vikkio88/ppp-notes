@@ -1,0 +1,24 @@
+{
+  "title": "286: Gommo",
+  "menews": [],
+  "lorrowap": [],
+  "main": [
+    {
+      "author": "Nick",
+      "description": "The fall guy",
+      "pizza": {
+        "slices": 8,
+        "description": "Pizza con chicken parm sopra, gusto Australia/Melbourne"
+      }
+    }
+  ],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T19:52:59.604Z"
+  },
+  "number": 286
+}

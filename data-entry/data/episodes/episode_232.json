@@ -1,0 +1,28 @@
+{
+  "title": "232: Pizza al Minestrone (con Daniele Fabbri)",
+  "main": [
+    {
+      "author": "Nick",
+      "description": "Disco Boy",
+      "pizza": {
+        "slices": 9.5,
+        "description": "marinara con basilico e broccoletti colorati"
+      }
+    },
+    {
+      "author": "Daniele Fabbri",
+      "description": "Gianluca Vacchi - Mucho Más"
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T19:39:52.055Z"
+  },
+  "number": 232
+}

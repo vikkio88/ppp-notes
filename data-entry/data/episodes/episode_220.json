@@ -1,0 +1,24 @@
+{
+  "title": "220: Stanco Moro",
+  "main": [
+    {
+      "author": "Nick",
+      "description": "Esterno Notte",
+      "pizza": {
+        "slices": 8.5,
+        "description": "pizza con piatto di pasta al pomodoro e gelato sopra"
+      }
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T09:44:35.987Z"
+  },
+  "number": 220
+}

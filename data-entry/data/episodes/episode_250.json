@@ -1,0 +1,40 @@
+{
+  "title": "250: Limitrofamente",
+  "main": [
+    {
+      "author": "Sio",
+      "description": "Jerry and Marge go large",
+      "pizza": {
+        "slices": 6,
+        "description": "margherita discount congelata, scongelata e mangiata senza cuocerla"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Oppenheimer",
+      "pizza": {
+        "slices": 9,
+        "description": "marinara con pomodoro tagliato a coltello e bomba calabrese"
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Troll 2 (1990)",
+      "pizza": {
+        "slices": 9,
+        "description": "pizza vegetariana con sopra la melma verde del film"
+      }
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T19:39:58.504Z"
+  },
+  "number": 250
+}

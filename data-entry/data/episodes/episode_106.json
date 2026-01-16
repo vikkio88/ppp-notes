@@ -1,0 +1,32 @@
+{
+  "title": "106: Il Ritorno del Moderatore",
+  "main": [
+    {
+      "author": "Sio",
+      "description": "Jumanji: The next level",
+      "pizza": {
+        "slices": 6,
+        "description": "pizza rossa coi friarielli"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Project power",
+      "pizza": {
+        "slices": 4,
+        "description": "pizza ai frutti di mare, mantis shrimp, ossa della wolverine frog, salamandre"
+      }
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T09:27:39.141Z"
+  },
+  "number": 106
+}

@@ -1,0 +1,40 @@
+{
+  "title": "168: SLIB",
+  "main": [
+    {
+      "author": "Sio",
+      "description": "Strappare lungo i bordi",
+      "pizza": {
+        "slices": 9,
+        "description": "pizza bianca con pepe, guanciale e pecorino"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Strappare lungo i bordi",
+      "pizza": {
+        "slices": 9.5,
+        "description": "provola vegana e friarielli"
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Strappare lungo i bordi",
+      "pizza": {
+        "slices": 8,
+        "description": "uguale a quella di Sio"
+      }
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T09:44:35.987Z"
+  },
+  "number": 168
+}

@@ -1,0 +1,40 @@
+{
+  "title": "294: Zauer Zizza Zodcast",
+  "menews": [],
+  "lorrowap": [],
+  "main": [
+    {
+      "author": "Sio",
+      "description": "Inside out 2",
+      "pizza": {
+        "slices": 8,
+        "description": "Pizza con verdure e babaganoush"
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "The Iron claw",
+      "pizza": {
+        "slices": 6.8,
+        "description": "Pizza rossa con sopra beef jerky"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Kinds of kindness",
+      "pizza": {
+        "slices": 8.5,
+        "description": "Marinara piccantissima, solo cornicione e pomodoro impregnato di olio piccante"
+      }
+    }
+  ],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T19:57:39.781Z"
+  },
+  "number": 294
+}

@@ -1,0 +1,32 @@
+{
+  "title": "119: Sedersi Come i Russi",
+  "main": [
+    {
+      "author": "Nick",
+      "description": "Atlantique (2019)",
+      "pizza": {
+        "slices": 7,
+        "description": "pizza con i letti in fiamme sopra"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Frozen 2",
+      "pizza": {
+        "slices": 7,
+        "description": "pizza bianca con mozzarella e mozzarella di bufala, calcoli accurati 6,8"
+      }
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T09:32:29.487Z"
+  },
+  "number": 119
+}

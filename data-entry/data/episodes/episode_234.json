@@ -1,0 +1,32 @@
+{
+  "title": "234: Cacciatorpediniere",
+  "main": [
+    {
+      "author": "Nick",
+      "description": "Super Mario Bros. - Il film",
+      "pizza": {
+        "slices": 6,
+        "description": "marinara con funghi"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Super Mario Bros. - Il film",
+      "pizza": {
+        "slices": 7,
+        "description": "pizza con patatine e wurstel"
+      }
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T19:39:52.055Z"
+  },
+  "number": 234
+}

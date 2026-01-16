@@ -1,0 +1,32 @@
+{
+  "title": "141: PUNTATA NORMALE DI POWER PIZZA",
+  "main": [
+    {
+      "author": "Fabbbio Antonelli",
+      "description": "Chernobyl",
+      "pizza": {
+        "slices": 9,
+        "description": "pizza capricciosa con tantissimi ingredienti"
+      }
+    },
+    {
+      "author": "Kenobit",
+      "description": "The way of the househusband",
+      "pizza": {
+        "slices": 7,
+        "description": "pizza mangiata senza una falange del mignolo"
+      }
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T09:39:41.660Z"
+  },
+  "number": 141
+}

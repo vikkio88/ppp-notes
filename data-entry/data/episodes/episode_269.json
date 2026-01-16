@@ -1,0 +1,32 @@
+{
+  "title": "269: Il Guardiano della Pizza",
+  "menews": [],
+  "lorrowap": [],
+  "main": [
+    {
+      "author": "Lorro",
+      "description": "Rebel moon",
+      "pizza": {
+        "slices": 2,
+        "description": "2 fette di pizza congelata con wurstel e mais, di quelle che le cuoci in forno e ti vengono fuori sai un crostone che fai fatica a mangiarlo"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Blue eye samurai",
+      "pizza": {
+        "slices": 9,
+        "description": "9 fette di pizza, è una margherita, con sopra al posto della mozzarella vegana il mochi salato"
+      }
+    }
+  ],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T19:52:59.603Z"
+  },
+  "number": 269
+}

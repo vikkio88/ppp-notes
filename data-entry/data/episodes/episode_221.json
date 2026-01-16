@@ -1,0 +1,56 @@
+{
+  "title": "221: Fuortelli 2",
+  "main": [
+    {
+      "author": "Lorro",
+      "description": "Glass Onion",
+      "pizza": {
+        "slices": 8,
+        "description": "diavola dignitosa, ma ultima fetta pessima"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Glass Onion",
+      "pizza": {
+        "slices": 6,
+        "description": "Ristorante margherita surgelata"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "White Noise",
+      "pizza": {
+        "slices": 9,
+        "description": "marinara con verdurine e Twinkies"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Strange World",
+      "pizza": {
+        "slices": 7,
+        "description": "margherita con rucola e olio, portata in Tupperware"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Avatar 2",
+      "pizza": {
+        "slices": 6,
+        "description": "pizza con bicchiere d'acqua sopra da James Cameron"
+      }
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T19:39:52.055Z"
+  },
+  "number": 221
+}

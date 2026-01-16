@@ -1,0 +1,56 @@
+{
+  "title": "131: Mi Sono Appena Reso Conto Che Quando Dite Titolo È Veramente Il Titolo",
+  "main": [
+    {
+      "author": "Lorro",
+      "description": "Monster Hunter Movie",
+      "pizza": {
+        "slices": 0,
+        "description": "piatto vuoto, pizza non portata"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Devs",
+      "pizza": {
+        "slices": 9,
+        "description": "pizza bianca con cavolo romano"
+      }
+    },
+    {
+      "author": "Other",
+      "description": "Justice League - Snyder's cut"
+    },
+    {
+      "author": "Other",
+      "description": "Suicide Squad"
+    },
+    {
+      "author": "Other",
+      "description": "Lod of war"
+    },
+    {
+      "author": "Other",
+      "description": "Blade Runner 2049"
+    },
+    {
+      "author": "Other",
+      "description": "Toy story 1"
+    },
+    {
+      "author": "Other",
+      "description": "Justice League (normale)"
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T09:35:24.293Z"
+  },
+  "number": 131
+}

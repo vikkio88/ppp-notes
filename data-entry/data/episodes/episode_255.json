@@ -1,0 +1,32 @@
+{
+  "title": "255: Il Pozzo dei Soldi",
+  "main": [
+    {
+      "author": "Nick",
+      "description": "Io capitano",
+      "pizza": {
+        "slices": 10,
+        "description": "pizza perfetta"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Elemental",
+      "pizza": {
+        "slices": 6.8,
+        "description": "pizza tonno e cipolla, ma a una fetta manca un morso preso da Peter Sohn"
+      }
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T19:39:58.504Z"
+  },
+  "number": 255
+}

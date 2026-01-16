@@ -1,0 +1,48 @@
+{
+  "title": "161: Quasi Ineffabile",
+  "main": [
+    {
+      "author": "Nick",
+      "description": "Supernova (2020)",
+      "pizza": {
+        "slices": 9.5,
+        "description": "pizza pienissima di ingredienti sbagliati"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Still Alice (2014)"
+    },
+    {
+      "author": "Other",
+      "description": "Hinterland (2015)"
+    },
+    {
+      "author": "Other",
+      "description": "Dune"
+    },
+    {
+      "author": "Other",
+      "description": "Blade runner 2049"
+    },
+    {
+      "author": "Other",
+      "description": "Arrival"
+    },
+    {
+      "author": "Other",
+      "description": "Il re leone (originale)"
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T09:39:41.660Z"
+  },
+  "number": 161
+}

@@ -1,0 +1,28 @@
+{
+  "title": "149: Come la Burrata",
+  "main": [
+    {
+      "author": "Lorro",
+      "description": "The tomorrow war",
+      "pizza": {
+        "slices": 5,
+        "description": "pizza rossa con verdure grigliate, cubetti di cioccolato sotto"
+      }
+    },
+    {
+      "author": "Other",
+      "description": "Bo Burnham: inside"
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T09:39:41.660Z"
+  },
+  "number": 149
+}

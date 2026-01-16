@@ -1,0 +1,48 @@
+{
+  "title": "130: Potere e Pizza",
+  "main": [
+    {
+      "author": "Nick",
+      "description": "Fantastic mister fox",
+      "pizza": {
+        "slices": 9,
+        "description": "con sidro, foie gras, quagliette, cornicione con mirtilli soporiferi"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Processo ai Chicago Seven",
+      "pizza": {
+        "slices": 9,
+        "description": "con pepperoni e salame, oppure Law & Order con pepperoni sui personaggi"
+      }
+    },
+    {
+      "author": "Other",
+      "description": "Il padrino"
+    },
+    {
+      "author": "Other",
+      "description": "Basta che funzioni"
+    },
+    {
+      "author": "Other",
+      "description": "Wallace & gromit"
+    },
+    {
+      "author": "Other",
+      "description": "L'isola dei cani"
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T09:35:24.293Z"
+  },
+  "number": 130
+}

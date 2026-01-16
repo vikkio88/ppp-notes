@@ -1,0 +1,40 @@
+{
+  "title": "263: Jimmento",
+  "menews": [],
+  "lorrowap": [],
+  "main": [
+    {
+      "author": "Lorro e Nick",
+      "description": "Scott Pilgrim takes off",
+      "pizza": {
+        "slices": 5,
+        "description": "5 fette di pizza con tonno, melanzane e patatine fritte, che vuole essere tipo quirky e sopra le righe e risulta solo sbagliata"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Dream scenario",
+      "pizza": {
+        "slices": 8,
+        "description": "8 fette di pizza ed è una marinara, però poi arriva Lorro in sala e ti ci rovescia sopra la pasta, tu dici: 'Che cazzo è questa cosa!?' e si scopre che all'interno di tutte le paste che ci sono su questa pizza, che diventa quasi una frittatina di pasta, una pizza di pasta, mancano solo due grandi eroi che sono le ruote e i fusilli"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Nyad",
+      "pizza": {
+        "slices": 7,
+        "description": "7 fette di margherita con l'origano, dici 'Buona, margherita, buona, bravi, non me l'aspettavo'"
+      }
+    }
+  ],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T19:52:59.603Z"
+  },
+  "number": 263
+}

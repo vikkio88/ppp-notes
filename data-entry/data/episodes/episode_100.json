@@ -1,0 +1,23 @@
+{
+  "title": "100: Cento Fette di Pizza",
+  "main": [
+    {
+      "author": "Sio",
+      "description": "Hamilton",
+      "pizza": {
+        "slices": 100
+      }
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T09:27:39.141Z"
+  },
+  "number": 100
+}

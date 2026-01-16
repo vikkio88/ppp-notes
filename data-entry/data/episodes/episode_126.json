@@ -1,0 +1,56 @@
+{
+  "title": "126: The Floor is Lupo",
+  "main": [
+    {
+      "author": "Sio",
+      "description": "Soul",
+      "pizza": {
+        "slices": 8,
+        "description": "margherita mangiata al Festival della Pizza di Vico Equense"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Soul",
+      "pizza": {
+        "slices": 7,
+        "description": "base marinara con vari ingredienti sperimentali"
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Soul",
+      "pizza": {
+        "slices": 6,
+        "description": "pizza surgelata, ok da mangiare ma dimenticabile"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Wolfwalkers",
+      "pizza": {
+        "slices": 10,
+        "description": "pizza perfetta senza dubbio"
+      }
+    },
+    {
+      "author": "Other",
+      "description": "If anything happens I love you"
+    },
+    {
+      "author": "Other",
+      "description": "Death to 2020"
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T09:35:24.293Z"
+  },
+  "number": 126
+}

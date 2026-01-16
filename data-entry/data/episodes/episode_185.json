@@ -1,0 +1,32 @@
+{
+  "title": "185: Infravenoso",
+  "main": [
+    {
+      "author": "Sio",
+      "description": "Tuning Red",
+      "pizza": {
+        "slices": 9,
+        "description": "margherita, basilico, olio all'aglio"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Flee",
+      "pizza": {
+        "slices": 10,
+        "description": "margherita con datteri"
+      }
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T09:44:35.987Z"
+  },
+  "number": 185
+}

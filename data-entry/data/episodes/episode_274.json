@@ -1,0 +1,32 @@
+{
+  "title": "274: Appodcast",
+  "menews": [],
+  "lorrowap": [],
+  "main": [
+    {
+      "author": "Lorro",
+      "description": "Killers of the flower moon",
+      "pizza": {
+        "slices": 7.5,
+        "description": "Pizza bianca molto buona, il cameriere ti sfila il portafoglio ma la pizza è ottima"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Perfect days",
+      "pizza": {
+        "slices": 9,
+        "description": "Marinara sottile, shitake al centro, spicchietto d'aglio sulla punta"
+      }
+    }
+  ],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T19:52:59.604Z"
+  },
+  "number": 274
+}

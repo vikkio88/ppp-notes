@@ -1,0 +1,40 @@
+{
+  "title": "260: Panchina x 8",
+  "main": [
+    {
+      "author": "Nick",
+      "description": "El conde",
+      "pizza": {
+        "slices": 9,
+        "description": "marinara con fegatelli e cuori di pollo, salvia croccante"
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Jason X",
+      "pizza": {
+        "slices": 5,
+        "description": "pizza bianca con broccoli e acciughe"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Eega",
+      "pizza": {
+        "slices": 8,
+        "description": "garlic naan con daal tarka piccantissimo"
+      }
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T19:39:58.504Z"
+  },
+  "number": 260
+}

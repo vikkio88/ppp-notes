@@ -1,0 +1,24 @@
+{
+  "title": "297: TIERZO",
+  "menews": [],
+  "lorrowap": [],
+  "main": [
+    {
+      "author": "Nick",
+      "description": "Food for profit",
+      "pizza": {
+        "slices": 7,
+        "description": "Marinara con foglia di basilico sopra"
+      }
+    }
+  ],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T19:57:39.781Z"
+  },
+  "number": 297
+}

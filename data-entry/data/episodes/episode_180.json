@@ -1,0 +1,40 @@
+{
+  "title": "180: Cucchiaino di Manzo",
+  "main": [
+    {
+      "author": "Sio",
+      "description": "In the Heights",
+      "pizza": {
+        "slices": 6,
+        "description": "margherita con peperoni e pesto"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Assassinio sul Nilo",
+      "pizza": {
+        "slices": 4,
+        "description": "calamari e pomodoro del Nilo"
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Infodemic - Il virus siamo noi",
+      "pizza": {
+        "slices": 7.5,
+        "description": "signature diavola e patatine"
+      }
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T09:44:35.987Z"
+  },
+  "number": 180
+}

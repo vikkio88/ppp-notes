@@ -1,0 +1,24 @@
+{
+  "title": "166: Russian Friggitelli",
+  "main": [
+    {
+      "author": "Sio",
+      "description": "Freaks Out",
+      "pizza": {
+        "slices": 9,
+        "description": "pomodoro, mozzarisella e peperoni friggitelli"
+      }
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T09:44:35.987Z"
+  },
+  "number": 166
+}

@@ -1,0 +1,32 @@
+{
+  "title": "173: Siorro Berwards 2022",
+  "main": [
+    {
+      "author": "Sio",
+      "description": "Don't Look Up",
+      "pizza": {
+        "slices": 7,
+        "description": "con le acciughe"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Don't Look Up",
+      "pizza": {
+        "slices": 2,
+        "description": "con le comete"
+      }
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T09:44:35.987Z"
+  },
+  "number": 173
+}

@@ -1,0 +1,44 @@
+{
+  "title": "133: Pizza of Fire - The Beginning",
+  "main": [
+    {
+      "author": "Lorro",
+      "description": "Baahubali - The beginning e Baahubali - The conclusion",
+      "pizza": {
+        "slices": 9,
+        "description": "pizza rossa ben speziata, sopra curry e melanzane"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Baahubali",
+      "pizza": {
+        "slices": 9,
+        "description": "pizza difficile da spiegare, curry e naan verticali"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "South Park - Bigger, longer and uncut",
+      "pizza": {
+        "slices": 8,
+        "description": "diavola superpiccante con ananas"
+      }
+    },
+    {
+      "author": "Other",
+      "description": "Baahubali"
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T09:35:24.293Z"
+  },
+  "number": 133
+}

@@ -1,0 +1,32 @@
+{
+  "title": "167: Il Camorrista dal Cuore d'Oro",
+  "main": [
+    {
+      "author": "Lorro",
+      "description": "Arcane",
+      "pizza": {
+        "slices": 10,
+        "description": "10 pizze"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Promising Young Woman",
+      "pizza": {
+        "slices": 9,
+        "description": "rossa con salsiccia, olio piccante e natto"
+      }
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T09:44:35.987Z"
+  },
+  "number": 167
+}

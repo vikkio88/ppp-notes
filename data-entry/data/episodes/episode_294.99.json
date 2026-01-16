@@ -1,0 +1,39 @@
+{
+  "title": 294.99,
+  "menews": [],
+  "lorrowap": [],
+  "main": [
+    {
+      "author": "Sio",
+      "description": "Hank Green: Pissing out cancer",
+      "pizza": {
+        "slices": 8.5,
+        "description": "Marinara col salamino"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "The Meyerowitz stories",
+      "pizza": {
+        "slices": 8,
+        "description": "Base friarielli, peperoncino, aglio crudo, cipolla croccante, tipo erbazzone"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Roald Dahl's Matilda the musical",
+      "pizza": {
+        "slices": 7,
+        "description": "Pizza bianca con scamorza, pomodorini, basilico"
+      }
+    }
+  ],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T19:57:39.781Z"
+  }
+}

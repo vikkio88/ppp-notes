@@ -1,0 +1,40 @@
+{
+  "title": "278: Duene",
+  "menews": [],
+  "lorrowap": [],
+  "main": [
+    {
+      "author": "Sio",
+      "description": "La zona d'interesse",
+      "pizza": {
+        "slices": 9,
+        "description": "Marinara senza aglio e origano"
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Dune 2",
+      "pizza": {
+        "slices": 6.5,
+        "description": "Pizza surgelata con salsiccia e patate, gustosa ma niente di speciale"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Dune 2",
+      "pizza": {
+        "slices": 6.5,
+        "description": "Marinara con polvere di olive essiccata, ce n'è tantissima"
+      }
+    }
+  ],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T19:52:59.604Z"
+  },
+  "number": 278
+}
