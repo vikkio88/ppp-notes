@@ -1,5 +1,4 @@
 <script lang="ts">
-  import { t } from "../data/strings";
   import { authorLabelMap } from "../libs/author";
   import { topicTypeMap } from "../libs/topics";
   import type { BaseTopic, CollectionType, MainTopic } from "../libs/types";
@@ -17,8 +16,7 @@
   </span>
 
   <span>
-    {authorLabelMap[topic.author] ||
-      `🧑 ${topic.author}`}
+    {authorLabelMap[topic.author] || `🧑 ${topic.author}`}
   </span>
 
   <span class="f1">

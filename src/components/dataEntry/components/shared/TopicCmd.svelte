@@ -1,6 +1,4 @@
 <script lang="ts">
-  import { strings } from "../../data/strings";
-
   type Props = {
     onAdd: () => void;
     onCancel: () => void;
@@ -11,9 +9,9 @@
 
 <div class="cmd">
   <button class="i-btn danger" onclick={onCancel}>
-    {strings.globals.close}<span>❌</span>
+    Chiudi<span>❌</span>
   </button>
   <button class="i-btn success" onclick={onAdd}>
-    {strings.globals.add}<span>➕</span>
+    Aggiungi<span>➕</span>
   </button>
 </div>

@@ -1,5 +1,4 @@
 <script lang="ts">
-  import { strings } from "../data/strings";
   import { isZeroTs } from "../libs/formatters";
   import { id } from "../libs/topics";
   import type {
@@ -25,9 +24,9 @@
     CollectionType,
     { title: string; canHavePizza: boolean }
   > = {
-    lorrowap: { title: strings.collecting.lorrowap, canHavePizza: false },
-    menews: { title: strings.collecting.menews, canHavePizza: false },
-    main: { title: strings.collecting.main, canHavePizza: true },
+    lorrowap: { title: "Lorrowap", canHavePizza: false },
+    menews: { title: "Menews", canHavePizza: false },
+    main: { title: "Main Argomento", canHavePizza: true },
   };
 
   const { title, canHavePizza } = typeMap[type];
@@ -38,7 +37,6 @@
   let pizzaDescription: string = $state("");
   let tags: string[] = $state([]);
   let timestamp: TS = $state({ hours: 0, minutes: 0, seconds: 0 });
-  
 
   function onAddInternal() {
     if (description.length < 2 || author.length < 2) {
@@ -69,16 +67,12 @@
 </script>
 
 <div class="f1 f c pd g">
-  <h3>{strings.collecting.adding}{title}</h3>
+  <h3>Aggiungendo: {title}</h3>
   <div class="f r g">
-    <h4>{strings.collecting.author}</h4>
+    <h4>Autore/Conduttore</h4>
     <AuthorSelector bind:author />
   </div>
-  <input
-    type="text"
-    placeholder={strings.collecting.description}
-    bind:value={description}
-  />
+  <input type="text" placeholder="Descrizione" bind:value={description} />
 
   {#if canHavePizza}
     <div class="f r g">

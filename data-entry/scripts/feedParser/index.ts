@@ -1,10 +1,10 @@
-const fs = require("fs");
+import fs from "node:fs";
 import { FEED_OUTPUT_DIR, URL } from "../config";
-import type { EpisodeWrapper, Link } from "../types/feed";
 import { parseLinks } from "../libs/linkParser";
+import type { EpisodeWrapper, Link } from "../types/feed";
 import { feedParser } from "./parser";
 
-const main = async () => {
+export default async () => {
   const shows = (await feedParser(URL)) as EpisodeWrapper[];
 
   save(shows, "shows");
@@ -28,9 +28,10 @@ const main = async () => {
   }
 
   save(links, "links");
-  save(episodes, "episodes");
+  const episodesFileName = save(episodes, "episodes");
 
-  console.log("...all done bye <3\n");
+  console.log("feed parsing done\n");
+  return episodesFileName;
 };
 
 const now = () => new Date().toISOString();
@@ -41,10 +42,8 @@ const save = (data: any, prefix: string) => {
   console.log(`\t saving ${filename} file...`);
   fs.writeFileSync(
     `${FEED_OUTPUT_DIR}/${filename}`,
-    JSON.stringify(data, null, 2)
+    JSON.stringify(data, null, 2),
   );
 
   return filename;
 };
-
-main();

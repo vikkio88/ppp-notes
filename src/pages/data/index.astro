@@ -1,0 +1,43 @@
+---
+import Layout from "../../layouts/Layout.astro";
+---
+
+<Layout>
+    <main>
+        <h1>Data Entry</h1>
+        <p>
+            Qui potete trovare i tool e i risultati del progetto <strong>
+                PPP Data Entry
+            </strong>
+            , un’iniziativa collaborativa che, grazie ai fan che ascoltano
+            <strong> Power Pizza </strong>, raccoglie e organizza dati su pizze,
+            lore ed eventi citati nel corso delle puntate.
+        </p>
+        <h2>Puntate</h2>
+        <h2>Voglio aiutare</h2>
+        <p>
+            <a href="/data/tool">Tool 📝</a>
+        </p>
+    </main>
+</Layout>
+
+<style>
+    main {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 3rem;
+    }
+    main > h1 {
+        text-align: center;
+    }
+    main > p {
+        padding: 0 3rem;
+        line-height: 1.2;
+        font-size: 18px;
+    }
+
+    main a {
+        text-decoration: none;
+    }
+</style>

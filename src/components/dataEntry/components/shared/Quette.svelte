@@ -1,5 +1,4 @@
 <script lang="ts">
-  import { strings } from "../../data/strings";
   type Props = { value?: number; description?: string; size?: number };
 
   const MAX_SLICES = 10;
@@ -17,7 +16,7 @@
 
 <article class="f c g aic f1">
   <div class="f r g">
-    <h3>{strings.collecting.fette}</h3>
+    <h3>Fette</h3>
     <input type="checkbox" bind:checked={hasPizza} />
   </div>
   {#if hasPizza}
@@ -28,7 +27,7 @@
         <span>🍽️</span>
       {/each}
     </div>
-    <div class="spinner" style="width:{size}px; height:{size}px">
+    <div class="quette" style="width:{size}px; height:{size}px">
       <div
         class="ring"
         style="background: conic-gradient(#ffd700 {angle}deg, #eee 0deg)"
@@ -51,7 +50,7 @@
         class="w100"
         name="pizzaDescription"
         bind:value={description}
-        placeholder={strings.collecting.pizzaDescription}
+        placeholder="Descrizione pizza..."
       />
     </div>
   {/if}
@@ -62,7 +61,7 @@
     display: flex;
     align-items: center;
   }
-  .spinner {
+  .quette {
     position: relative;
     border-radius: 50%;
     display: inline-block;

@@ -1,7 +1,6 @@
 <script lang="ts">
-  import { type Author, AUTHORS } from "../../libs/types";
   import { authorLabelMap } from "../../libs/author";
-  import { strings } from "../../data/strings";
+  import { type Author, AUTHORS } from "../../libs/types";
 
   type Props = {
     author?: Author;
@@ -28,7 +27,7 @@
   {#if selectedAuthor === "Other"}
     <input
       type="text"
-      placeholder={strings.collecting.authorPH}
+      placeholder="Conduttore"
       bind:value={author}
       onfocus={() => (author = "")}
     />

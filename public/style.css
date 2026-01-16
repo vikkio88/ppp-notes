@@ -320,3 +320,109 @@ input.search::placeholder {
   padding: 2rem;
   background-color: white;
 }
+
+/* Tinchi rip off */
+/* Section: Flex */
+/* Display Flex */
+.f {
+  display: flex;
+}
+/* flex 1 */
+.f1 {
+  flex: 1;
+}
+/* flex direction column */
+.c {
+  flex-direction: column;
+}
+/* flex direction row */
+.r {
+  flex-direction: row;
+}
+/* flex direction column, justify content center, align items center */
+.cc {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* flex direction row, justify content center, align items center */
+.rc {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+/* flex direction column, justify content flex-start, align items center */
+.cs {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+/* flex direction row, justify content flex-start, align items center */
+.rs {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+/* flex direction column, justify content flex-end, align items center */
+.ce {
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+/* flex direction row, justify content flex-end, align items center */
+.re {
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+/* align items center */
+.aic {
+  align-items: center;
+}
+/* justify content space-around */
+.spa {
+  justify-content: space-around;
+}
+/* justify content space-between */
+.spb {
+  justify-content: space-between;
+}
+
+/* A set of items for lists that wrap direction row */
+.fiwr {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: center;
+}
+/* A set of items for lists that wrap direction column */
+.fiwc {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: center;
+}
+/* gap 0.5rem */
+.g_5 {
+  gap: 0.5rem;
+}
+/* gap 1rem */
+.g {
+  gap: 1rem;
+}
+/* gap 2rem */
+.g2 {
+  gap: 2rem;
+}
+
+/* Section: Font Styles */
+/* text-transform capitalize */
+.tt-cpz {
+  text-transform: capitalize;
+}
+/* text-align center */
+.ta-c {
+  text-align: center;
+}

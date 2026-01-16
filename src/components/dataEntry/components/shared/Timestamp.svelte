@@ -1,5 +1,4 @@
 <script lang="ts">
-  import { strings } from "../../data/strings";
   import { toTimestapLabel } from "../../libs/formatters";
   import type { Timestamp } from "../../libs/types";
   type Props = {
@@ -26,7 +25,7 @@
 
 <article class="f c g aic">
   <div class="f r g">
-    <h3>⏱️ {strings.collecting.timestamp}</h3>
+    <h3>⏱️ Timestamp</h3>
     <input type="checkbox" bind:checked={hasTime} />
   </div>
   {#if hasTime}

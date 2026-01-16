@@ -1,9 +1,6 @@
 <script lang="ts">
   import Topic from "../components/Topic.svelte";
-  import TopicItem from "../components/TopicItem.svelte";
   import Topics from "../components/Topics.svelte";
-
-  import { t, strings } from "../data/strings";
   import { topicTypeMap } from "../libs/topics";
   import type { CollectionType } from "../libs/types";
   import app from "../store/app.svelte";
@@ -20,22 +17,24 @@
 
   const addCommands = [
     {
-      label: `${strings.collecting.menews} ${topicTypeMap.menews}`,
+      label: `Menews ${topicTypeMap.menews}`,
       command: () => add("menews"),
     },
     {
-      label: `${strings.collecting.lorrowap} ${topicTypeMap.lorrowap}`,
+      label: `Lorrowap ${topicTypeMap.lorrowap}`,
       command: () => add("lorrowap"),
     },
     {
-      label: `${strings.collecting.main} ${topicTypeMap.main}`,
+      label: `Main ${topicTypeMap.main}`,
       command: () => add("main"),
     },
   ];
 </script>
 
 <main class="f1 f c">
-  <h2>{t(strings.collecting.title, { episode: app.meta?.title ?? 0 })}</h2>
+  <h2>
+    {`Raccogliendo dati per l'episodio "${app.meta?.title ?? "Sconosciuto"}"`}
+  </h2>
 
   {#if isEnteringData && collectionType}
     <Topic type={collectionType} onFinished={cancel} />
@@ -53,13 +52,16 @@
     </div>
     <div class="cmd">
       <button class="i-btn" onclick={() => app.next()}>
-        {strings.collecting.finished}<span>🛑</span>
+        Ho Finito<span>🛑</span>
       </button>
     </div>
   {/if}
 </main>
 
 <style>
+  main {
+    min-width: 50%;
+  }
   .add > button {
     display: flex;
     flex-direction: row;
