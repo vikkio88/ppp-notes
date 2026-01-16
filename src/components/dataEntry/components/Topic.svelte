@@ -67,7 +67,7 @@
 </script>
 
 <div class="f1 f c pd g">
-  <h3>Aggiungendo: {title}</h3>
+  <h3>Stai Aggiungendo: {title}</h3>
   <div class="f r g">
     <h4>Autore/Conduttore</h4>
     <AuthorSelector bind:author />
