@@ -1,15 +1,88 @@
 {
   "title": "365: Svalida",
   "number": 365,
-  "main": [],
-  "menews": [],
+  "meta": {
+    "user": "PePPPeroni",
+    "date": "2026-01-17T19:38:10.727Z"
+  },
+  "menews": [
+    {
+      "author": "Lorro",
+      "description": "Trump e il Monte Rushmore",
+      "tags": []
+    },
+    {
+      "author": "Nick",
+      "description": "Golden Globes",
+      "tags": [],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 50
+      }
+    }
+  ],
   "lorrowap": [],
+  "main": [
+    {
+      "author": "Lorro",
+      "description": "The Matrix Resurrection",
+      "tags": [],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 10
+      },
+      "pizza": {
+        "slices": 4,
+        "description": "Pizza riscaldata che se fosse stata mangiata appena sfornata sarebbe stata sufficiente"
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Sinners",
+      "tags": [],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 22,
+        "seconds": 0
+      },
+      "pizza": {
+        "slices": 5,
+        "description": "Ottima Margherita"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Father Mother Sister Brother",
+      "tags": [],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 28,
+        "seconds": 10
+      },
+      "pizza": {
+        "slices": 8,
+        "description": "Marinara con aglio e origano"
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "La Guerra dei Mondi (2025)",
+      "tags": [],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 37,
+        "seconds": 45
+      },
+      "pizza": {
+        "slices": 1,
+        "description": ""
+      }
+    }
+  ],
   "dolcetto": [],
   "amaro": [],
   "lore": [],
-  "others": [],
-  "meta": {
-    "user": null,
-    "date": "2026-01-16T12:08:46.437Z"
-  }
+  "others": []
 }
