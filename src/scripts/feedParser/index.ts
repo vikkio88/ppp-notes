@@ -1,4 +1,4 @@
-import fs from "node:fs";
+import fs, { existsSync } from "node:fs";
 import { FEED_OUTPUT_DIR, URL } from "../config";
 import { parseLinks } from "../libs/linkParser";
 import type { EpisodeWrapper, Link } from "../types/feed";
@@ -6,6 +6,12 @@ import { feedParser } from "./parser";
 
 export default async () => {
   const shows = (await feedParser(URL)) as EpisodeWrapper[];
+  if (!existsSync(FEED_OUTPUT_DIR)) {
+    console.error(
+      `output dir '${FEED_OUTPUT_DIR}' does not exist, please create it.`,
+    );
+    process.exit(1);
+  }
 
   save(shows, "shows");
   const episodes: any[] = [];
