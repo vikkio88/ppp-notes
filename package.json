@@ -19,7 +19,7 @@
     "@astrojs/svelte": "^7.2.5",
     "@types/react": "^19.0.7",
     "@types/react-dom": "^19.0.3",
-    "astro": "5.16.5",
+    "astro": "5.16.11",
     "date-fns": "^4.1.0",
     "feedparser": "^2.2.10",
     "fuse.js": "^7.1.0",
