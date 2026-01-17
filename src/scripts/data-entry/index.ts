@@ -1,6 +1,6 @@
 import fs from "fs";
 import path from "path";
-import { FEED_OUTPUT_DIR } from "../config";
+import { FEED_OUTPUT_DIR, PUBLIC_DATA_EPISODES } from "../config";
 
 type Episode = {
   title: string;
@@ -12,15 +12,10 @@ type Episode = {
 };
 
 export default function (filename: string | null) {
-  const episodesPath = path.resolve(
-    __dirname,
-    "../../..",
-    `${FEED_OUTPUT_DIR}/${filename || "episodes.json"}`,
-  );
-  const outDir = path.resolve(__dirname, "../../../public", "data/episodes");
+  const episodesPath = `${FEED_OUTPUT_DIR}/${filename || "episodes.json"}`;
   const episodes: Episode[] = JSON.parse(fs.readFileSync(episodesPath, "utf8"));
-  if (!fs.existsSync(outDir)) {
-    fs.mkdirSync(outDir, { recursive: true });
+  if (!fs.existsSync(PUBLIC_DATA_EPISODES)) {
+    fs.mkdirSync(PUBLIC_DATA_EPISODES, { recursive: true });
   }
 
   episodes.forEach((ep) => {
@@ -29,7 +24,7 @@ export default function (filename: string | null) {
     if (!match) return;
 
     const number = parseInt(match[1]!, 10);
-    const outFile = path.join(outDir, `episode_${number}.json`);
+    const outFile = path.join(PUBLIC_DATA_EPISODES, `episode_${number}.json`);
 
     if (!fs.existsSync(outFile)) {
       const emptyEpisode = {
