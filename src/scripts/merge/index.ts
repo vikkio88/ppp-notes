@@ -1,5 +1,6 @@
 import fs from "fs";
 import path from "path";
+import { FEED_OUTPUT_DIR } from "../config";
 
 type Episode = {
   title: string;
@@ -13,10 +14,10 @@ type Episode = {
 export default function (filename: string | null) {
   const episodesPath = path.resolve(
     __dirname,
-    "../..",
-    `data/feed/${filename || "episodes.json"}`,
+    "../../..",
+    `${FEED_OUTPUT_DIR}/${filename || "episodes.json"}`,
   );
-  const outDir = path.resolve(__dirname, "../..", "data/episodes");
+  const outDir = path.resolve(__dirname, "../../../public", "data/episodes");
   const episodes: Episode[] = JSON.parse(fs.readFileSync(episodesPath, "utf8"));
   if (!fs.existsSync(outDir)) {
     fs.mkdirSync(outDir, { recursive: true });
