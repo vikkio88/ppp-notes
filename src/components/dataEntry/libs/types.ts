@@ -35,7 +35,19 @@ export type Episode = {
   lore: BaseTopicNoId[];
   others: BaseTopicNoId[];
   meta: {
-    user: string;
+    user: string | null;
+    date: Date;
+  };
+};
+
+export type EpisodeEntry = {
+  title: string;
+  number: number;
+  file: string;
+  date?: Date;
+  collected: boolean;
+  meta: {
+    user: string | null;
     date: Date;
   };
 };
