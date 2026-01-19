@@ -1,21 +1,53 @@
 ---
+import raw from "../../../public/data/episodeReport.json";
+import type { EpisodeEntry } from "../../components/dataEntry/libs/types";
 import Layout from "../../layouts/Layout.astro";
+
+const episodes = raw as EpisodeEntry[];
+
+const formatDate = (d: Date | string) => {
+    const date = typeof d === "string" ? new Date(d) : d;
+    return date.toLocaleDateString("it-IT");
+};
 ---
 
 <Layout>
     <main>
         <h1>Data Entry</h1>
+
         <p>
-            Qui potete trovare i tool e i risultati del progetto <strong>
-                PPP Data Entry
-            </strong>
-            , un’iniziativa collaborativa che, grazie ai fan che ascoltano
+            Qui potete trovare i tool e i risultati del progetto
+            <strong> PPP Data Entry </strong>, un’iniziativa collaborativa che,
+            grazie ai fan che ascoltano
             <strong> Power Pizza </strong>, raccoglie e organizza dati su pizze,
             lore ed eventi citati nel corso delle puntate.
         </p>
+
         <h2>Puntate</h2>
-        <h2>Voglio aiutare</h2>
-        <p>
+
+        <ul class="episodes">
+            {
+                episodes.map((e) => (
+                    <li class={`episode ${e.collected ? "collected" : ""}`}>
+                        <div class="title">
+                            <span class="check">{e.collected ? "✓" : ""}</span>
+                            <span>{e.title}</span>
+                        </div>
+
+                        {e.collected && e.meta.user && (
+                            <div class="meta">
+                                Raccolto da <strong>{e.meta.user}</strong> il{" "}
+                                {formatDate(e.meta.date)}
+                            </div>
+                        )}
+                    </li>
+                ))
+            }
+        </ul>
+
+        <h2>Vuoi aiutare?</h2>
+        <p class="f cc">
+            Se vuoi partecipare alla raccolta dati, usa questo:
             <a href="/data/tool">Tool 📝</a>
         </p>
     </main>
@@ -23,21 +55,68 @@ import Layout from "../../layouts/Layout.astro";
 
 <style>
     main {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 3rem 2rem;
+        display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding: 3rem;
+        gap: 1.5rem;
     }
-    main > h1 {
+
+    h1,
+    h2 {
         text-align: center;
     }
+
     main > p {
-        padding: 0 3rem;
-        line-height: 1.2;
+        line-height: 1.4;
         font-size: 18px;
+    }
+
+    .episodes {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+
+    .episode {
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 1rem 1.2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.25rem;
+        background: #fafafa;
+    }
+
+    .episode.collected {
+        border-color: #b6e3b6;
+        background: #f3fbf3;
+    }
+
+    .title {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        font-weight: 600;
+    }
+
+    .check {
+        width: 1.25rem;
+        color: #2e7d32;
+    }
+
+    .meta {
+        font-size: 14px;
+        color: #555;
+        padding-left: 1.75rem;
     }
 
     main a {
         text-decoration: none;
+        font-weight: 600;
     }
 </style>

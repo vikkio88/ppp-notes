@@ -48,7 +48,7 @@ export type EpisodeEntry = {
   collected: boolean;
   meta: {
     user: string | null;
-    date: Date;
+    date: Date | string;
   };
 };
 
