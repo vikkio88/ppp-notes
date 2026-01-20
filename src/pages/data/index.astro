@@ -31,7 +31,10 @@ const formatDate = (d: Date | string) => {
                     <li class={`episode ${e.collected ? "collected" : ""}`}>
                         <div class="title">
                             <span class="check">{e.collected ? "✓" : ""}</span>
-                            <span>{e.title}</span>
+                            <a href={`/data/tool?episode=${e.file}`}>
+                                {" "}
+                                <span>{e.title}</span>
+                            </a>
                         </div>
 
                         {e.collected && e.meta.user && (
