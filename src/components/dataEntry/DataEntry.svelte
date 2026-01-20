@@ -7,17 +7,20 @@
 
   const params = new URLSearchParams(window.location.search);
   const url = params.get("episode");
-  let episodePromise = url ? load(url) : Promise.resolve();
+  let episodePromise = url
+    ? load(url).then((resp) => {
+        if (!resp) {
+          return null;
+        }
+        app.load(resp);
+        app.next();
+      })
+    : Promise.resolve();
 </script>
 
 {#await episodePromise}
   <h1>Loading</h1>
 {:then resp}
-  {#if resp}
-    <pre>
-{JSON.stringify(resp, null, 2)}
-</pre>
-  {/if}
   {#if app.phase === "collecting"}
     <Collecting />
   {:else if app.phase === "finished"}

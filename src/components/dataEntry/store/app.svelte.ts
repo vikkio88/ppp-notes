@@ -1,3 +1,4 @@
+import { id } from "../libs/topics";
 import type {
   BaseTopic,
   CollectionType,
@@ -72,6 +73,36 @@ class AppState {
     collections[type]?.();
   }
 
+  load(episode: Episode) {
+    this.meta = {
+      title: episode.title,
+      number: episode.number,
+      user: episode.meta.user ?? "unknown",
+      date: new Date(),
+    };
+
+    const withId = <T>(items: T[], type: CollectionType) =>
+      items.map((item) => ({
+        id: id(type),
+        ...item,
+      }));
+
+    this.#menews = withId(episode.menews, "menews");
+    this.#lorrowaps = withId(episode.lorrowap, "lorrowap");
+    this.#main = withId(episode.main, "main");
+
+    // this.#dolcetto = episode.dolcetto.map((item) => ({
+    //   id: id("menews"),
+    //   ...item,
+    // }));
+    // this.#amaro = episode.amaro.map((item) => ({ id: id("menews"), ...item }));
+    // this.#lore = episode.lore.map((item) => ({ id: id("menews"), ...item }));
+    // this.#others = episode.others.map((item) => ({
+    //   id: id("menews"),
+    //   ...item,
+    // }));
+  }
+
   download() {
     const title = `episode_${this.meta?.number}`;
     const element = document.createElement("a");
@@ -93,9 +124,9 @@ class AppState {
               others: [],
             } as Episode,
             null,
-            2
-          )}`
-        )
+            2,
+          )}`,
+        ),
     );
     element.download = `${title}.json`;
     element.style.display = "none";
