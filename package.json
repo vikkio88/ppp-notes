@@ -11,7 +11,7 @@
     "data:dump": "bun src/scripts/parse.ts",
     "update:website": "bun build:clean && bun run build && bun site:deploy",
     "site:deploy": "bunx surge dist --domain ppp-notes.surge.sh",
-    "update:data": "bun src/scripts/update-data.ts"
+    "update:data": "bun src/scripts/update-data.ts && bun src/scripts/data-entry/episodeReport.ts"
   },
   "dependencies": {
     "@ascorbic/feed-loader": "^1.0.4",

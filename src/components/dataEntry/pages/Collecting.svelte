@@ -40,9 +40,10 @@
     <Topic type={collectionType} onFinished={cancel} />
   {:else}
     <div class="f1">
+      <h2>Dati Inseriti</h2>
       <Topics />
     </div>
-    <div class="cmd add">
+    <div class="cmd add f1">
       {#each addCommands as c}
         <button class="i-btn" onclick={c.command}>
           <span>{c.label}</span>
@@ -59,9 +60,6 @@
 </main>
 
 <style>
-  main {
-    min-width: 50%;
-  }
   .add > button {
     display: flex;
     flex-direction: row;

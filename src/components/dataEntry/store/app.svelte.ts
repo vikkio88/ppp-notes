@@ -29,6 +29,14 @@ class AppState {
   #menews: BaseTopic[] = $state([]);
   #main: MainTopic[] = $state([]);
 
+  set name(name: string) {
+    if (!this.meta) {
+      return;
+    }
+
+    this.meta!.user = name;
+  }
+
   get phase(): Phase {
     return this.#phase;
   }
