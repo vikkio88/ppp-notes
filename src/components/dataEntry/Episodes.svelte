@@ -63,7 +63,7 @@
     <li class={`episode ${e.collected ? "collected" : ""}`}>
       <div class="title">
         <span class="check">{e.collected ? "✓" : ""}</span>
-        <a href={`/data/tool?episode=${e.file}`}>
+        <a href={`/data/tool/?episode=${e.file}`}>
           {" "}
           <span>{e.title}</span>
         </a>
