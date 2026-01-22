@@ -20,13 +20,12 @@
 
 {#await episodePromise}
   <h1>Loading</h1>
-{:then resp}
+{:then _}
   {#if app.phase === "collecting"}
     <Collecting />
   {:else if app.phase === "finished"}
     <Finished />
   {:else}
-    <!-- This is if you need to log in -->
     <Login />
   {/if}
 {/await}

@@ -37,8 +37,10 @@
 <style>
   select {
     padding: 1rem 1.5rem;
-    background-color: var(--main-bg-faint-color);
-    color: var(--main-font-color);
+    font-size: 1.2rem;
+  }
+  input[type="text"] {
+    padding: 1rem 1.5rem;
     font-size: 1.2rem;
   }
 </style>

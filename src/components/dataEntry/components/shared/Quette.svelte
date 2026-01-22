@@ -57,6 +57,10 @@
 </article>
 
 <style>
+  input[type="text"] {
+    padding: 1rem 1.5rem;
+    font-size: 1.2rem;
+  }
   .controls {
     display: flex;
     align-items: center;

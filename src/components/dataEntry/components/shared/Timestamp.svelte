@@ -33,7 +33,7 @@
       <span class="timeLabel">{timeLabel}</span>
     </div>
     <div class="controls w100 g">
-      <input type="number" min="0" max="100" bind:value={hours} {onchange} />h
+      <input type="number" min="0" max="300" bind:value={hours} {onchange} />h
       <input type="number" min="0" max="59" bind:value={minutes} {onchange} />m
       <input type="number" min="0" max="59" bind:value={seconds} {onchange} />s
     </div>
@@ -45,14 +45,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
   .controls > input {
     padding: 1rem;
   }
   .timeLabel {
     font-weight: 700;
-    font-size: 3rem;
+    font-size: 1.5rem;
     font-variant-numeric: tabular-nums;
     color: var(--main-font-color);
   }

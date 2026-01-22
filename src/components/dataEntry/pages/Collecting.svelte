@@ -28,36 +28,47 @@
       label: `Main ${topicTypeMap.main}`,
       command: () => add("main"),
     },
+    {
+      label: `Dolcetto ${topicTypeMap.dolcetto}`,
+      command: () => add("dolcetto"),
+    },
+    {
+      label: `Amaro ${topicTypeMap.amaro}`,
+      command: () => add("amaro"),
+    },
+    {
+      label: `Lore ${topicTypeMap.lore}`,
+      command: () => add("lore"),
+    },
   ];
 </script>
 
-<main class="f1 f c">
-  <h2>
-    {`Raccogliendo dati per l'episodio "${app.meta?.title ?? "Sconosciuto"}"`}
-  </h2>
+<h2>
+  {`${app.meta?.title ?? "Sconosciuto"}`}
+</h2>
 
-  {#if isEnteringData && collectionType}
-    <Topic type={collectionType} onFinished={cancel} />
-  {:else}
-    <div class="f1">
-      <h2>Dati Inseriti</h2>
+{#if isEnteringData && collectionType}
+  <Topic type={collectionType} onFinished={cancel} />
+{:else}
+  <div class="f1">
+    <div class="pd">
       <Topics />
     </div>
-    <div class="cmd add f1">
-      {#each addCommands as c}
-        <button class="i-btn" onclick={c.command}>
-          <span>{c.label}</span>
-          <span class="action">➕</span>
-        </button>
-      {/each}
-    </div>
-    <div class="cmd">
-      <button class="i-btn" onclick={() => app.next()}>
-        Ho Finito<span>🛑</span>
+  </div>
+  <div class="cmd add f1">
+    {#each addCommands as c}
+      <button class="i-btn" onclick={c.command}>
+        <span>{c.label}</span>
+        <span class="action">➕</span>
       </button>
-    </div>
-  {/if}
-</main>
+    {/each}
+  </div>
+  <div class="cmd f rc btm">
+    <button class="i-btn stop" onclick={() => app.next()}>
+      Ho Finito<span>🛑</span>
+    </button>
+  </div>
+{/if}
 
 <style>
   .add > button {
@@ -65,10 +76,18 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    font-size: 2rem;
+    font-size: 18px;
+  }
+
+  .stop {
+    font-size: 1.5rem;
   }
 
   h2 {
     text-align: center;
+  }
+
+  .btm {
+    margin-bottom: 1rem;
   }
 </style>

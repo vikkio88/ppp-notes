@@ -38,14 +38,14 @@
 
 <p class="f g">
   <label>
-    Solo Episodi Raccolti <input
+    Filtra Episodi Indicizzati <input
       type="checkbox"
       bind:checked={onlyCollected}
       onclick={onlyCollectedChange}
     />
   </label>
   <label>
-    Solo Episodi Senza Dati <input
+    Filtra Episodi da Completare <input
       type="checkbox"
       bind:checked={onlyNotCollected}
       onclick={onlyNotCollectedChange}

@@ -28,6 +28,9 @@ class AppState {
   #lorrowaps: BaseTopic[] = $state([]);
   #menews: BaseTopic[] = $state([]);
   #main: MainTopic[] = $state([]);
+  #dolcetto: BaseTopic[] = $state([]);
+  #amaro: BaseTopic[] = $state([]);
+  #lore: BaseTopic[] = $state([]);
 
   set name(name: string) {
     if (!this.meta) {
@@ -65,6 +68,9 @@ class AppState {
       lorrowap: () => this.#lorrowaps.push(body as BaseTopic),
       menews: () => this.#menews.push(body as BaseTopic),
       main: () => this.#main.push(body as MainTopic),
+      dolcetto: () => this.#dolcetto.push(body as BaseTopic),
+      amaro: () => this.#amaro.push(body as BaseTopic),
+      lore: () => this.#lore.push(body as BaseTopic),
     };
 
     collections[type]?.();
@@ -76,6 +82,9 @@ class AppState {
         (this.#lorrowaps = this.#lorrowaps.filter((t) => t.id !== id)),
       menews: () => (this.#menews = this.#menews.filter((t) => t.id !== id)),
       main: () => (this.#main = this.#main.filter((t) => t.id !== id)),
+      dolcetto: () => this.#dolcetto.filter((t) => t.id !== id),
+      amaro: () => this.#amaro.filter((t) => t.id !== id),
+      lore: () => this.#lore.filter((t) => t.id !== id),
     };
 
     collections[type]?.();
@@ -99,16 +108,12 @@ class AppState {
     this.#lorrowaps = withId(episode.lorrowap, "lorrowap");
     this.#main = withId(episode.main, "main");
 
-    // this.#dolcetto = episode.dolcetto.map((item) => ({
-    //   id: id("menews"),
-    //   ...item,
-    // }));
-    // this.#amaro = episode.amaro.map((item) => ({ id: id("menews"), ...item }));
-    // this.#lore = episode.lore.map((item) => ({ id: id("menews"), ...item }));
-    // this.#others = episode.others.map((item) => ({
-    //   id: id("menews"),
-    //   ...item,
-    // }));
+    this.#dolcetto = episode.dolcetto.map((item) => ({
+      id: id("dolcetto"),
+      ...item,
+    }));
+    this.#amaro = episode.amaro.map((item) => ({ id: id("amaro"), ...item }));
+    this.#lore = episode.lore.map((item) => ({ id: id("lore"), ...item }));
   }
 
   download() {
@@ -153,6 +158,18 @@ class AppState {
 
   get menews() {
     return this.#menews;
+  }
+
+  get dolcetto() {
+    return this.#dolcetto;
+  }
+
+  get amaro() {
+    return this.#amaro;
+  }
+
+  get lore() {
+    return this.#lore;
   }
 
   restart() {

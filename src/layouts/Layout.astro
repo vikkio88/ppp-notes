@@ -2,40 +2,56 @@
 import Footer from "../components/shared/Footer.astro";
 import Nav from "../components/shared/Nav.astro";
 const DEFAULT_TITLE = "🍕 Power Pizza Podcast - Cerca Note";
-const { title = DEFAULT_TITLE } = Astro.props;
+const {
+    title = DEFAULT_TITLE,
+    noHead = false,
+    noFoot = false,
+    noNav = false,
+} = Astro.props;
 ---
 
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="/style.css" />
-    <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800"
-    />
-    <meta name="generator" content={Astro.generator} />
-    <title>{title}</title>
-  </head>
-  <body>
-    <slot name="head">
-      <header>
-        <a href="/">
-          <h1>🍕 Power Pizza Podcast</h1>
-          {
-            title !== DEFAULT_TITLE && (
-              <h2>{title.replace("🍕 Power Pizza Podcast -", "")}</h2>
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="/style.css" />
+        <meta name="viewport" content="width=device-width" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+        <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossorigin=""
+        />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800"
+        />
+        <meta name="generator" content={Astro.generator} />
+        <title>{title}</title>
+    </head>
+    <body>
+        {
+            !noHead && (
+                <slot name="head">
+                    <header>
+                        <a href="/">
+                            <h1>🍕 Power Pizza Podcast</h1>
+                            {title !== DEFAULT_TITLE && (
+                                <h2>
+                                    {title.replace(
+                                        "🍕 Power Pizza Podcast -",
+                                        "",
+                                    )}
+                                </h2>
+                            )}
+                        </a>
+                    </header>
+                </slot>
             )
-          }
-        </a>
-      </header>
-    </slot>
-    <Nav />
-    <slot />
-    <Footer />
-  </body>
+        }
+        {!noNav && <Nav />}
+        <slot />
+        {!noFoot && <Footer />}
+    </body>
 </html>

@@ -52,4 +52,10 @@ export type EpisodeEntry = {
   };
 };
 
-export type CollectionType = "lorrowap" | "menews" | "main";
+export type CollectionType =
+  | "lorrowap"
+  | "menews"
+  | "main"
+  | "dolcetto"
+  | "amaro"
+  | "lore";

@@ -27,6 +27,18 @@
     lorrowap: { title: "Lorrowap", canHavePizza: false },
     menews: { title: "Menews", canHavePizza: false },
     main: { title: "Main Argomento", canHavePizza: true },
+    dolcetto: {
+      title: "Dolcetto",
+      canHavePizza: false,
+    },
+    amaro: {
+      title: "Amaro",
+      canHavePizza: false,
+    },
+    lore: {
+      title: "Lore",
+      canHavePizza: false,
+    },
   };
 
   const { title, canHavePizza } = typeMap[type];
@@ -66,8 +78,8 @@
   }
 </script>
 
-<div class="f1 f c pd g">
-  <h3>Stai Aggiungendo: {title}</h3>
+<div class="f1 f c pd g adding">
+  <h3>Aggiungendo: {title}</h3>
   <div class="f r g">
     <h4>Autore/Conduttore</h4>
     <AuthorSelector bind:author />
@@ -82,5 +94,19 @@
   <Timestamp bind:timestamp />
   <Tags bind:tags />
 </div>
+<div class="f cc">
+  <TopicCmd onAdd={onAddInternal} onCancel={onCancelInternal} />
+</div>
 
-<TopicCmd onAdd={onAddInternal} onCancel={onCancelInternal} />
+<style>
+  input {
+    padding: 1rem 1rem;
+  }
+
+  .adding {
+    background-color: #fafafa;
+    border-radius: 8px;
+    padding: 0.5rem;
+    min-width: 90%;
+  }
+</style>

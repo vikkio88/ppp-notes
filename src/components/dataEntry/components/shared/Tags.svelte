@@ -8,8 +8,6 @@
 
   let { tags = $bindable([]) }: Props = $props();
 
-
-
   let adding = $state(false);
   let input = $state("");
 
@@ -64,6 +62,7 @@
     <div class="f rc g choice">
       <form onsubmit={onSubmit}>
         <input bind:value={input} placeholder="Add tag..." class="tag-input" />
+        <button>➕</button>
       </form>
       <button class="n-btn cancel" onclick={reset}>❌</button>
     </div>
@@ -115,5 +114,4 @@
     padding: 0.1rem 0.5rem;
     border-radius: var(--border-radius);
   }
-
 </style>
