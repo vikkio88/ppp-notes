@@ -180,6 +180,9 @@ class AppState {
     this.#lorrowaps = [];
     this.#menews = [];
     this.#main = [];
+    this.#dolcetto = [];
+    this.#amaro = [];
+    this.#lore = [];
   }
 }
 
