@@ -6,6 +6,7 @@
   let filteredEpisodes: EpisodeEntry[] = $state(episodes);
   let onlyCollected = $state(false);
   let onlyNotCollected = $state(false);
+  let textFilter = $state("");
   const total = episodes.length;
 
   function formatDate(d: Date | string) {
@@ -13,42 +14,57 @@
     return date.toLocaleDateString("it-IT");
   }
 
-  function onlyCollectedChange() {
-    onlyCollected = !onlyCollected;
+  $effect(() => {
+    if (textFilter.length < 2 && textFilter !== "") {
+      return;
+    }
+
+    applyFilters();
+  });
+
+  function applyFilters() {
+    let result = [...episodes];
+
     if (onlyCollected) {
       onlyNotCollected = false;
-      filteredEpisodes = episodes.filter((e) => e.collected);
-      return;
-    }
-
-    filteredEpisodes = [...episodes];
-  }
-
-  function onlyNotCollectedChange() {
-    onlyNotCollected = !onlyNotCollected;
-    if (onlyNotCollected) {
+      result = result.filter((e) => e.collected);
+    } else if (onlyNotCollected) {
       onlyCollected = false;
-      filteredEpisodes = episodes.filter((e) => !e.collected);
-      return;
+      result = result.filter((e) => !e.collected);
     }
 
-    filteredEpisodes = [...episodes];
+    if (textFilter.length >= 2) {
+      const q = textFilter.toLowerCase();
+      result = result.filter((e) => {
+        return `${e.title}`.toLowerCase().includes(q);
+      });
+    }
+
+    filteredEpisodes = result;
   }
 </script>
 
-<p class="f g">
+<p class="f g filters">
+  <input
+    name="search"
+    type="text"
+    class="search"
+    autocomplete="off"
+    placeholder="Filtra titoli..."
+    bind:value={textFilter}
+  />
   <label>
-    Filtra Episodi Indicizzati <input
+    Indicizzati <input
       type="checkbox"
       bind:checked={onlyCollected}
-      onclick={onlyCollectedChange}
+      onclick={applyFilters}
     />
   </label>
   <label>
-    Filtra Episodi da Completare <input
+    Non Indicizzati <input
       type="checkbox"
       bind:checked={onlyNotCollected}
-      onclick={onlyNotCollectedChange}
+      onclick={applyFilters}
     />
   </label>
 </p>
@@ -75,10 +91,20 @@
         </div>
       {/if}
     </li>
+  {:else}
+    <h2>Nessun risultato</h2>
   {/each}
 </ul>
 
 <style>
+  .filters > label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+  }
   .episodes {
     list-style: none;
     padding: 0;
