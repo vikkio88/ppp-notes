@@ -1,15 +1,195 @@
 {
   "title": "312: Umanimità",
   "number": 312,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
+  "meta": {
+    "user": "PePPPeroni",
+    "date": "2026-01-25T19:50:59.076Z"
+  },
+  "menews": [
+    {
+      "author": "Sio",
+      "description": "Human vs Hamster",
+      "tags": ["tv-show"],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 34,
+        "seconds": 50
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Sio",
+      "description": "Pokémon TCG Pocket",
+      "tags": ["pokémon"],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 45
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Retrocompatibilità delle console Nintendo",
+      "tags": ["nintendo"],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 11,
+        "seconds": 0
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "The legend of Zelda: A link between worlds",
+      "tags": ["zelda"],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 11,
+        "seconds": 45
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Nine Sols",
+      "tags": ["videogames"],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 15,
+        "seconds": 20
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Haiku the robot",
+      "tags": ["videogames"],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 16,
+        "seconds": 0
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Dungeon meshi",
+      "tags": ["anime", "manga"],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 29,
+        "seconds": 8
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Dandadan",
+      "tags": ["anime"],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 29,
+        "seconds": 40
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Dragon Quest HD 2D remake",
+      "tags": ["videogames"],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 29,
+        "seconds": 55
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Dragon Quest Dai",
+      "tags": ["manga"],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 30,
+        "seconds": 20
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Annullata la serie in cui Nicolas Cage interpreterà Joe Exotic",
+      "tags": ["serie"],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 41,
+        "seconds": 20
+      }
+    }
+  ],
+  "main": [
+    {
+      "author": "Lorro",
+      "description": "Frieren: beyond journey’s end",
+      "tags": ["anime"],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 28,
+        "seconds": 0
+      },
+      "pizza": {
+        "slices": 8,
+        "description": "7,8 fette di pizza con friarelli, tonno affumicato, peperoncino e fiori eduli blu"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Metax",
+      "tags": ["fumetti"],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 16,
+        "seconds": 40
+      },
+      "pizza": {
+        "slices": 5,
+        "description": "Marinara senza niente"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Le nuvole del soffitto",
+      "tags": ["fumetti"],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 16,
+        "seconds": 40
+      },
+      "pizza": {
+        "slices": 8,
+        "description": "pizza senza pomodoro o formaggio ma con carote cipolle e sedano (che è il soffritto-soffitto)"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Wo ist Wanda?",
+      "tags": ["serie"],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 36,
+        "seconds": 20
+      },
+      "pizza": {
+        "slices": 6,
+        "description": "pizza margherita con poca mozzarella, riscaldata, un po’ secca"
+      }
+    }
+  ],
   "dolcetto": [],
   "amaro": [],
-  "lore": [],
-  "others": [],
-  "meta": {
-    "user": null,
-    "date": "2025-09-29T14:00:27.304Z"
-  }
+  "lore": [
+    {
+      "author": "Sio",
+      "description": "Punto Piccione assegnato a questa puntata ",
+      "tags": ["punti-piccione"],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 24,
+        "seconds": 40
+      }
+    }
+  ],
+  "others": []
 }
