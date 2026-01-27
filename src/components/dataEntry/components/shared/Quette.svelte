@@ -1,5 +1,9 @@
 <script lang="ts">
-  type Props = { value?: number; description?: string; size?: number };
+  type Props = {
+    value?: number | undefined;
+    description?: string;
+    size?: number;
+  };
 
   const MAX_SLICES = 10;
   let {
@@ -12,6 +16,11 @@
   let valueLabel = $derived(String(value).padStart(2, "0"));
   let pizzas = $derived(Array.from({ length: value }));
   let hasPizza = $state(true);
+  $effect(() => {
+    if (!hasPizza) {
+      value = undefined!;
+    }
+  });
 </script>
 
 <article class="f c g aic f1">

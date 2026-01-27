@@ -17,14 +17,21 @@
   </span>
 
   <span>
-    {authorLabelMap[topic.author] || `🧑 ${topic.author}`}
+    {topic.author !== "Other"
+      ? authorLabelMap[topic.author]
+      : `🧑 ${topic.author}`}
   </span>
 
-  <span class="f1">
+  <span class="f1 f rc g">
     {topic.description}
     {#if topic.timestamp}
       {@const t = topic.timestamp}
-      {`(${toTimestapLabel(t.hours, t.minutes, t.seconds)})`}
+      <span class="info">
+        {`(${toTimestapLabel(t.hours, t.minutes, t.seconds)})`}
+      </span>
+    {/if}
+    {#if topic.tags && topic.tags.length > 0}
+      <span class="info">#tags</span>
     {/if}
   </span>
 
@@ -48,5 +55,10 @@
     gap: 2rem;
     margin: 0 1rem;
     width: 100%;
+  }
+
+  .info {
+    font-size: 0.7rem;
+    font-weight: bold;
   }
 </style>

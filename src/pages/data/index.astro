@@ -1,9 +1,12 @@
 ---
 import raw from "../../../public/data/episodeReport.json";
+import rawPartials from "../../../public/data/partialEpisodes.json";
 import Episodes from "../../components/dataEntry/Episodes.svelte";
 import type { EpisodeEntry } from "../../components/dataEntry/libs/types";
+import Spinner from "../../components/shared/Spinner.astro";
 import Layout from "../../layouts/Layout.astro";
 const episodes = raw as EpisodeEntry[];
+const partials = rawPartials as number[];
 ---
 
 <Layout>
@@ -25,32 +28,36 @@ const episodes = raw as EpisodeEntry[];
 
         <h2>Puntate</h2>
         Se vuoi modificare/aggiungere i dati per una puntata precisa usa la lista:
-        <Episodes {episodes} client:only />
+        <Episodes {episodes} {partials} client:only>
+            <div slot="fallback">
+                <Spinner />
+            </div>
+        </Episodes>
     </main>
+
+    <style>
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        h1,
+        h2 {
+            text-align: center;
+        }
+
+        main > p {
+            line-height: 1.4;
+            font-size: 18px;
+        }
+
+        main a {
+            text-decoration: none;
+            font-weight: 600;
+        }
+    </style>
 </Layout>
-
-<style>
-    main {
-        max-width: 900px;
-        margin: 0 auto;
-        padding: 3rem 2rem;
-        display: flex;
-        flex-direction: column;
-        gap: 1.5rem;
-    }
-
-    h1,
-    h2 {
-        text-align: center;
-    }
-
-    main > p {
-        line-height: 1.4;
-        font-size: 18px;
-    }
-
-    main a {
-        text-decoration: none;
-        font-weight: 600;
-    }
-</style>

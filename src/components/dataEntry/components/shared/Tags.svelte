@@ -50,6 +50,7 @@
 <div class="f rc tag-list">
   {#each tags as tag}
     <ConfirmBtn
+      classes="bordered"
       onConfirm={() => removeTag(tag)}
       confirmLabel={"🗑️"}
       cancelLabel={"↩️"}
@@ -60,11 +61,15 @@
 
   {#if adding}
     <div class="f rc g choice">
-      <form onsubmit={onSubmit}>
-        <input bind:value={input} placeholder="Add tag..." class="tag-input" />
+      <form onsubmit={onSubmit} class="bordered">
+        <input
+          bind:value={input}
+          placeholder="Aggiungi tag..."
+          class="tag-input"
+        />
         <button>➕</button>
+        <button class="cancel" onclick={reset}>❌</button>
       </form>
-      <button class="n-btn cancel" onclick={reset}>❌</button>
     </div>
   {:else}
     <button class="n-btn add" onclick={() => (adding = true)}>➕ Tag</button>
@@ -94,10 +99,6 @@
     flex: 4;
   }
 
-  .cancel {
-    flex: 1;
-  }
-
   .n-btn {
     font-size: 1.5rem;
     padding: 0.2rem 0.5rem;
@@ -113,5 +114,13 @@
     background-color: var(--gray-1-color);
     padding: 0.1rem 0.5rem;
     border-radius: var(--border-radius);
+  }
+
+  form {
+    padding: 2rem;
+  }
+
+  form > button {
+    font-size: 0.8rem;
   }
 </style>

@@ -18,7 +18,7 @@ export type Pizza = {
   description?: string;
 };
 
-export type MainTopic = BaseTopic & { pizza?: Pizza };
+export type MainTopic = BaseTopic & { pizza?: Pizza; tenPizze?: boolean };
 
 export type BaseTopicNoId = Omit<BaseTopic, "id">;
 export type MainTopicNoId = Omit<MainTopic, "id">;

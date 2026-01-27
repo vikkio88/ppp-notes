@@ -426,3 +426,8 @@ input.search::placeholder {
 .ta-c {
   text-align: center;
 }
+
+.bordered {
+  border: dotted 2px gray;
+  border-radius: 8px;
+}

@@ -7,6 +7,7 @@
     CollectionType,
     MainTopic,
     Timestamp as TS,
+    VotoPizze,
   } from "../libs/types";
   import app from "../store/app.svelte";
   import AuthorSelector from "./shared/AuthorSelector.svelte";
@@ -47,6 +48,7 @@
   let description: Author = $state("");
   let pizzaValue: number = $state(5);
   let pizzaDescription: string = $state("");
+  let tenPizze: undefined | true = $state(undefined);
   let tags: string[] = $state([]);
   let timestamp: TS = $state({ hours: 0, minutes: 0, seconds: 0 });
 
@@ -55,7 +57,7 @@
       return;
     }
 
-    let body: BaseTopic = {
+    let body: BaseTopic | MainTopic = {
       id: id(type),
       author,
       description,
@@ -65,8 +67,16 @@
     if (type === "main") {
       body = {
         ...body,
-        pizza: { slices: pizzaValue, description: pizzaDescription },
-      } as MainTopic;
+        ...(!tenPizze && pizzaValue
+          ? {
+              pizza: {
+                slices: pizzaValue as VotoPizze,
+                description: pizzaDescription,
+              },
+            }
+          : {}),
+        ...(tenPizze && { tenPizze }),
+      } satisfies MainTopic;
     }
 
     app.add(type, body);
@@ -87,8 +97,14 @@
   <input type="text" placeholder="Descrizione" bind:value={description} />
 
   {#if canHavePizza}
-    <div class="f r g">
-      <Quette bind:value={pizzaValue} bind:description={pizzaDescription} />
+    <div class="f cc g">
+      <div class="f rc g">
+        <h3>10 Pizze?</h3>
+        <input type="checkbox" bind:checked={tenPizze} />
+      </div>
+      {#if !tenPizze}
+        <Quette bind:value={pizzaValue} bind:description={pizzaDescription} />
+      {/if}
     </div>
   {/if}
   <Timestamp bind:timestamp />

@@ -12,6 +12,7 @@
     onConfirm: () => void;
     confirmLabel?: string;
     cancelLabel?: string;
+    classes?: string;
   };
 
   const {
@@ -22,6 +23,7 @@
     position = "top",
     onConfirm,
     children,
+    classes,
   }: Props = $props();
   let needsConfirming = $state(false);
 </script>
@@ -36,7 +38,7 @@
     {@render children()}
   </button>
 {:else}
-  <div class="f rc g choice">
+  <div class={`f rc g choice${classes ? ` ${classes}` : ""}`}>
     <button
       class="n-btn"
       onclick={() => {

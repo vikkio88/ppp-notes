@@ -1,8 +1,13 @@
 ---
 import DataEntry from "../../components/dataEntry/DataEntry.svelte";
+import Spinner from "../../components/shared/Spinner.astro";
 import Layout from "../../layouts/Layout.astro";
 ---
 
 <Layout noNav noFoot title="Data-Entry Tool">
-    <DataEntry client:only />
+    <DataEntry client:only>
+        <div slot="fallback">
+            <Spinner />
+        </div>
+    </DataEntry>
 </Layout>

@@ -19,7 +19,8 @@
 </script>
 
 {#await episodePromise}
-  <h1>Loading</h1>
+  <h1>🍕</h1>
+  <h2>Caricando dati...</h2>
 {:then _}
   {#if app.phase === "collecting"}
     <Collecting />

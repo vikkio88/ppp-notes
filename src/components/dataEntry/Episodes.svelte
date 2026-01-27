@@ -1,8 +1,8 @@
 <script lang="ts">
   import type { EpisodeEntry } from "./libs/types";
 
-  type Props = { episodes: EpisodeEntry[] };
-  const { episodes }: Props = $props();
+  type Props = { episodes: EpisodeEntry[]; partials: number[] };
+  const { episodes, partials }: Props = $props();
   let filteredEpisodes: EpisodeEntry[] = $state(episodes);
   let onlyCollected = $state(false);
   let onlyNotCollected = $state(false);
@@ -76,9 +76,12 @@
 
 <ul class="episodes">
   {#each filteredEpisodes as e}
-    <li class={`episode ${e.collected ? "collected" : ""}`}>
+    {@const partial = e.collected && partials.includes(e.number)}
+    <li class="episode" class:collected={e.collected && !partial} class:partial>
       <div class="title">
-        <span class="check">{e.collected ? "✓" : ""}</span>
+        <span class="check">
+          {partial ? "◐" : e.collected ? "✓" : ""}
+        </span>
         <a href={`/data/tool/?episode=${e.file}`}>
           {" "}
           <span>{e.title}</span>
@@ -127,6 +130,13 @@
   .episode.collected {
     border-color: #b6e3b6;
     background: #f3fbf3;
+  }
+
+  .episode.partial {
+    border-color: #e3e3b6;
+    border-style: dotted;
+    border-width: 2px;
+    background: #fbfbf3;
   }
 
   .title {
