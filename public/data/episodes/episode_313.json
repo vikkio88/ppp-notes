@@ -1,15 +1,91 @@
 {
   "title": "313: Cornucopia di Grissini",
   "number": 313,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
-  "dolcetto": [],
-  "amaro": [],
-  "lore": [],
-  "others": [],
   "meta": {
-    "user": null,
-    "date": "2025-09-29T14:00:27.304Z"
-  }
+    "user": "PePPPeroni",
+    "date": "2026-01-30T17:46:28.669Z"
+  },
+  "menews": [
+    {
+      "author": "Lorro",
+      "description": "Omicidio di Brian Thompson e video di Ben Shapiro",
+      "tags": ["politica"],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 15,
+        "seconds": 45
+      }
+    }
+  ],
+  "lorrowap": [],
+  "main": [
+    {
+      "author": "Sio",
+      "description": "Hi-Fi Rush",
+      "tags": ["videogames"],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 10
+      },
+      "pizza": {
+        "slices": 7,
+        "description": "7,5 fette di diavola con patate arrosto"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Wicked Parte 1",
+      "tags": ["film", "musical"],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 22,
+        "seconds": 25
+      },
+      "pizza": {
+        "slices": 10,
+        "description": "pizza ai 100 formaggi, ma dopo 3 fette te la portano via perché Sio mentre era al cinema è dovuto tornare a casa"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Nick Capper: hold me closer tiny cancer",
+      "tags": ["stand-up-comedy"],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 32,
+        "seconds": 55
+      },
+      "pizza": {
+        "slices": 10,
+        "description": "pizza meat lovers con fichi caramellati e salsa carbonara"
+      }
+    }
+  ],
+  "dolcetto": [
+    {
+      "author": "Lorro",
+      "description": "Dragon Quest 3 2D HD Remake",
+      "tags": ["videogames"],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 480,
+        "seconds": 50
+      }
+    }
+  ],
+  "amaro": [],
+  "lore": [
+    {
+      "author": "Sio",
+      "description": "Nella Puntata 111 a 25:30 si é scommesso su quando finisce One Piece. Nick ha detto puntata 321 (in questa puntata hanno detto 312 per sbaglio). Sio ha detto 400, Lorro che PPP finisce prima.",
+      "tags": ["scommessa", "anime"],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 40
+      }
+    }
+  ],
+  "others": []
 }

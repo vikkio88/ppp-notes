@@ -1,15 +1,134 @@
 {
   "title": "111: Vasi di Fiori Iper Dettagliati",
   "number": 111,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
-  "dolcetto": [],
-  "amaro": [],
-  "lore": [],
-  "others": [],
   "meta": {
-    "user": null,
-    "date": "2025-09-29T14:00:27.309Z"
-  }
+    "user": "PePPPeroni",
+    "date": "2026-01-30T17:35:06.280Z"
+  },
+  "menews": [
+    {
+      "author": "Nick",
+      "description": "What is internet doing to us",
+      "tags": ["podcast"],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 8,
+        "seconds": 30
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Wanda Vision",
+      "tags": ["serie", "marvel"],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 40
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Emmy Awards 2020",
+      "tags": ["emmy"],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 10
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Euphoria",
+      "tags": ["serie"],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 20
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Succession",
+      "tags": ["serie"],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 15,
+        "seconds": 30
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Justwatch",
+      "tags": ["sito-internet", "film"],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 16,
+        "seconds": 0
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Spin-off di One Piece",
+      "tags": ["anime"],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 23,
+        "seconds": 25
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Lorro",
+      "description": "Doom non gira su un test originale di gravidanza, ma su uno modificato",
+      "tags": ["tech"],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 15
+      }
+    }
+  ],
+  "main": [
+    {
+      "author": "Sio",
+      "description": "Central Park",
+      "tags": ["animazione", "musical"],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 39,
+        "seconds": 20
+      },
+      "pizza": {
+        "slices": 7,
+        "description": "7,5 fette di pizza con pepperoni e peperoni"
+      }
+    }
+  ],
+  "dolcetto": [
+    {
+      "author": "Sio",
+      "description": "Rivals of Aether",
+      "tags": ["videogames"],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 47,
+        "seconds": 50
+      }
+    }
+  ],
+  "amaro": [],
+  "lore": [
+    {
+      "author": "Sio",
+      "description": "Scommessa su a che puntata di PPP finisce One Pece. Per Nick: 321, per Sio: 400, per Lorro: finisce prima Power Pizza. Nella puntata 313 a 05:49 sbagliano e pensano che la puntata scelta da nick fosse la 312.",
+      "tags": ["scommessa"],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 25,
+        "seconds": 30
+      }
+    }
+  ],
+  "others": []
 }
