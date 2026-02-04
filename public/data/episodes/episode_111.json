@@ -3,7 +3,7 @@
   "number": 111,
   "meta": {
     "user": "PePPPeroni",
-    "date": "2026-01-30T17:35:06.280Z"
+    "date": "2026-01-31T10:56:56.818Z"
   },
   "menews": [
     {
@@ -102,6 +102,36 @@
       "pizza": {
         "slices": 7,
         "description": "7,5 fette di pizza con pepperoni e peperoni"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Tre Manifesti a Ebbing, Missouri",
+      "tags": ["film"],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 17,
+        "seconds": 20
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Lo sviluppo di Final Fantasy 14 online",
+      "tags": ["videogames"],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 26,
+        "seconds": 50
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Balc-1 o Balcone o Balc-one, Gioco VR ideato da Sio",
+      "tags": ["videogames"],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 38,
+        "seconds": 10
       }
     }
   ],

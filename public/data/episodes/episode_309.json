@@ -3,18 +3,23 @@
   "number": 309,
   "meta": {
     "user": "PePPPeroni",
-    "date": "2026-01-16T09:45:37.210Z"
+    "date": "2026-01-31T11:32:15.817Z"
   },
   "menews": [
     {
       "author": "Sio",
       "description": "Stephen King é stato cacciato da X",
-      "tags": []
+      "tags": ["politica"],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1
+      }
     },
     {
       "author": "Sio",
       "description": "Nintendo conferma la retro compatibilità della nuova Switch",
-      "tags": [],
+      "tags": ["switch"],
       "timestamp": {
         "hours": 0,
         "minutes": 11,
@@ -24,7 +29,7 @@
     {
       "author": "Sio",
       "description": "Nintendo annuncia Nintendo Music",
-      "tags": [],
+      "tags": ["nintendo"],
       "timestamp": {
         "hours": 0,
         "minutes": 12,
@@ -34,7 +39,7 @@
     {
       "author": "Lorro",
       "description": "Showa American Story",
-      "tags": [],
+      "tags": ["videogames"],
       "timestamp": {
         "hours": 0,
         "minutes": 15,
@@ -44,7 +49,7 @@
     {
       "author": "Nick",
       "description": "Scanlendario 2025",
-      "tags": [],
+      "tags": ["scanlendario"],
       "timestamp": {
         "hours": 0,
         "minutes": 57,
@@ -53,7 +58,29 @@
     }
   ],
   "lorrowap": [],
-  "main": [],
+  "main": [
+    {
+      "author": "Nick",
+      "description": "The Substance",
+      "tags": ["film"],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 20,
+        "seconds": 20
+      },
+      "tenPizze": true
+    },
+    {
+      "author": "Sio",
+      "description": "Pokémon TCG Pocket",
+      "tags": ["pokémon"],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 39,
+        "seconds": 0
+      }
+    }
+  ],
   "dolcetto": [],
   "amaro": [],
   "lore": [],

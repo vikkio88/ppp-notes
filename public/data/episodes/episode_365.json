@@ -3,18 +3,23 @@
   "number": 365,
   "meta": {
     "user": "PePPPeroni",
-    "date": "2026-01-17T19:38:10.727Z"
+    "date": "2026-01-31T13:02:53.571Z"
   },
   "menews": [
     {
       "author": "Lorro",
       "description": "Trump e il Monte Rushmore",
-      "tags": []
+      "tags": ["politica"],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 1
+      }
     },
     {
       "author": "Nick",
       "description": "Golden Globes",
-      "tags": [],
+      "tags": ["golden-globes"],
       "timestamp": {
         "hours": 0,
         "minutes": 9,
@@ -27,7 +32,7 @@
     {
       "author": "Lorro",
       "description": "The Matrix Resurrection",
-      "tags": [],
+      "tags": ["film"],
       "timestamp": {
         "hours": 0,
         "minutes": 13,
@@ -41,7 +46,7 @@
     {
       "author": "Lorro",
       "description": "Sinners",
-      "tags": [],
+      "tags": ["film"],
       "timestamp": {
         "hours": 0,
         "minutes": 22,
@@ -55,7 +60,7 @@
     {
       "author": "Nick",
       "description": "Father Mother Sister Brother",
-      "tags": [],
+      "tags": ["film"],
       "timestamp": {
         "hours": 0,
         "minutes": 28,
@@ -69,7 +74,7 @@
     {
       "author": "Lorro",
       "description": "La Guerra dei Mondi (2025)",
-      "tags": [],
+      "tags": ["film"],
       "timestamp": {
         "hours": 0,
         "minutes": 37,
@@ -83,6 +88,37 @@
   ],
   "dolcetto": [],
   "amaro": [],
-  "lore": [],
+  "lore": [
+    {
+      "author": "Sio",
+      "description": "Puntata senza Sio",
+      "tags": ["hosts"],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Jar delle imprecazioni di Lorro",
+      "tags": [],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 55
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Quando una pizza conta ufficialmente per il Counter annuale",
+      "tags": ["pizza-counter"],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 50
+      }
+    }
+  ],
   "others": []
 }

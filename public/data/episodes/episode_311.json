@@ -1,15 +1,50 @@
 {
   "title": "311: BARARMO - Live @ Milan Games Week & Cartoomics",
   "number": 311,
-  "main": [],
+  "meta": {
+    "user": "PePPPeroni",
+    "date": "2026-01-31T11:48:59.344Z"
+  },
   "menews": [],
   "lorrowap": [],
+  "main": [
+    {
+      "author": "Lorro",
+      "description": "J-RPG: un’analisi mega-obiettiva",
+      "tags": ["videogames"],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 55
+      },
+      "pizza": {
+        "slices": 10,
+        "description": "10 fette di pizza ma solo ai giochi vecchi "
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Il cast di Hollow Knight se fosse un film",
+      "tags": ["hollow-knight"],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 18,
+        "seconds": 30
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Recensione di Alarmo",
+      "tags": ["nintendo"],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 38,
+        "seconds": 0
+      }
+    }
+  ],
   "dolcetto": [],
   "amaro": [],
   "lore": [],
-  "others": [],
-  "meta": {
-    "user": null,
-    "date": "2025-09-29T14:00:27.304Z"
-  }
+  "others": []
 }

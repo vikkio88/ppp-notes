@@ -1,15 +1,106 @@
 {
   "title": "366: Trapanaggio",
   "number": 366,
-  "main": [],
+  "meta": {
+    "user": "PePPPeroni",
+    "date": "2026-01-31T13:47:29.600Z"
+  },
   "menews": [],
   "lorrowap": [],
-  "dolcetto": [],
+  "main": [
+    {
+      "author": "Sio",
+      "description": "An evening with Tim Heidecker",
+      "tags": ["stand-up-comedy"],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 25
+      },
+      "pizza": {
+        "slices": 8,
+        "description": "Marinara con i peperoncini"
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Ghostbusters Frozen Empire",
+      "tags": ["film"],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 14,
+        "seconds": 55
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Repertoire di James Acaster",
+      "tags": ["stand-up-comedy"],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 15,
+        "seconds": 45
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Balatro",
+      "tags": ["videogames"],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 17,
+        "seconds": 30
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Heroes of Newerth Reborn",
+      "tags": ["videogames"],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 23,
+        "seconds": 0
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Blue Moon",
+      "tags": ["film"],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 26,
+        "seconds": 50
+      },
+      "pizza": {
+        "slices": 9,
+        "description": "pizza bianca con caviale e creme fraiche"
+      }
+    }
+  ],
+  "dolcetto": [
+    {
+      "author": "Lorro",
+      "description": "Hytale",
+      "tags": ["videogames"],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 40,
+        "seconds": 45
+      }
+    }
+  ],
   "amaro": [],
-  "lore": [],
-  "others": [],
-  "meta": {
-    "user": null,
-    "date": "2026-01-23T14:13:25.160Z"
-  }
+  "lore": [
+    {
+      "author": "Lorro",
+      "description": "La pinsa romana conta per il pizza counter",
+      "tags": ["pizza-counter"],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 8,
+        "seconds": 45
+      }
+    }
+  ],
+  "others": []
 }

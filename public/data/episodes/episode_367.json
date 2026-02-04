@@ -1,15 +1,131 @@
 {
   "title": "367: Palle eoliche",
   "number": 367,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
-  "dolcetto": [],
-  "amaro": [],
-  "lore": [],
-  "others": [],
   "meta": {
-    "user": null,
-    "date": "2026-01-30T09:35:39.341Z"
-  }
+    "user": "PePPPeroni",
+    "date": "2026-01-31T20:25:47.896Z"
+  },
+  "menews": [
+    {
+      "author": "Sio",
+      "description": "Romeo su TikTok crea un jingle per dottor Pepper e dottor Pepper la usa per una pubblicità",
+      "tags": ["tiktok", "spot"],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Crimson Desert",
+      "tags": ["videogames"],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 50
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Candidature agli Oscar (Academy Awards)",
+      "tags": ["oscar-academy-awards"],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 12,
+        "seconds": 10
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Trailer di Masters of the Universe (Film di He-Man)",
+      "tags": ["film"],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 16,
+        "seconds": 55
+      }
+    }
+  ],
+  "lorrowap": [],
+  "main": [
+    {
+      "author": "Sio",
+      "description": "The Hundred Line Last Defence Academy ",
+      "tags": ["videogames"],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 18,
+        "seconds": 50
+      },
+      "pizza": {
+        "slices": 8,
+        "description": "pizza con kebab, cipolla, peperoni saltati, funghi, peperoncino e pecorino"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Marty Supreme",
+      "tags": ["film"],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 32,
+        "seconds": 10
+      },
+      "pizza": {
+        "slices": 8,
+        "description": "pizza con hummus e verdure"
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Biancaneve (2025)",
+      "tags": ["film"],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 43,
+        "seconds": 35
+      },
+      "pizza": {
+        "slices": 1,
+        "description": "Mezza fetta di piadina con ketchup e il formaggio spray"
+      }
+    }
+  ],
+  "dolcetto": [
+    {
+      "author": "Lorro",
+      "description": "Le tredici vite e mezzo del capitano Orso Blu",
+      "tags": ["libri"],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 8,
+        "seconds": 20
+      }
+    }
+  ],
+  "amaro": [],
+  "lore": [
+    {
+      "author": "Sio",
+      "description": "Una pizza-piadina o altre cose simili contano per il pizza Counter se lo dice il tuo cuore",
+      "tags": ["pizza-counter"],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 0
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Se il pollo é considerato pizza, la pizza é considerata pollo?",
+      "tags": ["pollo", "pizza-counter"],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 5
+      }
+    }
+  ],
+  "others": []
 }
