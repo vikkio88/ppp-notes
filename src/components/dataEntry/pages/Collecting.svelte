@@ -37,6 +37,10 @@
       command: () => add("amaro"),
     },
     {
+      label: `Impizioni ${topicTypeMap.impizioni}`,
+      command: () => add("impizioni"),
+    },
+    {
       label: `Lore ${topicTypeMap.lore}`,
       command: () => add("lore"),
     },

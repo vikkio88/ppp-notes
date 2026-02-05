@@ -34,6 +34,7 @@ export type Episode = {
   amaro: BaseTopicNoId[];
   lore: BaseTopicNoId[];
   others: BaseTopicNoId[];
+  impizioni?: BaseTopicNoId[];
   meta: {
     user: string | null;
     date: Date;
@@ -58,4 +59,5 @@ export type CollectionType =
   | "main"
   | "dolcetto"
   | "amaro"
+  | "impizioni"
   | "lore";

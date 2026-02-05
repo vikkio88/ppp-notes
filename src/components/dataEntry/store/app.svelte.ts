@@ -30,6 +30,7 @@ class AppState {
   #main: MainTopic[] = $state([]);
   #dolcetto: BaseTopic[] = $state([]);
   #amaro: BaseTopic[] = $state([]);
+  #impizioni: BaseTopic[] = $state([]);
   #lore: BaseTopic[] = $state([]);
 
   set name(name: string) {
@@ -70,6 +71,7 @@ class AppState {
       main: () => this.#main.push(body as MainTopic),
       dolcetto: () => this.#dolcetto.push(body as BaseTopic),
       amaro: () => this.#amaro.push(body as BaseTopic),
+      impizioni: () => this.#impizioni.push(body as BaseTopic),
       lore: () => this.#lore.push(body as BaseTopic),
     };
 
@@ -84,6 +86,7 @@ class AppState {
       main: () => (this.#main = this.#main.filter((t) => t.id !== id)),
       dolcetto: () => this.#dolcetto.filter((t) => t.id !== id),
       amaro: () => this.#amaro.filter((t) => t.id !== id),
+      impizioni: () => this.#impizioni.filter((t) => t.id !== id),
       lore: () => this.#lore.filter((t) => t.id !== id),
     };
 
@@ -113,6 +116,9 @@ class AppState {
       ...item,
     }));
     this.#amaro = episode.amaro.map((item) => ({ id: id("amaro"), ...item }));
+    this.#impizioni =
+      episode.impizioni?.map((item) => ({ id: id("impizioni"), ...item })) ??
+      [];
     this.#lore = episode.lore.map((item) => ({ id: id("lore"), ...item }));
   }
 
@@ -128,12 +134,13 @@ class AppState {
               title: this.meta?.title!,
               number: this.meta?.number!,
               meta: { user: this.meta?.user, date: new Date() },
-              menews: this.#menews.map(({ id, ...rest }) => rest),
-              lorrowap: this.#lorrowaps.map(({ id, ...rest }) => rest),
-              main: this.#main.map(({ id, ...rest }) => rest),
-              dolcetto: this.#dolcetto.map(({ id, ...rest }) => rest),
-              amaro: this.#amaro.map(({ id, ...rest }) => rest),
-              lore: this.lore.map(({ id, ...rest }) => rest),
+              menews: this.#menews.map(removeId),
+              lorrowap: this.#lorrowaps.map(removeId),
+              main: this.#main.map(removeId),
+              dolcetto: this.#dolcetto.map(removeId),
+              amaro: this.#amaro.map(removeId),
+              impizioni: this.#impizioni.map(removeId),
+              lore: this.lore.map(removeId),
               others: [],
             } as Episode,
             null,
@@ -168,6 +175,10 @@ class AppState {
     return this.#amaro;
   }
 
+  get impizioni() {
+    return this.#impizioni;
+  }
+
   get lore() {
     return this.#lore;
   }
@@ -182,9 +193,12 @@ class AppState {
     this.#main = [];
     this.#dolcetto = [];
     this.#amaro = [];
+    this.#impizioni = [];
     this.#lore = [];
   }
 }
+
+const removeId = ({ id, ...rest }: any) => rest;
 
 const app = new AppState();
 export default app;

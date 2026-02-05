@@ -40,6 +40,10 @@
       title: "Lore",
       canHavePizza: false,
     },
+    impizioni: {
+      title: "Impizioni",
+      canHavePizza: false,
+    },
   };
 
   const { title, canHavePizza } = typeMap[type];

@@ -1,68 +1,42 @@
-<script>
+<script lang="ts">
+  import type { CollectionType } from "../libs/types";
   import app from "../store/app.svelte";
   import TopicItem from "./TopicItem.svelte";
+
+  const categories: {
+    type: CollectionType;
+    label: string;
+    appKey:
+      | "menews"
+      | "lorrowaps" // TODO: if I remove this by converting it to singular I can remove appKey from here
+      | "main"
+      | "dolcetto"
+      | "amaro"
+      | "impizioni"
+      | "lore";
+  }[] = [
+    { type: "menews", label: "MeNews", appKey: "menews" },
+    { type: "lorrowap", label: "LorroWap", appKey: "lorrowaps" },
+    { type: "main", label: "Main", appKey: "main" },
+    { type: "dolcetto", label: "Dolcetti", appKey: "dolcetto" },
+    { type: "amaro", label: "Amari", appKey: "amaro" },
+    { type: "impizioni", label: "Impizioni", appKey: "impizioni" },
+    { type: "lore", label: "Lore", appKey: "lore" },
+  ];
 </script>
 
-{#if app.menews.length > 0}
-  <div class="topic">
-    <strong>MeNews</strong>
-    <ul>
-      {#each app.menews as t}
-        <TopicItem topic={t} type="menews" />
-      {/each}
-    </ul>
-  </div>
-{/if}
-{#if app.lorrowaps.length > 0}
-  <div class="topic">
-    <strong>LorroWap</strong>
-    <ul>
-      {#each app.lorrowaps as t}
-        <TopicItem topic={t} type="lorrowap" />
-      {/each}
-    </ul>
-  </div>
-{/if}
-{#if app.main.length > 0}
-  <div class="topic">
-    <strong>Main</strong>
-    <ul>
-      {#each app.main as t}
-        <TopicItem topic={t} type="main" />
-      {/each}
-    </ul>
-  </div>
-{/if}
-{#if app.dolcetto.length > 0}
-  <div class="topic">
-    <strong>Dolcetti</strong>
-    <ul>
-      {#each app.dolcetto as t}
-        <TopicItem topic={t} type="dolcetto" />
-      {/each}
-    </ul>
-  </div>
-{/if}
-{#if app.amaro.length > 0}
-  <div class="topic">
-    <strong>Amari</strong>
-    <ul>
-      {#each app.amaro as t}
-        <TopicItem topic={t} type="amaro" />
-      {/each}
-    </ul>
-  </div>
-{/if}
-{#if app.lore.length > 0}
-  <div class="topic">
-    <strong>Lore</strong>
-    <ul>
-      {#each app.lore as t}
-        <TopicItem topic={t} type="lore" />
-      {/each}
-    </ul>
-  </div>
-{/if}
+{#each categories as { label, type, appKey }}
+  {#if app[appKey]?.length > 0}
+    <div class="topic">
+      <strong>{label}</strong>
+      <ul>
+        {#each app[appKey] as t}
+          <TopicItem topic={t} {type} />
+        {/each}
+      </ul>
+    </div>
+  {/if}
+{/each}
 
 <style>
   ul {

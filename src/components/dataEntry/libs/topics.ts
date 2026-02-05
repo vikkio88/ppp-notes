@@ -7,6 +7,7 @@ export const topicTypeMap: Record<CollectionType, string> = {
   main: "🍕",
   dolcetto: "🍰",
   amaro: "🥃",
+  impizioni: "🧐",
   lore: "📜",
 };
 
@@ -16,6 +17,7 @@ const topicPrefixesMap: Record<CollectionType, string> = {
   main: "m_",
   dolcetto: "dl_",
   amaro: "am_",
+  impizioni: "im_",
   lore: "lr_",
 };
 
