@@ -25,7 +25,7 @@ class AppState {
     date: Date;
   };
 
-  #lorrowaps: BaseTopic[] = $state([]);
+  #lorrowap: BaseTopic[] = $state([]);
   #menews: BaseTopic[] = $state([]);
   #main: MainTopic[] = $state([]);
   #dolcetto: BaseTopic[] = $state([]);
@@ -66,7 +66,7 @@ class AppState {
 
   add(type: CollectionType, body: MainTopic | BaseTopic) {
     const collections = {
-      lorrowap: () => this.#lorrowaps.push(body as BaseTopic),
+      lorrowap: () => this.#lorrowap.push(body as BaseTopic),
       menews: () => this.#menews.push(body as BaseTopic),
       main: () => this.#main.push(body as MainTopic),
       dolcetto: () => this.#dolcetto.push(body as BaseTopic),
@@ -79,15 +79,15 @@ class AppState {
   }
 
   remove(type: CollectionType, id: string) {
+    const f = filterId(id);
     const collections = {
-      lorrowap: () =>
-        (this.#lorrowaps = this.#lorrowaps.filter((t) => t.id !== id)),
-      menews: () => (this.#menews = this.#menews.filter((t) => t.id !== id)),
-      main: () => (this.#main = this.#main.filter((t) => t.id !== id)),
-      dolcetto: () => this.#dolcetto.filter((t) => t.id !== id),
-      amaro: () => this.#amaro.filter((t) => t.id !== id),
-      impizioni: () => this.#impizioni.filter((t) => t.id !== id),
-      lore: () => this.#lore.filter((t) => t.id !== id),
+      lorrowap: () => (this.#lorrowap = this.#lorrowap.filter(f)),
+      menews: () => (this.#menews = this.#menews.filter(f)),
+      main: () => (this.#main = this.#main.filter(f)),
+      dolcetto: () => this.#dolcetto.filter(f),
+      amaro: () => this.#amaro.filter(f),
+      impizioni: () => this.#impizioni.filter(f),
+      lore: () => this.#lore.filter(f),
     };
 
     collections[type]?.();
@@ -108,7 +108,7 @@ class AppState {
       }));
 
     this.#menews = withId(episode.menews, "menews");
-    this.#lorrowaps = withId(episode.lorrowap, "lorrowap");
+    this.#lorrowap = withId(episode.lorrowap, "lorrowap");
     this.#main = withId(episode.main, "main");
 
     this.#dolcetto = episode.dolcetto.map((item) => ({
@@ -135,7 +135,7 @@ class AppState {
               number: this.meta?.number!,
               meta: { user: this.meta?.user, date: new Date() },
               menews: this.#menews.map(removeId),
-              lorrowap: this.#lorrowaps.map(removeId),
+              lorrowap: this.#lorrowap.map(removeId),
               main: this.#main.map(removeId),
               dolcetto: this.#dolcetto.map(removeId),
               amaro: this.#amaro.map(removeId),
@@ -159,8 +159,8 @@ class AppState {
     return this.#main;
   }
 
-  get lorrowaps() {
-    return this.#lorrowaps;
+  get lorrowap() {
+    return this.#lorrowap;
   }
 
   get menews() {
@@ -188,7 +188,7 @@ class AppState {
 
     this.meta = undefined;
 
-    this.#lorrowaps = [];
+    this.#lorrowap = [];
     this.#menews = [];
     this.#main = [];
     this.#dolcetto = [];
@@ -199,6 +199,7 @@ class AppState {
 }
 
 const removeId = ({ id, ...rest }: any) => rest;
+const filterId = (id: string) => (i: { id: string }) => i.id !== id;
 
 const app = new AppState();
 export default app;

@@ -6,31 +6,23 @@
   const categories: {
     type: CollectionType;
     label: string;
-    appKey:
-      | "menews"
-      | "lorrowaps" // TODO: if I remove this by converting it to singular I can remove appKey from here
-      | "main"
-      | "dolcetto"
-      | "amaro"
-      | "impizioni"
-      | "lore";
   }[] = [
-    { type: "menews", label: "MeNews", appKey: "menews" },
-    { type: "lorrowap", label: "LorroWap", appKey: "lorrowaps" },
-    { type: "main", label: "Main", appKey: "main" },
-    { type: "dolcetto", label: "Dolcetti", appKey: "dolcetto" },
-    { type: "amaro", label: "Amari", appKey: "amaro" },
-    { type: "impizioni", label: "Impizioni", appKey: "impizioni" },
-    { type: "lore", label: "Lore", appKey: "lore" },
+    { type: "menews", label: "MeNews" },
+    { type: "lorrowap", label: "LorroWap" },
+    { type: "main", label: "Main" },
+    { type: "dolcetto", label: "Dolcetti" },
+    { type: "amaro", label: "Amari" },
+    { type: "impizioni", label: "Impizioni" },
+    { type: "lore", label: "Lore" },
   ];
 </script>
 
-{#each categories as { label, type, appKey }}
-  {#if app[appKey]?.length > 0}
+{#each categories as { label, type }}
+  {#if app[type]?.length > 0}
     <div class="topic">
       <strong>{label}</strong>
       <ul>
-        {#each app[appKey] as t}
+        {#each app[type] as t}
           <TopicItem topic={t} {type} />
         {/each}
       </ul>
