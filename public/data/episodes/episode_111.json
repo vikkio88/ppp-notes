@@ -100,7 +100,7 @@
         "seconds": 20
       },
       "pizza": {
-        "slices": 7,
+        "slices": 7.5,
         "description": "7,5 fette di pizza con pepperoni e peperoni"
       }
     },

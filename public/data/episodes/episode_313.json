@@ -29,7 +29,7 @@
         "seconds": 10
       },
       "pizza": {
-        "slices": 7,
+        "slices": 7.5,
         "description": "7,5 fette di diavola con patate arrosto"
       }
     },
