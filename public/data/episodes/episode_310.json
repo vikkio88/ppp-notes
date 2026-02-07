@@ -3,7 +3,7 @@
   "number": 310,
   "meta": {
     "user": "PePPPeroni",
-    "date": "2026-01-14T20:30:54.300Z"
+    "date": "2026-02-07T13:40:02.066Z"
   },
   "menews": [
     {
@@ -87,6 +87,34 @@
   ],
   "dolcetto": [],
   "amaro": [],
+  "impizioni": [
+    {
+      "author": "Lorro",
+      "description": "Dragon Quest 3 HD 2D Remake",
+      "tags": [
+        "videogames",
+        "sioddisfatto"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 34,
+        "seconds": 30
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Seconda stagione di Shrinking",
+      "tags": [
+        "serie",
+        "sioddisfatto"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 42,
+        "seconds": 20
+      }
+    }
+  ],
   "lore": [],
   "others": []
 }
