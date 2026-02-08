@@ -1,15 +1,117 @@
 {
   "title": "322: Power Papa",
   "number": 322,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
+  "meta": {
+    "user": "PePPPeroni",
+    "date": "2026-02-07T17:00:14.934Z"
+  },
+  "menews": [
+    {
+      "author": "Fran",
+      "description": "Hot Wings Italia condotto da Cattelan",
+      "tags": [
+        "tv-show"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 5
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Nick",
+      "description": "Taskmaster e Hanna Fry",
+      "tags": [
+        "tv-show"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 25
+      }
+    }
+  ],
+  "main": [
+    {
+      "author": "Fran",
+      "description": "Il Festival di Sanremo",
+      "tags": [
+        "musica",
+        "politica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 50
+      },
+      "pizza": {
+        "slices": 7,
+        "description": "Margherita sfornata nel ’65  (voto dato a 47:30)"
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Conclave",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 23,
+        "seconds": 15
+      },
+      "pizza": {
+        "slices": 7,
+        "description": "Pizza con sopra le ostie"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "I love you, man (e gli stereotipi di genere nei film)",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 36,
+        "seconds": 35
+      },
+      "pizza": {
+        "slices": 7.5,
+        "description": "7,5 fette di pizza di Giuliano"
+      }
+    }
+  ],
   "dolcetto": [],
   "amaro": [],
-  "lore": [],
-  "others": [],
-  "meta": {
-    "user": null,
-    "date": "2025-09-29T14:00:27.304Z"
-  }
+  "impizioni": [],
+  "lore": [
+    {
+      "author": "Fran",
+      "description": "Puntata con Fran",
+      "tags": [
+        "fran"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1
+      }
+    },
+    {
+      "author": "Fran",
+      "description": "Fran rompe il tabù delle bestemmie in PPP",
+      "tags": [
+        "fran"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 50
+      }
+    }
+  ],
+  "others": []
 }

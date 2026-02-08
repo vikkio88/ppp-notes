@@ -1,15 +1,161 @@
 {
   "title": "321: Cinona",
   "number": 321,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
-  "dolcetto": [],
-  "amaro": [],
-  "lore": [],
-  "others": [],
   "meta": {
-    "user": null,
-    "date": "2025-09-29T14:00:27.304Z"
-  }
+    "user": "PePPPeroni",
+    "date": "2026-02-07T14:18:11.243Z"
+  },
+  "menews": [
+    {
+      "author": "Nick",
+      "description": "Sta tornando Heroes of Newerth",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 55
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Doom gira in un adattatore del telefono",
+      "tags": [
+        "tech",
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 30
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Gli spot del Superbowl",
+      "tags": [
+        "spot"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 25
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Trailer di I fantastici quattro",
+      "tags": [
+        "marvel",
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 14,
+        "seconds": 35
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Doechii: Alligator Bites Never Heal",
+      "tags": [
+        "musica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 19,
+        "seconds": 15
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Lorro",
+      "description": "Subreddit r/panelshow per conoscere Panel Show come Quite interesting, Wilty, 8 out of 10 Cats Does Countdown, Whose line is it anyway, e tanti altri",
+      "tags": [
+        "reddit",
+        "tv-show"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 25
+      }
+    }
+  ],
+  "main": [
+    {
+      "author": "Sio",
+      "description": "(Sio ha finito) Persona 5",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 21,
+        "seconds": 10
+      },
+      "pizza": {
+        "slices": 9,
+        "description": "Margherita con patatine fritte e uova"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "The Brutalist",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 24,
+        "seconds": 40
+      },
+      "pizza": {
+        "slices": 8,
+        "description": "Pizza con ingredienti tagliati a cubetti spigolosi"
+      }
+    }
+  ],
+  "dolcetto": [
+    {
+      "author": "Sio",
+      "description": "Global Capslock",
+      "tags": [
+        "tech"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 55,
+        "seconds": 15
+      }
+    }
+  ],
+  "amaro": [],
+  "impizioni": [
+    {
+      "author": "Lorro",
+      "description": "La open beta di Monster Hunter Wilds - FORSE LE 10 PIZZE DI LORRO PER QUESTO ANNO?",
+      "tags": [
+        "videogames",
+        "sioddisfatto"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 39,
+        "seconds": 50
+      }
+    }
+  ],
+  "lore": [
+    {
+      "author": " - ",
+      "description": " Questa era la vera puntata per la scommessa di Nick di One Piece della puntata 111, ma si sono sbagliati e hanno detto la 312 durante la puntata 313.",
+      "tags": [
+        "scommessa"
+      ]
+    }
+  ],
+  "others": []
 }

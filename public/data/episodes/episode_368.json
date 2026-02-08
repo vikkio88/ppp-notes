@@ -1,15 +1,187 @@
 {
   "title": "368: Sberlinare",
   "number": 368,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
-  "dolcetto": [],
-  "amaro": [],
-  "lore": [],
-  "others": [],
   "meta": {
-    "user": null,
-    "date": "2026-02-06T09:50:19.665Z"
-  }
+    "user": "PePPPeroni",
+    "date": "2026-02-07T14:35:19.979Z"
+  },
+  "menews": [
+    {
+      "author": "Sio",
+      "description": "Julia Donaldson ha soppiantato la Rowling come persona che ha venduto più libri in UK di tutti i tempi",
+      "tags": [
+        "libri"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Dispatch per Switch ha la censura della nudità",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 20
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Il documentario su Melania Trump",
+      "tags": [
+        "film",
+        "politica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 11,
+        "seconds": 20
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "La Switch é diventata la console Nintendo più venduta di sempre",
+      "tags": [
+        "switch",
+        "nintendo"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 12,
+        "seconds": 5
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Sio",
+      "description": "In \"The Hundred Line Last Defence Academy“ non devi giocare a tutte le storyline per ottenere il true ending",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 8,
+        "seconds": 45
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Il cambio di nome di Zootropolis",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 40
+      }
+    }
+  ],
+  "main": [
+    {
+      "author": "Nick",
+      "description": "Il canale YouTube di Juniper Dev e la sua esperienza in una Game Jam",
+      "tags": [
+        "videogames",
+        "youtube"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 0
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "My Dress-Up Darling",
+      "tags": [
+        "anime"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 15,
+        "seconds": 20
+      },
+      "pizza": {
+        "slices": 9,
+        "description": "Pizza con burrata e prosciutto crudo "
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Sentimental Value",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 22,
+        "seconds": 40
+      },
+      "pizza": {
+        "slices": 9.5,
+        "description": "9,5 fette di pizza bianca con mozzarella vegana, salmone affumicato vegan di carote, sale e aneto"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Il guardiano notturno",
+      "tags": [
+        "libri"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 34,
+        "seconds": 30
+      },
+      "pizza": {
+        "slices": 8,
+        "description": "Pizza bianca con funghi e rosmarino "
+      }
+    }
+  ],
+  "dolcetto": [
+    {
+      "author": "Nick",
+      "description": "MIO - Missing in Orbit",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 47,
+        "seconds": 0
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Xikipedia (doom scrolling wikipedia)",
+      "tags": [
+        "siti-internet"
+      ]
+    }
+  ],
+  "amaro": [],
+  "impizioni": [],
+  "lore": [
+    {
+      "author": "Sio",
+      "description": "Se la quasi totalità di un pasto è la pizza, anche se non la si finisce - perché ad esempio é troppo grande - conta comunque come una pizza",
+      "tags": [
+        "pizza-counter"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 50
+      }
+    }
+  ],
+  "others": []
 }

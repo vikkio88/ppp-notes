@@ -87,7 +87,7 @@
         "seconds": 35
       },
       "pizza": {
-        "slices": 1,
+        "slices": 0.5,
         "description": "Mezza fetta di piadina con ketchup e il formaggio spray"
       }
     }
