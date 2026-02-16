@@ -1,15 +1,159 @@
 {
   "title": "320: Pizza Monogatari",
   "number": 320,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
+  "meta": {
+    "user": "PePPPeroni",
+    "date": "2026-02-16T15:21:30.345Z"
+  },
+  "menews": [
+    {
+      "author": "Sio",
+      "description": "Trump firma l‘ordine esecutivo che per sbaglio proclama che tutti gli uomini sono donne",
+      "tags": [
+        "politica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 15
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "La Riot dice che Arcane stagione 1 non ha portato nuovi giocatori su League of Legends + altre news su LoL + Nick gioca a LoL + binge Arcane si o no",
+      "tags": [
+        "animazione",
+        "serie",
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 45
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Section 31 (film di Star Trek)",
+      "tags": [
+        "film",
+        "start-trek"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 15
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "É uscito nel mondo reale „The you you are“, il libro del cognato in Severance",
+      "tags": [
+        "libri",
+        "serie"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 14,
+        "seconds": 15
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Google Maps cambia il nome del golfo del Messico in golfo d’America ma solo in USA",
+      "tags": [
+        "politica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 15,
+        "seconds": 30
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "É uscito Deepseek, che con molte meno risorse di ChatGPT dà risultati paragonabili",
+      "tags": [
+        "tech"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 19,
+        "seconds": 0
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Sio",
+      "description": "L´Amica Geniale in giapponese si chiama Napoli No Monogatari",
+      "tags": [
+        "libri"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "In Hot Wings usano le coliflower wings per gli ospiti vegetariani",
+      "tags": [
+        "tv-show"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 17,
+        "seconds": 35
+      }
+    }
+  ],
+  "main": [
+    {
+      "author": "Nick",
+      "description": "Santa Maria, il nuovo libro di Francesco Muzzopappa",
+      "tags": [
+        "libri"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 28,
+        "seconds": 15
+      },
+      "pizza": {
+        "slices": 8,
+        "description": "Marinara rossissima con tutti gli ingredienti rossi pensabili, pure l‘anguria"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Gordy and the Monster Moon per PICO-8",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 37,
+        "seconds": 50
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Sio si è comprato la Steam Deck",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 42,
+        "seconds": 20
+      }
+    }
+  ],
   "dolcetto": [],
   "amaro": [],
+  "impizioni": [],
   "lore": [],
-  "others": [],
-  "meta": {
-    "user": null,
-    "date": "2025-09-29T14:00:27.304Z"
-  }
+  "others": []
 }
