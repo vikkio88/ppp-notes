@@ -1,15 +1,190 @@
 {
   "title": "369: Morfinare",
   "number": 369,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
+  "meta": {
+    "user": "PePPPeroni",
+    "date": "2026-02-21T14:58:04.870Z"
+  },
+  "menews": [
+    {
+      "author": "Nick",
+      "description": "Actors on actors",
+      "tags": [
+        "tv-show"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 10
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Oh my Pigeon (gioco da tavolo)",
+      "tags": [
+        "gioco-da-tavola"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 15
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Biografia manga di Yugi Ori",
+      "tags": [
+        "manga"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 45
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Audiolibro di Where is Waldo",
+      "tags": [
+        "libri"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 16,
+        "seconds": 0
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Terza stagione di Shrinking",
+      "tags": [
+        "serie"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 16,
+        "seconds": 40
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Nintendo Direct Partner Showcase: Tokyo Scramble, Turok Origins, Final Fantasy 7 Rebirth, Orbitals, Pragmata",
+      "tags": [
+        "videogames",
+        "nintendo"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 17,
+        "seconds": 35
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Sio",
+      "description": "É più semplice Hollow Knight o Silksong?",
+      "tags": [
+        "hollow-knight",
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 0
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "My Dress-Up Darling aggiornato a 10 fette di pizza (aveva detto 9 nella puntata 368)",
+      "tags": [
+        "manga",
+        "anime"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 14,
+        "seconds": 10
+      }
+    }
+  ],
+  "main": [
+    {
+      "author": "Lorro",
+      "description": "Several pigeons are typing (gruppo telegram)",
+      "tags": [
+        "punti-piccione"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 11,
+        "seconds": 20
+      },
+      "pizza": {
+        "slices": 10,
+        "description": "pizza ironica, era una menews"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Project Hail Mary (libro)",
+      "tags": [
+        "film",
+        "libri"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 22,
+        "seconds": 20
+      },
+      "pizza": {
+        "slices": 9,
+        "description": "Pizza con würstel bianchi del Tirolo"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "MIO - Memories in Orbit",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 36,
+        "seconds": 20
+      },
+      "pizza": {
+        "slices": 10,
+        "description": "Pizza rossa con cipolla rossa tagliata sottilissima che si caramellizza in forno"
+      }
+    }
+  ],
   "dolcetto": [],
   "amaro": [],
-  "lore": [],
-  "others": [],
-  "meta": {
-    "user": null,
-    "date": "2026-02-14T13:54:15.193Z"
-  }
+  "impizioni": [],
+  "lore": [
+    {
+      "author": "Sio",
+      "description": "Introduzione del menù bimbi dalla prossima puntata in poi",
+      "tags": [],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 15
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Puntata Piccionata (Several Pidgeons are typing)",
+      "tags": [
+        "punti-piccione"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 11,
+        "seconds": 20
+      }
+    }
+  ],
+  "others": []
 }
