@@ -166,7 +166,9 @@
     {
       "author": "Sio",
       "description": "Introduzione del menù bimbi dalla prossima puntata in poi",
-      "tags": [],
+      "tags": [
+        "menù-bimbi"
+      ],
       "timestamp": {
         "hours": 0,
         "minutes": 5,
