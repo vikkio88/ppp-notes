@@ -1,15 +1,199 @@
 {
   "title": "370: Warona",
   "number": 370,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
-  "dolcetto": [],
-  "amaro": [],
-  "lore": [],
-  "others": [],
   "meta": {
-    "user": null,
-    "date": "2026-02-20T11:14:40.011Z"
-  }
+    "user": "PePPPeroni",
+    "date": "2026-02-23T22:21:31.260Z"
+  },
+  "menews": [
+    {
+      "author": "Sio",
+      "description": "La trilogia del metallo di Sanderson",
+      "tags": [
+        "libri"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 30
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Il nuovo Castelvania (in 2D)",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 10
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Pizzapocalipse 2",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 55
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Pizzapocalipse (browser game di Gumball)",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 11,
+        "seconds": 25
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Gun Nose",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 12,
+        "seconds": 15
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Spiderman Noir con Nicholas Cage",
+      "tags": [
+        "film",
+        "marvel"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 14,
+        "seconds": 40
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Ranking Sam Raimi Movies (part 1) di Red Letter Media",
+      "tags": [
+        "youtube"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 36,
+        "seconds": 20
+      }
+    }
+  ],
+  "lorrowap": [],
+  "main": [
+    {
+      "author": "Sio",
+      "description": "Resoconto carnevale di Verona e controversia Papà del Gnocco",
+      "tags": [
+        "eventi"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 18,
+        "seconds": 0
+      },
+      "pizza": {
+        "slices": 10,
+        "description": "10 fette di crosta di pearà con il grana"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Send Help",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 29,
+        "seconds": 35
+      },
+      "pizza": {
+        "slices": 6.5,
+        "description": "6,5 fette di calzone-marinara del kebabbaro pieno di aria "
+      }
+    }
+  ],
+  "dolcetto": [
+    {
+      "author": "Sio",
+      "description": "Menù bimbi: Bastoncino di Julia Donaldson, Oh! - Un libro che fa dei suoni di Hervé Tullet e Pimpa pop-up",
+      "tags": [
+        "libri",
+        "menù-bimbi"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 47,
+        "seconds": 5
+      }
+    }
+  ],
+  "amaro": [],
+  "impizioni": [
+    {
+      "author": "Lorro",
+      "description": "Sentenced to be a hero (nicktrale)",
+      "tags": [
+        "nicktrale",
+        "anime"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 39,
+        "seconds": 30
+      }
+    }
+  ],
+  "lore": [
+    {
+      "author": "Sio",
+      "description": "Puntata con menù bimbi",
+      "tags": [
+        "menù-bimbi"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "La borraccia verde di Sio é stata investita ed è morta",
+      "tags": [],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 16,
+        "seconds": 15
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "App di Power Pizza Counter di Federico De Servi",
+      "tags": [
+        "pizza-counter",
+        "tech"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 50,
+        "seconds": 0
+      }
+    }
+  ],
+  "others": []
 }
