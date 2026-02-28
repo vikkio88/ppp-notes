@@ -1,15 +1,615 @@
 {
   "title": "364: San Toccaso",
   "number": 364,
-  "main": [],
-  "menews": [],
+  "meta": {
+    "user": "PePPPeroni",
+    "date": "2026-02-28T20:46:56.871Z"
+  },
+  "menews": [
+    {
+      "author": "Nick",
+      "description": "Doom gira su una stampante termica",
+      "tags": [
+        "tech",
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 40
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Stranger Things 5",
+      "tags": [
+        "serie"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 40
+      }
+    }
+  ],
   "lorrowap": [],
+  "main": [
+    {
+      "author": "Lorro",
+      "description": "Bingo Card 2025 - 2026",
+      "tags": [
+        "bingo-card"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 40
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Bingo card di Lorro 2025: Nick non più vegano, CONFERMATA",
+      "tags": [
+        "bingo-card"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 11,
+        "seconds": 25
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Bingo card di Sio 2025: nel trailer del nuovo Mario Galaxy The Movie si vede un capezzolo, NON CONFERMATA",
+      "tags": [
+        "bingo-card",
+        "film",
+        "nintendo"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 12,
+        "seconds": 0
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Bingo card di Nick 2025: esce un musical su Elon Mask, NON CONFERMATA + film del Magnotta",
+      "tags": [
+        "bingo-card",
+        "film",
+        "musical"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 12,
+        "seconds": 25
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Bingo card di Lorro 2025: Lorro diventa il re di Monster Hunter Wilds su Twitch, NON CONFERMATA",
+      "tags": [
+        "bingo-card",
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 25
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Bingo card di Sio 2025: gli USA aboliscono i pompieri, NON CONFERMATA",
+      "tags": [
+        "bingo-card"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 14,
+        "seconds": 20
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Bingo card di Nick 2025: la Groenlandia schiera i cani, NON CONFERMATA",
+      "tags": [
+        "bingo-card"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 15,
+        "seconds": 0
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Bingo card di Lorro 2025: le dieci pizze di lorro vanno a un libro, NON CONFERMATA (sono andate a monster hunter)",
+      "tags": [
+        "bingo-card",
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 16,
+        "seconds": 0
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Bingo card di Sio 2025: un host di PPP inizia un podcast giornaliero, NON CONFERMATA",
+      "tags": [
+        "bingo-card",
+        "podcast"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 16,
+        "seconds": 30
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Bingo card di Nick 2025: almeno una piaga ambientale super divertente, NON CONFERMATA",
+      "tags": [
+        "bingo-card"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 17,
+        "seconds": 15
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Bingo card di Lorro 2025: un host di PPP scopre una nuova verdura, NON CONFERMATA",
+      "tags": [
+        "bingo-card"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 17,
+        "seconds": 55
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Bingo card di Sio 2025: la nuova switch ha un nome noioso, CONFERMATA",
+      "tags": [
+        "bingo-card",
+        "nintendo",
+        "switch"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 18,
+        "seconds": 35
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Bingo card di Nick 2025: Silksong esce il 14 febbraio 2025, non è successo ma CONFERMATA",
+      "tags": [
+        "bingo-card",
+        "hollow-knight",
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 19,
+        "seconds": 30
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Bingo card di Lorro 2025: Sio viene preso di mira da una figura politica, NON CONFERMATA",
+      "tags": [
+        "bingo-card",
+        "politica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 19,
+        "seconds": 50
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Bingo card di Sio 2025: Mario Kart World ha almeno un nuovo veicolo, CONFERMATA",
+      "tags": [
+        "bingo-card",
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 20,
+        "seconds": 25
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Bingo card di Nick 2025: apple si dimentica del Vision Pro, NON CONFERMATA",
+      "tags": [
+        "bingo-card",
+        "tech"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 21,
+        "seconds": 25
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Bingo card di Lorro 2025: Silksong è per metà gestionale e per metà cooking game, NON CONFERMATA",
+      "tags": [
+        "bingo-card",
+        "videogames",
+        "hollow-knight"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 22,
+        "seconds": 30
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "I cibi nei giochi della Vanillaware",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 23,
+        "seconds": 5
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Bingo card di Sio 2025: i nuovi giochi di Pokémon si chiameranno Steel e Glass o Plastic e Fantastic, NON CONFERMATA",
+      "tags": [
+        "bingo-card",
+        "pokémon",
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 23,
+        "seconds": 45
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Bingo card di Nick 2025: gli USA colonizzano un nuovo pianeta, NON CONFERMATA",
+      "tags": [
+        "bingo-card",
+        "politica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 24,
+        "seconds": 40
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Bingo card di Lorro 2026: esce Half-Life 3",
+      "tags": [
+        "bingo-card",
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 29,
+        "seconds": 20
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Bingo card di Sio 2026: anche per Sio esce Half-Life 3 (previsione “arancione”)",
+      "tags": [
+        "bingo-card",
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 29,
+        "seconds": 21
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Bingo card di Nick 2026: Il DLC di Silksong “Sea of Sorrow” esce il 14 febbraio 2026",
+      "tags": [
+        "bingo-card",
+        "videogames",
+        "hollow-knight"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 30,
+        "seconds": 30
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Bingo card di Lorro 2026: l’internet si rompe completamente per qualche giorno",
+      "tags": [
+        "bingo-card",
+        "tech"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 31,
+        "seconds": 0
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Bingo card di Sio 2026: il prezzo della Steam Machine base sarà 899 euro (previsione grigia)",
+      "tags": [
+        "bingo-card",
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 31,
+        "seconds": 55
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Bingo card di Nick 2026: Trump propone di mettere la sua faccia sul Monte Rushmore",
+      "tags": [
+        "bingo-card",
+        "politica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 32,
+        "seconds": 50
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Bingo card di Lorro 2026: Trump muore e la Cina invade gli USA",
+      "tags": [
+        "bingo-card",
+        "politica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 33,
+        "seconds": 40
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Bingo card di Sio 2026: Trump attacca la Groenlandia (previsione azzurra)",
+      "tags": [
+        "bingo-card",
+        "politica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 34,
+        "seconds": 40
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Bingo card di Lorro 2026: i 3 Host di PPP super litigano per un motivo segreto e Fabio Antonelli sostituisce qualcuno, ma solo per un po‘ di tempo e poi torna tutto come prima",
+      "tags": [
+        "bingo-card"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 35,
+        "seconds": 15
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Bingo card di Nick 2026: esce Into the Spiderverse 3 ma è un corto fatto con la IA",
+      "tags": [
+        "bingo-card",
+        "film",
+        "marvel"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 36,
+        "seconds": 10
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Bingo card di Sio 2026: esce un hardware Nintendo di colore giallo (previsione gialla)",
+      "tags": [
+        "bingo-card",
+        "nintendo",
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 36,
+        "seconds": 55
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Bingo card di Lorro 2026: il trailer del film di Zelda sarà la cosa meno interessante e più safe di sempre",
+      "tags": [
+        "bingo-card",
+        "nintendo",
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 37,
+        "seconds": 25
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Bingo card di Nick 2026: il Giappone inizierà un nuovo periodo di chiusura e isolazionismo",
+      "tags": [
+        "bingo-card",
+        "politica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 38,
+        "seconds": 5
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Bingo card di Sio 2026: Pokémon Vento e Pokémon Onda si chiameranno così e saranno esclusiva per switch 2 (previsione verde-blu)",
+      "tags": [
+        "bingo-card",
+        "nintendo",
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 39,
+        "seconds": 0
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Bingo card di Lorro 2026: PPP inventa un rivoluzionario tipo di zuppa",
+      "tags": [
+        "bingo-card"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 39,
+        "seconds": 55
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Bingo card di Nick 2026: Netflix riesce a comprare Warner Brothers e annuncia lo Stranger Things - Verse",
+      "tags": [
+        "bingo-card",
+        "serie"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 40,
+        "seconds": 45
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Bingo card di Sio 2026 ANNULLATA: Hamilton arriva in Italia (ma Sio forse lo sapeva già, previsione annullata)",
+      "tags": [
+        "bingo-card",
+        "hamilton"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 41,
+        "seconds": 25
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Bingo card di Sio 2026: escono dei computer portatili Apple colorati (previsione arcobaleno)",
+      "tags": [
+        "bingo-card",
+        "tech"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 42,
+        "seconds": 0
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Bingo card di Nick 2026: si scopre che Zoran Mamdani é un alieno ",
+      "tags": [
+        "bingo-card",
+        "politica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 42,
+        "seconds": 0
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "No Other Choice",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 46,
+        "seconds": 0
+      },
+      "pizza": {
+        "slices": 9.5,
+        "description": "Marinara con l’anguilla arrosto sopra "
+      }
+    }
+  ],
   "dolcetto": [],
   "amaro": [],
-  "lore": [],
-  "others": [],
-  "meta": {
-    "user": null,
-    "date": "2026-01-16T12:08:46.438Z"
-  }
+  "impizioni": [],
+  "lore": [
+    {
+      "author": "Lorro",
+      "description": "Sio ha vinto la gara tra gli hosts per il maggior numero di pizze mangiate nel 2025 ",
+      "tags": [
+        "pizza-counter"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Legge dell’assenza: quando un host non c’è, deve rispondere a una domanda nella puntata dopo per dimostrare di aver ascoltato quella in cui non c’era. Se fallisce, deve una pizza a Lorro.",
+      "tags": [],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 30
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Sio ha vinto per il maggior numero di previsioni giuste nella Bingo Card del 2025",
+      "tags": [
+        "bingo-card"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 24,
+        "seconds": 55
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "La Bingo Card del 2026 si chiama “B” (virgolette incluse nel nome)",
+      "tags": [
+        "bingo-card"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 43,
+        "seconds": 0
+      }
+    }
+  ],
+  "others": []
 }
