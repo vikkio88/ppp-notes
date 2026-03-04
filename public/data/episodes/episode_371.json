@@ -1,15 +1,167 @@
 {
   "title": "371: Il Sovrano dello Scazzone",
   "number": 371,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
-  "dolcetto": [],
-  "amaro": [],
-  "lore": [],
-  "others": [],
   "meta": {
-    "user": null,
-    "date": "2026-02-27T09:38:18.288Z"
-  }
+    "user": "PePPPeroni",
+    "date": "2026-03-04T20:46:16.340Z"
+  },
+  "menews": [
+    {
+      "author": "Sio",
+      "description": "La saga di Zelda compie gli anni + altri anniversari Nintendo",
+      "tags": [
+        "videogames",
+        "zelda",
+        "nintendo"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Pokémon Rosso Fuoco e Verde Foglia su Switch e monolingua a prezzo singolo, invece che sull‘emulatore che già esiste",
+      "tags": [
+        "pokémon",
+        "nintendo",
+        "switch"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 12,
+        "seconds": 55
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Nuova serie di Evangelion",
+      "tags": [
+        "animazione",
+        "serie"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 18,
+        "seconds": 15
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "I premi BAFTA: One Battle After Another, I Swear e controversia sindrome Tourette",
+      "tags": [
+        "film",
+        "bafta",
+        "eventi"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 19,
+        "seconds": 45
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Sio",
+      "description": "Il re del Magnaron e il Papà del Gnoco",
+      "tags": [
+        "eventi"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 0
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "KPop Demon Hunters, confermate 5 fette di pizza",
+      "tags": [
+        "animazione",
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 11,
+        "seconds": 5
+      }
+    }
+  ],
+  "main": [
+    {
+      "author": "Nick",
+      "description": "If I had legs, I‘d Kick you",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 23,
+        "seconds": 20
+      },
+      "pizza": {
+        "slices": 9,
+        "description": "Margherita con la 'nduja al posto della base di pomodoro"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Roadstar",
+      "tags": [
+        "manga"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 34,
+        "seconds": 30
+      }
+    }
+  ],
+  "dolcetto": [
+    {
+      "author": "Sio",
+      "description": "10 dita alle mani, 10 dita ai piedini di Mem Fox, Helen Oxenbury ",
+      "tags": [
+        "libri",
+        "menù-bimbi"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 40
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Io e il mio cane",
+      "tags": [
+        "libri",
+        "menù-bimbi"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 44,
+        "seconds": 30
+      }
+    }
+  ],
+  "amaro": [],
+  "impizioni": [],
+  "lore": [
+    {
+      "author": "Nick",
+      "description": "Puntata piccionata",
+      "tags": [
+        "punti-piccione"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 44,
+        "seconds": 45
+      }
+    }
+  ],
+  "others": []
 }
