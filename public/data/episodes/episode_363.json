@@ -1,15 +1,203 @@
 {
   "title": "363: Lo Sgondo",
   "number": 363,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
+  "meta": {
+    "user": "PePPPeroni",
+    "date": "2026-03-04T20:04:37.989Z"
+  },
+  "menews": [
+    {
+      "author": "Sio",
+      "description": "The Elephant di Adult Swim",
+      "tags": [
+        "animazione",
+        "serie"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 15
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Ahah, you clowns di Adult Swim",
+      "tags": [
+        "animazione",
+        "serie"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 55
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Wordle ha usato una parola senza vocali facendo impazzire tutti",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 55
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Dispatch uscirà anche sulla switch",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 11,
+        "seconds": 0
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Claire Obscur: Expedition 33 ha vinto altri premi, ma ne ha perso alcuni perché durante alcune fasi di sviluppo hanno usato la IA",
+      "tags": [
+        "videogames",
+        "tech"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 12,
+        "seconds": 0
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Sio",
+      "description": "Pluribus",
+      "tags": [
+        "serie"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 48,
+        "seconds": 50
+      }
+    }
+  ],
+  "main": [
+    {
+      "author": "Lorro",
+      "description": "Monster Hunter Wilds (con il bingo di Monster Hunter di Sio)",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 20,
+        "seconds": 30
+      },
+      "tenPizze": true
+    },
+    {
+      "author": "Sio",
+      "description": "The Book of Mormon",
+      "tags": [
+        "musical"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 15,
+        "seconds": 40
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Gli audiolibri di Paolo Nori (ad esempio Gli Scarti, e Grandi Ustionati)",
+      "tags": [
+        "libri"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 38,
+        "seconds": 45
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Elogio della Bicicletta di Ivan Illich",
+      "tags": [
+        "libri"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 42,
+        "seconds": 35
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "L‘arte della gioia di Goliarda Sapienza",
+      "tags": [
+        "libri"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 45,
+        "seconds": 0
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Perché il femminismo serve anche agli uomini di Lorenzo Gasparrini",
+      "tags": [
+        "libri"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 47,
+        "seconds": 45
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Recensione post-mortem di Avatar 3",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 54,
+        "seconds": 0
+      },
+      "pizza": {
+        "slices": 5.5,
+        "description": "5,5 fette di marinara con pesto e salicornia cotta in un braciere di fiamme e cenere"
+      }
+    }
+  ],
   "dolcetto": [],
   "amaro": [],
-  "lore": [],
-  "others": [],
-  "meta": {
-    "user": null,
-    "date": "2026-01-16T12:08:46.438Z"
-  }
+  "impizioni": [],
+  "lore": [
+    {
+      "author": "--",
+      "description": "Puntata senza Nick",
+      "tags": [
+        "hosts"
+      ]
+    },
+    {
+      "author": "Lorro",
+      "description": "Le basi per la app del power pizza counter",
+      "tags": [
+        "pizza-counter"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 30
+      }
+    }
+  ],
+  "others": []
 }
