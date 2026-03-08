@@ -1,15 +1,139 @@
 {
   "title": "372: Mangiester",
   "number": 372,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
-  "dolcetto": [],
-  "amaro": [],
-  "lore": [],
-  "others": [],
   "meta": {
-    "user": null,
-    "date": "2026-03-06T10:37:23.437Z"
-  }
+    "user": "PePPPeroni",
+    "date": "2026-03-08T17:15:16.832Z"
+  },
+  "menews": [
+    {
+      "author": "Lorro",
+      "description": "Nuovi negozi di alimentari cinesi a Mestre",
+      "tags": [
+        "eventi"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Londra é piena di ossa di pollo per strada",
+      "tags": [],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 25
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Hanno annunciato i nuovi giochi di Pokémon, Onda e Vento",
+      "tags": [
+        "pokémon",
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 5
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Giochi di Creature Collection come LumenTale e Wonderful Neoran Valley ",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 15,
+        "seconds": 55
+      }
+    }
+  ],
+  "lorrowap": [],
+  "main": [
+    {
+      "author": "Lorro",
+      "description": "Absolute Batman e DC Absolute Universe",
+      "tags": [
+        "fumetti"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 20,
+        "seconds": 0
+      },
+      "pizza": {
+        "slices": 7,
+        "description": "Pizza con salsiccia, bacon, salame piccante, altra salsiccia, patatine fritte e maionese"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "The Pitt",
+      "tags": [
+        "serie"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 26,
+        "seconds": 55
+      },
+      "pizza": {
+        "slices": 9,
+        "description": "Pizza con la salsiccia piccantissima"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "O agente segreto - The secret agent - L’agente segreto",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 38,
+        "seconds": 10
+      },
+      "pizza": {
+        "slices": 8,
+        "description": "Margherita con la Feijoada vegana, molto piccante "
+      }
+    }
+  ],
+  "dolcetto": [
+    {
+      "author": "Sio",
+      "description": "Su PowerWash Simulator 2 esce un DLC ambientato in Adventure Time",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 49,
+        "seconds": 5
+      }
+    }
+  ],
+  "amaro": [],
+  "impizioni": [],
+  "lore": [
+    {
+      "author": "Lorro",
+      "description": "Prima menzione in puntata di Sonny, cane in casa di Nick a Londra",
+      "tags": [
+        "cani"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 20
+      }
+    }
+  ],
+  "others": []
 }
