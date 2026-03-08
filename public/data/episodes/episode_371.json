@@ -161,6 +161,18 @@
         "minutes": 44,
         "seconds": 45
       }
+    },
+    {
+      "author": "Nick",
+      "description": "Prima puntata video con Sonny, cane nella casa di Nick a Londra, anche se non menzionato in puntata audio",
+      "tags": [
+        "cani"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 2
+      }
     }
   ],
   "others": []
