@@ -1,15 +1,174 @@
 {
   "title": "362: il Lago dei Crostacei",
   "number": 362,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
-  "dolcetto": [],
-  "amaro": [],
-  "lore": [],
-  "others": [],
   "meta": {
-    "user": null,
-    "date": "2026-01-16T12:08:46.438Z"
-  }
+    "user": "PePPPeroni",
+    "date": "2026-03-13T22:29:28.173Z"
+  },
+  "menews": [
+    {
+      "author": "Sio",
+      "description": "Sea of Sorrow, il nuovo DLC di Silksong e la versione per Nintendo Switch 2 di Hollow Knight",
+      "tags": [
+        "videogames",
+        "hollow-knight"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 15
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "L‘ultimo title update di Monster Hunter Wilds",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 55
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "The Game Awards 2025",
+      "tags": [
+        "videogames",
+        "eventi"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 11,
+        "seconds": 50
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "I trailer di Supergirl - Woman of tomorrow e di Street Fighter",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 21,
+        "seconds": 0
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Il trailer di Pragmata",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 30,
+        "seconds": 5
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Lorro",
+      "description": "La vera storia della famiglia Mario (di Mario Mario)",
+      "tags": [],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 2,
+        "seconds": 55
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Il musical di Totoro",
+      "tags": [
+        "musical"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 55
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Kirby Air Riders",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 35
+      }
+    }
+  ],
+  "main": [
+    {
+      "author": "Nick",
+      "description": "Metroid Prime 4: Beyond",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 25,
+        "seconds": 10
+      },
+      "pizza": {
+        "slices": 3.5,
+        "description": "3,5 fette di marinara del kebabbaro che non fa le pizze"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Dispatch",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 31,
+        "seconds": 20
+      },
+      "pizza": {
+        "slices": 8,
+        "description": "Diavola con il pecorino"
+      }
+    }
+  ],
+  "dolcetto": [
+    {
+      "author": "Sio",
+      "description": "La terza stagione dI Smiling Friends",
+      "tags": [
+        "animazione",
+        "serie"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 50,
+        "seconds": 5
+      }
+    }
+  ],
+  "amaro": [
+    {
+      "author": "Lorro",
+      "description": "La serie animata di Stranger Things",
+      "tags": [
+        "serie"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 49,
+        "seconds": 35
+      }
+    }
+  ],
+  "impizioni": [],
+  "lore": [],
+  "others": []
 }
