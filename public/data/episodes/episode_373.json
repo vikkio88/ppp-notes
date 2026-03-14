@@ -1,15 +1,141 @@
 {
   "title": "373: Arcobaguette",
   "number": 373,
-  "main": [],
-  "menews": [],
+  "meta": {
+    "user": "PePPPeroni",
+    "date": "2026-03-14T14:44:39.367Z"
+  },
+  "menews": [
+    {
+      "author": "Sio",
+      "description": "Nel film di Super Mario Galaxy la voce di Yoshi é Donald Glover (Childish Gambino) + a Lorro non piace Chris Pratt come voce di Mario",
+      "tags": [
+        "film",
+        "nintendo"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 40
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Pokémon Pokopia",
+      "tags": [
+        "videogames",
+        "pokémon"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 15
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Karen (gioco beat’em up)",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 20,
+        "seconds": 5
+      }
+    }
+  ],
   "lorrowap": [],
+  "main": [
+    {
+      "author": "Nick",
+      "description": "Hoppers",
+      "tags": [
+        "film",
+        "animazione"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 20,
+        "seconds": 35
+      },
+      "pizza": {
+        "slices": 7,
+        "description": "Margherita con fette tagliate male"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Arco",
+      "tags": [
+        "film",
+        "animazione"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 29,
+        "seconds": 45
+      },
+      "pizza": {
+        "slices": 8,
+        "description": "Margherita buona"
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Yakuza like a Dragon",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 38,
+        "seconds": 30
+      }
+    }
+  ],
   "dolcetto": [],
   "amaro": [],
-  "lore": [],
-  "others": [],
-  "meta": {
-    "user": null,
-    "date": "2026-03-13T10:16:38.388Z"
-  }
+  "impizioni": [
+    {
+      "author": "Sio",
+      "description": "Scrubs 2026 (nicktrale Sio, Nick odia tutto)",
+      "tags": [
+        "serie",
+        "nicktrale"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 12,
+        "seconds": 0
+      }
+    }
+  ],
+  "lore": [
+    {
+      "author": "Nick",
+      "description": "Puntata Piccionata",
+      "tags": [
+        "punti-piccione"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 0
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Gli influencer pro Israele non vengono pagati da Israele e fanno storie contro Israele",
+      "tags": [
+        "politica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 15
+      }
+    }
+  ],
+  "others": []
 }
