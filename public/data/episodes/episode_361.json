@@ -1,15 +1,132 @@
 {
   "title": "361: Metraud Prome",
   "number": 361,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
-  "dolcetto": [],
-  "amaro": [],
-  "lore": [],
-  "others": [],
   "meta": {
-    "user": null,
-    "date": "2026-01-16T12:08:46.439Z"
-  }
+    "user": "PePPPeroni",
+    "date": "2026-03-14T18:42:49.942Z"
+  },
+  "menews": [
+    {
+      "author": "Lorro",
+      "description": "La lavatrice di Lorro è esplosa",
+      "tags": [],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "La famiglia Mario con Mario Mario",
+      "tags": [],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 15
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Le case cinematografiche si comprano a vicenda (Netflix, Paramount, Warner Brothers…)",
+      "tags": [
+        "eventi"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 8,
+        "seconds": 45
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Sio",
+      "description": "The Great Giana Sister per DS",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 35
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Errata Corrige di Sio sulle cose dette su Super Mario della puntata live precedente",
+      "tags": [
+        "videogames",
+        "nintendo"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 5
+      }
+    }
+  ],
+  "main": [
+    {
+      "author": "Lorro",
+      "description": "La quinta stagione di Stranger Things",
+      "tags": [
+        "serie"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 39,
+        "seconds": 40
+      },
+      "pizza": {
+        "slices": 2,
+        "description": "Diavola con le patatine fritte unte e pesanti, riscaldata in microonde dopo 2 giorni che la avevi a casa"
+      }
+    }
+  ],
+  "dolcetto": [
+    {
+      "author": "Nick",
+      "description": "Monster Chef di Studio Pizza",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 53,
+        "seconds": 5
+      }
+    }
+  ],
+  "amaro": [],
+  "impizioni": [
+    {
+      "author": "Nick",
+      "description": "Metroid Prime 4: Beyond",
+      "tags": [
+        "videogames",
+        "lorrabbiato"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 55
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Metroid Prime 4: Beyond",
+      "tags": [
+        "videogames",
+        "nicktrale"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 56
+      }
+    }
+  ],
+  "lore": [],
+  "others": []
 }
