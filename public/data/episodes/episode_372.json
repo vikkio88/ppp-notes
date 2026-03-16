@@ -133,6 +133,15 @@
         "minutes": 7,
         "seconds": 20
       }
+    },
+    {
+      "author": "Lorro",
+      "description": "Puntata con stesso nome della 288",
+      "timestamp": {
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1
+      }
     }
   ],
   "others": []
