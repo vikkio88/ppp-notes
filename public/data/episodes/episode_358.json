@@ -1,15 +1,161 @@
 {
   "title": "358: Il Ciottolino",
   "number": 358,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
-  "dolcetto": [],
-  "amaro": [],
-  "lore": [],
-  "others": [],
   "meta": {
-    "user": null,
-    "date": "2026-01-16T12:08:46.439Z"
-  }
+    "user": "PePPPeroni",
+    "date": "2026-03-20T19:26:20.179Z"
+  },
+  "menews": [
+    {
+      "author": "Nick",
+      "description": "Kill Bill Director’s Cut - The whole bloody affair non uscirà in Italia",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 5
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Poste Italiane Time: é arrivato il pacco postale per Lorro con dentro l'Anbernic",
+      "tags": [
+        "videogames",
+        "poste-italiane-time",
+        "tech"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 0
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Le prime foto della lavorazione del film di Zelda",
+      "tags": [
+        "zelda",
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 10
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Il primo video gameplay di Metroid Prime 4 ha mostrato un NPC fastidioso che non è piaciuto alla gente + performance del gioco",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 55
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "La Steam Machine, lo Steam Controller e lo Steam Frame",
+      "tags": [
+        "tech",
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 14,
+        "seconds": 50
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Sydney Sweeney si avvicina alla super destra e i suoi film floppano",
+      "tags": [
+        "politica",
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 47,
+        "seconds": 55
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Nick",
+      "description": "Ekko the Dolphin",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 8,
+        "seconds": 30
+      }
+    }
+  ],
+  "main": [
+    {
+      "author": "Nick",
+      "description": "The Running Man del 1987",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 19,
+        "seconds": 40
+      },
+      "pizza": {
+        "slices": 7,
+        "description": "Marinara con la Vduja"
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "The smashing machine",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 35,
+        "seconds": 50
+      },
+      "pizza": {
+        "slices": 7,
+        "description": "Schiacciata con sopra uova strapazzate, banane schiacciate e polvere proteica"
+      }
+    }
+  ],
+  "dolcetto": [
+    {
+      "author": "Nick",
+      "description": "Love Lies Bleeding",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 47,
+        "seconds": 10
+      }
+    }
+  ],
+  "amaro": [],
+  "impizioni": [],
+  "lore": [
+    {
+      "author": "Sio",
+      "description": "Puntata senza Sio",
+      "tags": [
+        "hosts"
+      ]
+    }
+  ],
+  "others": []
 }
