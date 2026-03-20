@@ -1,15 +1,159 @@
 {
   "title": "360: Live @ MGW 2025",
   "number": 360,
-  "main": [],
+  "meta": {
+    "user": "PePPPeroni",
+    "date": "2026-03-20T20:10:18.114Z"
+  },
   "menews": [],
   "lorrowap": [],
+  "main": [
+    {
+      "author": "Lorro",
+      "description": "Quizza su Mario - Parte 1",
+      "tags": [
+        "quizza",
+        "videogames",
+        "nintendo"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 10
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "La Top 5 dei giochi di Mario: Hotel Mario, I am a teacher Super Mario sweater, Super Mario sunshine, Mario is missing, Mario and Luigi superstar saga (voto a quest’ultimo: tutti i fagioli sulla pizza)",
+      "tags": [
+        "videogames",
+        "nintendo"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 11,
+        "seconds": 0
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Perché Mario si chiama Mario? (Mario Arnold Segale)",
+      "tags": [
+        "nintendo",
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 23,
+        "seconds": 40
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Giochi di Mario ma bootleg illegali non di Nintendo, come Somari, Super Giana Sisters, 3D cartoon land safari, Ultra Dario",
+      "tags": [
+        "nintendo",
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 28,
+        "seconds": 30
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Il merchandise fake di Mario",
+      "tags": [
+        "nintendo"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 32,
+        "seconds": 5
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Le pizzerie non autorizzate di Mario, la pasta di Mario e la droga di Mario + clinica Doctor Amigo in Texas",
+      "tags": [
+        "nintendo"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 36,
+        "seconds": 15
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Quizza su Mario - Parte 2",
+      "tags": [
+        "quizza",
+        "nintendo",
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 41,
+        "seconds": 35
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Top 40 (lol) personaggi del franchise di Super Mario: 40. Todd, 39. Isaac Newton, 38. Inka Dinka Doo, 37. Crime Wave Clyde, 36. Coin Fish, 35. Rosalinda, 34. Dr. Nerdnick, 33. Fronk, 32. Dr. Snoozemore (o Dr. Abbiocco), 31. Dorguy, 30. Cup King, 29. Crumples, 28. Luigeena, 27. Congazuma, 26. Bunson the Hot Dog, 25. Boy in Mario Suit e Boy in Sonic Suit, 24. Eyerok, 23. George Turbo, 22. Hal 9001, 21. Jumbo, 20. Kong Fu, 19. Mary O., 41. Nana (davvero al 41), 18. Daisy, 17. Mushroom Genie, 16. King Caliente, 15. Spirit of Power, 14. Mighty Plumber, 13. Olivia, 12. Orco, 11. Daisy (un‘altra), 11. Yoshi, 11. Yosshidam usu, 11. Sonic, 11. Dorguy the Third, 11. Snow King, 11. Spirit of Money, 11. Shadow, 11. Squirt, 11. Stuffwell, 11. Ted Bull, 11. Tutankoopa, 11. Whale, 11. Wolfgang Amadeus Mozart, 11. Worm, 11. Dr. Mario Nakamatsu, 11. Johnny, 10. Piantissimo, 9. Super Mario, 8. Jason Bateman, 7. Zangief, 6. Dorguy the Second, 5. Gutenberg, 4. Xananab, 3. Luigi, 2. Vivian, 1. Babbo Natale",
+      "tags": [
+        "nintendo"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 42,
+        "seconds": 35
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Quizza su Mario - Parte 3 - Nick vince il Quizza",
+      "tags": [
+        "quizza",
+        "videogames",
+        "nintendo"
+      ],
+      "timestamp": {
+        "hours": 1,
+        "minutes": 8,
+        "seconds": 30
+      }
+    }
+  ],
   "dolcetto": [],
   "amaro": [],
-  "lore": [],
-  "others": [],
-  "meta": {
-    "user": null,
-    "date": "2026-01-16T12:08:46.439Z"
-  }
+  "impizioni": [],
+  "lore": [
+    {
+      "author": "--",
+      "description": "Live alla Milano Games Week",
+      "tags": [
+        "eventi"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "PPP ha superato i 10.000 iscritti su YouTube",
+      "tags": [
+        "youtube"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 23,
+        "seconds": 5
+      }
+    }
+  ],
+  "others": []
 }
