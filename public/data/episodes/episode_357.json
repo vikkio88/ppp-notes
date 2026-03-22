@@ -1,15 +1,237 @@
 {
   "title": "357: Parentesi di Overton",
   "number": 357,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
-  "dolcetto": [],
-  "amaro": [],
-  "lore": [],
-  "others": [],
   "meta": {
-    "user": null,
-    "date": "2026-01-16T12:08:46.439Z"
-  }
+    "user": "PePPPeroni",
+    "date": "2026-03-22T11:28:31.980Z"
+  },
+  "menews": [
+    {
+      "author": "Lorro",
+      "description": "Zoran Mamdani é sindaco di New York + la finestra di Overton",
+      "tags": [
+        "politica",
+        "eventi"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 8,
+        "seconds": 20
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Lo scanlendario 2026 per Alberi della Rete (supporto per migliorare la connessione Internet in Gaza)",
+      "tags": [
+        "scanlendario"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 47,
+        "seconds": 5
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Lorro",
+      "description": "Poste Italiane Time - update: Poste Italiane ha mentito",
+      "tags": [
+        "poste-italiane-time"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 45
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Sio ha finito Hollow Knight + la Lore completa di Hollow Knight di Mossbag",
+      "tags": [
+        "videogames",
+        "hollow-knight",
+        "youtube"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 25
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "La seconda stagione di Peacemaker",
+      "tags": [
+        "serie"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 17,
+        "seconds": 0
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Frankenstein di Guillermo del Toro",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 18,
+        "seconds": 5
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Dandadan",
+      "tags": [
+        "anime",
+        "manga"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 36,
+        "seconds": 0
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Lo scandalo pazzo di Mamdani é una traccia rap in cui dice che vuole bene a sua nonna",
+      "tags": [
+        "politica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 42,
+        "seconds": 50
+      }
+    }
+  ],
+  "main": [
+    {
+      "author": "Nick",
+      "description": "Bugonia",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 25,
+        "seconds": 25
+      },
+      "pizza": {
+        "slices": 7,
+        "description": "Pizza con sciroppo d‘agave, l‘origano e il peperoncino"
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Fantastici 4 - Gli Inizi (First Steps)",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 38,
+        "seconds": 55
+      },
+      "pizza": {
+        "slices": 6,
+        "description": "Pizza würstel e patate del kebabbaro "
+      }
+    }
+  ],
+  "dolcetto": [
+    {
+      "author": "Lorro",
+      "description": "Kurtis Sliwa e suoi aneddoti",
+      "tags": [
+        "politica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 44,
+        "seconds": 10
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Pizza Panda per PICO-8",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 44,
+        "seconds": 50
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Kill Bill - The whole bloody affair esce al cinema",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 49,
+        "seconds": 30
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Uscirà Baahubali: The Eternal War - Part 1",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 50,
+        "seconds": 5
+      }
+    }
+  ],
+  "amaro": [],
+  "impizioni": [],
+  "lore": [
+    {
+      "author": "Sio",
+      "description": "La centesima pizza del 2025 di Sio",
+      "tags": [
+        "pizza-counter"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "L‘iscrizione di Sio all‘albo degli influencer",
+      "tags": [
+        "eventi"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 2,
+        "seconds": 55
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Perché su YouTube ci sono solo le puntate di PPP dalla 210 in poi ",
+      "tags": [
+        "youtube"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 30
+      }
+    }
+  ],
+  "others": []
 }
