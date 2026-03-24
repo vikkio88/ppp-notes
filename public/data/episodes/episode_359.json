@@ -1,15 +1,203 @@
 {
   "title": "359: Dunico",
   "number": 359,
-  "main": [],
-  "menews": [],
+  "meta": {
+    "user": "PePPPeroni",
+    "date": "2026-03-20T19:50:25.229Z"
+  },
+  "menews": [
+    {
+      "author": "Sio",
+      "description": "Su Jmail.world ci sono le mail di Epstein",
+      "tags": [
+        "politica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 35
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "É meglio Mario Kart Worlds, Donkey Kong Bananza o Hyrule Warriors: Age of Imprisonment?",
+      "tags": [
+        "videogames",
+        "nintendo",
+        "zelda"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 30
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Hideo Kojima vs Zerocalcare",
+      "tags": [
+        "politica",
+        "eventi"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 12,
+        "seconds": 35
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Lo Scanlendario del 2026 é sold-out",
+      "tags": [
+        "scanlendario"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 15,
+        "seconds": 20
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Vampire Crawlers: the turbo wildcard from Vampire Survivors, il nuovo Spin-off di Vampire Survivors",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 15,
+        "seconds": 50
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Il developer di Mega Bonk ritira la candidatura ai Game Awards",
+      "tags": [
+        "videogames",
+        "eventi"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 17,
+        "seconds": 5
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "L’uscita di Half Life 3",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 18,
+        "seconds": 0
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Danidev é Vedinad (developer di Mega Bonk)",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 18,
+        "seconds": 45
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Il trailer di Hoppers",
+      "tags": [
+        "film",
+        "animazione"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 19,
+        "seconds": 20
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Il teaser di Toy Story 5",
+      "tags": [
+        "film",
+        "animazione"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 20,
+        "seconds": 40
+      }
+    }
+  ],
   "lorrowap": [],
+  "main": [
+    {
+      "author": "Lorro",
+      "description": "Animal Well",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 21,
+        "seconds": 50
+      },
+      "pizza": {
+        "slices": 8,
+        "description": "Pizza bianca con pere, gorgonzola e miele al peperoncino con una fetta eccessivamente piccante"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Alpha",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 33,
+        "seconds": 50
+      },
+      "pizza": {
+        "slices": 9,
+        "description": "Quattro formaggi vegana con gli spinaci e crumble di pane super piccantissimo"
+      }
+    }
+  ],
   "dolcetto": [],
   "amaro": [],
-  "lore": [],
-  "others": [],
-  "meta": {
-    "user": null,
-    "date": "2026-01-16T12:08:46.439Z"
-  }
+  "impizioni": [
+    {
+      "author": "Sio",
+      "description": "Pluribus",
+      "tags": [
+        "serie",
+        "sioddisfatto"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 43,
+        "seconds": 15
+      }
+    }
+  ],
+  "lore": [
+    {
+      "author": "Lorro",
+      "description": "Le pizzette chiedono a gran voce nei grissini il Pizza Counter",
+      "tags": [
+        "pizza-counter"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 35
+      }
+    }
+  ],
+  "others": []
 }
