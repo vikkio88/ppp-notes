@@ -1,15 +1,166 @@
 {
   "title": "374: Il Solstizio dei Premi",
   "number": 374,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
+  "meta": {
+    "user": "PePPPeroni",
+    "date": "2026-03-24T16:09:40.915Z"
+  },
+  "menews": [
+    {
+      "author": "Sio",
+      "description": "Top 5 pizzerie di Verona",
+      "tags": [],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 10
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Planet of Lana 2",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 45
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Gli Oscar 2026",
+      "tags": [
+        "oscar-academy-awards"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 11,
+        "seconds": 40
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "La Handheld Boost Mode per poter far girare a risoluzione massima i giochi per switch 1",
+      "tags": [
+        "nintendo",
+        "tech",
+        "switch",
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 15,
+        "seconds": 0
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Il DLSS di Nvidia + l‘AI Overview di Google",
+      "tags": [
+        "tech",
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 16,
+        "seconds": 30
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Crimson Desert",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 19,
+        "seconds": 40
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Nick",
+      "description": "Aloma Wright, attrice in Scrubs, non é morta",
+      "tags": [
+        "serie"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 15
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Yakuza Like a Dragon",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 8,
+        "seconds": 20
+      }
+    }
+  ],
+  "main": [
+    {
+      "author": "Nick",
+      "description": "La seconda stagione del Live Action di One Piece",
+      "tags": [
+        "serie",
+        "manga",
+        "anime"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 23,
+        "seconds": 5
+      },
+      "pizza": {
+        "slices": 1,
+        "description": "Diavola con patatine nella pizzeria sbagliata"
+      }
+    },
+    {
+      "author": "Savu",
+      "description": "Pokémon Pokopia (recensione finta di Sio ma fatta da Savu)",
+      "tags": [
+        "videogames",
+        "pokémon"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 39,
+        "seconds": 40
+      },
+      "pizza": {
+        "slices": 9,
+        "description": "Pizza con pomodorini, rucola, fagiolini e patate a rondelle"
+      }
+    }
+  ],
   "dolcetto": [],
   "amaro": [],
+  "impizioni": [
+    {
+      "author": "Lorro",
+      "description": "Monster Hunter Stories 3: Twisted Reflection",
+      "tags": [
+        "videogames",
+        "sioddisfatto"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 12,
+        "seconds": 0
+      }
+    }
+  ],
   "lore": [],
-  "others": [],
-  "meta": {
-    "user": null,
-    "date": "2026-03-20T12:01:46.904Z"
-  }
+  "others": []
 }
