@@ -1,0 +1,87 @@
+{
+  "title": "375: Live @ Padova 2026",
+  "number": 375,
+  "meta": {
+    "user": "PePPPeroni",
+    "date": "2026-04-02T18:09:40.915Z"
+  },
+  "menews": [],
+  "lorrowap": [],
+  "main": [
+    {
+      "author": "Lorro",
+      "description": "Who killed captain Alex?",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 40
+      },
+      "pizza": {
+        "slices": 1000,
+        "description": "1000 fette di pizza con la farina della polenta, senza formaggio e salsa piccante al posto del pomodoro, che non dovrebbe essere pizza ma è migliore di tutto quello che hai mai mangiato."
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "I film della Asylum e Meth Gator",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 20,
+        "seconds": 55
+      },
+      "pizza": {
+        "slices": 3,
+        "description": "Pizza indefinita"
+      }
+    },
+        {
+      "author": "Sio",
+      "description": "Takeshi no Chōsenjō",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 38,
+        "seconds": 55
+      },
+      "pizza": {
+        "slices": 3,
+        "description": "Marinara con gli jalapeños"
+      }
+    }
+  ],
+  "dolcetto": [],
+  "amaro": [],
+  "impizioni": [],
+  "lore": [
+    {
+      "author": "--",
+      "description": "Live a Padova",
+      "tags": [
+        "eventi"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "La tradizionale slide di Nick nelle live",
+      "timestamp": {
+        "hours": 0,
+        "minutes": 21,
+        "seconds": 15
+      }
+    }
+  ],
+  "others": []
+}
