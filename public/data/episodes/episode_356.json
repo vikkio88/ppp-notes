@@ -1,15 +1,84 @@
 {
   "title": "356: Live @ Lucca 2025",
   "number": 356,
-  "main": [],
+  "meta": {
+    "user": "PePPPeroni",
+    "date": "2026-03-26T22:13:50.046Z"
+  },
   "menews": [],
   "lorrowap": [],
+  "main": [
+    {
+      "author": "Lorro",
+      "description": "PAPmusic - Animation for Fashion",
+      "tags": [
+        "film",
+        "animazione"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 15
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Uccelli di Hitchcock e Birdemic",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 24,
+        "seconds": 0
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Recensione e Quizza sul film - serie Donkey Kong e la Leggenda del Cristallo di Cocco (Legend of the Crystal Coconut)",
+      "tags": [
+        "film",
+        "quizza",
+        "musical",
+        "serie"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 41,
+        "seconds": 55
+      },
+      "pizza": {
+        "slices": 5,
+        "description": "Pizza con la gomma da masticare al posto del pomodoro, il pomodoro al posto della mozzarella, al posto dell’impasto c’è la pasta sfoglia, e con i capperi"
+      }
+    }
+  ],
   "dolcetto": [],
   "amaro": [],
-  "lore": [],
-  "others": [],
-  "meta": {
-    "user": null,
-    "date": "2026-01-16T12:08:46.439Z"
-  }
+  "impizioni": [],
+  "lore": [
+    {
+      "author": "Fabio Antonelli",
+      "description": "Live da Lucca Comics and Games 2025 con intro di Fabio Antonelli",
+      "tags": [
+        "eventi"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "La tradizionale slide di nick nelle live",
+      "tags": [],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 23,
+        "seconds": 10
+      }
+    }
+  ],
+  "others": []
 }
