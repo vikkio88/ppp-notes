@@ -1,15 +1,114 @@
 {
   "title": "355: Capolatoro",
   "number": 355,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
+  "meta": {
+    "user": "PePPPeroni",
+    "date": "2026-04-07T19:16:35.798Z"
+  },
+  "menews": [
+    {
+      "author": "Sio",
+      "description": "Il Nintendo Direct con Kirby Air Riders",
+      "tags": [
+        "videogames",
+        "nintendo"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 25
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Poste Italiane Time: il pacco disperso di Lorro con dentro l‘Anbernic",
+      "tags": [
+        "poste-italiane-time"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 12,
+        "seconds": 35
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Lorro",
+      "description": "Outer Wilds",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 2,
+        "seconds": 55
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "L‘architettura ostile in Leggende Pokémon: Z-A",
+      "tags": [
+        "videogames",
+        "pokémon",
+        "politica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 0
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Hades 2",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 5
+      }
+    }
+  ],
+  "main": [
+    {
+      "author": "Sio",
+      "description": "Deep Cover",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 21,
+        "seconds": 25
+      },
+      "pizza": {
+        "slices": 8,
+        "description": "Pizza con peperoni cipolla gorgonzola e basilico"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Frankenstein di Guillermo del Toro",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 32,
+        "seconds": 45
+      },
+      "pizza": {
+        "slices": 6,
+        "description": "Pizza con pasta sfoglia, coulis di mirtilli e lo yogurt al cocco"
+      }
+    }
+  ],
   "dolcetto": [],
   "amaro": [],
+  "impizioni": [],
   "lore": [],
-  "others": [],
-  "meta": {
-    "user": null,
-    "date": "2026-01-16T12:08:46.439Z"
-  }
+  "others": []
 }
