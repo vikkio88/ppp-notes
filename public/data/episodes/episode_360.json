@@ -153,6 +153,15 @@
         "minutes": 23,
         "seconds": 5
       }
+    },
+        {
+      "author": "Nick",
+      "description": "La tradizionale slide di nick nelle live (anche a 24:55)",
+      "timestamp": {
+        "hours": 0,
+        "minutes": 22,
+        "seconds": 20
+      }
     }
   ],
   "others": []
