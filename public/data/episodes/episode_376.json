@@ -1,0 +1,149 @@
+{
+  "title": "376: Spiccioloni",
+  "number": 376,
+  "meta": {
+    "user": "PePPPeroni",
+    "date": "2026-04-06T18:42:29.715Z"
+  },
+  "menews": [
+    {
+      "author": "Sio",
+      "description": "Sora è stato chiuso/cancellato e il contratto con Disney annullato",
+      "tags": [
+        "tech"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Wikigacha",
+      "tags": [
+        "siti-internet"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 8,
+        "seconds": 10
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Sio",
+      "description": "L‘origine del nome di Pokémon Pokopia",
+      "tags": [
+        "videogames",
+        "pokémon"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 30
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Il negozio a Milano non é Inferno 2 ma Incendio 2",
+      "tags": [],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 20
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "La Handheld Boost Mode della Switch 2 funziona solo sui giochi della Switch 1",
+      "tags": [
+        "tech",
+        "switch",
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 15
+      }
+    }
+  ],
+  "main": [
+    {
+      "author": "Nick",
+      "description": "Dead Zone Rogue",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 25,
+        "seconds": 25
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "I Swear",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 31,
+        "seconds": 40
+      },
+      "pizza": {
+        "slices": 8,
+        "description": "Pizza con lo Haggis"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Minishoot’ adventures",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 36,
+        "seconds": 25
+      },
+      "pizza": {
+        "slices": 7,
+        "description": "Margherita con provola e friarielli"
+      }
+    }
+  ],
+  "dolcetto": [
+    {
+      "author": "Lorro",
+      "description": "Il gatto grasso in armatura di Crimson Desert",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 45,
+        "seconds": 15
+      }
+    }
+  ],
+  "amaro": [],
+  "impizioni": [
+    {
+      "author": "Lorro",
+      "description": "Crimson Desert",
+      "tags": [
+        "videogames",
+        "sioddisfatto"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 12,
+        "seconds": 35
+      }
+    }
+  ]
+}
