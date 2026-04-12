@@ -1,15 +1,128 @@
 {
   "title": "353: Londa",
   "number": 353,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
-  "dolcetto": [],
-  "amaro": [],
-  "lore": [],
-  "others": [],
   "meta": {
-    "user": null,
-    "date": "2026-01-16T12:08:46.439Z"
-  }
+    "user": "PePPPeroni",
+    "date": "2026-04-12T13:06:16.632Z"
+  },
+  "menews": [
+    {
+      "author": "Lorro",
+      "description": "Il trailer del cortometraggio Teenage Mutant Ninja Turtles: Chrome Alone 2 – Lost in New Jersey",
+      "tags": [
+        "film",
+        "animazione"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 45
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Lorro",
+      "description": "Come conciliare i temi del film con le azioni nella vita reale degli attori, come Di Caprio e Greenwood",
+      "tags": [
+        "film",
+        "politica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 45
+      }
+    }
+  ],
+  "main": [
+    {
+      "author": "Nick",
+      "description": "Silksong",
+      "tags": [
+        "videogames",
+        "hollow-knight"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 16,
+        "seconds": 20
+      },
+      "tenPizze": true
+    },
+    {
+      "author": "Sio",
+      "description": "La trilogia del Gatto Mondadori del Dottor Pira",
+      "tags": [
+        "fumetti"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 41,
+        "seconds": 0
+      },
+      "pizza": {
+        "slices": 10,
+        "description": "Pizza con tutti gli ingredienti sopra"
+      }
+    }
+  ],
+  "dolcetto": [
+    {
+      "author": "Sio",
+      "description": "BOO!!! A Halloween Music Video",
+      "tags": [
+        "musica",
+        "youtube"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 49,
+        "seconds": 20
+      }
+    }
+  ],
+  "amaro": [
+    {
+      "author": "Lorro",
+      "description": "La nuova traduzione di It di Stephen King in italiano",
+      "tags": [
+        "libri"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 31,
+        "seconds": 20
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Outer Wilds",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 27,
+        "seconds": 25
+      }
+    }
+  ],
+  "impizioni": [
+    {
+      "author": "Lorro",
+      "description": "Only murders in the building (nicktrale tendente al sioddisfatto)",
+      "tags": [
+        "serie",
+        "nicktrale"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 35,
+        "seconds": 5
+      }
+    }
+  ],
+  "lore": [],
+  "others": []
 }
