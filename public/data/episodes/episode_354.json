@@ -1,15 +1,140 @@
 {
   "title": "354: Il Cubo di Nulla",
   "number": 354,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
+  "meta": {
+    "user": "PePPPeroni",
+    "date": "2026-04-12T12:51:59.956Z"
+  },
+  "menews": [
+    {
+      "author": "Lorro",
+      "description": "We gotta go",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 55
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Deadbeat, il nuovo album dei Tame Impala",
+      "tags": [
+        "musica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 10
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Slow Horses quinta stagione e i libri",
+      "tags": [
+        "serie",
+        "libri"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 8,
+        "seconds": 55
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Caparezza è al Lucca Comics and Games al Tintoria podcast",
+      "tags": [
+        "eventi",
+        "musica",
+        "podcast"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 25
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Esce la biografia manga di Masahiro Sakurai (quello di Smash)",
+      "tags": [
+        "manga",
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 12,
+        "seconds": 40
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Sio",
+      "description": "Outer Wilds",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 40
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Hades II",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 40
+      }
+    }
+  ],
+  "main": [
+    {
+      "author": "Nick",
+      "description": "Tron: Ares",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 20
+      },
+      "pizza": {
+        "slices": 1,
+        "description": "Pizza con base in compensato, fragole, stucco e piccoli pezzi di materiale radioattivo "
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Leggende Pokémon: Z-A",
+      "tags": [
+        "videogames",
+        "pokémon"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 32,
+        "seconds": 5
+      },
+      "pizza": {
+        "slices": 2.5,
+        "description": "Pizza con un pomodoro buonissimo"
+      }
+    }
+  ],
   "dolcetto": [],
   "amaro": [],
+  "impizioni": [],
   "lore": [],
-  "others": [],
-  "meta": {
-    "user": null,
-    "date": "2026-01-16T12:08:46.439Z"
-  }
+  "others": []
 }
