@@ -1,15 +1,116 @@
 {
   "title": "377: Project Hail Mario",
   "number": 377,
-  "main": [],
+  "meta": {
+    "user": "PePPPeroni",
+    "date": "2026-04-13T20:16:34.542Z"
+  },
   "menews": [],
-  "lorrowap": [],
+  "lorrowap": [
+    {
+      "author": "Lorro",
+      "description": "Il negozio Incendio 1 sta in corso di Porta Romana a Milano, Incendio 2 in viale Monza",
+      "tags": [],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 0
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Mewgenics",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 8,
+        "seconds": 5
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Deadzone: Rogue",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 20
+      }
+    }
+  ],
+  "main": [
+    {
+      "author": "Sio",
+      "description": "Project Hail Mary (il film)",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 11,
+        "seconds": 20
+      },
+      "pizza": {
+        "slices": 9,
+        "description": "Margherita con aglio e patate"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Project Hail Mary (il film)",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 11,
+        "seconds": 21
+      },
+      "pizza": {
+        "slices": 7,
+        "description": "Pizza con carciofini e melanzane"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "The Super Mario Galaxy Movie",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 30,
+        "seconds": 10
+      },
+      "pizza": {
+        "slices": 2,
+        "description": "Pizza con würstel, patatine, pomodorini, Philadelphia, rucola, mais, salsiccia, alga spirulina, impasto carbone vegetale ma una metà senza lievito e altri würstel ma troppi"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "The Super Mario Galaxy Movie",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 30,
+        "seconds": 11
+      },
+      "pizza": {
+        "slices": 8,
+        "description": "Pizza con würstel, patatine, pomodorini, Philadelphia, rucola, mais, salsiccia, alga spirulina, impasto carbone vegetale ma una metà senza lievito e altri würstel ma troppi"
+      }
+    }
+  ],
   "dolcetto": [],
   "amaro": [],
+  "impizioni": [],
   "lore": [],
-  "others": [],
-  "meta": {
-    "user": null,
-    "date": "2026-04-11T06:54:21.147Z"
-  }
+  "others": []
 }
