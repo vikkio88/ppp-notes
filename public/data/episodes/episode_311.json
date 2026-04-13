@@ -45,6 +45,17 @@
   ],
   "dolcetto": [],
   "amaro": [],
-  "lore": [],
+  "lore": [
+    {
+      "author": "Nick",
+      "description": "La tradizionale slide di nick nelle live",
+      "tags": [],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 16,
+        "seconds": 40
+      }
+    }
+  ],
   "others": []
 }
