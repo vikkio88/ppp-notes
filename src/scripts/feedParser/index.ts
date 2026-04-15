@@ -7,10 +7,7 @@ import { feedParser } from "./parser";
 export default async () => {
   const shows = (await feedParser(URL)) as EpisodeWrapper[];
   if (!existsSync(FEED_OUTPUT_DIR)) {
-    console.error(
-      `output dir '${FEED_OUTPUT_DIR}' does not exist, please create it.`,
-    );
-    process.exit(1);
+    fs.mkdirSync(FEED_OUTPUT_DIR);
   }
 
   save(shows, "shows");
