@@ -1,5 +1,6 @@
 import { $ } from "bun";
 import { OUTPUT_DIR } from "../config";
+import { existsSync } from "fs";
 
 async function tryDo(func: () => void) {
   try {
@@ -9,5 +10,14 @@ async function tryDo(func: () => void) {
   }
 }
 
-tryDo(async () => await $`rm -f ${OUTPUT_DIR}/*.json`);
-tryDo(async () => await $`rm -f .env`);
+tryDo(async () => {
+  if (existsSync(`${OUTPUT_DIR}`)) {
+    await $`rm -f ${OUTPUT_DIR}/*.json`;
+  }
+});
+
+tryDo(async () => {
+  if (existsSync(".env")) {
+    await $`rm .env`;
+  }
+});
