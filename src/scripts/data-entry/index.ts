@@ -12,6 +12,9 @@ type Episode = {
 };
 
 export default function (filename: string | null) {
+  if (!fs.existsSync(FEED_OUTPUT_DIR)) {
+    fs.mkdirSync(FEED_OUTPUT_DIR);
+  }
   const episodesPath = `${FEED_OUTPUT_DIR}/${filename || "episodes.json"}`;
   const episodes: Episode[] = JSON.parse(fs.readFileSync(episodesPath, "utf8"));
   if (!fs.existsSync(PUBLIC_DATA_EPISODES)) {
