@@ -13,7 +13,7 @@
     "update:website": "bun build:clean && bun run update:data && bun run build && bun site:deploy",
     "site:deploy": "bunx surge dist --domain ppp-notes.surge.sh",
     "update:data": "bun src/scripts/update-data.ts && bun src/scripts/data-entry/episodeReport.ts",
-    "update:preview": "bun build:clean && bun update:data && bun run build && surge dist --domain ppp-notes-preview.surge.sh"
+    "update:preview": "bun build:clean && bun update:data && bun run build && bunx surge dist --domain ppp-notes-preview.surge.sh"
   },
   "dependencies": {
     "@ascorbic/feed-loader": "^1.0.4",
