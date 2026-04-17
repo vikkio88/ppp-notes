@@ -27,6 +27,15 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git diff --quiet && git diff --staged --quiet && exit 0
+          git checkout -b data-update/${{ github.run_id }}
           git add .
-          git diff --staged --quiet || git commit -m "chore: update data files [skip ci]"
-          git push
+          git commit -m "chore: update data files [skip ci]"
+          git push origin data-update/${{ github.run_id }}
+          gh pr create \
+            --title "chore: update episodes data files" \
+            --body "Automated episodes data update — $(date -u '+%Y-%m-%d %H:%M:%S UTC')" \
+            --base main \
+            --head data-update/${{ github.run_id }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
