@@ -1,15 +1,111 @@
 {
   "title": "378: Dispressio",
   "number": 378,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
+  "meta": {
+    "user": "PePPPeroni",
+    "date": "2026-04-20T19:19:27.949Z"
+  },
+  "menews": [
+    {
+      "author": "Nick",
+      "description": "Il Math Rock degli Angine de Poitrine",
+      "tags": [
+        "musica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 30
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Lorro",
+      "description": "In Guida Galattica per Autostoppisti, nel terzo libro, esiste un pianeta in cui i materassi sono esseri senzienti e si chiamano tutti Lorro",
+      "tags": [
+        "libri"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 20
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Cosa differenzia un Fast and Furious o un Pacific Rim da Super Mario Galaxy the Movie, a parte il target di riferimento?",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 5
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Daniel Pemberton, e le sue colonne sonore (Spiderman into the Spiderverse, Little Big Planet, Project Hail Mary e altre)",
+      "tags": [
+        "musica",
+        "film",
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 20
+      }
+    }
+  ],
+  "main": [
+    {
+      "author": "Nick",
+      "description": "The Drama",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 15
+      },
+      "pizza": {
+        "slices": 10,
+        "description": "Marinara con peperoncini cinesi sott’olio"
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Louis Theroux: Inside the Manosphere",
+      "tags": [
+        "film",
+        "documentario"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 25,
+        "seconds": 5
+      }
+    }
+  ],
   "dolcetto": [],
   "amaro": [],
-  "lore": [],
-  "others": [],
-  "meta": {
-    "user": null,
-    "date": "2026-04-17T10:22:34.154Z"
-  }
+  "impizioni": [],
+  "lore": [
+    {
+      "author": "Sio",
+      "description": "Puntata senza Sio",
+      "tags": [
+        "hosts"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1
+      }
+    }
+  ],
+  "others": []
 }
