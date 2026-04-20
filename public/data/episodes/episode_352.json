@@ -1,15 +1,118 @@
 {
   "title": "352: Aquila Palombara",
   "number": 352,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
-  "dolcetto": [],
-  "amaro": [],
-  "lore": [],
-  "others": [],
   "meta": {
-    "user": null,
-    "date": "2026-01-16T12:08:46.439Z"
-  }
+    "user": "PePPPeroni",
+    "date": "2026-04-20T19:51:23.295Z"
+  },
+  "menews": [
+    {
+      "author": "Lorro",
+      "description": "Knights of Guinevere",
+      "tags": [
+        "serie",
+        "animazione"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 50
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Le bandiere di One Piece usate alla manifestazione Pro Palestina di Roma",
+      "tags": [
+        "manga",
+        "politica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 11,
+        "seconds": 0
+      }
+    }
+  ],
+  "lorrowap": [],
+  "main": [
+    {
+      "author": "Lorro",
+      "description": "Gundam: da dove iniziare per guardarlo? E Gundam: The Origin",
+      "tags": [
+        "anime"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 12,
+        "seconds": 35
+      },
+      "pizza": {
+        "slices": 10,
+        "description": ""
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Dropout TV e Game Changers: Crowd Control",
+      "tags": [
+        "stand-up-comedy",
+        "siti-internet"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 23,
+        "seconds": 0
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "One Battle After Another",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 27,
+        "seconds": 50
+      },
+      "pizza": {
+        "slices": 7.5,
+        "description": "Pizza con mortadella vegana, mozzarisella, pesto di pistacchi, pistacchi"
+      }
+    }
+  ],
+  "dolcetto": [
+    {
+      "author": "Lorro",
+      "description": "Super Eyepatch Wolf, su un video sul tema Fake Videogames, ha parlato del libro Vermis di Plastiboo, pubblicato dalla casa italiana Hollow Press",
+      "tags": [
+        "videogames",
+        "libri",
+        "youtube"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 46,
+        "seconds": 20
+      }
+    }
+  ],
+  "amaro": [
+    {
+      "author": "Sio",
+      "description": "Il video di Saturday Night Live su KPop Demon Hunters",
+      "tags": [
+        "anime",
+        "tv-show"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 47,
+        "seconds": 5
+      }
+    }
+  ],
+  "impizioni": [],
+  "lore": [],
+  "others": []
 }
