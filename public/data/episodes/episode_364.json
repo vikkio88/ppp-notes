@@ -579,7 +579,9 @@
     {
       "author": "Sio",
       "description": "Legge dell’assenza: quando un host non c’è, deve rispondere a una domanda nella puntata dopo per dimostrare di aver ascoltato quella in cui non c’era. Se fallisce, deve una pizza a Lorro.",
-      "tags": [],
+      "tags": [
+        "legge-assenza"
+      ],
       "timestamp": {
         "hours": 0,
         "minutes": 3,
