@@ -1,15 +1,148 @@
 {
   "title": "379: Amicizia (Legacy)",
   "number": 379,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
-  "dolcetto": [],
-  "amaro": [],
-  "lore": [],
-  "others": [],
   "meta": {
-    "user": null,
-    "date": "2026-04-24T08:22:06.118Z"
-  }
+    "user": "PePPPeroni",
+    "date": "2026-04-26T14:32:10.962Z"
+  },
+  "menews": [
+    {
+      "author": "Lorro",
+      "description": "Spider-Man: Beyond the Spider-Verse uscirà nel 2027",
+      "tags": [
+        "film",
+        "animazione"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 10
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Un servizio che a pagamento con una IA scrive i prompt per le IA",
+      "tags": [
+        "tech"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 30
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Sio",
+      "description": "Sio ha finito The legend of Zelda: Tears of the Kingdom",
+      "tags": [
+        "videogames",
+        "zelda"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 8,
+        "seconds": 50
+      }
+    }
+  ],
+  "main": [
+    {
+      "author": "Nick",
+      "description": "La decima stagione di Scrubs (“revival”)",
+      "tags": [
+        "serie"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 50
+      },
+      "pizza": {
+        "slices": 4,
+        "description": "Marinara del kebabbaro"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Spin",
+      "tags": [
+        "libri"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 26,
+        "seconds": 40
+      },
+      "pizza": {
+        "slices": 10,
+        "description": "Pizza bianca con la mortadella, il pistacchio e la granella di lime"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Axis",
+      "tags": [
+        "libri"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 26,
+        "seconds": 41
+      },
+      "pizza": {
+        "slices": 8,
+        "description": "Pizza bianca con la mortadella, il pistacchio e la granella di lime"
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Sol Cesto",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 35,
+        "seconds": 15
+      },
+      "pizza": {
+        "slices": 10,
+        "description": "Marinara con friarielli e un botto di peperoncino aromatico profumato buono "
+      }
+    }
+  ],
+  "dolcetto": [
+    {
+      "author": "Sio",
+      "description": "Il sequel di Project Heil Mary, Journey among the Stars, é una avventura Mixed Reality per Meta Quest",
+      "tags": [
+        "videogames",
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 47,
+        "seconds": 10
+      }
+    }
+  ],
+  "amaro": [],
+  "impizioni": [],
+  "lore": [
+    {
+      "author": "Sio",
+      "description": "Legge dell’assenza: quando un host non c’è, deve rispondere a una domanda nella puntata dopo per dimostrare di aver ascoltato quella in cui non c’era. Se fallisce, deve una pizza a Lorro. Domanda: di cosa ha parlato Lorro? Risposta di Sio: SBAGLIATA",
+      "tags": [
+        "legge-assenza"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 20
+      }
+    }
+  ],
+  "others": []
 }
