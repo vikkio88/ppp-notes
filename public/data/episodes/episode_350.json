@@ -1,15 +1,182 @@
 {
   "title": "350: Minestra con Patate",
   "number": 350,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
-  "dolcetto": [],
-  "amaro": [],
-  "lore": [],
-  "others": [],
   "meta": {
-    "user": null,
-    "date": "2025-09-29T14:00:27.300Z"
-  }
+    "user": "PePPPeroni",
+    "date": "2026-04-29T18:27:26.709Z"
+  },
+  "menews": [
+    {
+      "author": "Lorro",
+      "description": "Il dub automatico in inglese di YouTube",
+      "tags": [
+        "youtube"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 8,
+        "seconds": 10
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Sio",
+      "description": "Street Football - La compagnia dei Celestini",
+      "tags": [
+        "animazione",
+        "serie"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 40
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Force & Majeure",
+      "tags": [
+        "serie"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 11,
+        "seconds": 5
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Criterion Collection e Criterion Closet",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 11,
+        "seconds": 50
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Carrot, l‘app del meteo di Sio",
+      "tags": [
+        "tech"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 30
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Silksong",
+      "tags": [
+        "videogames",
+        "hollow-knight"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 14,
+        "seconds": 40
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Hollow Knight",
+      "tags": [
+        "videogames",
+        "hollow-knight"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 16,
+        "seconds": 10
+      }
+    }
+  ],
+  "main": [
+    {
+      "author": "Lorro",
+      "description": "Silver and Blood",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 23,
+        "seconds": 5
+      },
+      "pizza": {
+        "slices": 8,
+        "description": "Diavola"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Long Story Short",
+      "tags": [
+        "serie",
+        "animazione"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 29,
+        "seconds": 15
+      },
+      "pizza": {
+        "slices": 7,
+        "description": "Margherita già unta e con l‘olio buono sopra"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Bermuda di Roberto D’Agnano",
+      "tags": [
+        "fumetti"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 37,
+        "seconds": 10
+      },
+      "pizza": {
+        "slices": 7,
+        "description": "Pizza con le alghe"
+      }
+    }
+  ],
+  "dolcetto": [
+    {
+      "author": "Sio",
+      "description": "Il mio vicino Totoro",
+      "tags": [
+        "film",
+        "anime"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 41,
+        "seconds": 10
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Jujutsu Kaisen",
+      "tags": [
+        "anime",
+        "cracker"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 46,
+        "seconds": 25
+      }
+    }
+  ],
+  "amaro": [],
+  "impizioni": [],
+  "lore": [],
+  "others": []
 }
