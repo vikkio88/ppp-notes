@@ -1,15 +1,206 @@
 {
   "title": "351: Pizza Ingrondata",
   "number": 351,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
-  "dolcetto": [],
-  "amaro": [],
-  "lore": [],
-  "others": [],
   "meta": {
-    "user": null,
-    "date": "2026-01-16T12:08:46.439Z"
-  }
+    "user": "PePPPeroni",
+    "date": "2026-04-29T20:49:54.165Z"
+  },
+  "menews": [
+    {
+      "author": "Sio",
+      "description": "Doug Bowser non lavora più a Nintendo",
+      "tags": [
+        "nintendo"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 8,
+        "seconds": 55
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Lorro ha comprato l‘Anbernic RG476H",
+      "tags": [
+        "videogames",
+        "tech",
+        "poste-italiane-time"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 17,
+        "seconds": 10
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Il nuovo title update di Monster Hunter Wilds con Omega Planets",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 18,
+        "seconds": 20
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "My Dress-Up Darling",
+      "tags": [
+        "anime"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 18,
+        "seconds": 50
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Vermis di Plastiboo pubblicato da Hollow Press",
+      "tags": [
+        "libri"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 32,
+        "seconds": 0
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Nick",
+      "description": "Hades 2 e Silksong",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 15
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Il podcast Katia di quelli di Rubrichette",
+      "tags": [
+        "podcast"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 50
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "La quarta stagione della serie animata Street Football - La Compagnia dei Celestini é del 2022",
+      "tags": [
+        "serie",
+        "animazione"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 40
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Fast and Furious X",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 35
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "La prima stagione di Peacemaker",
+      "tags": [
+        "serie"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 11,
+        "seconds": 50
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "The Studio",
+      "tags": [
+        "serie"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 14,
+        "seconds": 0
+      }
+    }
+  ],
+  "main": [
+    {
+      "author": "Nick",
+      "description": "La voce di Hind Rajab",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 34,
+        "seconds": 5
+      }
+    }
+  ],
+  "dolcetto": [
+    {
+      "author": "Sio",
+      "description": "Pozzo pubblicato da Hollow Press",
+      "tags": [
+        "libri"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 48,
+        "seconds": 15
+      }
+    }
+  ],
+  "amaro": [],
+  "impizioni": [
+    {
+      "author": "Sio",
+      "description": "Megabonk",
+      "tags": [
+        "videogames",
+        "sioddisfatto"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 19,
+        "seconds": 50
+      }
+    }
+  ],
+  "lore": [
+    {
+      "author": "Lorro",
+      "description": "I Punti Piccione",
+      "tags": [
+        "punti-piccione"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 35
+      }
+    }
+  ],
+  "others": []
 }
