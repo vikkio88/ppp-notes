@@ -1,15 +1,129 @@
 {
   "title": "380: Gara di Gatti",
   "number": 380,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
+  "meta": {
+    "user": "PePPPeroni",
+    "date": "2026-05-13T17:41:34.600Z"
+  },
+  "menews": [
+    {
+      "author": "Sio",
+      "description": "Rooster",
+      "tags": [
+        "serie"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 45
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Jojo Steel Ball Run + se Jojo é piú o meno lungo di One Piece (vedi anche puntata 381)",
+      "tags": [
+        "anime"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 5
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Il trailer di Coyote vs ACME",
+      "tags": [
+        "film",
+        "animazione"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 8,
+        "seconds": 40
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Sio",
+      "description": "Spin, Axis e Vortex",
+      "tags": [
+        "libri"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 5
+      }
+    }
+  ],
+  "main": [
+    {
+      "author": "Sio",
+      "description": "D(e)ad",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 5
+      },
+      "pizza": {
+        "slices": 7,
+        "description": "Pizza margherita"
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Pragmata",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 20,
+        "seconds": 20
+      },
+      "pizza": {
+        "slices": 9,
+        "description": "Pizza bianca con cotto affumicato e burrata di altissima qualità"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Dungeon Crawler Carl",
+      "tags": [
+        "libri"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 37,
+        "seconds": 25
+      },
+      "pizza": {
+        "slices": 6,
+        "description": "Würstel e patatine ma le patatine hanno un pizzico di cocaina"
+      }
+    }
+  ],
   "dolcetto": [],
   "amaro": [],
-  "lore": [],
-  "others": [],
-  "meta": {
-    "user": null,
-    "date": "2026-05-01T12:50:18.233Z"
-  }
+  "impizioni": [],
+  "lore": [
+    {
+      "author": "Nick",
+      "description": "Puntata senza Nick",
+      "tags": [
+        "hosts"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1
+      }
+    }
+  ],
+  "others": []
 }
