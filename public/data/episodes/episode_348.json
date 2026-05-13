@@ -1,15 +1,206 @@
 {
   "title": "348: Janet Silksong",
   "number": 348,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
-  "dolcetto": [],
-  "amaro": [],
-  "lore": [],
-  "others": [],
   "meta": {
-    "user": null,
-    "date": "2025-09-29T14:00:27.301Z"
-  }
+    "user": "PePPPeroni",
+    "date": "2026-05-13T18:26:10.753Z"
+  },
+  "menews": [
+    {
+      "author": "Sio",
+      "description": "Long Story Short",
+      "tags": [
+        "serie",
+        "animazione"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 10
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "L’intervista a Julia Roberts alla mostra italiana del cinema ",
+      "tags": [
+        "politica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 10
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Il film più visto su Netflix è KPop Demon Hunters",
+      "tags": [
+        "film",
+        "animazione"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 55
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Il sequel di Superman e Supergirl",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 11,
+        "seconds": 20
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Le critiche legate all’uscita di Silksong",
+      "tags": [
+        "videogames",
+        "hollow-knight"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 50
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Lorro",
+      "description": "Nel 2020, per le regionali in Campania, il candidato del Partito delle Buone Maniere era Giuseppe Cirillo detto Dottor Seduction",
+      "tags": [
+        "politica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 2,
+        "seconds": 25
+      }
+    }
+  ],
+  "main": [
+    {
+      "author": "Lorro",
+      "description": "Beekeeper (doppio voto)",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 43,
+        "seconds": 20
+      },
+      "pizza": {
+        "slices": 3,
+        "description": "Pizza burrata e prosciutto crudo"
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Beekeeper (doppio voto)",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 43,
+        "seconds": 21
+      },
+      "pizza": {
+        "slices": 10,
+        "description": "Pizza piccantissima con panna montata, miele e 8kg di pancetta super unta"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Eenie Meanie",
+      "tags": [
+        "cracker",
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 53,
+        "seconds": 30
+      },
+      "pizza": {
+        "slices": 7,
+        "description": "Marinara con i würstel"
+      }
+    }
+  ],
+  "dolcetto": [
+    {
+      "author": "Lorro",
+      "description": "The Incredible Burt Wonderstone del 2013",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 12,
+        "seconds": 15
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Crank e Crank 2 - High Voltage",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 50,
+        "seconds": 10
+      }
+    }
+  ],
+  "amaro": [],
+  "impizioni": [
+    {
+      "author": "Nick",
+      "description": "Silksong",
+      "tags": [
+        "videogames",
+        "hollow-knight",
+        "sioddisfatto"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 19,
+        "seconds": 55
+      }
+    }
+  ],
+  "lore": [
+    {
+      "author": "Lorro",
+      "description": "Lil’ Brotherfuck",
+      "tags": [],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Seconda Invenzione del Gimmick del Cracker (era giá stato inventato nella 260)",
+      "tags": [
+        "cracker"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 51,
+        "seconds": 10
+      }
+    }
+  ],
+  "others": []
 }
