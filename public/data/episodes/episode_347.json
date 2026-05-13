@@ -1,15 +1,283 @@
 {
   "title": "347: La Peggizza™",
   "number": 347,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
+  "meta": {
+    "user": "PePPPeroni",
+    "date": "2026-05-13T20:15:43.264Z"
+  },
+  "menews": [
+    {
+      "author": "Sio",
+      "description": "La nuova sveglia di Alarmo di Kirby",
+      "tags": [
+        "tech",
+        "nintendo"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 0
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "In True Detective 5 ci sarà Nicholas Cage",
+      "tags": [
+        "serie"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 25
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Denshattack!",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 40
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "La PlayStation 6 in 3 diversi modelli ",
+      "tags": [
+        "videogames",
+        "tech"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 11,
+        "seconds": 30
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Granblue Fantasy: Relink",
+      "tags": [
+        "videogames",
+        "monster-hunter"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 16,
+        "seconds": 20
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Le prime missioni di Monster Hunter Story 2 gratis per 10 giorni",
+      "tags": [
+        "videogames",
+        "monster-hunter"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 18,
+        "seconds": 55
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "L’intervista di Variety a Alex Garland sui suoi film, tra cui Annihilation + Alex Garland scrive e dirige il film di Elden Ring",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 41,
+        "seconds": 40
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Sio",
+      "description": "I soprannomi delle persone alle elezioni",
+      "tags": [
+        "politica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 45
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Silksong costa 20€",
+      "tags": [
+        "videogames",
+        "hollow-knight"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 30
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Donkey Kong Bananza",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 10
+      }
+    }
+  ],
+  "main": [
+    {
+      "author": "Sio",
+      "description": "Peacemaker",
+      "tags": [
+        "serie"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 20,
+        "seconds": 0
+      },
+      "pizza": {
+        "slices": 9,
+        "description": ""
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Peacemaker",
+      "tags": [
+        "serie"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 20,
+        "seconds": 1
+      },
+      "pizza": {
+        "slices": 10,
+        "description": ""
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Il terzo film dei Guardiani della Galassia",
+      "tags": [
+        "film",
+        "marvel"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 21,
+        "seconds": 50
+      },
+      "pizza": {
+        "slices": 5,
+        "description": "Pizza con salsiccia provola e patate al forno"
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Nosferatu di Eggers",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 24,
+        "seconds": 15
+      },
+      "pizza": {
+        "slices": 7,
+        "description": "Pizza bianca con friarielli e peperoncino"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "La guerra dei papaveri",
+      "tags": [
+        "libri"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 27,
+        "seconds": 25
+      },
+      "pizza": {
+        "slices": 6,
+        "description": "Margherita con un po’ di patate al forno"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Warfare (e accenno a Come and See)",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 31,
+        "seconds": 10
+      },
+      "pizza": {
+        "slices": 9,
+        "description": "Marinara con gli jalapeño poppers"
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Deadpool e Wolverine",
+      "tags": [
+        "film",
+        "marvel"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 43,
+        "seconds": 55
+      },
+      "pizza": {
+        "slices": 7,
+        "description": "Würstel e patatine"
+      }
+    }
+  ],
   "dolcetto": [],
   "amaro": [],
-  "lore": [],
-  "others": [],
-  "meta": {
-    "user": null,
-    "date": "2025-09-29T14:00:27.301Z"
-  }
+  "impizioni": [
+    {
+      "author": "Sio",
+      "description": "Superman (2025)",
+      "tags": [
+        "film",
+        "sioddisfatto"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 20,
+        "seconds": 30
+      }
+    }
+  ],
+  "lore": [
+    {
+      "author": "Lorro",
+      "description": "Il gimmick di è arrivata la Pizza",
+      "tags": [],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 50
+      }
+    }
+  ],
+  "others": []
 }
