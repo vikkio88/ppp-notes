@@ -1,15 +1,114 @@
 {
   "title": "381: Fradenti",
   "number": 381,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
+  "meta": {
+    "user": "PePPPeroni",
+    "date": "2026-05-13T17:31:18.973Z"
+  },
+  "menews": [
+    {
+      "author": "Lorro",
+      "description": "È uscito lo Steam Controller",
+      "tags": [
+        "tech",
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 8,
+        "seconds": 45
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Lorro",
+      "description": "Jojo ha meno capitoli di One Piece, ma avendo più pagine è più lungo",
+      "tags": [
+        "manga"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 55
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Pragmata",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 0
+      }
+    }
+  ],
+  "main": [
+    {
+      "author": "Nick",
+      "description": "Beef stagione 2",
+      "tags": [
+        "serie"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 55
+      },
+      "pizza": {
+        "slices": 8,
+        "description": "Pizza bianca con il bulgogi di soia"
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Avengers",
+      "tags": [
+        "film",
+        "marvel"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 26,
+        "seconds": 30
+      },
+      "pizza": {
+        "slices": 8,
+        "description": "4 stagioni modificata: carciofi, salame piccante, olive nere e patate al forno"
+      }
+    }
+  ],
   "dolcetto": [],
   "amaro": [],
-  "lore": [],
-  "others": [],
-  "meta": {
-    "user": null,
-    "date": "2026-05-08T08:51:40.634Z"
-  }
+  "impizioni": [],
+  "lore": [
+    {
+      "author": "Sio",
+      "description": "Puntata senza Sio",
+      "tags": [
+        "hosts"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Legge dell’assenza: quando un host non c’è, deve rispondere a una domanda nella puntata dopo per dimostrare di aver ascoltato quella in cui non c’era. Se fallisce, deve una pizza a Lorro. Risposta di Nick: CORRETTA",
+      "tags": [
+        "legge-assenza"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 30
+      }
+    }
+  ],
+  "others": []
 }
