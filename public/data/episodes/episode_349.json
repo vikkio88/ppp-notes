@@ -1,15 +1,319 @@
 {
   "title": "349: Nick Ama Tutti",
   "number": 349,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
-  "dolcetto": [],
-  "amaro": [],
-  "lore": [],
-  "others": [],
   "meta": {
-    "user": null,
-    "date": "2025-09-29T14:00:27.301Z"
-  }
+    "user": "PePPPeroni",
+    "date": "2026-05-13T18:09:46.342Z"
+  },
+  "menews": [
+    {
+      "author": "Sio",
+      "description": "Stefano Benni é morto",
+      "tags": [
+        "libri"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "No thanks app, per tracciare le aziende che supportano Israele",
+      "tags": [
+        "tech",
+        "politica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 30
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Il Kickstarter di Super Smash Bros - Royalty free for all",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 11,
+        "seconds": 5
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Nintendo sponsor principale della maratona di Kyoto per il quarantennale di Mario",
+      "tags": [
+        "nintendo"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 12,
+        "seconds": 35
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Il Nintendo Direct di settembre 2025",
+      "tags": [
+        "videogames",
+        "nintendo"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 30
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Il teaser di The Super Mario Galaxy",
+      "tags": [
+        "film",
+        "nintendo"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 14,
+        "seconds": 5
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "I costi e la disponibilità dei vecchi giochi di Mario per la switch",
+      "tags": [
+        "videogames",
+        "nintendo"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 14,
+        "seconds": 35
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Il fiore brutto fisico di plastica di Mario Wonder",
+      "tags": [
+        "nintendo"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 16,
+        "seconds": 45
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Mario Wonder per Switch 2",
+      "tags": [
+        "nintendo",
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 17,
+        "seconds": 50
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Mario Tennis Fever e Yoshi and the mysterious book ",
+      "tags": [
+        "videogames",
+        "nintendo"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 18,
+        "seconds": 35
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Hades 2 e Metroid Prime 4",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 19,
+        "seconds": 15
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Final Fantasy 7 Remake Intergrade",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 20,
+        "seconds": 25
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Dragon Quest 7 Reimagined",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 21,
+        "seconds": 10
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Doom: the Dark Ages su switch 2",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 22,
+        "seconds": 0
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "I giochi del Virtual Boy per la Switch 2",
+      "tags": [
+        "videogames",
+        "nintendo"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 22,
+        "seconds": 30
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "IL DLC di Donkey Kong Bananza",
+      "tags": [
+        "videogames",
+        "nintendo"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 26,
+        "seconds": 5
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Pokémon Pokopia",
+      "tags": [
+        "pokémon",
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 27,
+        "seconds": 35
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Resident Evil 9 Requiem e Resident Evil 7 e 8 per switch 2",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 28,
+        "seconds": 20
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Silver and blood",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 36,
+        "seconds": 40
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "L’assassinio di Charlie Kirk",
+      "tags": [
+        "politica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 38,
+        "seconds": 35
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Nick",
+      "description": "Silksong",
+      "tags": [
+        "videogames",
+        "hollow-knight"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 30,
+        "seconds": 10
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Balatro sul Gameboy Advance",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 46,
+        "seconds": 10
+      }
+    }
+  ],
+  "main": [],
+  "dolcetto": [
+    {
+      "author": "Lorro",
+      "description": "La sezione commenti del video di YouTube della canzone Jodellavitanonhocapitouncazzo di Caparezza ",
+      "tags": [
+        "musica",
+        "youtube"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 50,
+        "seconds": 15
+      }
+    }
+  ],
+  "amaro": [],
+  "impizioni": [],
+  "lore": [
+    {
+      "author": "Sio",
+      "description": "Sio si era già inventato il gimmick del Cracker nella puntata 260",
+      "tags": [
+        "cracker"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 30
+      }
+    }
+  ],
+  "others": []
 }
