@@ -12,7 +12,7 @@
       "tags": ["politica"],
       "timestamp": {
         "hours": 0,
-        "minutes": 9,
+        "minutes": 0,
         "seconds": 1
       }
     },
@@ -31,7 +31,7 @@
   "main": [
     {
       "author": "Lorro",
-      "description": "The Matrix Resurrection",
+      "description": "The Matrix Resurrections",
       "tags": ["film"],
       "timestamp": {
         "hours": 0,
