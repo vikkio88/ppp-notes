@@ -1,15 +1,130 @@
 {
   "title": "346: Quattordici Febbraio",
   "number": 346,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
-  "dolcetto": [],
-  "amaro": [],
-  "lore": [],
-  "others": [],
   "meta": {
-    "user": null,
-    "date": "2025-09-29T14:00:27.301Z"
-  }
+    "user": "PePPPeroni",
+    "date": "2026-05-20T17:57:45.430Z"
+  },
+  "menews": [
+    {
+      "author": "Nick",
+      "description": "Il 4 settembre 2025 esce Silksong",
+      "tags": [
+        "videogames",
+        "hollow-knight"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "La ZA/UM di Disco Elysium esiste ancora ma sono degli infami ",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 10
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "La linea di prodotti di It’s Me Mario",
+      "tags": [
+        "nintendo"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 12,
+        "seconds": 20
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Nick",
+      "description": "La musica di Devil May Cry",
+      "tags": [
+        "musica",
+        "anime"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 8,
+        "seconds": 40
+      }
+    }
+  ],
+  "main": [
+    {
+      "author": "Sio",
+      "description": "Donkey Kong Bananza",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 14,
+        "seconds": 35
+      },
+      "pizza": {
+        "slices": 10,
+        "description": "Pizza con kebab, patatine fritte, maionese e ketchup"
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Peacemaker",
+      "tags": [
+        "serie"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 35,
+        "seconds": 15
+      },
+      "pizza": {
+        "slices": 10,
+        "description": "Pizza rossa con fagioli, chili di carne, cheddar, tantissimo peperoncino e un fiorellino sopra"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Ninja Gaiden: Ragebound",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 42,
+        "seconds": 15
+      },
+      "pizza": {
+        "slices": 7,
+        "description": "Marinara con gli jalapeño"
+      }
+    }
+  ],
+  "dolcetto": [
+    {
+      "author": "Sio",
+      "description": "Il mio vicino Totoro (a Teatro)",
+      "tags": [
+        "teatro"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 50,
+        "seconds": 55
+      }
+    }
+  ],
+  "amaro": [],
+  "impizioni": [],
+  "lore": [],
+  "others": []
 }

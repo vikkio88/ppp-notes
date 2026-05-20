@@ -1,15 +1,151 @@
 {
   "title": "382: Sedersi Critico",
   "number": 382,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
+  "meta": {
+    "user": "PePPPeroni",
+    "date": "2026-05-20T18:05:40.912Z"
+  },
+  "menews": [
+    {
+      "author": "Lorro",
+      "description": "Machinarium",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 30
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Il supergioco misterioso di Sega é stato cancellato",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 8,
+        "seconds": 35
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Il prezzo della Switch 2 aumenterà",
+      "tags": [
+        "tech",
+        "nintendo",
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 40
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Star Fox per Switch 2",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 11,
+        "seconds": 35
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Wax Heads",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 16,
+        "seconds": 25
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Lorro",
+      "description": "Lo Steam Controller, i suoi file CAD e altri controller élite",
+      "tags": [
+        "tech",
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 25
+      }
+    }
+  ],
+  "main": [
+    {
+      "author": "Lorro",
+      "description": "Baldur‘s Gate 3",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 32,
+        "seconds": 35
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "The Love that remains",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 26,
+        "seconds": 55
+      },
+      "pizza": {
+        "slices": 7,
+        "description": "Marinara con rosmarino, gusti e erbette con la base di Rødbrod"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Vampire Crawlers",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 33,
+        "seconds": 10
+      },
+      "pizza": {
+        "slices": 9,
+        "description": "Marinara con il salamino"
+      }
+    }
+  ],
   "dolcetto": [],
   "amaro": [],
-  "lore": [],
-  "others": [],
-  "meta": {
-    "user": null,
-    "date": "2026-05-15T10:24:27.565Z"
-  }
+  "impizioni": [],
+  "lore": [
+    {
+      "author": "Sio",
+      "description": "Legge dell‘assenza: SIO risponde CORRETTAMENTE",
+      "tags": [
+        "legge-assenza"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 20
+      }
+    }
+  ],
+  "others": []
 }
