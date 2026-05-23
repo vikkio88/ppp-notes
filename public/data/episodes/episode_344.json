@@ -1,15 +1,136 @@
 {
   "title": "344: Brozza",
   "number": 344,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
+  "meta": {
+    "user": "PePPPeroni",
+    "date": "2026-05-23T09:32:14.537Z"
+  },
+  "menews": [
+    {
+      "author": "Lorro",
+      "description": "Super Eyepatch Wolf è al Lucca Comics and Games",
+      "tags": [
+        "youtube",
+        "eventi"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 18,
+        "seconds": 40
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Il trailer di Zootopia 2 e le vendite della Switch 2",
+      "tags": [
+        "film",
+        "tech",
+        "videogames",
+        "nintendo"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 19,
+        "seconds": 50
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Sio",
+      "description": "Tecniche di scongelamento della pizza",
+      "tags": [],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 35
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Errata lorrige: Si possono ancora scaricare giochi per 3DS già acquistati",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 21,
+        "seconds": 25
+      }
+    }
+  ],
+  "main": [
+    {
+      "author": "Lorro",
+      "description": "Mobland",
+      "tags": [
+        "serie"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 21,
+        "seconds": 55
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Three Thousand Years of Longing",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 30,
+        "seconds": 40
+      },
+      "pizza": {
+        "slices": 1,
+        "description": "Pizza sbagliata, che tu chiedi una marinara con l’aglio e loro ti portano una pizza margherita con cipolle ma dolce e quando fai notare l’errore ti tolgono solo le cipolle"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Your Friends and Neighbors",
+      "tags": [
+        "serie"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 39,
+        "seconds": 25
+      },
+      "pizza": {
+        "slices": 7,
+        "description": "Margherita con patate al forno al rosmarino"
+      }
+    }
+  ],
   "dolcetto": [],
   "amaro": [],
-  "lore": [],
-  "others": [],
-  "meta": {
-    "user": null,
-    "date": "2025-09-29T14:00:27.302Z"
-  }
+  "impizioni": [],
+  "lore": [
+    {
+      "author": "Lorro",
+      "description": "I voti numerici in fette di pizza per rispondere a “Quette?”: Zette, unta, duette, trette, quatte, citte, seitte, sette, otte, notte, diette",
+      "tags": [],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 2,
+        "seconds": 45
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Internet Time: i topi mangiano i cavi, con appuntamento preso nessuno si presenta da lui, e multipli appuntamenti fantasma compaiono, il tecnico che arriva da solo ma che da solo non può fare nulla, il furgone del tecnico che si rompe, e un fan di Sio che risolve la situazione (più o meno)",
+      "tags": [
+        "internet-time"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 45
+      }
+    }
+  ],
+  "others": []
 }
