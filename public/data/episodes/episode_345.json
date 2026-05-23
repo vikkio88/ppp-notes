@@ -1,15 +1,141 @@
 {
   "title": "345: Ciotola & Tafferugli",
   "number": 345,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
+  "meta": {
+    "user": "PePPPeroni",
+    "date": "2026-05-23T09:25:39.813Z"
+  },
+  "menews": [
+    {
+      "author": "Nick",
+      "description": "Il Nintendo Indie Direct e il Partner Showcase: Persona 3 Reload su Switch 2, Mina the Hollower, UFO 50",
+      "tags": [
+        "nintendo",
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 5
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Ninja Gaiden: Ragebound",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 11,
+        "seconds": 15
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Goat della Sony Pictures Animation",
+      "tags": [
+        "film",
+        "animazione"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 12,
+        "seconds": 0
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Sio",
+      "description": "Remake (non esistenti) di Zelda Twilight Princess e Wind Waker per Switch + Bloodborne",
+      "tags": [
+        "zelda",
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 0
+      }
+    }
+  ],
+  "main": [
+    {
+      "author": "Lorro",
+      "description": "L’ultima stagione di True Detective",
+      "tags": [
+        "serie"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 17,
+        "seconds": 30
+      },
+      "pizza": {
+        "slices": 6,
+        "description": "Pizza bianca con carpaccio di balena e licheni"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Bring her back",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 31,
+        "seconds": 5
+      },
+      "pizza": {
+        "slices": 10,
+        "description": "Marinara con sopra le fette di melone"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "The Studio",
+      "tags": [
+        "serie"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 39,
+        "seconds": 40
+      },
+      "pizza": {
+        "slices": 5,
+        "description": "Pizza tartufo e jalapeño"
+      }
+    }
+  ],
   "dolcetto": [],
   "amaro": [],
-  "lore": [],
-  "others": [],
-  "meta": {
-    "user": null,
-    "date": "2025-09-29T14:00:27.302Z"
-  }
+  "impizioni": [],
+  "lore": [
+    {
+      "author": "Sio",
+      "description": "La Lore dell‘Austria che non esiste",
+      "tags": [],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 2,
+        "seconds": 50
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Un nuovo episodio di Internet Time: la linea di backup e la riparazione della fibra",
+      "tags": [
+        "internet-time"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 12,
+        "seconds": 50
+      }
+    }
+  ],
+  "others": []
 }
