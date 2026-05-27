@@ -1,15 +1,124 @@
 {
   "title": "343: [Rubrica Segreta]",
   "number": 343,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
+  "meta": {
+    "user": "PePPPeroni",
+    "date": "2026-05-27T17:43:03.296Z"
+  },
+  "menews": [
+    {
+      "author": "Nick",
+      "description": "L’hype su YouTube",
+      "tags": [
+        "youtube"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 2
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Il tema LGBTQ+ nei film della Disney Pixar",
+      "tags": [
+        "politica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 10
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Stop killing games",
+      "tags": [
+        "politica",
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 16,
+        "seconds": 0
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Il creatore di \"A short hike\" rilascerà gratis un gioco RPG non finito",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 18,
+        "seconds": 50
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Nick",
+      "description": "I casini sull’ecosistema (cambio corso dei fiumi) causati dalla reintroduzione di animali in un parco",
+      "tags": [],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 47,
+        "seconds": 50
+      }
+    }
+  ],
+  "main": [
+    {
+      "author": "Nick",
+      "description": "I fantastici 4 - gli inizi (first steps)",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 19,
+        "seconds": 55
+      },
+      "pizza": {
+        "slices": 6,
+        "description": "Marinara con acqua di pomodoro (trasparente), crumble di olive (che sembrano piccole rocce), jalapeño (che fanno ruotare la bocca) e rotelle di liquirizia (che puoi stretchare)"
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Untamed",
+      "tags": [
+        "serie"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 37,
+        "seconds": 45
+      },
+      "pizza": {
+        "slices": 5,
+        "description": "Pizza bianca con funghi grigliati, ricotta di capra e olio agli aghi di pino, gusto balsamico e quasi pungente"
+      }
+    }
+  ],
   "dolcetto": [],
   "amaro": [],
-  "lore": [],
-  "others": [],
-  "meta": {
-    "user": null,
-    "date": "2025-09-29T14:00:27.302Z"
-  }
+  "impizioni": [],
+  "lore": [
+    {
+      "author": "Sio",
+      "description": "Puntata senza Sio (Internet rotto)",
+      "tags": [
+        "hosts",
+        "internet-time"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1
+      }
+    }
+  ],
+  "others": []
 }
