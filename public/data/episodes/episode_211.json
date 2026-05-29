@@ -1,24 +1,120 @@
 {
   "title": "211: Il Pollo è Minestrone",
+  "number": 211,
+  "meta": {
+    "user": "vikkio88",
+    "date": "2026-05-29T14:50:35.133Z"
+  },
+  "menews": [
+    {
+      "author": "Sio",
+      "description": "Super Mario Bros Movie probabilmente è un musical",
+      "tags": [
+        "supermariomovie",
+        "musical"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 46
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Nick",
+      "description": "Everything Everywhere all at once, recensioni online, video su un effetto sonoro smash bros",
+      "tags": [
+        "easter-egg",
+        "smash-bros"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 19,
+        "seconds": 30
+      }
+    }
+  ],
   "main": [
     {
       "author": "Nick",
       "description": "Asakusa Kid",
+      "tags": [
+        "takeshi-kitano",
+        "katakana",
+        "tokyo",
+        "netflix",
+        "sio-alexa"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 25,
+        "seconds": 0
+      },
       "pizza": {
         "slices": 8,
-        "description": "margherita con daifuku e olive"
+        "description": "Daifuku con dentro le olive"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Super Mario 3d World",
+      "tags": [
+        "switch",
+        "supermariobros",
+        "nintendo",
+        "wiiu",
+        "multiplayer",
+        "supermario3dworld",
+        "bowsers-fury",
+        "new-supermariobros-wii",
+        "furry"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 32,
+        "seconds": 0
+      },
+      "pizza": {
+        "slices": 9.5,
+        "description": "margherita buona"
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Better Call Saul",
+      "tags": [
+        "ottima-scrittura"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 45,
+        "seconds": 0
+      },
+      "pizza": {
+        "slices": 10,
+        "description": ""
       }
     }
   ],
-  "menews": [],
-  "lorrowap": [],
   "dolcetto": [],
   "amaro": [],
-  "lore": [],
-  "others": [],
-  "meta": {
-    "user": "giudycorda",
-    "date": "2025-09-28T09:44:35.987Z"
-  },
-  "number": 211
+  "impizioni": [],
+  "lore": [
+    {
+      "author": "Nick",
+      "description": "Creato il canale di Youtube di Powerpizza",
+      "tags": [
+        "youtube",
+        "video",
+        "puntata-video"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 17,
+        "seconds": 50
+      }
+    }
+  ],
+  "others": []
 }
