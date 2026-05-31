@@ -1,15 +1,145 @@
 {
   "title": "341: Francesco Tullio William",
   "number": 341,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
+  "meta": {
+    "user": "PePPPeroni",
+    "date": "2026-05-31T09:26:11.487Z"
+  },
+  "menews": [
+    {
+      "author": "Nick",
+      "description": "Baahubali 3 - The Epic e Baahubali: Before the Beginning",
+      "tags": [
+        "film",
+        "serie"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 20
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Un nuovo modo di evitare i gusci blu in Mario Kart",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 12,
+        "seconds": 15
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Romeo is a deadman",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 14,
+        "seconds": 35
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Sio",
+      "description": "Switch 2 o Steam Deck?",
+      "tags": [
+        "tech",
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 10
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Per alcuni giochi le cartucce della Switch 1 funzionano anche per la Switch 2",
+      "tags": [
+        "tech",
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 14,
+        "seconds": 0
+      }
+    }
+  ],
+  "main": [
+    {
+      "author": "Lorro",
+      "description": "Superman (2025)",
+      "tags": [
+        "film",
+        "marvel"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 15,
+        "seconds": 45
+      },
+      "pizza": {
+        "slices": 7,
+        "description": "Würstel, patate al forno e scamorza"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Superman (2025)",
+      "tags": [
+        "film",
+        "marvel"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 15,
+        "seconds": 45
+      },
+      "pizza": {
+        "slices": 8,
+        "description": "Pizza con i croccantini per cani"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Babel, or The Necessity of Violence: An Arcane History of the Oxford Translators' Revolution",
+      "tags": [
+        "libri"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 40,
+        "seconds": 35
+      },
+      "pizza": {
+        "slices": 8,
+        "description": "Marinara con le patate al forno e spicchi d’aglio "
+      }
+    }
+  ],
   "dolcetto": [],
   "amaro": [],
-  "lore": [],
-  "others": [],
-  "meta": {
-    "user": null,
-    "date": "2025-09-29T14:00:27.302Z"
-  }
+  "impizioni": [],
+  "lore": [
+    {
+      "author": "Sio",
+      "description": "L’idea per le puntate speciali sui migliori videogiochi di ogni decade - parte 1",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 8,
+        "seconds": 5
+      }
+    }
+  ],
+  "others": []
 }

@@ -1,15 +1,116 @@
 {
   "title": "342: il Forziere del Freddo",
   "number": 342,
-  "main": [],
-  "menews": [],
+  "meta": {
+    "user": "PePPPeroni",
+    "date": "2026-05-31T09:12:39.929Z"
+  },
+  "menews": [
+    {
+      "author": "Lorro",
+      "description": "Gachiakuta + L’annuncio della prima puntata di Il fantastico show di Nelson… e Lorro",
+      "tags": [
+        "podcast",
+        "manga",
+        "anime"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 8,
+        "seconds": 0
+      }
+    }
+  ],
   "lorrowap": [],
+  "main": [
+    {
+      "author": "Sio",
+      "description": "Elio",
+      "tags": [
+        "film",
+        "animazione"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 20
+      },
+      "pizza": {
+        "slices": 6,
+        "description": "Pizza rossa con la bresaola, ma che in realtà se leggi il menù scancellato la pizza aveva più fette e includeva mozzarella di bufala e fiori di zucca, ed è stata ridimensionata perché avevano paura del sindaco della città che toglieva i soldi alla pizzeria"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "KPop Demon Hunters",
+      "tags": [
+        "film",
+        "animazione"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 20,
+        "seconds": 5
+      },
+      "pizza": {
+        "slices": 8,
+        "description": "Würstel e patatine "
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Bleak Sword DX",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 31,
+        "seconds": 35
+      },
+      "pizza": {
+        "slices": 7,
+        "description": "Marinara con il pesto vegetale"
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "L‘opinione su Israele e Palestina di Contrapoints",
+      "tags": [
+        "politica",
+        "internet",
+        "youtube"
+      ]
+    }
+  ],
   "dolcetto": [],
   "amaro": [],
-  "lore": [],
-  "others": [],
-  "meta": {
-    "user": null,
-    "date": "2025-09-29T14:00:27.302Z"
-  }
+  "impizioni": [],
+  "lore": [
+    {
+      "author": "Nick",
+      "description": "L’idea per le puntate speciali sui migliori videogiochi di ogni decade - parte 2",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 50
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Nick pronuncia la famosa frase “Scavatevi la fossa con le vostre pale della pizza”",
+      "tags": [
+        "hosts"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 20,
+        "seconds": 20
+      }
+    }
+  ],
+  "others": []
 }
