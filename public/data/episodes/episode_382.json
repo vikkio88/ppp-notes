@@ -3,7 +3,7 @@
   "number": 382,
   "meta": {
     "user": "PePPPeroni",
-    "date": "2026-05-20T18:05:40.912Z"
+    "date": "2026-06-06T13:19:49.389Z"
   },
   "menews": [
     {
@@ -67,6 +67,18 @@
         "minutes": 16,
         "seconds": 25
       }
+    },
+    {
+      "author": "Nick",
+      "description": "Il premio per i migliori cani nei film",
+      "tags": [
+        "cani"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 27,
+        "seconds": 0
+      }
     }
   ],
   "lorrowap": [
@@ -81,6 +93,16 @@
         "hours": 0,
         "minutes": 6,
         "seconds": 25
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Sul tema mascella e mandibola",
+      "tags": [],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 50
       }
     }
   ],
