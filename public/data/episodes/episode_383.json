@@ -1,15 +1,123 @@
 {
   "title": "383: Dottor Cameriere",
   "number": 383,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
+  "meta": {
+    "user": "PePPPeroni",
+    "date": "2026-06-06T13:30:15.150Z"
+  },
+  "menews": [
+    {
+      "author": "Sio",
+      "description": "Lo Steam Controller fa il Wilhelm Scream quando cade",
+      "tags": [
+        "tech",
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 0
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Lorro",
+      "description": "Di nuovo sul tema mandibola - mascella",
+      "tags": [],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 35
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Come rincominciare Vampire Survivors",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 8,
+        "seconds": 5
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "L’acquisto su Switch 2 di Vampire Crawlers non include il gioco per Switch 1, mentre l’acquisto per la 1 include quello per la 2, ma i save file non sono ancora compatibili",
+      "tags": [
+        "videogames",
+        "nintendo"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 35
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Dungeon Crawler Carl 2 - Il giorno del giudizio",
+      "tags": [
+        "libri"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 44,
+        "seconds": 30
+      }
+    }
+  ],
+  "main": [
+    {
+      "author": "Nick",
+      "description": "Pragmata",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 20
+      },
+      "pizza": {
+        "slices": 9,
+        "description": "Marinara con sopra delle fette di zucca sottili che sembrano delle mezzelune"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "The Mandalorian and Grogu",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 16,
+        "seconds": 50
+      },
+      "pizza": {
+        "slices": 7,
+        "description": "Pizza divisa a metà: una parte cicoria e olive, a destra le verdure floppy grigliate "
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Baldur’s Gate 3",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 35,
+        "seconds": 50
+      }
+    }
+  ],
   "dolcetto": [],
   "amaro": [],
+  "impizioni": [],
   "lore": [],
-  "others": [],
-  "meta": {
-    "user": null,
-    "date": "2026-05-29T08:19:26.006Z"
-  }
+  "others": []
 }
