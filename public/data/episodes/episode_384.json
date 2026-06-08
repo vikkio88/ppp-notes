@@ -1,15 +1,154 @@
 {
   "title": "384: VenetAO",
   "number": 384,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
+  "meta": {
+    "user": "PePPPeroni",
+    "date": "2026-06-08T19:40:03.649Z"
+  },
+  "menews": [
+    {
+      "author": "Nick",
+      "description": "A24 ha uno shop in cui vendono gli screenplay / sceneggiature dei film, ma costano 60€ e sono numerati, quindi collezionabili",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 0
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Mina the Hollower",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 12,
+        "seconds": 15
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Gli Enhanced Games (Olimpiadi dopate)",
+      "tags": [
+        "sport"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 12,
+        "seconds": 35
+      }
+    },
+    {
+      "author": "Fabio Antonelli",
+      "description": "La Fender vuole mettere il copyright sulla forma della Stratocaster",
+      "tags": [
+        "musica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 15,
+        "seconds": 5
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Lorro",
+      "description": "Ryoko Kui odia Astarion e disegna elfi",
+      "tags": [
+        "manga",
+        "anime"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 15
+      }
+    }
+  ],
+  "main": [
+    {
+      "author": "Fabio Antonelli",
+      "description": "La colonna sonora di Project Hail Mary",
+      "tags": [
+        "film",
+        "musica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 17,
+        "seconds": 10
+      },
+      "pizza": {
+        "slices": 8,
+        "description": "Margherita con la mozzarella di bufala"
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Le città di pianura",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 30,
+        "seconds": 15
+      },
+      "pizza": {
+        "slices": 6,
+        "description": "Pizza bianca con sopra i bovoetti da sgusciare uno a uno"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Le città di pianura",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 30,
+        "seconds": 16
+      },
+      "pizza": {
+        "slices": 7,
+        "description": "Marinara con i fondi di carciofo"
+      }
+    }
+  ],
   "dolcetto": [],
   "amaro": [],
-  "lore": [],
-  "others": [],
-  "meta": {
-    "user": null,
-    "date": "2026-06-05T08:20:42.840Z"
-  }
+  "impizioni": [],
+  "lore": [
+    {
+      "author": "Fabio Antonelli",
+      "description": "Puntata con Fabio Antonelli",
+      "tags": [
+        "hosts"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Puntata senza Sio",
+      "tags": [
+        "hosts"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 2
+      }
+    }
+  ],
+  "others": []
 }
