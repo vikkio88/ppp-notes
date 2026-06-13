@@ -1,15 +1,170 @@
 {
   "title": "340: POWER SARDEGNA live @ Comicon (feat. Shy!!)",
   "number": 340,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
+  "meta": {
+    "user": "PePPPeroni",
+    "date": "2026-06-13T12:43:33.541Z"
+  },
+  "menews": [
+    {
+      "author": "Sio",
+      "description": "Spaceballs 2 - Balle Spaziali 2",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 19,
+        "seconds": 30
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Nick",
+      "description": "Non é vero che nei supermercati Tesco alle casse c‘é la voce di Noel Fielding",
+      "tags": [],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 15,
+        "seconds": 0
+      }
+    }
+  ],
+  "main": [
+    {
+      "author": "Shy",
+      "description": "La barzelletta sul Papa di Shy",
+      "tags": [],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 20
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Quizza sull‘avere figli - domanda 1: quante ossa ha un neonato? Risponde giusto Sio",
+      "tags": [
+        "quizza"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 17,
+        "seconds": 10
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Planet of Lana",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 22,
+        "seconds": 0
+      },
+      "pizza": {
+        "slices": 9,
+        "description": "Margherita vegana con il pesto vegano"
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Quizza sull‘avere figli - domanda 2: quante ore al giorno piange un infante? Nessuno risponde giusto",
+      "tags": [
+        "quizza"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 27,
+        "seconds": 15
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Moana 2",
+      "tags": [
+        "film",
+        "animazione"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 31,
+        "seconds": 15
+      },
+      "pizza": {
+        "slices": 6,
+        "description": "Margherita buonissima"
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Quizza sull‘avere figli - domanda 3: quanto misurava il neonato più grande mai registrato? Risponde giusto Sio",
+      "tags": [
+        "quizza"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 35,
+        "seconds": 50
+      }
+    },
+    {
+      "author": "Shy",
+      "description": "Animal Crossing",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 39,
+        "seconds": 0
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Quizza sull‘avere figli - domanda 4: come vede un neonato nelle prime settimane di vita? Risponde giusto Sio",
+      "tags": [
+        "quizza"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 43,
+        "seconds": 10
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Quizza sull‘avere figli - domanda 5: quanti pannolini in media consuma un bambino nei primi anni di vita? Risponde giusto Sio e vince",
+      "tags": [
+        "quizza"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 47,
+        "seconds": 30
+      }
+    }
+  ],
   "dolcetto": [],
   "amaro": [],
-  "lore": [],
-  "others": [],
-  "meta": {
-    "user": null,
-    "date": "2025-09-29T14:00:27.302Z"
-  }
+  "impizioni": [],
+  "lore": [
+    {
+      "author": "Shy",
+      "description": "Live al Comicon di Bergamo con Shy - Alessandro Masala - Shooter Hates You - Mr. Breaking Italy",
+      "tags": [
+        "eventi",
+        "hosts"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1
+      }
+    }
+  ],
+  "others": []
 }
