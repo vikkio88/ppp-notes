@@ -1,15 +1,149 @@
 {
   "title": "338: In ritAndor",
   "number": 338,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
-  "dolcetto": [],
-  "amaro": [],
-  "lore": [],
-  "others": [],
   "meta": {
-    "user": null,
-    "date": "2025-09-29T14:00:27.302Z"
-  }
+    "user": "PePPPeroni",
+    "date": "2026-06-15T18:59:38.154Z"
+  },
+  "menews": [
+    {
+      "author": "Nick",
+      "description": "Tutti i tasti della Switch 2 sono riprogrammabili",
+      "tags": [
+        "tech",
+        "switch",
+        "nintendo"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 50
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Il museo ACMI Melbourne annuncia una mostra sui videogiochi dove sarà giocabile Silksong",
+      "tags": [
+        "eventi",
+        "videogames",
+        "hollow-knight"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 0
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Steven Universe Lars of the Stars (annuncio)",
+      "tags": [
+        "serie",
+        "animazione"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 14,
+        "seconds": 30
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Disney denuncia Mid Journey",
+      "tags": [
+        "animazione",
+        "tech"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 16,
+        "seconds": 35
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Sio",
+      "description": "Cosa significa Drifting dei Joycon e cosa significa Fan Service",
+      "tags": [
+        "switch",
+        "anime"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 11,
+        "seconds": 35
+      }
+    }
+  ],
+  "main": [
+    {
+      "author": "Lorro",
+      "description": "Andor stagione 2",
+      "tags": [
+        "serie"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 17,
+        "seconds": 50
+      },
+      "pizza": {
+        "slices": 10,
+        "description": "Pizza con bufala, carciofi e guanciale e con il cornicione ripieno di ricotta, ma mangiata bevendo un bicchierone di latte blu"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Force Majeure",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 39,
+        "seconds": 20
+      },
+      "pizza": {
+        "slices": 8,
+        "description": "Pizza bianca con formaggio vegano, cavolfiori e delle cipolle bianche crude in uscita"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Yellow Face",
+      "tags": [
+        "libri"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 48,
+        "seconds": 10
+      },
+      "pizza": {
+        "slices": 8,
+        "description": "Margherita con la Contadina Pizza Squeeze Sauce al posto del pomodoro e il Ceddar al posto della mozzarella, e con basilico vero"
+      }
+    }
+  ],
+  "dolcetto": [
+    {
+      "author": "Sio",
+      "description": "Deltarune e Undertale: Toby Fox permette a tutti di usare la colonna sonora su YouTube",
+      "tags": [
+        "musica",
+        "youtube",
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 1,
+        "minutes": 0,
+        "seconds": 55
+      }
+    }
+  ],
+  "amaro": [],
+  "impizioni": [],
+  "lore": [],
+  "others": []
 }
