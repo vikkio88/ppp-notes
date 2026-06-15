@@ -1,15 +1,148 @@
 {
   "title": "339: Mio Kojimo",
   "number": 339,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
-  "dolcetto": [],
-  "amaro": [],
-  "lore": [],
-  "others": [],
   "meta": {
-    "user": null,
-    "date": "2025-09-29T14:00:27.302Z"
-  }
+    "user": "PePPPeroni",
+    "date": "2026-06-15T18:52:19.085Z"
+  },
+  "menews": [
+    {
+      "author": "Sio",
+      "description": "Le cartucce rosse per la Switch 2 non funzionano per la Switch 1",
+      "tags": [
+        "tech",
+        "videogames",
+        "switch"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 20
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "RRR Behind & Beyond",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 25
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Nick",
+      "description": "Mario Kart World",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 5
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Lo YouTuber Indeimaus finisce Nine Sols",
+      "tags": [
+        "videogames",
+        "youtube"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 11,
+        "seconds": 15
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Il review bombing a Monster Hunter Wilds",
+      "tags": [
+        "videogames",
+        "monster-hunter"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 12,
+        "seconds": 40
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Un nuovo modo per evitare i gusci blu in Mario Kart World",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 14,
+        "seconds": 5
+      }
+    }
+  ],
+  "main": [
+    {
+      "author": "Nick",
+      "description": "28 anni dopo",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 16,
+        "seconds": 35
+      },
+      "pizza": {
+        "slices": 8,
+        "description": "Marinara con tutto il peperoncino sopra e senza ossa"
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Yasumi Matsuno, Ogre Battle the March of the Black Queen, Tactics Ogre, Vagrant Story",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 30,
+        "seconds": 30
+      }
+    }
+  ],
+  "dolcetto": [
+    {
+      "author": "Nick",
+      "description": "Nekotalk2828 profilo Instagram per imparare il giapponese",
+      "tags": [],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 47,
+        "seconds": 35
+      }
+    }
+  ],
+  "amaro": [
+    {
+      "author": "Sio",
+      "description": "Gli Incredibili 3",
+      "tags": [
+        "film",
+        "animazione"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 48,
+        "seconds": 25
+      }
+    }
+  ],
+  "impizioni": [],
+  "lore": [],
+  "others": []
 }
