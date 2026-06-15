@@ -1,15 +1,249 @@
 {
   "title": "385: HAWAOW",
   "number": 385,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
+  "meta": {
+    "user": "PePPPeroni",
+    "date": "2026-06-13T12:30:38.810Z"
+  },
+  "menews": [
+    {
+      "author": "Nick",
+      "description": "Quelli di Cartoon Saloon faranno una serie Spin-Off di Wolfwalkers: \"Mehb and the Wolf Pups\"",
+      "tags": [
+        "serie",
+        "animazione"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 0
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "My Brother the Minotaur e Kindred Spirits",
+      "tags": [
+        "serie",
+        "animazione",
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 8,
+        "seconds": 10
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Il Summer Game Fest, il Playstation State of Play e l´XBOX Games Showcase",
+      "tags": [
+        "videogames",
+        "eventi"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 30
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Il nuovo \"wet\" update di Vampire Survivors",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 20
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Final Fantasy VII (7) Revelations",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 40
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "God of War Laufey",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 12,
+        "seconds": 15
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Gundam Rogue Orbit",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 35
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Bad Magpie",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 14,
+        "seconds": 35
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Control Resonant, Cuphead 2, Cupped 8 bit, Persona 6, Persona 4 Revival, Monster Hunter Wilds e Wilds Ascendance su Switch 2",
+      "tags": [
+        "videogames",
+        "monster-hunter"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 15,
+        "seconds": 55
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Castelvania Belmont´s Curse e Doom The Dark Ages Revelations DLC",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 19,
+        "seconds": 35
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Cose da evitare se volete evitare le cose con la IA generativa: Crazy Taxi World Tour ",
+      "tags": [
+        "tech",
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 20,
+        "seconds": 15
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Balatro e l’aggiornamento per il Pride Month",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 24,
+        "seconds": 0
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Lorro",
+      "description": "Le vespe nel cesso di loro (vedi inizio puntata precedente) sono state debellate. Ora Lorro ha una ciotola di veleno.",
+      "tags": [],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 0
+      }
+    }
+  ],
+  "main": [
+    {
+      "author": "Nick",
+      "description": "Due Spicci di Zerocalcare",
+      "tags": [
+        "serie",
+        "animazione"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 44,
+        "seconds": 20
+      },
+      "pizza": {
+        "slices": 9,
+        "description": "Marinara rossa romana croccante"
+      }
+    }
+  ],
   "dolcetto": [],
   "amaro": [],
-  "lore": [],
-  "others": [],
-  "meta": {
-    "user": null,
-    "date": "2026-06-12T09:36:38.015Z"
-  }
+  "impizioni": [
+    {
+      "author": "Sio",
+      "description": "Mina the Hollower",
+      "tags": [
+        "videogames",
+        "sioddisfatto"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 24,
+        "seconds": 40
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Mina the Hollower",
+      "tags": [
+        "videogames",
+        "nicktrale"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 24,
+        "seconds": 41
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Mina the Hollower",
+      "tags": [
+        "videogames",
+        "sioddisfatto"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 24,
+        "seconds": 42
+      }
+    }
+  ],
+  "lore": [
+    {
+      "author": "Nick",
+      "description": "Legge dell’assenza: quando un host non c’è, deve rispondere a una domanda nella puntata dopo per dimostrare di aver ascoltato quella in cui non c’era. Se fallisce, deve una pizza a Lorro. Nick chiede a Sio quale é la pizza che Fabio Antonelli sceglie se si fida della pizzeria. Sio RIPONDE GIUSTO (Puntata 384 a 04:00 Fabio Antonelli spiega la logica) ma Nick sbaglia e convince tutti che Sio ha sbagliato",
+      "tags": [
+        "legge-assenza"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 35
+      }
+    }
+  ],
+  "others": []
 }
