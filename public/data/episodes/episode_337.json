@@ -1,15 +1,161 @@
 {
   "title": "337: Gatti nel Frigo",
   "number": 337,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
-  "dolcetto": [],
-  "amaro": [],
-  "lore": [],
-  "others": [],
   "meta": {
-    "user": null,
-    "date": "2025-09-29T14:00:27.302Z"
-  }
+    "user": "PePPPeroni",
+    "date": "2026-06-22T18:14:47.448Z"
+  },
+  "menews": [
+    {
+      "author": "Lorro",
+      "description": "La terza puntata di Punch Punch Forever",
+      "tags": [
+        "serie",
+        "animazione"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 40
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Jacksfilms e Hbomberguy",
+      "tags": [
+        "youtube"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 55
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Sonic Race Crossworlds",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 16,
+        "seconds": 45
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Persona 4 Revival e un nuovo gioco di Scott Pilgrim con la colonna sonora di Anamanaguchi",
+      "tags": [
+        "videogames",
+        "musica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 12,
+        "seconds": 15
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "L’uscita di Silksong",
+      "tags": [
+        "videogames",
+        "hollow-knight"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 35
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Sio",
+      "description": "Adolescence",
+      "tags": [
+        "serie"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 35
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "La questione di Tanta Merda parte 3",
+      "tags": [],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 20
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Safe Places online per le news: il post è Breaking Italy",
+      "tags": [
+        "politica",
+        "youtube"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 35
+      }
+    }
+  ],
+  "main": [
+    {
+      "author": "Sio",
+      "description": "La Switch 2, Mario Kart World, il problema dei videogiochi non contenuti in locale su scheda e le critiche alla switch",
+      "tags": [
+        "tech",
+        "switch",
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 18,
+        "seconds": 45
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Il Baracchino",
+      "tags": [
+        "serie",
+        "animazione"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 45,
+        "seconds": 30
+      },
+      "pizza": {
+        "slices": 8,
+        "description": "Margherita con le alici"
+      }
+    }
+  ],
+  "dolcetto": [],
+  "amaro": [
+    {
+      "author": "Lorro",
+      "description": "Il voto al Referendum",
+      "tags": [
+        "politica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 53,
+        "seconds": 55
+      }
+    }
+  ],
+  "impizioni": [],
+  "lore": [],
+  "others": []
 }

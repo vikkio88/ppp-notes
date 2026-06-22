@@ -1,15 +1,166 @@
 {
   "title": "336: Jimmy Stabberoni",
   "number": 336,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
-  "dolcetto": [],
-  "amaro": [],
-  "lore": [],
-  "others": [],
   "meta": {
-    "user": null,
-    "date": "2025-09-29T14:00:27.302Z"
-  }
+    "user": "PePPPeroni",
+    "date": "2026-06-22T18:28:39.670Z"
+  },
+  "menews": [
+    {
+      "author": "Sio",
+      "description": "Il post di Time Extension sul fatto che la Wii U ha il gamepad che rischia di esplodere con le batterie al litio dopo tanti anni di non utilizzo",
+      "tags": [
+        "videogames",
+        "nintendo",
+        "tech"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 11,
+        "seconds": 35
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Amazon Prime Video ha le pubblicità",
+      "tags": [],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 45
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Nuovo aggiornamento di Alarmo",
+      "tags": [
+        "tech",
+        "nintendo"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 30
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Lorro",
+      "description": "La questione di Tanta Merda (parte 2)",
+      "tags": [],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 15
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Quali personaggi sarebbero gli Host di PPP in Bocchi the Rock",
+      "tags": [
+        "anime",
+        "hosts"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 15
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Confermate 10 fette di pizza alla prima stagione di The Wire",
+      "tags": [
+        "serie"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 8,
+        "seconds": 20
+      }
+    }
+  ],
+  "main": [
+    {
+      "author": "Nick",
+      "description": "La Trama Fenicia di Wes Anderson",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 16,
+        "seconds": 10
+      },
+      "pizza": {
+        "slices": 8,
+        "description": "Margherita con il dardo di una balestra piantato dentro"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Adolescence",
+      "tags": [
+        "serie"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 28,
+        "seconds": 15
+      },
+      "pizza": {
+        "slices": 10,
+        "description": "Diavola con peperoncini interi"
+      }
+    }
+  ],
+  "dolcetto": [
+    {
+      "author": "Sio",
+      "description": "Il video YouTube “Wario mi ha insegnato a programmare” di Jacadamia e il sito che raccoglie tutti i salvataggi di Warioware, e il gioco di Jacadamia",
+      "tags": [
+        "youtube",
+        "videogames",
+        "tech",
+        "siti-internet"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 53,
+        "seconds": 30
+      }
+    }
+  ],
+  "amaro": [],
+  "impizioni": [
+    {
+      "author": "Lorro",
+      "description": "Il video dal canale More Perfect Union sulla città Memphis avvelenata dai Data Center per la IA di Elon Musk",
+      "tags": [
+        "youtube",
+        "politica",
+        "tech",
+        "sioddisfatto"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 39,
+        "seconds": 50
+      }
+    }
+  ],
+  "lore": [
+    {
+      "author": "Sio",
+      "description": "L’invenzione del “Mi è arrivata una pizza” per introdurre un nuovo argomento",
+      "tags": [],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 15,
+        "seconds": 40
+      }
+    }
+  ],
+  "others": []
 }
