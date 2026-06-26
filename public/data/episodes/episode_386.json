@@ -1,15 +1,251 @@
 {
   "title": "386: il Concilio degli Scemi",
   "number": 386,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
+  "meta": {
+    "user": "PePPPeroni",
+    "date": "2026-06-26T21:33:50.637Z"
+  },
+  "menews": [
+    {
+      "author": "Nick",
+      "description": "La nuova versione restaurata di Principessa Mononoke",
+      "tags": [
+        "anime"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 20
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Il Nintendo Direct e Rhythm Heaven - Rhythm Tengoku",
+      "tags": [
+        "videogames",
+        "nintendo"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 40
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Il DLC di Pokémon Pokopia",
+      "tags": [
+        "videogames",
+        "pokémon"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 8,
+        "seconds": 50
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Orbitals (annuncio) e il nuovo Xenoblade Genesis, e la versione per Switch dei vecchi Xenoblade",
+      "tags": [
+        "videogames",
+        "switch"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 35
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Final Fantasy Resonance",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 30
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "The Duskbloods (teaser)",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 12,
+        "seconds": 20
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Nintendo Switch Sports Resorts con la battaglia dei pollici",
+      "tags": [
+        "videogames",
+        "switch"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 0
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Kingdom Hearts 4 per Switch 2 e la Kingdom Hearts Collection",
+      "tags": [
+        "videogames",
+        "switch"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 14,
+        "seconds": 50
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Il remake di Legend of Zelda: Ocarina of Time",
+      "tags": [
+        "zelda",
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 16,
+        "seconds": 15
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Lorro",
+      "description": "La legge dell’assenza della puntata scorsa con Fabio Antonelli (errore di Nick)",
+      "tags": [
+        "legge-assenza"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Dungeon Crawler Carl",
+      "tags": [
+        "libri"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 0
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "La fine del musical di Totoro",
+      "tags": [
+        "musical"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 50
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Yellowface e Yellow Mask (di Dado)",
+      "tags": [
+        "libri",
+        "fumetti"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 55
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Mina the Hollower",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 35,
+        "seconds": 20
+      }
+    }
+  ],
+  "main": [
+    {
+      "author": "Nick",
+      "description": "Wake Up Dead Man",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 23,
+        "seconds": 25
+      },
+      "pizza": {
+        "slices": 7,
+        "description": "Marinara buona"
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Wake Up Dead Man",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 23,
+        "seconds": 26
+      },
+      "pizza": {
+        "slices": 7,
+        "description": "Quattro formaggi"
+      }
+    }
+  ],
   "dolcetto": [],
   "amaro": [],
-  "lore": [],
-  "others": [],
-  "meta": {
-    "user": null,
-    "date": "2026-06-19T10:50:55.772Z"
-  }
+  "impizioni": [
+    {
+      "author": "Sio",
+      "description": "Atelier of Witch Hat",
+      "tags": [
+        "manga",
+        "sioddisfatto"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 39,
+        "seconds": 30
+      }
+    }
+  ],
+  "lore": [
+    {
+      "author": "Sio",
+      "description": "Sio é scozzese, confermato dalla puntata 35",
+      "tags": [],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 15
+      }
+    }
+  ],
+  "others": []
 }
