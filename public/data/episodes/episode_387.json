@@ -1,0 +1,89 @@
+{
+  "title": "387: Robocop Vanderploeg",
+  "number": 387,
+  "meta": {
+    "user": "PePPPeroni",
+    "date": "2026-06-26T21:34:50.637Z"
+  },
+  "menews": [
+    {
+      "author": "Sio",
+      "description": "Lo steam controller arriva nel 2027 se lo si ordina a giugno 2026, e altri controller",
+      "tags": [
+        "tech",
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 8,
+        "seconds": 20
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Lorro",
+      "description": "Ocarina of Time Remake",
+      "tags": [
+        "zelda",
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 55
+      }
+    }
+  ],
+  "main": [
+    {
+      "author": "Nick",
+      "description": "Rental Family",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 35
+      },
+      "pizza": {
+        "slices": 8,
+        "description": "Pizza con sopra gli Yakisoba"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Butter (libro)",
+      "tags": [
+        "libri"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 23,
+        "seconds": 0
+      },
+      "pizza": {
+        "slices": 8,
+        "description": "Margherita con il burro"
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Final Fantasy (il 7, il remake del 7 e il franchise) e la classifica dei migliori giochi della Golden Age secondo lorro, dal peggiore al migliore: 10, 7, 8, 9, 12 (11 saltato perché MMO)",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 33,
+        "seconds": 0
+      }
+    }
+  ],
+  "dolcetto": [],
+  "amaro": [],
+  "impizioni": [],
+  "lore": [],
+  "others": []
+}
