@@ -1,15 +1,226 @@
 {
   "title": "335: Tanta M*rda",
   "number": 335,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
-  "dolcetto": [],
-  "amaro": [],
-  "lore": [],
-  "others": [],
   "meta": {
-    "user": null,
-    "date": "2025-09-29T14:00:27.303Z"
-  }
+    "user": "PePPPeroni",
+    "date": "2026-07-02T19:56:03.517Z"
+  },
+  "menews": [
+    {
+      "author": "Nick",
+      "description": "Amore Bestiale di Barbascura X é in chiaro sul suo canale",
+      "tags": [
+        "youtube"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 8,
+        "seconds": 55
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "La nuova stagione di Gumball",
+      "tags": [
+        "animazione",
+        "serie"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 35
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Il film di Elden Ring e la serie di Skibidi Toilet",
+      "tags": [
+        "film",
+        "animazione",
+        "videogames",
+        "serie",
+        "youtube"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 11,
+        "seconds": 0
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Lorro",
+      "description": "La versione Wario rovesciata degli Host di PPP",
+      "tags": [
+        "hosts"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 10
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Spiderman across the Spiderverse",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 11,
+        "seconds": 45
+      }
+    }
+  ],
+  "main": [
+    {
+      "author": "Nick",
+      "description": "Diritto al malessere di Sadagari",
+      "tags": [
+        "fumetti"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 12,
+        "seconds": 40
+      },
+      "pizza": {
+        "slices": 9,
+        "description": "Marinara superpiccante con jalapeño triturati"
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Bocchi the Rock",
+      "tags": [
+        "anime"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 18,
+        "seconds": 30
+      },
+      "pizza": {
+        "slices": 10,
+        "description": ""
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Bocchi the Rock",
+      "tags": [
+        "anime"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 18,
+        "seconds": 31
+      },
+      "pizza": {
+        "slices": 10,
+        "description": ""
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Tokyo these days",
+      "tags": [
+        "manga"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 30,
+        "seconds": 20
+      },
+      "pizza": {
+        "slices": 8,
+        "description": "Pizza con Hummus e Zucchine"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Manga Stories (adattamento di Murakami)",
+      "tags": [
+        "manga"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 33,
+        "seconds": 45
+      },
+      "pizza": {
+        "slices": 9,
+        "description": "Pizza con Bretzel, Bagel e crumble di pane"
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "The Wire",
+      "tags": [
+        "serie"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 36,
+        "seconds": 50
+      },
+      "pizza": {
+        "slices": 10,
+        "description": "Pizza con tantissimo aglio, cozze, pecorino, friarielli e olio piccante"
+      }
+    }
+  ],
+  "dolcetto": [
+    {
+      "author": "Nick",
+      "description": "Sailing the Seas of Cheese",
+      "tags": [
+        "musica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 29,
+        "seconds": 40
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "I bivalvegan",
+      "tags": [],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 45,
+        "seconds": 20
+      }
+    }
+  ],
+  "amaro": [],
+  "impizioni": [],
+  "lore": [
+    {
+      "author": "Sio",
+      "description": "Puntata senza Sio",
+      "tags": [
+        "hosts"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "La questione di tanta merda - Parte 1",
+      "tags": [],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 0
+      }
+    }
+  ],
+  "others": []
 }
