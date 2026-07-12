@@ -1,15 +1,188 @@
 {
   "title": "332: il Puzzle dello Schifo",
   "number": 332,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
-  "dolcetto": [],
-  "amaro": [],
-  "lore": [],
-  "others": [],
   "meta": {
-    "user": null,
-    "date": "2025-09-29T14:00:27.303Z"
-  }
+    "user": "PePPPeroni",
+    "date": "2026-07-12T15:45:21.532Z"
+  },
+  "menews": [
+    {
+      "author": "Lorro",
+      "description": "Yuji Horii al Comicon di Napoli e la l’errore dell’interprete sul remake di Chrono Trigger",
+      "tags": [
+        "evento",
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 8,
+        "seconds": 20
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Il remake di Ecco the Dolphin + Ecco the Dolphin 3",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 25
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Alla Switch 2 Experience in Giappone sono andati degli speedrunner che hanno finito la demo lì al momento + la comunità degli Speedrunner",
+      "tags": [
+        "videogames",
+        "zelda",
+        "eventi",
+        "switch"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 11,
+        "seconds": 5
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "La versione Nightcore della musica di Hamilton",
+      "tags": [
+        "musica",
+        "musical"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 14,
+        "seconds": 25
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "GTA VI rimandato a Maggio 2026",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 16,
+        "seconds": 40
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Sio",
+      "description": "Per giocare a Tears of the Kingdom bisogna giocare prima a Breath of the Wild?",
+      "tags": [
+        "videogames",
+        "zelda"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 45
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Il cardinale Pizzaballa",
+      "tags": [
+        "politica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 50
+      }
+    }
+  ],
+  "main": [
+    {
+      "author": "Lorro",
+      "description": "Yakuza Blues",
+      "tags": [
+        "libri"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 17,
+        "seconds": 20
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "The Settlers",
+      "tags": [
+        "film",
+        "politica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 27,
+        "seconds": 50
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Rift of the Necrodancer",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 30,
+        "seconds": 25
+      },
+      "pizza": {
+        "slices": 4,
+        "description": "Bufalina con olio EVO"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Osu! Tatakae! Ouendan e accenno a Osu!",
+      "tags": [
+        "videogames"
+      ],
+      "pizza": {
+        "slices": 10,
+        "description": ""
+      }
+    }
+  ],
+  "dolcetto": [
+    {
+      "author": "Sio",
+      "description": "Look back",
+      "tags": [
+        "manga",
+        "anime"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 46,
+        "seconds": 10
+      }
+    }
+  ],
+  "amaro": [],
+  "impizioni": [],
+  "lore": [
+    {
+      "author": "Nick",
+      "description": "Puntata senza Nick",
+      "tags": [
+        "hosts"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1
+      }
+    }
+  ],
+  "others": []
 }

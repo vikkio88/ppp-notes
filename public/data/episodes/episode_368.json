@@ -174,7 +174,7 @@
       "author": "Sio",
       "description": "Se la quasi totalità di un pasto è la pizza, anche se non la si finisce - perché ad esempio é troppo grande - conta comunque come una pizza",
       "tags": [
-        "pizza-counter"
+        "pizza-counter", "cibo"
       ],
       "timestamp": {
         "hours": 0,

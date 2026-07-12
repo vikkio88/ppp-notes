@@ -1,15 +1,128 @@
 {
   "title": "333: Braccio de Fero",
   "number": 333,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
+  "meta": {
+    "user": "PePPPeroni",
+    "date": "2026-07-12T15:57:38.353Z"
+  },
+  "menews": [
+    {
+      "author": "Lorro",
+      "description": "Il Papa Statunitense",
+      "tags": [
+        "politica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 5
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Duolingo diventa una compagnia IA e fa un flop enorme",
+      "tags": [
+        "tech"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 10
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Doom: The Dark Ages",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 14,
+        "seconds": 40
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Lorro",
+      "description": "La traduzione sbagliata del discorso di Yuji Horii al Comicon di Napoli e la l’errore dell’interprete sul remake di Chrono Trigger",
+      "tags": [
+        "videogames",
+        "eventi"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 45
+      }
+    }
+  ],
+  "main": [
+    {
+      "author": "Nick",
+      "description": "Midsommar",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 17,
+        "seconds": 40
+      },
+      "pizza": {
+        "slices": 8.5,
+        "description": "Margherita con i fiori eduli, cose non cucinate in stile nordico e una aringa"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Thunderbolts*",
+      "tags": [
+        "film",
+        "marvel"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 29,
+        "seconds": 30
+      },
+      "pizza": {
+        "slices": 8,
+        "description": "Pizza con impasto al carbone nero, mozzarisella, basilico e verdurine"
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "I Gunpla",
+      "tags": [],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 43,
+        "seconds": 25
+      },
+      "pizza": {
+        "slices": 10,
+        "description": "Tonno cipolla e edamame"
+      }
+    }
+  ],
   "dolcetto": [],
   "amaro": [],
-  "lore": [],
-  "others": [],
-  "meta": {
-    "user": null,
-    "date": "2025-09-29T14:00:27.303Z"
-  }
+  "impizioni": [],
+  "lore": [
+    {
+      "author": "Sio",
+      "description": "Puntata senza SIO",
+      "tags": [
+        "hosts"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1
+      }
+    }
+  ],
+  "others": []
 }

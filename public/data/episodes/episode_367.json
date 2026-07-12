@@ -109,7 +109,7 @@
     {
       "author": "Sio",
       "description": "Una pizza-piadina o altre cose simili contano per il pizza Counter se lo dice il tuo cuore",
-      "tags": ["pizza-counter"],
+      "tags": ["pizza-counter", "cibo"],
       "timestamp": {
         "hours": 0,
         "minutes": 4,
@@ -119,7 +119,7 @@
     {
       "author": "Lorro",
       "description": "Se il pollo é considerato pizza, la pizza é considerata pollo?",
-      "tags": ["pollo", "pizza-counter"],
+      "tags": ["pollo", "pizza-counter", "cibo"],
       "timestamp": {
         "hours": 0,
         "minutes": 5,

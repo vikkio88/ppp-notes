@@ -200,7 +200,8 @@
       "author": "Sio",
       "description": "La centesima pizza del 2025 di Sio",
       "tags": [
-        "pizza-counter"
+        "pizza-counter",
+        "cibo"
       ],
       "timestamp": {
         "hours": 0,

@@ -13,3 +13,93 @@
     "date": "2026-07-03T12:41:09.453Z"
   }
 }
+{
+  "title": "388: Live @ Bergamo 2026",
+  "number": 388,
+  "meta": {
+    "user": "PePPPeroni",
+    "date": "2026-07-12T15:16:53.588Z"
+  },
+  "menews": [],
+  "lorrowap": [],
+  "main": [
+    {
+      "author": "Lorro",
+      "description": "Le fissazioni e le prese di posizione degli italiani sulla cucina italiana: la carbonara, il parmigiano sul pesce, la pizza Hawaii, le ipocrisie e i doppi standard, le allergie inesistenti, il mia mamma/nonna lo faceva meglio, la critica ai formati di pasta.",
+      "tags": [
+        "cibo"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 5
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "L‘improvvisazione sulle Slide di Nick a tema calcio ma senza di Nick",
+      "tags": [
+        "sport"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 17,
+        "seconds": 46
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Come rendere il calcio più seguito, e la versione migliorata del calcio",
+      "tags": [
+        "sport"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 26,
+        "seconds": 5
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Quizza a tema Nick",
+      "tags": [
+        "quizza",
+        "hosts"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 45,
+        "seconds": 35
+      }
+    }
+  ],
+  "dolcetto": [],
+  "amaro": [],
+  "impizioni": [],
+  "lore": [
+    {
+      "author": "Nick",
+      "description": "Live al Comicon Bergamo, 8 anni di PPP e puntata senza Nick",
+      "tags": [
+        "eventi",
+        "hosts"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "La tradizionale slide di nick nelle live",
+      "tags": [],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 17,
+        "seconds": 45
+      }
+    }
+  ],
+  "others": []
+}
