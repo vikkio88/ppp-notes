@@ -112,7 +112,7 @@
     {
       "author": "Lorro",
       "description": "Quando una pizza conta ufficialmente per il Counter annuale",
-      "tags": ["pizza-counter"],
+      "tags": ["pizza-counter", "cibo"],
       "timestamp": {
         "hours": 0,
         "minutes": 3,

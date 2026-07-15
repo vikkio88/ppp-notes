@@ -40,7 +40,9 @@
     {
       "author": "Sio",
       "description": "Tecniche di scongelamento della pizza",
-      "tags": [],
+      "tags": [
+        "cibo"
+      ],
       "timestamp": {
         "hours": 0,
         "minutes": 7,

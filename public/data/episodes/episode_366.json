@@ -94,7 +94,7 @@
     {
       "author": "Lorro",
       "description": "La pinsa romana conta per il pizza counter",
-      "tags": ["pizza-counter"],
+      "tags": ["pizza-counter", "cibo"],
       "timestamp": {
         "hours": 0,
         "minutes": 8,

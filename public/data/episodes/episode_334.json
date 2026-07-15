@@ -1,15 +1,144 @@
 {
   "title": "334: Il Poeta della Parola",
   "number": 334,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
-  "dolcetto": [],
-  "amaro": [],
-  "lore": [],
-  "others": [],
   "meta": {
-    "user": null,
-    "date": "2025-09-29T14:00:27.303Z"
-  }
+    "user": "PePPPeroni",
+    "date": "2026-07-12T16:19:04.395Z"
+  },
+  "menews": [
+    {
+      "author": "Sio",
+      "description": "Duolingo che usa la IA e va in crisi",
+      "tags": [
+        "tech"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 50
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Love, Death and Robots stagione 4",
+      "tags": [
+        "serie",
+        "animazione"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 20
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Il trailer di Superman di James Gunn",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 16,
+        "seconds": 25
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Sio",
+      "description": "Persona 5 Royale",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 25
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Il Junk-journaling",
+      "tags": [],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 40
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Gunpla e Moonstone (gioco di miniature)",
+      "tags": [],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 8,
+        "seconds": 20
+      }
+    }
+  ],
+  "main": [
+    {
+      "author": "Nick",
+      "description": "L‘infinito",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 20,
+        "seconds": 15
+      },
+      "pizza": {
+        "slices": 10,
+        "description": "Marinara"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Blue, il musical completamente improvvisato (B.L.U.E.)",
+      "tags": [
+        "musical"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 33,
+        "seconds": 35
+      },
+      "pizza": {
+        "slices": 10,
+        "description": "Provola, patate e pesto"
+      }
+    }
+  ],
+  "dolcetto": [],
+  "amaro": [
+    {
+      "author": "Lorro",
+      "description": "Lorro e il problema con la polizia",
+      "tags": [
+        "politica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 47,
+        "seconds": 40
+      }
+    }
+  ],
+  "impizioni": [],
+  "lore": [
+    {
+      "author": "Lorro",
+      "description": "Il gimmick del Maalox",
+      "tags": [],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 35
+      }
+    }
+  ],
+  "others": []
 }
