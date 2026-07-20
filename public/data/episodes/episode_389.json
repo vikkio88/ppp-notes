@@ -1,15 +1,152 @@
 {
   "title": "389: Speedrun di M*rire",
   "number": 389,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
+  "meta": {
+    "user": "PePPPeroni",
+    "date": "2026-07-19T19:18:22.767Z"
+  },
+  "menews": [
+    {
+      "author": "Nick",
+      "description": "Nigel Farage vs Count Binface",
+      "tags": [
+        "politica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 15
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Meta AI che annuncia che tutti possono taggare account Instagram e rubare le loro foto generando copie o copie modificate con la IA generativa",
+      "tags": [
+        "tech",
+        "politica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 12,
+        "seconds": 45
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Lorro",
+      "description": "La differenza tra Bob e Slittino",
+      "tags": [
+        "sport"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 20
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Lorro ha comprato il controller 8BitDo Ultimate 2",
+      "tags": [
+        "tech",
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 20
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "La seconda stagione di Frieren, e i nuovi episodi dopo al 10 che usciranno un anno dopo",
+      "tags": [
+        "anime"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 15,
+        "seconds": 50
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Crimson Desert",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 20,
+        "seconds": 5
+      }
+    }
+  ],
+  "main": [
+    {
+      "author": "Nick",
+      "description": "Mina the Hollower",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 16,
+        "seconds": 45
+      },
+      "pizza": {
+        "slices": 8,
+        "description": "Pizza con il groviera"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Chronology of Water",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 22,
+        "seconds": 55
+      },
+      "pizza": {
+        "slices": 9.5,
+        "description": "Marinara romana croccante"
+      }
+    }
+  ],
   "dolcetto": [],
   "amaro": [],
-  "lore": [],
-  "others": [],
-  "meta": {
-    "user": null,
-    "date": "2026-07-18T16:24:48.729Z"
-  }
+  "impizioni": [
+    {
+      "author": "Lorro",
+      "description": "Yomi no Tsugai (e accenno a Ghost in the Shell)",
+      "tags": [
+        "anime",
+        "sioddisfatto"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 35,
+        "seconds": 5
+      }
+    }
+  ],
+  "lore": [
+    {
+      "author": "Sio",
+      "description": "Puntata senza Sio",
+      "tags": [
+        "hosts"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1
+      }
+    }
+  ],
+  "others": []
 }
