@@ -2,7 +2,7 @@
 import type { CollectionEntry } from "astro:content";
 import { getCollection } from "astro:content";
 import type { SearchableLink } from "../types";
-import Search from "../components/search/Search.svelte";
+import { Search } from "../components/linksSearch/Search";
 import Layout from "../layouts/Layout.astro";
 
 const episodes: CollectionEntry<"feedLinks">[] =
@@ -23,6 +23,6 @@ for (const episode of episodes) {
 
 <Layout>
   <div class="centered">
-    <Search client:load />
+    <Search client:load links={searchableLinks} />
   </div>
 </Layout>

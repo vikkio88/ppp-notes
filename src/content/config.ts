@@ -1,6 +1,6 @@
 import { defineCollection } from "astro:content";
-import { powerPizzaPodcastLoader } from "./loaders/powerPizzaPodcastLoader";
+import { feedLinksLoader } from "./loaders/feedLinksLoader";
 
-const episodes = defineCollection({ loader: powerPizzaPodcastLoader() });
+const feedLinks = defineCollection({ loader: feedLinksLoader() });
 
-export const collections = { episodes };
+export const collections = { feedLinks };

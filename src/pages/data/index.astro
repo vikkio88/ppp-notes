@@ -10,54 +10,54 @@ const partials = rawPartials as number[];
 ---
 
 <Layout>
-    <main>
-        <h1>Data Entry</h1>
+  <main>
+    <h1>Data Entry</h1>
 
-        <p>
-            Qui potete trovare i tool e i risultati del progetto
-            <strong> PPP Data Entry </strong>, un’iniziativa collaborativa che,
-            grazie ai fan che ascoltano
-            <strong> Power Pizza </strong>, raccoglie, indicizza e organizza
-            dati su pizze, lore ed eventi citati nel corso delle puntate.
-        </p>
-        <h2>Vuoi aiutare?</h2>
-        <p class="f cc">
-            Se vuoi partecipare alla raccolta dati, usa questo:
-            <a href="/data/tool">Tool 📝</a>
-        </p>
+    <p>
+      Qui potete trovare i tool e i risultati del progetto
+      <strong> PPP Data Entry </strong>, un’iniziativa collaborativa che, grazie
+      ai fan che ascoltano
+      <strong> Power Pizza </strong>, raccoglie, indicizza e organizza dati su
+      pizze, lore ed eventi citati nel corso delle puntate.
+    </p>
+    <h2>Vuoi aiutare?</h2>
+    <p class="f cc">
+      Se vuoi partecipare alla raccolta dati, usa questo:
+      <a href="/data/tool">Tool 📝</a>
+    </p>
 
-        <h2>Puntate</h2>
-        Se vuoi modificare/aggiungere i dati per una puntata precisa usa la lista:
-        <Episodes {episodes} {partials} client:only>
-            <div slot="fallback">
-                <Spinner />
-            </div>
-        </Episodes>
-    </main>
+    <h2>Puntate</h2>
+    Se vuoi modificare/aggiungere i dati per una puntata precisa usa la lista:
+    <Episodes {episodes} {partials} client:only>
+      <div slot="fallback">
+        <Spinner />
+      </div>
+    </Episodes>
+  </main>
 
-    <style>
-        main {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 3rem 2rem;
-            display: flex;
-            flex-direction: column;
-            gap: 1.5rem;
-        }
+  <style>
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 3rem 2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
 
-        h1,
-        h2 {
-            text-align: center;
-        }
+    h1,
+    h2 {
+      text-align: center;
+    }
 
-        main > p {
-            line-height: 1.4;
-            font-size: 18px;
-        }
+    main > p {
+      line-height: 1.4;
+      font-size: 18px;
+    }
 
-        main a {
-            text-decoration: none;
-            font-weight: 600;
-        }
-    </style>
+    main a {
+      text-decoration: none;
+      font-weight: 600;
+    }
+  </style>
 </Layout>

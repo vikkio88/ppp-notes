@@ -53,11 +53,28 @@ export type EpisodeEntry = {
   };
 };
 
+export const COLLECTED_SECTIONS = [
+  "menews",
+  "lorrowap",
+  "main",
+  "dolcetto",
+  "amaro",
+  "lore",
+  "others",
+  "impizioni",
+] as const satisfies readonly (keyof Episode)[];
+
 export type CollectionType =
-  | "lorrowap"
-  | "menews"
-  | "main"
-  | "dolcetto"
-  | "amaro"
-  | "impizioni"
-  | "lore";
+  "lorrowap" | "menews" | "main" | "dolcetto" | "amaro" | "impizioni" | "lore";
+
+
+  // Indexing
+  export type IndexedTopic = {
+    episodeNumber: number;
+    episodeTitle: string;
+    section: (typeof COLLECTED_SECTIONS)[number];
+    author: Author;
+    description: string;
+    tags: string[];
+    timestamp?: Timestamp;
+  };
