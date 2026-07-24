@@ -1,15 +1,109 @@
 {
   "title": "319: Pezzo Di Firus",
   "number": 319,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
+  "meta": {
+    "user": "PePPPeroni",
+    "date": "2026-07-23T20:04:35.569Z"
+  },
+  "menews": [
+    {
+      "author": "Lorro",
+      "description": "Doom che gira in un PDF",
+      "tags": [
+        "videogames",
+        "tech"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 20
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Flow e gli altri film di animazione candidati agli Oscar",
+      "tags": [
+        "film",
+        "animazione",
+        "oscar-academy-awards"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 0
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Sio",
+      "description": "I Sols in Nine Sols sono 10",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 50
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "La colonna sonora di Chrono Trigger",
+      "tags": [
+        "musica",
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 8,
+        "seconds": 25
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Arcane",
+      "tags": [
+        "serie",
+        "animazione"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 5
+      }
+    }
+  ],
+  "main": [
+    {
+      "author": "Sio",
+      "description": "L’amica Geniale",
+      "tags": [
+        "libri"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 20,
+        "seconds": 30
+      },
+      "tenPizze": true
+    },
+    {
+      "author": "Lorro",
+      "description": "Dandadan, No Name, Ichi the Witch",
+      "tags": [
+        "manga"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 34,
+        "seconds": 0
+      }
+    }
+  ],
   "dolcetto": [],
   "amaro": [],
+  "impizioni": [],
   "lore": [],
-  "others": [],
-  "meta": {
-    "user": null,
-    "date": "2025-09-29T14:00:27.304Z"
-  }
+  "others": []
 }
