@@ -1,15 +1,151 @@
 {
   "title": "307: Premmy",
   "number": 307,
-  "main": [],
-  "menews": [],
+  "meta": {
+    "user": "PePPPeroni",
+    "date": "2026-07-29T16:52:56.849Z"
+  },
+  "menews": [
+    {
+      "author": "Lorro",
+      "description": "Maestro su Meta Quest",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 5
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Nintendo chiede ai giocatori di fare test per un MMORPG",
+      "tags": [
+        "nintendo",
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 8,
+        "seconds": 25
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Balatro Mobile e Friends of Jimbo 2",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 12,
+        "seconds": 5
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "L’aggiornamento di Vampire Survivors basato su Castelvania",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 20
+      }
+    }
+  ],
   "lorrowap": [],
+  "main": [
+    {
+      "author": "Sio",
+      "description": "Shogun",
+      "tags": [
+        "serie"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 14,
+        "seconds": 45
+      },
+      "pizza": {
+        "slices": 6.7,
+        "description": "Pizza bianca con tartufo, shiitake, provola affumicata dop e un singolo friariello"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "The Apprentice (Film)",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 31,
+        "seconds": 35
+      },
+      "pizza": {
+        "slices": 9,
+        "description": "Pizza con zuppa di zucca, bacon croccante e anfetamine"
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Hellboy: the Crooked Man",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 44,
+        "seconds": 30
+      },
+      "pizza": {
+        "slices": 5,
+        "description": "Pizza rossa con peperoncino, salame piccante, aglio e friarielli"
+      }
+    }
+  ],
   "dolcetto": [],
   "amaro": [],
-  "lore": [],
-  "others": [],
-  "meta": {
-    "user": null,
-    "date": "2025-09-29T14:00:27.305Z"
-  }
+  "impizioni": [],
+  "lore": [
+    {
+      "author": "Lorro",
+      "description": "Lorro fa Calorie Counting",
+      "tags": [
+        "cibo",
+        "hosts"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 10
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "L’analisi della sigla incomprensibile di Power Pizza fatta da Sio",
+      "tags": [],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 30
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Il video Power Pizza - Best of 100, che al minuto 1:18:20 contiene la clip di Nick che esce dalla stanza e entra dalla finestra",
+      "tags": [
+        "hosts"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 15
+      }
+    }
+  ],
+  "others": []
 }
