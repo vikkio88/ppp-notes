@@ -1,15 +1,160 @@
 {
   "title": "306: Barin in Puglian",
   "number": 306,
-  "main": [],
+  "meta": {
+    "user": "PePPPeroni",
+    "date": "2026-08-01T13:40:22.433Z"
+  },
   "menews": [],
-  "lorrowap": [],
+  "lorrowap": [
+    {
+      "author": "Sio",
+      "description": "The Plucky Squire e The Link between Worlds per 3DS",
+      "tags": [
+        "videogames",
+        "zelda"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 30
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "L’analisi della sigla incomprensibile di Power Pizza fatta da Sio",
+      "tags": [],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 10
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Super Cane Magic 0 anche su Crossover, ma é già per Mac, e Linux",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 15
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Monster Hunter Generations Ultimate e la nuova arma di Lorro",
+      "tags": [
+        "videogames",
+        "monster-hunter"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 45
+      }
+    }
+  ],
+  "main": [
+    {
+      "author": "Lorro",
+      "description": "Flash Gordon",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 12,
+        "seconds": 55
+      },
+      "pizza": {
+        "slices": 10,
+        "description": "Pizza con cozze, broccoli, salsiccia, tantissima cipolla, peperoncino e tonno e l’impasto che non é un granché"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "La console LX e i giochi di Ufo 50",
+      "tags": [
+        "videogames",
+        "tech"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 28,
+        "seconds": 0
+      },
+      "pizza": {
+        "slices": 10,
+        "description": "Bismark (uovo e prosciutto cotto)"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Ufo 78 dei Wu Ming",
+      "tags": [
+        "libri"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 52,
+        "seconds": 25
+      },
+      "pizza": {
+        "slices": 10,
+        "description": ""
+      }
+    }
+  ],
   "dolcetto": [],
   "amaro": [],
-  "lore": [],
-  "others": [],
-  "meta": {
-    "user": null,
-    "date": "2025-09-29T14:00:27.305Z"
-  }
+  "impizioni": [],
+  "lore": [
+    {
+      "author": "Nick",
+      "description": "Puntata senza Nick",
+      "tags": [
+        "hosts"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Lorro fa Calorie Counting (parte 1)",
+      "tags": [
+        "cibo"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 45
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Nella puntata 153 Sio ha detto che ogni 153 puntate bisogna fare il recap del podcast",
+      "tags": [],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 5
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Voto per il momento più significativo di Power Pizza Video",
+      "tags": [],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 8,
+        "seconds": 40
+      }
+    }
+  ],
+  "others": []
 }
