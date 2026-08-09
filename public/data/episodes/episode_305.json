@@ -1,15 +1,177 @@
 {
   "title": "305: Shio Megakani",
   "number": 305,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
+  "meta": {
+    "user": "PePPPeroni",
+    "date": "2026-08-09T19:39:13.133Z"
+  },
+  "menews": [
+    {
+      "author": "Nick",
+      "description": "Il robot selvaggio",
+      "tags": [
+        "film",
+        "animazione"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 0
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Alarmo",
+      "tags": [
+        "nintendo",
+        "tech"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 10
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Dandadan",
+      "tags": [
+        "anime",
+        "manga"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 16,
+        "seconds": 40
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Uzumaki di Junji Ito",
+      "tags": [
+        "manga",
+        "anime"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 20,
+        "seconds": 25
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Crossover per Mac",
+      "tags": [
+        "tech",
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 36,
+        "seconds": 45
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Nick",
+      "description": "Il Giappone e il Veganesimo, e Itadakihealthy",
+      "tags": [
+        "cibo"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 0
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Hanno cancellato Kaos Stagione 2",
+      "tags": [
+        "serie"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 8,
+        "seconds": 35
+      }
+    }
+  ],
+  "main": [
+    {
+      "author": "Nick",
+      "description": "The Flash (2023)",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 45,
+        "seconds": 30
+      },
+      "pizza": {
+        "slices": 2,
+        "description": "Marinara giapponese con il burro e il katsuobushi e ti danno da bere del dashi e ti tirano un ceffone con una bistecca"
+      }
+    }
+  ],
   "dolcetto": [],
   "amaro": [],
-  "lore": [],
-  "others": [],
-  "meta": {
-    "user": null,
-    "date": "2025-09-29T14:00:27.305Z"
-  }
+  "impizioni": [
+    {
+      "author": "Nick",
+      "description": "Kill Night",
+      "tags": [
+        "videogames",
+        "lorrabbiato"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 22,
+        "seconds": 15
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "The Plucky Squire",
+      "tags": [
+        "videogames",
+        "nicktrale"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 28,
+        "seconds": 35
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Metaphor Refantazio",
+      "tags": [
+        "videogames",
+        "sioddisfatto"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 39,
+        "seconds": 40
+      }
+    }
+  ],
+  "lore": [
+    {
+      "author": "Sio",
+      "description": "La gente pensa che Sio abbia lasciato il podcast + la parola Bioprodotto (anche a 04:15) ",
+      "tags": [
+        "hosts"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1
+      }
+    }
+  ],
+  "others": []
 }

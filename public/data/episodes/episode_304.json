@@ -1,32 +1,138 @@
 {
   "title": "304: Nick Lorro Pizza & Friends",
+  "number": 304,
+  "meta": {
+    "user": "PePPeroni, giudycorda",
+    "date": "2026-08-09T19:47:13.844Z"
+  },
   "menews": [],
   "lorrowap": [],
   "main": [
     {
       "author": "Nick",
-      "description": "65",
+      "description": "65 (film)",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 15
+      },
       "pizza": {
         "slices": 2,
-        "description": "Marinara con scaglie dei dinosauri"
+        "description": "Marinara con le scaglie dei dinosauri (info aggiunta a 22:30)"
       }
     },
     {
       "author": "Lorro",
-      "description": "Mother, couch",
+      "description": "Mother, Couch",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 18,
+        "seconds": 5
+      },
       "pizza": {
         "slices": 7,
-        "description": "Ingredienti non chiari, interessante"
+        "description": "Pizza con ingredienti che non si capisce bene cosa sono"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Kaos",
+      "tags": [
+        "serie"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 22,
+        "seconds": 35
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Hell or High Water",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 27,
+        "seconds": 10
+      },
+      "pizza": {
+        "slices": 7,
+        "description": "Pizza con sopra il beef jerky ma non puoi comprarla perché sei "
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Il viaggio in Giappone di Nick e Lorro: il cibo vegano introvabile, la carta igienica (48:05), l’immobilismo culturale e tecnologico (49:30), i cessi pubblici (56:30)",
+      "tags": [
+        "cibo"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 38,
+        "seconds": 40
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Il viaggio in Giappone di Nick e Lorro: il cibo vegano introvabile, la carta igienica (48:05), l’immobilismo culturale e tecnologico (49:30), i cessi pubblici (56:30)",
+      "tags": [
+        "cibo"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 38,
+        "seconds": 41
       }
     }
   ],
   "dolcetto": [],
   "amaro": [],
-  "lore": [],
-  "others": [],
-  "meta": {
-    "user": "giudycorda",
-    "date": "2025-09-28T19:57:39.781Z"
-  },
-  "number": 304
+  "impizioni": [
+    {
+      "author": "Nick",
+      "description": "Civil War",
+      "tags": [
+        "film",
+        "sioddisfatto"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 33,
+        "seconds": 20
+      }
+    }
+  ],
+  "lore": [
+    {
+      "author": "Sio",
+      "description": "Puntata senza Sio + la Lore di Sio che abbandona il podcast + il viaggio di Nick e Lorro in Giappone (i Gatcha e le pizze)",
+      "tags": [
+        "hosts"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Lorro non sa dire Jovanotti",
+      "tags": [],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 50
+      }
+    }
+  ],
+  "others": []
 }
