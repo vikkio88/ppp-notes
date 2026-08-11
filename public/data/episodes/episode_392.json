@@ -1,15 +1,138 @@
 {
   "title": "392: Fuormaggio",
   "number": 392,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
-  "dolcetto": [],
-  "amaro": [],
-  "lore": [],
-  "others": [],
   "meta": {
-    "user": null,
-    "date": "2026-08-07T10:48:08.091Z"
-  }
+    "user": "PePPPeroni",
+    "date": "2026-08-09T19:29:34.201Z"
+  },
+  "menews": [
+    {
+      "author": "Nick",
+      "description": "Pokémon Voxel in 3D",
+      "tags": [
+        "videogames",
+        "pokémon"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 5
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "La Playstation 3 e la Wii sono già retro gaming? + Jimothy (il procione rotondo) moddato nei giochi",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 40
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Nick",
+      "description": "Katabasis",
+      "tags": [
+        "libri"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 40
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Ascoltare un intero podcast dall’inizio + Hello Internet + Cortex",
+      "tags": [
+        "podcast"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 45
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "L’Odissea di Nolan",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 14,
+        "seconds": 40
+      }
+    }
+  ],
+  "main": [
+    {
+      "author": "Sio",
+      "description": "Succession",
+      "tags": [
+        "serie"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 20,
+        "seconds": 25
+      },
+      "pizza": {
+        "slices": 10,
+        "description": "Pizza bianca con il lardo"
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Dungeon Crawler Carl",
+      "tags": [
+        "libri"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 32,
+        "seconds": 50
+      },
+      "pizza": {
+        "slices": 8,
+        "description": "Diavola con le patatine fritte"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Sheep Detectives",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 30,
+        "seconds": 15
+      }
+    }
+  ],
+  "dolcetto": [
+    {
+      "author": "Sio",
+      "description": "Quanti giochi posso mettere su un floppy disk? Otto (Mini replay collection)",
+      "tags": [
+        "videogames",
+        "tech"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 46,
+        "seconds": 40
+      }
+    }
+  ],
+  "amaro": [],
+  "impizioni": [],
+  "lore": [],
+  "others": []
 }
