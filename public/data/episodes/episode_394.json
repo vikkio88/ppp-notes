@@ -1,15 +1,144 @@
 {
   "title": "394: Pozze di Cristalli",
   "number": 394,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
-  "dolcetto": [],
+  "main": [
+    {
+      "author": "Sio",
+      "description": "Rhythm Paradise Groove (Rhythm Tengoku: Miracle Stars) e la storia del musicista e produttore Tsunku",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 19,
+        "seconds": 40
+      },
+      "pizza": {
+        "slices": 9,
+        "description": "Diavola con la cipolla"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Final Fantasy VII Remake per Switch 2 (voto: Margherita vegana ma con numero di fette non detto) + Final Fantasy VII Rebirth",
+      "tags": [
+        "videogames",
+        "switch"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 34,
+        "seconds": 45
+      }
+    }
+  ],
+  "menews": [
+    {
+      "author": "Lorro",
+      "description": "Dune Parte 3",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 0
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "I primi Joycon 2 colorati per il quarantesimo anniversario di Zelda, e gli eventi per l´anniversario",
+      "tags": [
+        "videogames",
+        "switch",
+        "zelda"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 16,
+        "seconds": 30
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Il trailer di Kingdom Hearths 4",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 17,
+        "seconds": 50
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "I micro E-Reader come Xteink",
+      "tags": [
+        "tech",
+        "libri"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 25
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Lorro",
+      "description": "r/bold su Reddit",
+      "tags": [
+        "reddit"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "L’architettura austriaca che vuole uccidere Sio",
+      "timestamp": {
+        "hours": 0,
+        "minutes": 8,
+        "seconds": 5
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "La controversia sul nastro (?) nei floppy disk",
+      "tags": [
+        "tech"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 40
+      }
+    }
+  ],
+  "dolcetto": [
+    {
+      "author": "Lorro",
+      "description": "Dragons Dogma 2",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 53,
+        "seconds": 0
+      }
+    }
+  ],
   "amaro": [],
   "lore": [],
   "others": [],
   "meta": {
-    "user": null,
+    "user": "PePPPeroni",
     "date": "2026-08-21T08:03:00.064Z"
   }
 }

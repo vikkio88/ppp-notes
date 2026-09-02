@@ -7,6 +7,15 @@
   },
   "menews": [
     {
+      "author": "Sio",
+      "description": "Nome per le giornate caldissime",
+      "timestamp": {
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1
+      }
+    },
+    {
       "author": "Nick",
       "description": "Pokémon Voxel in 3D",
       "tags": [
