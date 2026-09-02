@@ -1,15 +1,199 @@
 {
   "title": "395: Il Misterioso Giornalista Pervertito",
   "number": 395,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
+  "main": [
+    {
+      "author": "Sio",
+      "description": "Sio ha finito Dungeon Meshi (Dungeon Food)",
+      "tags": [
+        "cibo",
+        "manga"
+      ],
+      "pizza": {
+        "slices": 10,
+        "description": "Pizza di tutti i gusti piú uno"
+      },
+      "timestamp": {
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 20
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Not Smart Enough di Janet McNamara",
+      "tags": [
+        "stand-up comedy"
+      ],
+      "pizza": {
+        "slices": 8,
+        "description": "Pizza con i nuggets sopra"
+      },
+      "timestamp": {
+        "hours": 0,
+        "minutes": 16,
+        "seconds": 10
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Dragons Dogma 2",
+      "tags": [
+        "videogames"
+      ],
+      "pizza": {
+        "slices": 9,
+        "description": "Pizza con base di crema di carciofi, scamorza affumicata e lardo"
+      },
+      "timestamp": {
+        "hours": 0,
+        "minutes": 21,
+        "seconds": 20
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Cutie Honey di Hideaki Anno",
+      "tags": [
+        "film",
+        "anime"
+      ],
+      "pizza": {
+        "slices": 6,
+        "description": "Margherita con i würstel interi sopra"
+      },
+      "timestamp": {
+        "hours": 0,
+        "minutes": 34,
+        "seconds": 35
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Il canale Youtube elliotisacoolguy e le analisi sul design dei Pokémon",
+      "tags": [
+        "youtube",
+        "pokémon"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 41,
+        "seconds": 0
+      }
+    }
+  ],
+  "menews": [
+    {
+      "author": "Sio",
+      "description": "Un tizio ha creato un ibrido Wii-mote + Joycon 2",
+      "tags": [
+        "tech",
+        "switch",
+        "videogames",
+        "nintendo"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 10
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Profili TikTok consigliati da Lorro: AmicoJeko, leonthesilkroad, Grok vs MAGA",
+      "tags": [
+        "cibo",
+        "politica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 55
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Hadestown su Disney+",
+      "tags": [
+        "musical"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 34,
+        "seconds": 0
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Nick",
+      "description": "La questione della latenza quando si gioca su televisore e la Game Mode",
+      "tags": [
+        "tech",
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 2,
+        "seconds": 55
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "La ricerca della carbonara piccante continua",
+      "tags": [
+        "cibo"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 10
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "L´audiolibro di Dungeon Crawler Carl",
+      "tags": [
+        "libri"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 0
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "L´Habushu, il liquore di serpente",
+      "tags": [
+        "cibo"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 20
+      }
+    }
+  ],
   "dolcetto": [],
   "amaro": [],
-  "lore": [],
+  "lore": [
+    {
+      "author": "Sio",
+      "description": "Ogni 79 puntate, Sio puó suonare l´ukulele",
+      "tags": [
+        "musica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 8,
+        "seconds": 40
+      }
+    }
+  ],
   "others": [],
   "meta": {
-    "user": null,
+    "user": "PePPPeroni",
     "date": "2026-08-28T08:15:48.387Z"
   }
 }

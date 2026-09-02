@@ -1,15 +1,159 @@
 {
   "title": "393: I MORMORTI",
   "number": 393,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
-  "dolcetto": [],
+  "main": [
+    {
+      "author": "Nick",
+      "description": "Spiderman: Brand New Day",
+      "tags": [
+        "film",
+        "marvel"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 16,
+        "seconds": 10
+      },
+      "pizza": {
+        "slices": 9,
+        "description": "Marinara con il simbolo di spiderman fatto con l’aceto balsamico"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "L´Educazione (libro)",
+      "tags": [
+        "libri"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 32,
+        "seconds": 20
+      },
+      "tenPizze": true
+    }
+  ],
+  "menews":
+  [
+    {
+      "author": "Nick",
+      "description": "Il cambiamento climatico e la natura nel Regno Unito, a Londra",
+      "timestamp": {
+        "hours": 0,
+        "minutes": 2,
+        "seconds": 55
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Il gioco da tavolo di Baba is You",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 8,
+        "seconds": 35
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "L´official soundtrack di Nintenhogs DS (gioco che non esiste), di Louie Zong",
+      "tags": [
+        "musica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 11,
+        "seconds": 35
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "La migliore speedrun di supermario di LeKukie é distante 6 frame (0.1 secondi) dalla perfezione",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 50
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Metroid Prime Origins",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 12,
+        "seconds": 55
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "La mod Voxel anche per pokémon Silver e Gold",
+      "tags": [
+        "videogames",
+        "pokémon"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 15,
+        "seconds": 5
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Gioco browser con solo i duelli di insulti di Monkey Island",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 15,
+        "seconds": 25
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Nick",
+      "description": "Nome per giornate caldissime",
+      "timestamp": {
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 15
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Il procione rotondo che le persone aggiungono nei videogiochi si chiama AI",
+      "timestamp": {
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 20
+      }
+    }
+  ],
+  "dolcetto": [
+    {
+      "author": "Lorro",
+      "description": "Nuovo Ordine Mondiale (2015)",
+      "timestamp": {
+        "hours": 0,
+        "minutes": 45,
+        "seconds": 30
+      }
+    }
+  ],
   "amaro": [],
   "lore": [],
   "others": [],
   "meta": {
-    "user": null,
+    "user": "PePPPeroni",
     "date": "2026-08-14T08:51:15.954Z"
   }
 }
