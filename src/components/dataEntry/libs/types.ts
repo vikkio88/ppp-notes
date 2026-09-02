@@ -67,14 +67,21 @@ export const COLLECTED_SECTIONS = [
 export type CollectionType =
   "lorrowap" | "menews" | "main" | "dolcetto" | "amaro" | "impizioni" | "lore";
 
-
-  // Indexing
-  export type IndexedTopic = {
-    episodeNumber: number;
-    episodeTitle: string;
-    section: (typeof COLLECTED_SECTIONS)[number];
-    author: Author;
-    description: string;
-    tags: string[];
-    timestamp?: Timestamp;
-  };
+// Indexing
+export type IndexedTopic = {
+  episodeNumber: number;
+  episodeTitle: string;
+  section: (typeof COLLECTED_SECTIONS)[number];
+  author: Author;
+  description: string;
+  tags: string[];
+  timestamp?: Timestamp;
+};
+export type IndexedPizza = {
+  episodeNumber: number;
+  episodeTitle: string;
+  author: Author;
+  description: string;
+  pizza: Pizza;
+  slices: number;
+};

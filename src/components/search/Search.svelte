@@ -1,17 +1,22 @@
 <script lang="ts">
   import Fuse from "fuse.js";
   import Spinner from "./components/Spinner.svelte";
-  import type { IndexedTopic } from "../dataEntry/libs/types";
-  let fuse: { tags: Fuse<{ tag: string; episodes: IndexedTopic[] }> };
+  import type { IndexedPizza, IndexedTopic } from "../dataEntry/libs/types";
+    import { slugify } from "../../libs/slugify";
+  let fuse: {
+    tags: Fuse<{ tag: string; episodes: IndexedTopic[] }>;
+    pizza: Fuse<IndexedPizza>;
+  };
 
   function handleSubmit(e: SubmitEvent) {
     e.preventDefault();
     if (!canSubmit) return;
 
-    const result = fuse?.tags.search(value);
+    const result = fuse?.pizza.search(value);
+    // const result = fuse?.tags.search(value);
     searchResults = result.map((r) => ({
-      match: r.item.tag,
-      episodes: r.item.episodes,
+      match: `${r.item.slices}/10 - ${r.item.description}`,
+      episodes: Array.isArray(r.item) ? r.item : [r.item],
     }));
   }
 
@@ -26,13 +31,18 @@
   }
 
   let value = $state("");
-  let canSubmit = $derived(value && value.length > 3);
-  let searchResults: { match: string; episodes: IndexedTopic[] }[] | undefined =
+  let canSubmit = $derived(value && value.length > 0);
+  let searchResults:
+    { match: string; episodes: (IndexedTopic | IndexedPizza)[] }[] | undefined =
     $state();
 
   let loadingFuse = (async () => {
-    const r = await fetch("/data/index/tags_episodes.json");
-    const tagsIndex = (await r.json()) as Record<string, IndexedTopic[]>;
+    const [t, p] = await Promise.all([
+      fetch("/data/index/tags_episodes.json"),
+      fetch("/data/index/pizza_episodes.json"),
+    ]);
+    const tagsIndex = (await t.json()) as Record<string, IndexedTopic[]>;
+    const pizzaIndex = (await p.json()) as IndexedPizza[];
 
     fuse = {
       tags: new Fuse(
@@ -44,6 +54,7 @@
         }),
         { keys: ["tag"], threshold: 0.2 },
       ),
+      pizza: new Fuse(pizzaIndex, { keys: ["slices"], threshold: 0.2 }),
     };
   })();
 </script>
@@ -78,8 +89,14 @@
         <ul>
           {#each r.episodes as e}
             <li>
-              {e.episodeTitle} - {e.author}
-              {e.section}
+              <a href={`/episodes/${slugify(e.episodeTitle)}`}>
+                {e.episodeTitle}
+              </a>
+              - {e.author}
+              {#if "section" in e}
+                ({e.section})
+              {/if}
+              -
               {e.description}
             </li>
           {/each}
