@@ -1,15 +1,164 @@
 {
   "title": "323: La Pappagorge",
   "number": 323,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
+  "main": [
+    {
+      "author": "Lorro",
+      "description": "The Gorge (Misteri dal profondo)",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 16,
+        "seconds": 55
+      },
+      "pizza": {
+        "slices": 6.5,
+        "description": "Pizza con tonno cipolla salame piccante e patatine fritte"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Capitan America: Brave new World",
+      "tags": [
+        "film",
+        "marvel"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 30,
+        "seconds": 45
+      },
+      "pizza": {
+        "slices": 7.5,
+        "description": "Pizza con nero di seppia, ossa di pollo, verdure crude e un sassolino "
+      }
+    }
+  ],
+  "menews": [
+    {
+      "author": "Sio",
+      "description": "Friendship (Film) e I Love you man",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 30
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Samurai Pizza Cats - Blast from the past",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 12,
+        "seconds": 0
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "La traduzione sbagliata di Tool nei film",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 46,
+        "seconds": 10
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Lorro",
+      "description": "Taskmaster con Jason Mantzoukas, e il suo podcast How did this get maid",
+      "tags": [
+        "tv-show",
+        "podcast"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 25
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Hot ones Italia",
+      "tags": [
+        "tv-show"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 10
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Nausicaa della valle del vento",
+      "tags": [
+        "anime",
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 30
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Persona 5 e i suoi mille finali segreti",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 14,
+        "seconds": 40
+      }
+    }
+  ],
   "dolcetto": [],
-  "amaro": [],
-  "lore": [],
+  "amaro": [
+    {
+      "author": "Sio",
+      "description": "L’audiolibro di Wicked e la scelta di distinguere animali intelligenti da quelli normali dicendo ad alta voce - Con la lettera maiuscola -",
+      "tags": [
+        "libri",
+        "musical"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 50,
+        "seconds": 55
+      }
+    }
+  ],
+  "lore": [
+    {
+      "author": "Sio",
+      "description": "Un animale misterioso ruba le pizze di Sio",
+      "tags": [
+        "cibo"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1
+      }
+    }
+  ],
   "others": [],
   "meta": {
-    "user": null,
+    "user": "PePPPeroni",
     "date": "2025-09-29T14:00:27.303Z"
   }
 }

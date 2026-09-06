@@ -1,15 +1,193 @@
 {
   "title": "396: Slanternarsi",
   "number": 396,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
-  "dolcetto": [],
-  "amaro": [],
+  "main": [
+    {
+      "author": "Nick",
+      "description": "Teenage Sex and Death at Camp Miasma",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 32,
+        "seconds": 25
+      },
+      "pizza": {
+        "slices": 9,
+        "description": "Marinara con il panipuri pakistano"
+      }
+    }
+  ],
+  "menews": [
+    {
+      "author": "Sio",
+      "description": "Il trailer di Le disavventure di Sirfetch'd e Pichu",
+      "tags": [
+        "serie",
+        "animazione",
+        "pokémon"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 50
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Film sulle carte dei Pokémon",
+      "tags": [
+        "film",
+        "animazione",
+        "pokémon"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 11,
+        "seconds": 30
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "The Witcher 3 Remastered + nuovo DLC",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 12,
+        "seconds": 20
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Playdate ridà indietro i soldi dei dazi di Trump",
+      "tags": [
+        "videogames",
+        "politica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 14,
+        "seconds": 25
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Il trailer di The Social Reckoning (sequel di The Social Network)",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 14,
+        "seconds": 25
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Nodusfall",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 15,
+        "seconds": 25
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Orbitals per Switch 2 che esce ma non esce (preload della switch) + Elden Ring per la Switch 2",
+      "tags": [
+        "videogames",
+        "switch"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 16,
+        "seconds": 40
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Sio",
+      "description": "Il fumetto di Dungeon Crawler Carl",
+      "tags": [
+        "fumetti",
+        "libri"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 8,
+        "seconds": 50
+      }
+    }
+  ],
+  "dolcetto": [
+    {
+      "author": "Nick",
+      "description": "L’ensemble 19m40s faranno live a Milano Mother Earth’s Plantasia di Mort Garson",
+      "tags": [
+        "musica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 49,
+        "seconds": 0
+      }
+    }
+  ],
+  "amaro": [
+    {
+      "author": "Sio",
+      "description": "Il live Action di Ace Attorney",
+      "tags": [
+        "videogames",
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 46,
+        "seconds": 30
+      }
+    }
+  ],
+  "impizioni": [
+    {
+      "author": "Sio",
+      "description": "I giochi per la PlayStation 5 giocabili in streaming o da remoto anche su Apple con Asobi",
+      "tags": [
+        "tech",
+        "videogames",
+        "sioddisfatto"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 17,
+        "seconds": 35
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Lanterns",
+      "tags": [
+        "serie",
+        "sioddisfatto"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 24,
+        "seconds": 30
+      }
+    }
+  ],
   "lore": [],
   "others": [],
   "meta": {
-    "user": null,
+    "user": "PePPPeroni",
     "date": "2026-09-04T10:08:06.795Z"
   }
 }
