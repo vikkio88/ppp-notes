@@ -1,15 +1,170 @@
 {
   "title": "397: Sottocane",
   "number": 397,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
+  "main": [
+    {
+      "author": "Nick",
+      "description": "Coyote vs ACME",
+      "tags": [
+        "film",
+        "animazione"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 23,
+        "seconds": 45
+      },
+      "pizza": {
+        "slices": 7.5,
+        "description": "Marinara con il mangime di uccelli sopra e sfere di acciaio"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Coyote vs ACME",
+      "tags": [
+        "film",
+        "animazione"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 23,
+        "seconds": 46
+      },
+      "pizza": {
+        "slices": 7,
+        "description": "Margherita con le patatine fritte"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Tony (film)",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 38,
+        "seconds": 20
+      },
+      "pizza": {
+        "slices": 8,
+        "description": "Marinara con le ostriche"
+      }
+    }
+  ],
+  "menews": [
+    {
+      "author": "Lorro",
+      "description": "The Mermaid Mask",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 11,
+        "seconds": 45
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "L’update per Mario Kart 8 Deluxe per Switch 2",
+      "tags": [
+        "videogames",
+        "switch",
+        "nintendo"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 15,
+        "seconds": 10
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Il DLC di Crimson Desert",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 17,
+        "seconds": 55
+      }
+    }
+  ],
+  "lorrowap": [    
+    {
+      "author": "Lorro",
+      "description": "Jedi: the Fallen Order e Jedi Survivor, e altri Souls Like",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 0
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "I grissini al Burger King, e il pizzaburger + il pane e la zuppa di miso in Giappone",
+      "tags": [
+        "cibo"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 35
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Mother Earth’s Plantasia di Mort Garson",
+      "tags": [
+        "musica",
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 10
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Dungeon Crawler Carl 3",
+      "tags": [
+        "libri"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 19,
+        "seconds": 25
+      }
+    }
+  ],
   "dolcetto": [],
   "amaro": [],
   "lore": [],
+  "impizioni": [
+    {
+      "author": "Nick",
+      "description": "Orbitals",
+      "tags": [
+        "videogames",
+        "sioddisfatto"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 0
+      }
+    }
+  ],
   "others": [],
   "meta": {
-    "user": null,
+    "user": "PePPPeroni",
     "date": "2026-09-11T08:25:54.489Z"
   }
 }
