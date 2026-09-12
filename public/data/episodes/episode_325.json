@@ -1,15 +1,177 @@
 {
   "title": "325: Salamici",
   "number": 325,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
-  "dolcetto": [],
-  "amaro": [],
+  "main": [
+    {
+      "author": "Lorro",
+      "description": "The King Tide",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 11,
+        "seconds": 45
+      },
+      "pizza": {
+        "slices": 10,
+        "description": "Pizza rossa con tonno sott‘olio, cipolla e salicornia"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "The Show about the Show",
+      "tags": [
+        "serie"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 23,
+        "seconds": 35
+      },
+      "pizza": {
+        "slices": 8.5,
+        "description": "Pizza che in realtà è solo la ricetta della pizza che hai mangiato ieri"
+      }
+    }
+  ],
+  "menews": [
+    {
+      "author": "Sio",
+      "description": "Il Mario Day (10 Marzo) e la nuova suoneria di Alarmo",
+      "tags": [
+        "videogames",
+        "nintendo"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 55
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Il 30esimo anniversario di Chrono Trigger",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 50
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Nick",
+      "description": "Il formaggio vegano non fa passare i raggi X",
+      "tags": [
+        "cibo"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 20
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Nu Chiangon, il modo di dire sassone in pugliese per dire un cibo molto pesante",
+      "tags": [
+        "cibo"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 55
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Gli occhi più blu blu di Paul Newman”, canzone del Supertelegattone",
+      "tags": [
+        "musica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 0
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Il sistema multiplayer di Monster Hunter Wilds",
+      "tags": [
+        "videogames",
+        "monster-hunter"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 8,
+        "seconds": 10
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Hollow Knight é bello",
+      "tags": [
+        "videogames",
+        "hollow-knight"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 35
+      }
+    }
+  ],
+  "dolcetto": [    
+    {
+      "author": "Sio",
+      "description": "Giopota, il suo canale YouTube e il design dei personaggi in Common Side Effects",
+      "tags": [
+        "animazione"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 22,
+        "seconds": 55
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "FanDemonio (podcast)",
+      "tags": [
+        "podcast"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 49,
+        "seconds": 10
+      }
+    }
+  ],
+  "amaro": [
+    {
+      "author": "Sio",
+      "description": "Checco Zalone e la canzone L’ultimo giorno di Patriarcato e i video di L’ha scritto una femmina (Carolina Capri)",
+      "tags": [
+        "musica",
+        "politica",
+        "youtube"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 37,
+        "seconds": 30
+      }
+    }
+  ],
   "lore": [],
   "others": [],
   "meta": {
-    "user": null,
+    "user": "PePPPeroni",
     "date": "2025-09-29T14:00:27.303Z"
   }
 }
