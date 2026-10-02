@@ -1,15 +1,180 @@
 {
   "title": "399: Surprisekai",
   "number": 399,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
+  "main": [
+    {
+      "author": "Nick",
+      "description": "Serpenti (Film)",
+      "tag": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 17,
+        "seconds": 55
+      },
+      "pizza": {
+        "slices": 8,
+        "description": "Marinara romana sottile, croccante con la passata e la cicoria"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Yesteryear",
+      "tag": [
+        "libri"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 30,
+        "seconds": 0
+      },
+      "pizza": {
+        "slices": 8,
+        "description": "Margherita fatta con la pasta madre"
+      }
+    }
+  ],
+  "menews": [
+    {
+      "author": "Sio",
+      "description": "Hanno scoperto una nuova specie di gatto",
+      "tags": [],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "La libreria Kallax dell’Ikea in Skyrim",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 35
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "La serie di Ghost in the Shell",
+      "tags": [
+        "anime"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 11,
+        "seconds": 15
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Lo Steam Frame",
+      "tags": [
+        "tech",
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 45
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Sio",
+      "description": "La questione dei bambini attori (vedi The Reharsal puntata precedente)",
+      "tags": [],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 0
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Gravity Falls",
+      "tags": [
+        "serie",
+        "animazione"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 8,
+        "seconds": 20
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Maestro per Switch 2",
+      "tags": [
+        "videogames",
+        "switch"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 15,
+        "seconds": 15
+      }
+    }
+  ],
   "dolcetto": [],
-  "amaro": [],
-  "lore": [],
+  "amaro": [    
+    {
+      "author": "Lorro",
+      "description": "I social completamente invasi da bot",
+      "tags": [],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 41,
+        "seconds": 50
+      }
+    }],
+  "lore": [
+    {
+      "author": "Nick",
+      "description": "Per Nick il nuovo DLC di Silksong (Sea of Sorrow) esce il 14 di Febbraio 2027",
+      "tags": [
+        "videogames",
+        "hollow-knight"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 15
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Per Nick il nuovo DLC di Silksong (Sea of Sorrow) esce il 14 di Febbraio 2027",
+      "tags": [
+        "videogames",
+        "hollow-knight"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 15
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "La cancellazione della pagina Wikipedia di Power Pizza",
+      "tags": [],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 8,
+        "seconds": 55
+      }
+    }
+  ],
   "others": [],
   "meta": {
-    "user": null,
-    "date": "2026-09-25T10:46:17.553Z"
+    "user": "PePPPeroni",
+    "date": "2026-10-02T10:46:17.553Z"
   }
 }

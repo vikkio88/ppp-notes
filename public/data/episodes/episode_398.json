@@ -1,15 +1,204 @@
 {
   "title": "398: Discapire",
   "number": 398,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
+  "main": [
+    {
+      "author": "Lorro",
+      "description": "Highlander (continua a 51:20)",
+      "tag": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 28,
+        "seconds": 20
+      },
+      "pizza": {
+        "slices": 9,
+        "description": "Pizza con panna prosciutto e cocktail di gamberi buona"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "The Rehearsal (prima stagione) + la questione dei bambini attori",
+      "tag": [
+        "serie"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 38,
+        "seconds": 15
+      },
+      "pizza": {
+        "slices": 7,
+        "description": "Pizza con solo origano e würstel (senza pomodoro o mozzarella)"
+      }
+    }
+  ],
+  "menews": [
+    {
+      "author": "Sio",
+      "description": "Il titolo del film di Zelda è The Legend of Zelda",
+      "tags": [
+        "film",
+        "animazione",
+        "videogames",
+        "zelda"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "La collaborazione tra Ikea e Skyrim",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 15
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Il trailer del remake di Zelda Ocarina of Time",
+      "tags": [
+        "videogames",
+        "zelda"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 9
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Il trailer di Metroid Ravenous",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 16,
+        "seconds": 50
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Kirby and the World Beyond",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 19,
+        "seconds": 50
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Monster Hunter Wilds su Switch 2",
+      "tags": [
+        "videogames",
+        "monster-hunter",
+        "switch"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 21,
+        "seconds": 10
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Persona 4 Revival e Persona 6 per Switch 2, e l’update di Mario Kart World",
+      "tags": [
+        "videogames",
+        "nintendo",
+        "switch"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 22,
+        "seconds": 25
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Ahi-AI: Asset di Professor Layton fatti con la IA",
+      "tags": [
+        "ahi-ai"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 24,
+        "seconds": 5
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Nick",
+      "description": "ACME significa A company that makes everything",
+      "tags": [
+        "film",
+        "animazione"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 30
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Il Patreon di Dungeon Crawler Carl",
+      "tags": [
+        "libri"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 50
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Il Giro al Freddo degli Hosts e The secret life of Walter Mitty",
+      "tags": [
+        "hosts",
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 5
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Mermaid Mask e il resto della saga",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 15
+      }
+    }
+  ],
   "dolcetto": [],
   "amaro": [],
   "lore": [],
   "others": [],
   "meta": {
-    "user": null,
-    "date": "2026-09-18T08:17:55.429Z"
+    "user": "PePPPeroni",
+    "date": "2026-10-02T08:17:55.429Z"
   }
 }
