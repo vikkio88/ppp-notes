@@ -1,15 +1,141 @@
 {
   "title": "328: Nientendo",
   "number": 328,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
+  "main": [
+    {
+      "author": "Nick",
+      "description": "A Minecraft Movie",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 19,
+        "seconds": 20
+      },
+      "pizza": {
+        "slices": 2,
+        "description": "Pizza che non è una pizza ma é un punto in faccia e dei bambini intorno che urlano e che ti tirano le caramelle"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Severance stagione 2",
+      "tags": [
+        "serie"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 37,
+        "seconds": 50
+      },
+      "pizza": {
+        "slices": 7,
+        "description": "Pizza ai 3 formaggi misteriosi con olive costose"
+      }
+    }
+  ],
+  "menews": [
+    {
+      "author": "Sio",
+      "description": "Pesce di aprile: Fedez fa l’adattamento in italiano di Hamilton",
+      "tag": [
+        "musical"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 10
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "L’annuncio di Silksong",
+      "tag": [
+        "videogames",
+        "hollow-knight"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 8,
+        "seconds": 5
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Gundam GQUUUUX",
+      "tag": [
+        "anime"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 25
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Ketchup Studio ha comprato Coyote VS ACME + il live action di Biancaneve",
+      "tag": [
+        "film",
+        "animazione"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 11,
+        "seconds": 25
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "La presentazione della Switch 2 + Zelda BotW , TotK e altri giochi per Switch 2 nel Nintendo Online Expansion Pack + Mario Kart World",
+      "tag": [
+        "tech",
+        "videogames",
+        "switch",
+        "nintendo",
+        "zelda"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 12,
+        "seconds": 40
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Lorro",
+      "description": "Il musicista Tsunku",
+      "tag": [
+        "videogames",
+        "musica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 55
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Il matcha latte al Lao Gan Ma",
+      "tag": [
+        "cibo"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 15
+      }
+    }
+  ],
   "dolcetto": [],
   "amaro": [],
   "lore": [],
   "others": [],
   "meta": {
-    "user": null,
-    "date": "2025-09-29T14:00:27.303Z"
+    "user": "PePPPeroni",
+    "date": "2025-10-09T14:00:27.303Z"
   }
 }
