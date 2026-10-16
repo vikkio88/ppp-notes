@@ -1,15 +1,132 @@
 {
   "title": "400: Bucatori Pazzi",
   "number": 400,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
+  "main": [
+    {
+      "author": "Lorro",
+      "description": "The curse of Monkey Island  (+ alla fine della recensione reference al libro La vera storia del pirata Long John Silver)",
+      "tag": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 12,
+        "seconds": 30
+      },
+      "pizza": {
+        "slices": 10,
+        "description": "Pizza rossa con ananas, tantissimo peperoncino e maiale arrosto al barbecue"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Armageddon",
+      "tag": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 23,
+        "seconds": 40
+      },
+      "pizza": {
+        "slices": 2,
+        "description": "Marinara con il carbone dolce sopra come un meteorite"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Wario Land 2",
+      "tag": [
+        "videogames",
+        "nintendo"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 38,
+        "seconds": 20
+      },
+      "pizza": {
+        "slices": 10,
+        "description": "Pizza con salamino piccante, gorgonzola, peperoni, peperoncino e il waglio"
+      }
+    }
+  ],
+  "menews": [
+    {
+      "author": "Sio",
+      "description": "La serie di Dungeon Crawler Carl",
+      "tags": [
+        "serie"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 55
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Nick",
+      "description": "Un paesino in Trentino che si chiama Quetta, con il bivacco Quettarello e la pagina di Wikipedia ",
+      "timestamp": {
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 25
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Maestro per VR",
+      "tags": [
+        "videogames",
+        "musica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 30
+      }
+    }
+  ],
   "dolcetto": [],
   "amaro": [],
-  "lore": [],
+  "lore": [
+    {
+      "author": "Sio",
+      "description": "Scommessa One Piece della puntata 111: al momento di questa puntata di PPP per Sio finisce One Piece",
+      "tags": [
+        "manga"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "La nuova mascotte di PPP: la pizza più brutta che Nick abbia mai visto. Nomi possibili: Sbrinza (Nick), Sbrinzo (Lorro) o Pizzeron de Pizzeroni (Sio)",
+      "timestamp": {
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 50
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Il nuovo merchandising di PPP (spille, mouse pad e diario del viaggio al freddo) + la sezione Fan Art del sito + le nuove grafiche",
+      "timestamp": {
+        "hours": 0,
+        "minutes": 54,
+        "seconds": 10
+      }
+    }
+  ],
   "others": [],
   "meta": {
-    "user": null,
-    "date": "2026-10-02T08:48:52.740Z"
+    "user": "PePPPeroni",
+    "date": "2026-10-09T08:48:53.740Z"
   }
 }
