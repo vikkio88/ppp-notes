@@ -1,15 +1,163 @@
 {
   "title": "401: Divertenza",
   "number": 401,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
-  "dolcetto": [],
-  "amaro": [],
-  "lore": [],
+  "main": [
+    {
+      "author": "Nick",
+      "description": "Resident Evil (film del 2026)",
+      "tag": [
+        "film",
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 30
+      },
+      "pizza": {
+        "slices": 10,
+        "description": "Marinara arrabbiata con peperoncino e polpette vegetali con sangue (?)"
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Tre video-analisi di The Elephant Graveyard a tema Stand-up Comedy",
+      "tag": [
+        "youtube",
+        "stand-up-comedy"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 29,
+        "seconds": 40
+      },
+      "pizza": {
+        "slices": 10,
+        "description": "Pizza non descritta"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Her private hell di Refn",
+      "tag": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 41,
+        "seconds": 20
+      },
+      "pizza": {
+        "slices": 5,
+        "description": "Pizza a portafoglio che sembra da chiusa 2 fette, con sopra insalata capricciosa (sarebbero 2 fette di pizza ma rivalutate dopo aver sentito di persona Refn parlare del film)"
+      }
+    }
+  ],
+  "menews": [
+    {
+      "author": "Lorro",
+      "description": "Il quasi-porting di Monster Hunter Wilds su Switch 2",
+      "tags": [
+        "videogames",
+        "switch",
+        "monster-hunter"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 40
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "I robot che si suicidano nell’acciaio fuso",
+      "tags": [
+        "tech"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 30
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Nick",
+      "description": "Lorrowup su Armageddon",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 20
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Tintoria e Muschio selvaggio hanno la pagina di Wikipedia, PPP no (ma Auroro Borealo ci sta lavorando)",
+      "timestamp": {
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 40
+      }
+    }
+  ],
+  "dolcetto": [
+    {
+      "author": "Nick",
+      "description": "Vedi recensione in questa puntata di Her Private Hell",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 41,
+        "seconds": 21
+      }
+    }
+  ],
+  "amaro": [
+    {
+      "author": "Nick",
+      "description": "Vedi recensione in questa puntata di Her Private Hell",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 41,
+        "seconds": 22
+      }
+    }
+  ],
+  "lore": [
+    {
+      "author": "Sio",
+      "description": "Puntata senza Sio",
+      "tags": [
+        "hosts"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Il nome ufficiale della nuova mascotte di PPP é Sbrinzeron de Sbrinzeroni",
+      "timestamp": {
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 30
+      }
+    }
+  ],
   "others": [],
   "meta": {
-    "user": null,
-    "date": "2026-10-09T13:35:59.884Z"
+    "user": "PePPPeroni",
+    "date": "2026-10-16T13:35:59.884Z"
   }
 }

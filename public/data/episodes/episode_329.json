@@ -1,15 +1,100 @@
 {
   "title": "329: Chantare le Opere",
   "number": 329,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
+  "main": [
+    {
+      "author": "Lorro",
+      "description": "Il film di Minecraft",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 17,
+        "seconds": 0
+      },
+      "pizza": {
+        "slices": 6.5,
+        "description": "Würstel e patatine"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Electric State",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 24,
+        "seconds": 5
+      },
+      "pizza": {
+        "slices": 6.5,
+        "description": "Würstel e patatine"
+      }
+    }
+  ],
+  "menews": [
+    {
+      "author": "Nick",
+      "description": "La colonna sonora di Devil May Cry",
+      "tag": [
+        "anime",
+        "musica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 14,
+        "seconds": 20
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Nick",
+      "description": "Mara Maionchi doppiatrice nel film di Minecraft",
+      "tag": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 50
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Gundam GQUUUUX",
+      "tag": [
+        "anime"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 8,
+        "seconds": 35
+      }
+    }
+  ],
   "dolcetto": [],
   "amaro": [],
-  "lore": [],
+  "lore": [
+    {
+      "author": "Sio",
+      "description": "Puntata senza Sio",
+      "tag": [
+        "hosts"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1
+      }
+    }
+  ],
   "others": [],
   "meta": {
-    "user": null,
-    "date": "2025-09-29T14:00:27.303Z"
+    "user": "PePPPeroni",
+    "date": "2025-10-16T14:00:27.303Z"
   }
 }
