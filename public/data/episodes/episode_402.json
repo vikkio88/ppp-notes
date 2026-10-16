@@ -1,15 +1,198 @@
 {
   "title": "402: Amblimblone",
   "number": 402,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
+  "main": [
+    {
+      "author": "Sio",
+      "description": "Mayday (film 2026)",
+      "tag": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 27,
+        "seconds": 25
+      },
+      "pizza": {
+        "slices": 6.5,
+        "description": "Pizza bianca con i peperoni"
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "In the mood for love",
+      "tag": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 38,
+        "seconds": 10
+      },
+      "pizza": {
+        "slices": 9,
+        "description": "Pizza rossa con peperoncino che ti lascia un metaforico vuoto nello stomaco"
+      }
+    }
+  ],
+  "menews": [
+    {
+      "author": "Sio",
+      "description": "La fastest Route per visitare tutte le pizzerie d’Italia",
+      "tags": [
+        "cibo"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 30
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Machinarium 2",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 35
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Un gioco di Zelda non uscito con protagonista Ganondorf + Mario vs Rabbit",
+      "tags": [
+        "videogames",
+        "zelda"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 15
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Naruto Shadow Raising",
+      "tags": [
+        "manga"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 11,
+        "seconds": 45
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Lorro",
+      "description": "Resident Evil e i Jumpscare",
+      "tags": [
+        "videogames",
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 35
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "I robot che si autodistruggono nell’acciaio fuso non sono fatti da una azienda che fa manichini per crash test, ma fa robot molto avanzati",
+      "tags": [
+        "tech"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 5
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Gli sbullonati e gli sbullonacci",
+      "timestamp": {
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 0
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Dungeon Crawler Carl 6 e 3",
+      "tags": [
+        "libri"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 15
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Pluribus",
+      "tags": [
+        "serie"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 33,
+        "seconds": 15
+      }
+    }
+  ],
   "dolcetto": [],
-  "amaro": [],
-  "lore": [],
+  "amaro": [
+    {
+      "author": "Nick",
+      "description": "Digger",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 45,
+        "seconds": 20
+      }
+    }
+  ],
+  "lore": [
+    {
+      "author": "Sio",
+      "description": "Legge dell’assenza: quando un host non c’è, deve rispondere a una domanda nella puntata dopo per dimostrare di aver ascoltato quella in cui non c’era. Se fallisce, deve una pizza a Lorro. Sio ha ascoltato la puntata precedente.",
+      "tags": [
+        "legge-assenza"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 35
+      }
+    }
+  ],
+  "impizioni": [
+    {
+      "author": "Nick",
+      "description": "Final Fantasy 7 Rebirth (“appena sioddisfatto”)",
+      "tags": [
+        "videogames",
+        "sioddisfatto"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 16,
+        "seconds": 25
+      }
+    }
+  ],
   "others": [],
   "meta": {
-    "user": null,
+    "user": "PePPPeroni",
     "date": "2026-10-16T10:40:36.738Z"
   }
 }
