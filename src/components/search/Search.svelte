@@ -2,6 +2,7 @@
   import Fuse from "fuse.js";
   import Spinner from "./components/Spinner.svelte";
   import type { IndexedTopic } from "../dataEntry/libs/types";
+  import { toTimestapLabel } from "../dataEntry/libs/formatters";
   import { slugify } from "../../libs/slugify";
 
   const MIN_SEARCH_SIZE = 2;
@@ -119,6 +120,15 @@
             <span>({topic.section})</span>
             {#if topic.pizza}
               <span>🍕 {topic.pizza.slices}/10</span>
+            {/if}
+            {#if topic.timestamp}
+              <span>
+                ⏱️ {toTimestapLabel(
+                  topic.timestamp.hours,
+                  topic.timestamp.minutes,
+                  topic.timestamp.seconds,
+                )}
+              </span>
             {/if}
           </div>
           <p>{topic.description}</p>
