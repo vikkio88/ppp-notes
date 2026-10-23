@@ -1,7 +1,13 @@
 <script lang="ts">
-  import type { CollectionType } from "../libs/types";
+  import type { BaseTopic, CollectionType, MainTopic } from "../libs/types";
   import app from "../store/app.svelte";
   import TopicItem from "./TopicItem.svelte";
+
+  type Props = {
+    onEdit: (topic: MainTopic | BaseTopic, type: CollectionType) => void;
+  };
+
+  const { onEdit }: Props = $props();
 
   const categories: {
     type: CollectionType;
@@ -23,7 +29,7 @@
       <strong>{label}</strong>
       <ul>
         {#each app[type] as t}
-          <TopicItem topic={t} {type} />
+          <TopicItem topic={t} {type} {onEdit} />
         {/each}
       </ul>
     </div>

@@ -17,10 +17,11 @@
   import TopicCmd from "./shared/TopicCmd.svelte";
   type Props = {
     type: CollectionType;
+    topic?: BaseTopic | MainTopic;
     onFinished: () => void;
   };
 
-  const { type, onFinished }: Props = $props();
+  const { type, topic, onFinished }: Props = $props();
   const typeMap: Record<
     CollectionType,
     { title: string; canHavePizza: boolean }
@@ -47,14 +48,15 @@
   };
 
   const { title, canHavePizza } = typeMap[type];
+  const mainTopic = topic as MainTopic | undefined;
 
-  let author: Author = $state("Lorro");
-  let description: Author = $state("");
-  let pizzaValue: number = $state(5);
-  let pizzaDescription: string = $state("");
-  let tenPizze: undefined | true = $state(undefined);
-  let tags: string[] = $state([]);
-  let timestamp: TS = $state({ hours: 0, minutes: 0, seconds: 0 });
+  let author: Author = $state(topic?.author ?? "Lorro");
+  let description: string = $state(topic?.description ?? "");
+  let pizzaValue: number = $state(mainTopic?.pizza?.slices ?? 5);
+  let pizzaDescription: string = $state(mainTopic?.pizza?.description ?? "");
+  let tenPizze: undefined | true = $state(mainTopic?.tenPizze ? true : undefined);
+  let tags: string[] = $state([...(topic?.tags ?? [])]);
+  let timestamp: TS = $state(topic?.timestamp ?? { hours: 0, minutes: 0, seconds: 0 });
 
   function onAddInternal() {
     if (description.length < 2 || author.length < 2) {
@@ -62,7 +64,7 @@
     }
 
     let body: BaseTopic | MainTopic = {
-      id: id(type),
+      id: topic?.id ?? id(type),
       author,
       description,
       tags: [...tags],
@@ -83,7 +85,11 @@
       } satisfies MainTopic;
     }
 
-    app.add(type, body);
+    if (topic) {
+      app.update(type, topic.id, body);
+    } else {
+      app.add(type, body);
+    }
     onFinished();
   }
 
@@ -93,7 +99,7 @@
 </script>
 
 <div class="f1 f c pd g adding">
-  <h3>Aggiungendo: {title}</h3>
+  <h3>{topic ? "Modificando" : "Aggiungendo"}: {title}</h3>
   <div class="f r g">
     <h4>Autore/Conduttore</h4>
     <AuthorSelector bind:author />

@@ -6,9 +6,13 @@
   import app from "../store/app.svelte";
   import ConfirmBtn from "./shared/ConfirmBtn.svelte";
 
-  type Props = { topic: MainTopic | BaseTopic; type: CollectionType };
+  type Props = {
+    topic: MainTopic | BaseTopic;
+    type: CollectionType;
+    onEdit: (topic: MainTopic | BaseTopic, type: CollectionType) => void;
+  };
 
-  const { topic, type }: Props = $props();
+  const { topic, type, onEdit }: Props = $props();
 </script>
 
 <li>
@@ -41,6 +45,7 @@
     </span>
   {/if}
 
+  <button class="n-btn" onclick={() => onEdit(topic, type)}>✏️</button>
   <ConfirmBtn onConfirm={() => app.remove(type, topic.id)}>🗑️</ConfirmBtn>
 </li>
 

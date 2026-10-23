@@ -93,6 +93,25 @@ class AppState {
     collections[type]?.();
   }
 
+  update(type: CollectionType, id: string, body: MainTopic | BaseTopic) {
+    const replace =
+      <T extends { id: string }>(items: T[]) =>
+      () =>
+        items.map((item) => (item.id === id ? (body as T) : item));
+
+    const collections = {
+      lorrowap: () => (this.#lorrowap = replace(this.#lorrowap)()),
+      menews: () => (this.#menews = replace(this.#menews)()),
+      main: () => (this.#main = replace(this.#main)()),
+      dolcetto: () => (this.#dolcetto = replace(this.#dolcetto)()),
+      amaro: () => (this.#amaro = replace(this.#amaro)()),
+      impizioni: () => (this.#impizioni = replace(this.#impizioni)()),
+      lore: () => (this.#lore = replace(this.#lore)()),
+    };
+
+    collections[type]?.();
+  }
+
   load(episode: Episode) {
     this.meta = {
       title: episode.title,

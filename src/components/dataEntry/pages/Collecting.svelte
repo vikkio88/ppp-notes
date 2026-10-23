@@ -2,17 +2,25 @@
   import Topic from "../components/Topic.svelte";
   import Topics from "../components/Topics.svelte";
   import { topicTypeMap } from "../libs/topics";
-  import type { CollectionType } from "../libs/types";
+  import type { BaseTopic, CollectionType, MainTopic } from "../libs/types";
   import app from "../store/app.svelte";
   let isEnteringData = $state(false);
   let collectionType: CollectionType | undefined = $state();
+  let editingTopic: MainTopic | BaseTopic | undefined = $state();
   function add(c: CollectionType) {
     isEnteringData = true;
     collectionType = c;
+    editingTopic = undefined;
+  }
+  function edit(topic: MainTopic | BaseTopic, c: CollectionType) {
+    isEnteringData = true;
+    collectionType = c;
+    editingTopic = topic;
   }
   function cancel() {
     isEnteringData = false;
     collectionType = undefined;
+    editingTopic = undefined;
   }
 
   const addCommands = [
@@ -52,11 +60,11 @@
 </h2>
 
 {#if isEnteringData && collectionType}
-  <Topic type={collectionType} onFinished={cancel} />
+  <Topic type={collectionType} topic={editingTopic} onFinished={cancel} />
 {:else}
   <div class="f1">
     <div class="pd">
-      <Topics />
+      <Topics onEdit={edit} />
     </div>
   </div>
   <div class="cmd add f1">
