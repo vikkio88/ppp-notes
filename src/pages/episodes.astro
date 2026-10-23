@@ -1,9 +1,11 @@
 ---
 import { getCollection } from "astro:content";
+import type { CollectionEntry } from "astro:content";
 import Episode from "../components/Episode.astro";
 import Layout from "../layouts/Layout.astro";
 
-const episodes = await getCollection("episodes");
+const episodes: CollectionEntry<"feedLinks">[] =
+  await getCollection("feedLinks");
 ---
 
 <Layout title={`🍕 Power Pizza Podcast - Episodi`}>

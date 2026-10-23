@@ -6,7 +6,7 @@ import { URL } from "../../config";
 import { parseLinks } from "../../libs/linkParser";
 import type { EpisodeWrapper } from "../../types";
 
-export function powerPizzaPodcastLoader(): Loader {
+export function feedLinksLoader(): Loader {
   const feedLoaderInstance = feedLoader({
     url: URL,
   });

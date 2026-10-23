@@ -19,14 +19,14 @@ export function Search({ links }: Props) {
   const inputRef = useRef<HTMLInputElement>(null);
   const [canSubmit, setCanSubmit] = useState(false);
   const [searchResults, setSearchResults] = useState<SearchResult[] | null>(
-    null
+    null,
   );
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     const searchValue = inputRef.current?.value ?? "";
     if (searchValue && searchValue.length >= MIN_SEARCH_SIZE) {
-      setSearchResults(fuse.search(searchValue) ?? []);
+      setSearchResults(episodeFuse.search(searchValue) ?? []);
     }
   };
   const reset = () => {
@@ -48,7 +48,7 @@ export function Search({ links }: Props) {
     formRef.current.requestSubmit();
   };
 
-  const fuse = useMemo(
+  const episodeFuse = useMemo(
     () =>
       new Fuse(links, {
         keys: ["episodeTitle", "description"],
@@ -57,7 +57,7 @@ export function Search({ links }: Props) {
         threshold: 0,
         ignoreLocation: true,
       }),
-    [links]
+    [links],
   );
 
   return (
@@ -68,7 +68,7 @@ export function Search({ links }: Props) {
           type="text"
           className="search"
           autoComplete="off"
-          placeholder="🍕 Cerca tra gli scontrini..."
+          placeholder="🍕 Cerca link 🔗 tra gli scontrini..."
           ref={inputRef}
           onChange={check}
         />
