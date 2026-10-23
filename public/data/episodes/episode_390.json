@@ -1,0 +1,159 @@
+{
+  "title": "390: Sexxo Paxxo",
+  "number": 390,
+  "meta": {
+    "user": "PePPPeroni",
+    "date": "2026-07-26T19:18:22.767Z"
+  },
+  "menews": [
+    {
+      "author": "Sio",
+      "description": "Il live action di Persona",
+      "tags": [
+        "film",
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 17,
+        "seconds": 20
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "La questione del formato IMAX per l’Odissea di Nolan",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 18,
+        "seconds": 45
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Nick",
+      "description": "Lo skeleton",
+      "tags": [
+        "sport"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 35
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "I legumi (fave, fagioli, ecc)",
+      "tags": [
+        "cibo"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 45
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Final Fantasy 7 Remake",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 11,
+        "seconds": 50
+      }
+    }
+  ],
+  "main": [
+    {
+      "author": "Sio",
+      "description": "Mina the Hollower",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 25,
+        "seconds": 30
+      },
+      "pizza": {
+        "slices": 9,
+        "description": "Pizza con melanzane e aglio"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Minions & Monsters",
+      "tags": [
+        "film",
+        "animazione"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 26,
+        "seconds": 45
+      },
+      "pizza": {
+        "slices": 7.5,
+        "description": ""
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Minions & Monsters",
+      "tags": [
+        "film",
+        "animazione"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 26,
+        "seconds": 46
+      },
+      "pizza": {
+        "slices": 7.5,
+        "description": "Pizza coi würstel"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "The Invite",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 39,
+        "seconds": 10
+      },
+      "pizza": {
+        "slices": 9,
+        "description": "New York Slice pizza"
+      }
+    }
+  ],
+  "dolcetto": [],
+  "amaro": [],
+  "impizioni": [],
+  "lore": [
+    {
+      "author": "Sio",
+      "description": "Legge dell’assenza: quando un host non c’è, deve rispondere a una domanda nella puntata dopo per dimostrare di aver ascoltato quella in cui non c’era. Se fallisce, deve una pizza a Lorro. Sio risponde piú o meno bene.",
+      "tags": [
+        "legge-assenza"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1
+      }
+    }
+  ],
+  "others": []
+}

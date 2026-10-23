@@ -1,15 +1,207 @@
 {
   "title": "326: Forza Ketchup",
   "number": 326,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
-  "dolcetto": [],
-  "amaro": [],
-  "lore": [],
+  "main": [
+    {
+      "author": "Nick",
+      "description": "Furiosa",
+      "tag": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 45
+      },
+      "pizza": {
+        "slices": 6.5,
+        "description": ""
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Solo Leveling",
+      "tag": [
+        "manga",
+        "anime"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 15,
+        "seconds": 30
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Venom: the Last Dance",
+      "tag": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 18,
+        "seconds": 10
+      },
+      "pizza": {
+        "slices": 1,
+        "description": ""
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "La città proibita di Mainetti",
+      "tag": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 26,
+        "seconds": 15
+      },
+      "pizza": {
+        "slices": 9,
+        "description": "Margherita con guanciale e funghi"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Mickey 17",
+      "tag": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 36,
+        "seconds": 40
+      },
+      "pizza": {
+        "slices": 5.6,
+        "description": "(Voto arrotondando il voto di Nick 17/30)"
+      }
+    }
+  ],
+  "menews": [
+    {
+      "author": "Lorro",
+      "description": "Epic the Musical su YouTube",
+      "tag": [
+        "musical",
+        "youtube"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 30
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Win or Lose su Disney+",
+      "tag": [
+        "serie"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 8,
+        "seconds": 5
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Hanno usato la colla sbagliata nei Cybertruck",
+      "tag": [
+        "tech"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 11,
+        "seconds": 0
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Il nuovo album di Louie Zong a tema serpenti",
+      "tag": [
+        "musica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 25
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Coyote VS ACME forse uscirà al cinema",
+      "tag": [
+        "film",
+        "animazione"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 12,
+        "seconds": 20
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Nick",
+      "description": "Perdersi in Hollow Knight e la Hollow Nickathon",
+      "tag": [
+        "videogames",
+        "hollow-knight"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 45
+      }
+    }
+  ],
+  "dolcetto": [
+    {
+      "author": "Lorro",
+      "description": "Gundam: The Witch from Mercury",
+      "tag": [
+        "anime",
+        "serie"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 48,
+        "seconds": 10
+      }
+    }
+  ],
+  "amaro": [
+    {
+      "author": "Sio",
+      "description": "Daniele Fabbri e la denuncia di Giorgia Meloni",
+      "tag": [
+        "politica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 43,
+        "seconds": 55
+      }
+    }
+  ],
+  "lore": [
+    {
+      "author": "Sio",
+      "description": "L’invenzione di Quette",
+      "timestamp": {
+        "hours": 0,
+        "minutes": 22,
+        "seconds": 25
+      }
+    }
+  ],
   "others": [],
   "meta": {
-    "user": null,
-    "date": "2025-09-29T14:00:27.303Z"
+    "user": "PePPPeroni",
+    "date": "2026-10-02T14:00:27.303Z"
   }
 }

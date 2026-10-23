@@ -1,15 +1,226 @@
 {
   "title": "327: Complezionismo AD4K",
   "number": 327,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
-  "dolcetto": [],
-  "amaro": [],
-  "lore": [],
+  "main": [
+    {
+      "author": "Auroro Borealo",
+      "description": "ToeJam & Earl",
+      "tag": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 22,
+        "seconds": 40
+      },
+      "pizza": {
+        "slices": 10,
+        "description": "Pizza di Gino con doppia mozzarella"
+      }
+    }
+  ],
+  "menews": [
+    {
+      "author": "Sio",
+      "description": "Il nuovo Rhythm Heaven Groove (o Rhythm Paradise Groove , o Rhythm Tengoku: Miracle Stars) + Tsunku (musicista)",
+      "tag": [
+        "musica",
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 14,
+        "seconds": 45
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Elon Musk si è comprato Twitter",
+      "tag": [
+        "tech",
+        "politica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 35,
+        "seconds": 10
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Il Nintendo Direct dei giochi della Switch 2 + Tomodachi Life + Metroid Prime 4",
+      "tag": [
+        "videogames",
+        "switch",
+        "nintendo"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 16,
+        "seconds": 55
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Il remaster di Patapon per Switch",
+      "tag": [
+        "videogames",
+        "switch",
+        "musica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 20,
+        "seconds": 0
+      }
+    },
+    {
+      "author": "Auroro Borealo",
+      "description": "Il musical di Auroro Borealo con Filosofia Coatta",
+      "tag": [
+        "musica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 37,
+        "seconds": 10
+      }
+    },
+    {
+      "author": "Auroro Borealo",
+      "description": "Il libro brutto dei libri brutti di Auroro Borealo e Davide Rossi, con l’Atlante delle emorroidi e il Libro delle poesie in cinese di Licio Gelli, e il Libri Brutti Podcast",
+      "tag": [
+        "libri",
+        "podcast"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 51,
+        "seconds": 40
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Lorro",
+      "description": "Ecco the Dolphin",
+      "tag": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 21,
+        "seconds": 20
+      }
+    }
+  ],
+  "dolcetto": [
+    {
+      "author": "Auroro Borealo",
+      "description": "Il disco in giapponese di Alessandra Mussolini",
+      "tag": [
+        "musica",
+        "politica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 2
+      }
+    },
+    {
+      "author": "Auroro Borealo",
+      "description": "Il vero nome di Paolo Meneguzzi",
+      "tag": [
+        "musica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 9
+      }
+    },
+    {
+      "author": "Auroro Borealo",
+      "description": "La discografia di Luca Sardella",
+      "tag": [
+        "musica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 0
+      }
+    },
+    {
+      "author": "Auroro Borealo",
+      "description": "Il pranzo di pesce a Gubbio",
+      "tag": [
+        "eventi"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 11,
+        "seconds": 45
+      }
+    },
+    {
+      "author": "Auroro Borealo",
+      "description": "Harry Potter e la Pietra filosofale in islandese",
+      "tag": [
+        "libri"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 32,
+        "seconds": 45
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "RoboTotti per il Playdate",
+      "tag": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 55,
+        "seconds": 20
+      }
+    }
+  ],
+  "amaro": [
+    {
+      "author": "Sio",
+      "description": "5 libri che Sio pensa siano brutti: Casper il gatto pendolare, Cormoran Strike - Il richiamo del Cuculo, Il signore degli anelli, Lo scudo di Talos, il Tesoro dei Pirati",
+      "tag": [
+        "libri"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 46,
+        "seconds": 35
+      }
+    }
+  ],
+  "lore": [
+    {
+      "author": "Auroro Borealo",
+      "description": "Puntata con Auroro Borealo",
+      "tag": [
+        "musica",
+        "host"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1
+      }
+    }
+  ],
   "others": [],
   "meta": {
-    "user": null,
-    "date": "2025-09-29T14:00:27.303Z"
+    "user": "PePPPeroni",
+    "date": "2025-10-02T14:00:27.303Z"
   }
 }

@@ -1,15 +1,80 @@
 {
   "title": "308: Live @ Lucca 2024",
   "number": 308,
-  "main": [],
+  "meta": {
+    "user": "PePPPeroni",
+    "date": "2026-08-01T13:28:39.055Z"
+  },
   "menews": [],
   "lorrowap": [],
+  "main": [
+    {
+      "author": "Nick",
+      "description": "Il Power Point di Nick: recensione dell’essere pelato / pelati",
+      "tags": [
+        "hosts"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 40
+      },
+      "pizza": {
+        "slices": 10,
+        "description": "Pizza con i pelati sopra"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Top 10 Idee per una power point battle + chi è veramente Dr. Mario? (Vincitore Power Point Battle)",
+      "tags": [
+        "nintendo"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 23,
+        "seconds": 45
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Tier List della Pasta",
+      "tags": [
+        "cibo"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 36,
+        "seconds": 5
+      }
+    }
+  ],
   "dolcetto": [],
   "amaro": [],
-  "lore": [],
-  "others": [],
-  "meta": {
-    "user": null,
-    "date": "2025-09-29T14:00:27.305Z"
-  }
+  "impizioni": [],
+  "lore": [
+    {
+      "author": "Fabio Antonelli",
+      "description": "Live a Lucca con intro di Fabio Antonelli: Power Point Battle (vince Sio)",
+      "tags": [
+        "eventi"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "La tradizionale slide di nick nelle live",
+      "tags": [],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 40
+      }
+    }
+  ],
+  "others": []
 }
