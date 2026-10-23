@@ -1,28 +1,45 @@
 <script lang="ts">
   import Fuse from "fuse.js";
   import Spinner from "./components/Spinner.svelte";
-  import type { IndexedPizza, IndexedTopic } from "../dataEntry/libs/types";
-    import { slugify } from "../../libs/slugify";
-  let fuse: {
-    tags: Fuse<{ tag: string; episodes: IndexedTopic[] }>;
-    pizza: Fuse<IndexedPizza>;
-  };
+  import type { IndexedTopic } from "../dataEntry/libs/types";
+  import { slugify } from "../../libs/slugify";
+
+  const MIN_SEARCH_SIZE = 2;
+
+  type SearchableTopic = IndexedTopic & { pizzaDescription?: string };
+
+  let fuse: Fuse<SearchableTopic>;
+  let allTags: string[] = [];
+  let allTopics: SearchableTopic[] = [];
+
+  function searchTerms(terms: string[]): SearchableTopic[] {
+    if (!fuse) return [];
+    const resultSets = terms.map(
+      (t) => new Set(fuse.search(t).map((r) => r.item)),
+    );
+    const [first, ...rest] = resultSets;
+    return [...first].filter((item) => rest.every((set) => set.has(item)));
+  }
 
   function handleSubmit(e: SubmitEvent) {
     e.preventDefault();
     if (!canSubmit) return;
+    const terms = value
+      .split("&&")
+      .map((t) => t.trim())
+      .filter((t) => t.length > 0);
+    searchResults = searchTerms(terms);
+  }
 
-    const result = fuse?.pizza.search(value);
-    // const result = fuse?.tags.search(value);
-    searchResults = result.map((r) => ({
-      match: `${r.item.slices}/10 - ${r.item.description}`,
-      episodes: Array.isArray(r.item) ? r.item : [r.item],
-    }));
+  function searchByTag(tag: string) {
+    value = tag;
+    searchResults = allTopics.filter((t) => t.tags.includes(tag));
   }
 
   function random(e: MouseEvent) {
     e.preventDefault();
-    console.log("RANDOM");
+    if (allTags.length === 0) return;
+    searchByTag(allTags[Math.floor(Math.random() * allTags.length)]);
   }
 
   function reset() {
@@ -31,31 +48,36 @@
   }
 
   let value = $state("");
-  let canSubmit = $derived(value && value.length > 0);
-  let searchResults:
-    { match: string; episodes: (IndexedTopic | IndexedPizza)[] }[] | undefined =
-    $state();
+  let canSubmit = $derived(value.trim().length >= MIN_SEARCH_SIZE);
+  let searchResults: SearchableTopic[] | undefined = $state();
 
   let loadingFuse = (async () => {
-    const [t, p] = await Promise.all([
-      fetch("/data/index/tags_episodes.json"),
-      fetch("/data/index/pizza_episodes.json"),
-    ]);
-    const tagsIndex = (await t.json()) as Record<string, IndexedTopic[]>;
-    const pizzaIndex = (await p.json()) as IndexedPizza[];
+    const res = await fetch("/data/index/topics.json");
+    const topics = (await res.json()) as IndexedTopic[];
 
-    fuse = {
-      tags: new Fuse(
-        Object.entries(tagsIndex).map((e) => {
-          return {
-            tag: e[0],
-            episodes: e[1],
-          };
-        }),
-        { keys: ["tag"], threshold: 0.2 },
-      ),
-      pizza: new Fuse(pizzaIndex, { keys: ["slices"], threshold: 0.2 }),
-    };
+    const searchable: SearchableTopic[] = topics.map((t) => ({
+      ...t,
+      pizzaDescription: t.pizza?.description,
+    }));
+    allTopics = searchable;
+
+    const tagSet = new Set<string>();
+    for (const topic of topics) {
+      for (const tag of topic.tags) tagSet.add(tag);
+    }
+    allTags = [...tagSet];
+
+    fuse = new Fuse(searchable, {
+      keys: [
+        { name: "description", weight: 2 },
+        { name: "tags", weight: 2 },
+        { name: "author", weight: 1 },
+        { name: "pizzaDescription", weight: 1 },
+      ],
+      threshold: 0.3,
+      ignoreLocation: true,
+      minMatchCharLength: MIN_SEARCH_SIZE,
+    });
   })();
 </script>
 
@@ -80,33 +102,64 @@
   </form>
 
   {#if searchResults}
-    <button class="small" onclick={reset}> Reset </button>
+    <div class="f rc g_5">
+      <button class="small" onclick={reset}> Reset </button>
+      <span>{searchResults.length} risultat{searchResults.length === 1 ? "o" : "i"}</span>
+    </div>
   {/if}
   {#if Array.isArray(searchResults) && searchResults.length > 0}
-    <ul>
-      {#each searchResults as r}
-        <li>{r.match}</li>
-        <ul>
-          {#each r.episodes as e}
-            <li>
-              <a href={`/episodes/${slugify(e.episodeTitle)}`}>
-                {e.episodeTitle}
-              </a>
-              - {e.author}
-              {#if "section" in e}
-                ({e.section})
-              {/if}
-              -
-              {e.description}
-            </li>
-          {/each}
-        </ul>
-      {:else}
-        <div class="resultInfo">
-          <h2>Nessun Link Trovato</h2>
-          <h1 class="shake">🍕</h1>
+    <div class="results">
+      {#each searchResults as topic}
+        <div class="result">
+          <a href={`/episodes/${slugify(topic.episodeTitle)}`}>
+            <h3>{topic.episodeTitle}</h3>
+          </a>
+          <div class="f rc g_5">
+            <span>{topic.author}</span>
+            <span>({topic.section})</span>
+            {#if topic.pizza}
+              <span>🍕 {topic.pizza.slices}/10</span>
+            {/if}
+          </div>
+          <p>{topic.description}</p>
+          {#if topic.pizza?.description}
+            <p>🍕 {topic.pizza.description}</p>
+          {/if}
+          {#if topic.tags.length > 0}
+            <div class="f rc fiwr g_5">
+              {#each topic.tags as tag}
+                <button
+                  type="button"
+                  class="tag"
+                  onclick={() => searchByTag(tag)}
+                >
+                  {tag}
+                </button>
+              {/each}
+            </div>
+          {/if}
         </div>
       {/each}
-    </ul>
+    </div>
+  {:else if Array.isArray(searchResults)}
+    <div class="resultInfo">
+      <h2>Nessun Risultato Trovato</h2>
+      <h1 class="shake">🍕</h1>
+    </div>
   {/if}
 {/await}
+
+<style>
+  .tag {
+    background: rgba(255, 122, 122, 0.15);
+    color: rgba(51, 51, 51, 0.8);
+    padding: 0.2rem 0.7rem;
+    border-radius: 10px;
+    font-size: 0.85rem;
+    border: none;
+  }
+
+  .tag:hover {
+    background: rgba(255, 122, 122, 0.3);
+  }
+</style>

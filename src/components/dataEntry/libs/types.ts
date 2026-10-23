@@ -76,12 +76,6 @@ export type IndexedTopic = {
   description: string;
   tags: string[];
   timestamp?: Timestamp;
+  pizza?: Pizza;
 };
-export type IndexedPizza = {
-  episodeNumber: number;
-  episodeTitle: string;
-  author: Author;
-  description: string;
-  pizza: Pizza;
-  slices: number;
-};
+

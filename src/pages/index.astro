@@ -1,24 +1,6 @@
 ---
-import type { CollectionEntry } from "astro:content";
-import { getCollection } from "astro:content";
-import type { SearchableLink } from "../types";
 import Search from "../components/search/Search.svelte";
 import Layout from "../layouts/Layout.astro";
-
-const episodes: CollectionEntry<"feedLinks">[] =
-  await getCollection("feedLinks");
-
-const searchableLinks: SearchableLink[] = [];
-for (const episode of episodes) {
-  for (const link of episode.data.links!) {
-    searchableLinks.push({
-      episodeTitle: episode.data.title!,
-      episodeAudioUrl: episode.data.link!,
-      url: link.href,
-      description: link.description,
-    });
-  }
-}
 ---
 
 <Layout>

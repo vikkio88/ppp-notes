@@ -5,14 +5,12 @@ import {
   COLLECTED_SECTIONS,
   type BaseTopicNoId,
   type Episode,
-  type IndexedPizza,
   type IndexedTopic,
+  type MainTopicNoId,
 } from "../../components/dataEntry/libs/types";
 const EPISODES_DIR = path.join("public", "data", "episodes");
 const OUTPUT_DIR = path.join("public", "data", "index");
-const OUTPUT_FILE_TAGS = path.join(OUTPUT_DIR, "tags.json");
-const OUTPUT_FILE_EPISODES = path.join(OUTPUT_DIR, "tags_episodes.json");
-const OUTPUT_FILE_PIZZA_EPISODES = path.join(OUTPUT_DIR, "pizza_episodes.json");
+const OUTPUT_FILE_TOPICS = path.join(OUTPUT_DIR, "topics.json");
 async function loadEpisodes(): Promise<Episode[]> {
   const glob = new Glob("episode_*.json");
   const episodes: Episode[] = [];
@@ -26,77 +24,36 @@ async function loadEpisodes(): Promise<Episode[]> {
   }
   return episodes;
 }
-function buildTagIndex(episodes: Episode[]): Map<string, IndexedTopic[]> {
-  const index = new Map<string, IndexedTopic[]>();
+function buildTopicsIndex(episodes: Episode[]): IndexedTopic[] {
+  const topics: IndexedTopic[] = [];
   for (const episode of episodes) {
     for (const section of COLLECTED_SECTIONS) {
-      const topics = episode[section] as BaseTopicNoId[] | undefined;
-      if (!topics) continue;
-      for (const topic of topics) {
-        if (!topic.tags || topic.tags.length === 0) continue;
-        const indexed: IndexedTopic = {
+      const sectionTopics = episode[section] as BaseTopicNoId[] | undefined;
+      if (!sectionTopics) continue;
+      for (const topic of sectionTopics) {
+        topics.push({
           episodeNumber: episode.number,
           episodeTitle: episode.title,
           section,
           author: topic.author,
           description: topic.description,
-          tags: topic.tags,
+          tags: topic.tags ?? [],
           timestamp: topic.timestamp,
-        };
-        for (const tag of topic.tags) {
-          const bucket = index.get(tag);
-          if (bucket) {
-            bucket.push(indexed);
-          } else {
-            index.set(tag, [indexed]);
-          }
-        }
+          pizza: section === "main" ? (topic as MainTopicNoId).pizza : undefined,
+        });
       }
     }
   }
-  return index;
-}
-function buildPizzaList(episodes: Episode[]): IndexedPizza[] {
-  const list: IndexedPizza[] = [];
-  for (const episode of episodes) {
-    for (const topic of episode.main) {
-      if (!topic.pizza) continue;
-      list.push({
-        episodeNumber: episode.number,
-        episodeTitle: episode.title,
-        author: topic.author,
-        description: topic.description,
-        pizza: topic.pizza,
-        slices: topic.pizza.slices,
-      });
-    }
-  }
-  return list;
+  return topics;
 }
 async function main() {
   console.log(`Reading episodes from ${EPISODES_DIR}...`);
   const episodes = await loadEpisodes();
   console.log(`Loaded ${episodes.length} episodes.`);
-  const tagIndex = buildTagIndex(episodes);
-  console.log(`Found ${tagIndex.size} distinct tags.`);
-  const tagOutput: Record<string, IndexedTopic[]> = {};
-  for (const tag of [...tagIndex.keys()].sort()) {
-    tagOutput[tag] = tagIndex.get(tag)!;
-  }
-  await Bun.write(
-    OUTPUT_FILE_TAGS,
-    JSON.stringify(Object.keys(tagOutput), null, 2),
-  );
-  console.log(`Wrote tag index to ${OUTPUT_FILE_TAGS}`);
-  await Bun.write(OUTPUT_FILE_EPISODES, JSON.stringify(tagOutput, null, 2));
-  console.log(`Wrote tag index to ${OUTPUT_FILE_EPISODES}`);
-  const pizzaList = buildPizzaList(episodes);
-  console.log(`Found ${pizzaList.length} pizza ratings.`);
-  await Bun.write(
-    OUTPUT_FILE_PIZZA_EPISODES,
-    JSON.stringify(pizzaList, null, 2),
-  );
-  console.log(`Wrote pizza index to ${OUTPUT_FILE_PIZZA_EPISODES}`);
+  const topics = buildTopicsIndex(episodes);
+  console.log(`Indexed ${topics.length} topics.`);
+  await Bun.write(OUTPUT_FILE_TOPICS, JSON.stringify(topics, null, 2));
+  console.log(`Wrote full topic index to ${OUTPUT_FILE_TOPICS}`);
 }
 main().catch((err) => {
   console.error(err);
