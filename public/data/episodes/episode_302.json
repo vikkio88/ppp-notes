@@ -1,19 +1,152 @@
 {
   "title": "302: Pizza al Tranche",
-  "menews": [],
-  "lorrowap": [],
+  "menews": [
+    {
+      "author": "Sio",
+      "description": "L’umanità sta finendo l’elio",
+      "tags": [],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 2,
+        "seconds": 45
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "La PlayStation 5 Pro e il video di Sio",
+      "tags": [
+        "videogames",
+        "tech",
+        "youtube"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 35
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Balatro esce su mobile",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 11,
+        "seconds": 50
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Nick",
+      "description": "L’errata corrige di Nick sulla differenza tra la a sindrome di Proteo e quella di Priapro, riferita a Elephant Man",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 0
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Dark Souls per la switch",
+      "tags": [
+        "videogames",
+        "switch"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 25
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Mel Brooks vede Eraserhead e sceglie Linch per girare Elephant Man",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 8,
+        "seconds": 50
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Jack Black",
+      "tags": [
+        "film",
+        "musica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 0
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Nick ri-consiglia Wolfwalkers",
+      "tags": [
+        "animazione",
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 17,
+        "seconds": 45
+      }
+    }
+  ],
   "main": [
     {
       "author": "Nick",
-      "description": "Love lies bleeding",
+      "description": "Love Lies Bleeding",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 19,
+        "seconds": 0
+      },
       "pizza": {
         "slices": 9,
         "description": "Margherita con siringhe steroidi e tuorli d'uovo"
       }
     },
     {
+      "author": "Sio",
+      "description": "La mano sinistra del buio (The left hand of Darkness) di Ursula Le Guin",
+      "tags": [
+        "libri"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 30,
+        "seconds": 0
+      },
+      "pizza": {
+        "slices": 10,
+        "description": "4 formaggi"
+      }
+    },
+    {
       "author": "Lorro",
       "description": "Dallas buyers club",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 41,
+        "seconds": 35
+      },
       "pizza": {
         "slices": 8,
         "description": "Diavola con 'nduja, jalapenos, Philadelphia, molto gustosa"
@@ -22,11 +155,26 @@
   ],
   "dolcetto": [],
   "amaro": [],
+  "impizioni": [
+    {
+      "author": "Sio",
+      "description": "Ace Attorney Investigations Collections + altri giochi di Ace Attorney",
+      "tags": [
+        "videogames",
+        "sioddisfatto"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 14,
+        "seconds": 0
+      }
+    }
+  ],
   "lore": [],
   "others": [],
   "meta": {
-    "user": "giudycorda",
-    "date": "2025-09-28T19:57:39.781Z"
+    "user": ["PePPPeroni","giudycorda"],
+    "date": "2026-11-17T19:18:22.767Z"
   },
   "number": 302
 }

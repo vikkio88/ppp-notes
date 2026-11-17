@@ -1,15 +1,105 @@
 {
   "title": "331: Personne 5",
   "number": 331,
-  "main": [],
+  "meta": {
+    "user": "PePPPeroni",
+    "date": "2026-11-17T19:18:22.767Z"
+  },
   "menews": [],
-  "lorrowap": [],
+  "lorrowap": [
+    {
+      "author": "Lorro",
+      "description": "I kneecap",
+      "tags": [
+        "musica",
+        "politica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Black Water e il patriarcato",
+      "tags": [
+        "libri",
+        "politica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 50
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "La Nintendo Switch 2 Experience a Milano + Nintendo Switch 2 Welcome Tour + Mario Kart World + Donkey Kong Bananza",
+      "tags": [
+        "nintendo",
+        "switch",
+        "eventi",
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 40
+      }
+    }
+  ],
+  "main": [
+    {
+      "author": "Sio",
+      "description": "Anora",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 28,
+        "seconds": 0
+      },
+      "pizza": {
+        "slices": 6,
+        "description": "Pizza gialla (?)"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Sinners",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 33,
+        "seconds": 55
+      },
+      "pizza": {
+        "slices": 9.5,
+        "description": "Marinara con cipolle, friarielli e carciofini, con il sugo buono"
+      }
+    }
+  ],
   "dolcetto": [],
   "amaro": [],
+  "impizioni": [
+    {
+      "author": "Lorro",
+      "description": "Clair Obscur Expedition 33",
+      "tags": [
+        "videogames",
+        "sioddisfatto"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 17,
+        "seconds": 25
+      }
+    }
+  ],
   "lore": [],
-  "others": [],
-  "meta": {
-    "user": null,
-    "date": "2025-09-29T14:00:27.303Z"
-  }
+  "others": []
 }

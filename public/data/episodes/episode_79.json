@@ -6,10 +6,23 @@
   "lorrowap": [],
   "dolcetto": [],
   "amaro": [],
-  "lore": [],
+  "lore": [
+    {
+      "author": "Sio",
+      "description": "Ogni 79 puntate sio puó suonare l´ukulele",
+      "tags": [
+        "ukulele"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 22,
+        "seconds": 20
+      }
+    }
+  ],
   "others": [],
   "meta": {
-    "user": null,
+    "user": "PePPPeroni",
     "date": "2025-09-29T14:12:00.706Z"
   }
 }

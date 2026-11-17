@@ -1,15 +1,148 @@
 {
   "title": "405: Necromango",
   "number": 405,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
+  "meta": {
+    "user": "PePPPeroni",
+    "date": "2026-11-17T19:18:22.767Z"
+  },
+  "menews": [
+    {
+      "author": "Sio",
+      "description": "La speedrun di Mario a 2 frame dalla perfezione",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 25
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "La fine del Cybertruck + il PlayStation Portal con storage per nuove feature",
+      "tags": [
+        "tech",
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 12,
+        "seconds": 0
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Ocarina of time remake",
+      "tags": [
+        "videogames",
+        "zelda"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 14,
+        "seconds": 10
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "One piece e DanDaDan vanno verso la fine",
+      "tags": [
+        "manga"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 37,
+        "seconds": 30
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Tower Dungeon",
+      "tags": [
+        "manga"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 41,
+        "seconds": 5
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Lo Scanlendario 2027",
+      "tags": [
+        "scanlendario"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 46,
+        "seconds": 25
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Lorro",
+      "description": "La numerazione di PK",
+      "tags": [
+        "fumetti"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "The IT Crowd e la controversia con Graham Linehan",
+      "tags": [
+        "serie",
+        "politica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 10
+      }
+    }
+  ],
+  "main": [
+    {
+      "author": "Lorro",
+      "description": "Castlevania: Belmont's Curse",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 20,
+        "seconds": 55
+      },
+      "pizza": {
+        "slices": 7,
+        "description": "Diavola con jalapeño (ma 6 fette per essere un Castelvania)"
+      }
+    }
+  ],
   "dolcetto": [],
   "amaro": [],
+  "impizioni": [
+    {
+      "author": "Nick",
+      "description": "Final Fantasy 7 Rebirth",
+      "tags": [
+        "videogames",
+        "nicktrale"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 18,
+        "seconds": 0
+      }
+    }
+  ],
   "lore": [],
-  "others": [],
-  "meta": {
-    "user": null,
-    "date": "2026-11-13T10:50:08.889Z"
-  }
+  "others": []
 }

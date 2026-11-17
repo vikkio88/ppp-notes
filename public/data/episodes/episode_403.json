@@ -1,15 +1,163 @@
 {
   "title": "403: Manscimmia",
   "number": 403,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
-  "dolcetto": [],
-  "amaro": [],
-  "lore": [],
-  "others": [],
   "meta": {
-    "user": null,
-    "date": "2026-10-23T08:13:43.164Z"
-  }
+    "user": "PePPPeroni",
+    "date": "2026-11-17T19:18:22.767Z"
+  },
+  "menews": [
+    {
+      "author": "Nick",
+      "description": "La IA usata per i menu dei ristoranti",
+      "tags": [
+        "cibo"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 2,
+        "seconds": 5
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Big Walk",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 10
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Palla 2 (Shark Tank)",
+      "tags": [
+        "sport",
+        "tech"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 8,
+        "seconds": 5
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Phoenix Wright 5 VR Remake",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 35
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Boycott diverse sanctions",
+      "tags": [
+        "politica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 47,
+        "seconds": 25
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Nick",
+      "description": "La fastest Route per visitare tutte le pizzerie d’Italia",
+      "tags": [
+        "cibo"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 35
+      }
+    }
+  ],
+  "main": [
+    {
+      "author": "Lorro",
+      "description": "Dungeon Crawler Carl",
+      "tags": [
+        "libri"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 12,
+        "seconds": 0
+      },
+      "tenPizze": true
+    },
+    {
+      "author": "Nick",
+      "description": "Primetime (film) basato su How to catch a Predator (tv show)",
+      "tags": [
+        "tv-show",
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 25,
+        "seconds": 20
+      },
+      "pizza": {
+        "slices": 6.5,
+        "description": "Marinara buona"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Naza",
+      "tags": [
+        "film",
+        "politica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 38,
+        "seconds": 35
+      }
+    }
+  ],
+  "dolcetto": [
+    {
+      "author": "Sio",
+      "description": "Un sito per mettere canzoni sottoforma di ROM nella cartuccia del GBA (GameBoy)",
+      "tags": [
+        "musica",
+        "tech"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 55,
+        "seconds": 20
+      }
+    }
+  ],
+  "amaro": [],
+  "impizioni": [
+    {
+      "author": "Sio",
+      "description": "Hacks (serie)",
+      "tags": [
+        "serie",
+        "sioddisfatto"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 48,
+        "seconds": 25
+      }
+    }
+  ],
+  "lore": [],
+  "others": []
 }
