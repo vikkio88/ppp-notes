@@ -1,15 +1,276 @@
 {
   "title": "315: CAPPPODANNONE 🥂🎉",
   "number": 315,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
+  "meta": {
+    "user": "PePPPeroni",
+    "date": "2026-11-17T19:18:22.767Z"
+  },
+  "menews": [
+    {
+      "author": "Lorro",
+      "description": "The story of Pud - A Tell all documentary dei Aunty Donna",
+      "tags": [
+        "youtube"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 15,
+        "seconds": 5
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Wicked è acquistabile in digitale",
+      "tags": [
+        "musical"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 16,
+        "seconds": 10
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Nick presenta il nuovo libro di Muzzopappa",
+      "tags": [
+        "libri"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 36,
+        "seconds": 20
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Nuovi leak sulla switch 2 + i giochi al lancio: Mario Kart, Pokémon e altri",
+      "tags": [
+        "switch",
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 40,
+        "seconds": 30
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Lorro",
+      "description": "Nick e il Piuttosto che",
+      "tags": [],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 45
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "I frollini di Santa Lucia e l’elezione per il Re del Magnaron",
+      "tags": [],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 30
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "La wonder pick in Pokémon TCG è già predefinita prima di pescare",
+      "tags": [
+        "pokémon"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 18,
+        "seconds": 50
+      }
+    }
+  ],
+  "main": [
+    {
+      "author": "Lorro",
+      "description": "Video su YouTube: l’analisi di Super High Patch Wolf sul combattimento tra Jake Paul e Mike Tyson",
+      "tags": [
+        "youtube"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 20,
+        "seconds": 30
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Il nuovo film di Wallace & Gromit: Vengeance Most Fowl, o Le piume della vendetta",
+      "tags": [
+        "film",
+        "animazione"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 24,
+        "seconds": 25
+      },
+      "pizza": {
+        "slices": 9,
+        "description": "Pizza con frollini di santa Lucia, vari biscotti misti anche inglese, ecc"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Top 3 di libri 2024: La prova della mia innocenza, l’Amica Geniale, Ufo 78",
+      "tags": [
+        "libri"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 30,
+        "seconds": 15
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Video su YouTube: Disney animatronics, a living history del canale Defunctland",
+      "tags": [
+        "youtube"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 35,
+        "seconds": 20
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Top 3 videogames 2024: Ufo 50, Animal Well, Balatro",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 44,
+        "seconds": 45
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Top 3 musica 2024: Otonoke dei Creepy Nuts (DanDaDan), Hot to Go di Chappell Roan, Bread di Anya Nami",
+      "tags": [
+        "musica",
+        "anime"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 46,
+        "seconds": 5
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Video su YouTube: Acollierastro - Billionaires want you to know they could have done physics",
+      "tags": [
+        "youtube"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 47,
+        "seconds": 40
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Top 3 serie 2024: Brooklyn 99, Slow Horses, Mr. And Mrs. Smith",
+      "tags": [
+        "serie"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 50,
+        "seconds": 50
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "A little to the left",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 51,
+        "seconds": 40
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Top 3 fumetti 2024: one piece, Hirayasumi, le storie di Marco Nucci su Topolino + Top 3 film 2024: That Christmas, Wicked (il terzo sono le 10 Pizze a Hundreds of Beavers)",
+      "tags": [
+        "fumetti",
+        "film",
+        "musical"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 52,
+        "seconds": 50
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Hundreds of Beavers",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 57,
+        "seconds": 0
+      },
+      "tenPizze": true
+    }
+  ],
   "dolcetto": [],
   "amaro": [],
-  "lore": [],
-  "others": [],
-  "meta": {
-    "user": null,
-    "date": "2025-09-29T14:00:27.304Z"
-  }
+  "impizioni": [],
+  "lore": [
+    {
+      "author": "Nick",
+      "description": "Nick ha mangiato 76 pizze nel 2024 (prima dell’app ufficiale di PPP)",
+      "tags": [
+        "pizza-counter"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 2,
+        "seconds": 5
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "In questa puntata viene affermato per sbaglio che l’ukulele dovrebbe essere stato suonato nella 314, mentre in realtà dovrebbe esserlo nella 316. Ogni 79 puntate, Sio può suonare ukulele, come spiegato a 22:20 nella puntata 79",
+      "tags": [
+        "ukulele"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 8,
+        "seconds": 35
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Il testo dell’incomprensibile sigla di PPP",
+      "tags": [],
+      "timestamp": {
+        "hours": 1,
+        "minutes": 3,
+        "seconds": 40
+      }
+    }
+  ],
+  "others": []
 }

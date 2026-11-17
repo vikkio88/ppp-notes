@@ -1,15 +1,215 @@
 {
   "title": "330: Funghi Allucinocici",
   "number": 330,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
+  "meta": {
+    "user": "PePPPeroni",
+    "date": "2026-11-17T19:18:22.767Z"
+  },
+  "menews": [
+    {
+      "author": "Lorro",
+      "description": "La morte del papa e il totopapa",
+      "tags": [
+        "politica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 2,
+        "seconds": 50
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "I preordini della Switch 2",
+      "tags": [
+        "switch",
+        "nintendo"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 11,
+        "seconds": 0
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Katy Perry nello spazio per Jeff Bezos",
+      "tags": [
+        "politica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 12,
+        "seconds": 5
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Jojo: Steel Ball Run",
+      "tags": [
+        "anime"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 16,
+        "seconds": 0
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Le politiche transfobiche finanziate dalla Rowling",
+      "tags": [
+        "politica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 45,
+        "seconds": 55
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Il referendum sulla Giustizia",
+      "tags": [
+        "politica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 47,
+        "seconds": 10
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Lorro",
+      "description": "Severance 2",
+      "tags": [
+        "serie"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 40
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Electric State",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 40
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Pizzerie e ristoranti vegani a Londra",
+      "tags": [
+        "cibo"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 25
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Vedere/ascoltare le cose velocizzate a 2x",
+      "tags": [],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 8,
+        "seconds": 15
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Common Side Effects",
+      "tags": [
+        "serie",
+        "animazione"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 14,
+        "seconds": 30
+      },
+      "pizza": {
+        "slices": 9,
+        "description": "Pizza bianca con i funghi (voto era 8 nella puntata 324, aggiornato a 9)"
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Gundam GQUUUUX",
+      "tags": [
+        "anime"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 43,
+        "seconds": 5
+      }
+    }
+  ],
+  "main": [
+    {
+      "author": "Sio",
+      "description": "Black Water",
+      "tags": [
+        "libri"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 16,
+        "seconds": 55
+      },
+      "pizza": {
+        "slices": 7,
+        "description": "Marinara con pomodoro sciapo ma con una verdura misteriosa a foglie verdi, marroni, che sa un po’ di radicchio piccante, ma non ti viene in mente come si chiama e forse comunque era meglio una margherita (oppure 8 su 12 saga di De Paperoni)"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Red Sox di Luca Ravenna",
+      "tags": [
+        "stand-up-comedy"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 28,
+        "seconds": 30
+      },
+      "pizza": {
+        "slices": 2,
+        "description": "Margherita ma quando si chiede una marinara"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Sono qui per Caos di Barbascura X",
+      "tags": [
+        "stand-up-comedy"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 37,
+        "seconds": 0
+      },
+      "pizza": {
+        "slices": 10,
+        "description": "(nessuna descrizione)"
+      }
+    }
+  ],
   "dolcetto": [],
   "amaro": [],
+  "impizioni": [],
   "lore": [],
-  "others": [],
-  "meta": {
-    "user": null,
-    "date": "2025-09-29T14:00:27.303Z"
-  }
+  "others": []
 }

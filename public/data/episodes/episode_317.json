@@ -1,15 +1,361 @@
 {
   "title": "317: BI-C 2025",
   "number": 317,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
+  "meta": {
+    "user": "PePPPeroni",
+    "date": "2026-11-17T19:18:22.767Z"
+  },
+  "menews": [
+    {
+      "author": "Sio",
+      "description": "Il Game Boy di lego",
+      "tags": [
+        "nintendo"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Nick",
+      "description": "L’ombra del vampiro",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 45
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Il piuttosto che usato sbagliato e altri errori grammaticali",
+      "tags": [],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 5
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Nella puntata precedente non era frog fractions 3, ma il 4",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 8,
+        "seconds": 15
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Stardew Valley",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 8,
+        "seconds": 50
+      }
+    }
+  ],
+  "main": [
+    {
+      "author": "Lorro",
+      "description": "Risultati delle previsioni del 2024 (BIN-CA, Bingo Card) di Lorro: Silksong non esce nel 2024 (esatta), le elezioni in USA fanno molto ridere (esatta), Dune 2 delude Lorro più di Dune 1 (mezza sbagliata), annunciato nuovo gioco di Pokémon (sbagliata), Nick smette di contare le pizze (sbagliata), Monster Hunter Wilds rivoluziona tutto (sbagliata, gioco non uscito). LORRO VINCE.",
+      "tags": [
+        "bingo-card",
+        "videogames",
+        "politica",
+        "film",
+        "pokémon",
+        "pizza-counter",
+        "monster-hunter"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 10,
+        "seconds": 55
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Risultati delle previsioni del 2024 (BIN-CA, Bingo Card) di Sio: uscita del teaser del film di Zelda (sbagliata), Nick mangia il legno (esatta), Madame Web è più bello di Spiderverse (esatta perché Spiderverse non è uscito), esce la Super Switch 2 (sbagliata), viene creata una nuova nazione (sbagliata), escono 2 video di Hbomberguy (sbagliata)",
+      "tags": [
+        "zelda",
+        "film",
+        "switch",
+        "youtube",
+        "animazione"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 15,
+        "seconds": 5
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Risultati delle previsioni del 2024 (BIN-CA, Bingo Card) di Nick: Poor Things è la nuova fissazione di Nick (mezza esatta), La reunion del Quartetto Cetra o delle Spice Girls (sbagliata), Silksong esce il 14 febbraio (esatta), X sopravvive e Threads non decolla (mezza esatta), il finale di Spiderverse è banale (sbagliata), Lorro mangia un piatto di ruote (sbagliata)",
+      "tags": [
+        "film",
+        "musica",
+        "videogames",
+        "hollow-knight",
+        "animazione",
+        "cibo"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 17,
+        "seconds": 50
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Previsione 1 per il 2025 di Lorro: Nick smette di essere vegano per un certo periodo",
+      "tags": [
+        "cibo"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 24,
+        "seconds": 10
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Previsione 1 per il 2025 di Sio: viene annunciata la nuova Switch e si chiama “Switch 2”",
+      "tags": [
+        "switch"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 24,
+        "seconds": 55
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Previsione 1 per il 2025 di Nick: la Groenlandia usa un esercito di cani contro gli Stati Uniti",
+      "tags": [
+        "politica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 26,
+        "seconds": 5
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Previsione 2 per il 2025 di Lorro: Lorro diventa il più grande streamer in Italia di Monster Hunter",
+      "tags": [
+        "videogames",
+        "monster-hunter"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 26,
+        "seconds": 45
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Previsione 2 per il 2025 di Sio: Mario Kart 9 è solo per Arcade in Giappone, e il nuovo si chiamerà 10 (fuori dalla previsione: con un nuovo tipo di veicolo)",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 27,
+        "seconds": 15
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Previsione 2 per il 2025 di Nick: il mondo si dimentica di Apple Vision Pro",
+      "tags": [
+        "tech"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 28,
+        "seconds": 15
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Previsione 3 per il 2025 di Lorro: Sio viene criticato da una figura politica rilevante",
+      "tags": [
+        "politica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 28,
+        "seconds": 35
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Previsione 3 per il 2025 di Sio: uno dei tre host di PPP inizia un podcast giornaliero",
+      "tags": [
+        "podcast",
+        "hosts"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 29,
+        "seconds": 20
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Previsione 3 per il 2025 di Nick: Silksong esce il 14 Febbraio 2025",
+      "tags": [
+        "videogames",
+        "hollow-knight"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 29,
+        "seconds": 50
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Previsione 4 per il 2025 di Lorro: esce Silksong ma per metà è un gestionale o un gioco di cucina",
+      "tags": [
+        "videogames",
+        "hollow-knight"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 30,
+        "seconds": 20
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Previsione 4 per il 2025 di Sio: negli USA aboliscono i pompieri",
+      "tags": [],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 30,
+        "seconds": 55
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Previsione 4 per il 2025 di Nick: ci sarà una piega ambientale ma divertente",
+      "tags": [],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 31,
+        "seconds": 15
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Previsione 5 per il 2025 di Lorro: le 10 pizze andranno a un libro",
+      "tags": [
+        "libri"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 32,
+        "seconds": 10
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Previsione 5 per il 2025 di Sio: nel trailer del secondo film di Mario si vede un capezzolo",
+      "tags": [
+        "film",
+        "animazione"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 32,
+        "seconds": 40
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Previsione 5 per il 2025 di Nick: gli USA colonizzano un pianeta",
+      "tags": [],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 33,
+        "seconds": 0
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Previsione 6 per il 2025 di Lorro: uno dei tre host di PPP scopre una verdura o un nuovo abbinamento gastronomico con una verdura",
+      "tags": [
+        "cibo"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 33,
+        "seconds": 45
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Previsione 6 per il 2025 di Sio: i nuovi giochi di Pokémon si chiamano Pokémon Steel e Glass o Pokémon Plastic e Fantastic",
+      "tags": [
+        "videogames",
+        "pokémon"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 34,
+        "seconds": 40
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Previsione 6 per il 2025 di Nick: esce un musical su Elon Musk",
+      "tags": [
+        "musical"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 35,
+        "seconds": 20
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Emilia Pérez",
+      "tags": [
+        "film",
+        "musical"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 37,
+        "seconds": 0
+      },
+      "pizza": {
+        "slices": 0,
+        "description": "Il vero voto è -1 (voto negativo), un tizio ti tira un pugno e ti fa vomitare una fetta di pizza e te la ruba"
+      }
+    }
+  ],
   "dolcetto": [],
   "amaro": [],
+  "impizioni": [],
   "lore": [],
-  "others": [],
-  "meta": {
-    "user": null,
-    "date": "2025-09-29T14:00:27.304Z"
-  }
+  "others": []
 }

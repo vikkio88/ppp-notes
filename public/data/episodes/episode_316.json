@@ -1,15 +1,190 @@
 {
   "title": "316: Matemagica",
   "number": 316,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
-  "dolcetto": [],
-  "amaro": [],
-  "lore": [],
-  "others": [],
   "meta": {
-    "user": null,
-    "date": "2025-09-29T14:00:27.304Z"
-  }
+    "user": "PePPPeroni",
+    "date": "2026-11-17T19:18:22.767Z"
+  },
+  "menews": [
+    {
+      "author": "Nick",
+      "description": "Trump si caga addosso",
+      "tags": [
+        "politica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 1,
+        "seconds": 0
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "L’uscita di Wicked in digitale in USA",
+      "tags": [
+        "film",
+        "musical"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 50
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Il nuovo album di Liberato, e i video musicali generati con la IA",
+      "tags": [
+        "musica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 15,
+        "seconds": 40
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Gli extra del blue ray di Hundreds of Beavers",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 8,
+        "seconds": 15
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Lorro",
+      "description": "Lorro e il Piemonte",
+      "tags": [],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 50
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Il ciclo di Natale di Topolino",
+      "tags": [
+        "fumetti",
+        "animazione"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 12,
+        "seconds": 55
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Le nuove suonerie di Alarmo",
+      "tags": [
+        "tech"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 19,
+        "seconds": 35
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Dragon Quest 3 HD 2D Remake",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 39,
+        "seconds": 45
+      }
+    }
+  ],
+  "main": [
+    {
+      "author": "Sio",
+      "description": "Il DLC di Frog fractions che contiene Frog Fractions 4 (non il 3, vedi puntata successiva)",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 20,
+        "seconds": 10
+      },
+      "pizza": {
+        "slices": 8,
+        "description": "Pizza con pomodoro e migliaia di fette di prosciutto"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Nosferatu",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 22,
+        "seconds": 40
+      },
+      "pizza": {
+        "slices": 7.5,
+        "description": "Marinara"
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Metaphor Refantazio",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 41,
+        "seconds": 15
+      },
+      "pizza": {
+        "slices": 7.5,
+        "description": "7.5 é una media tra 9 fette per presentazione musica e estetica, ma 6 per dialoghi e trama"
+      }
+    }
+  ],
+  "dolcetto": [
+    {
+      "author": "Sio",
+      "description": "Una ROM in cui al posto di Sonic c’è Coco (del film Disney)",
+      "tags": [
+        "videogames",
+        "animazione"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 51,
+        "seconds": 55
+      }
+    }
+  ],
+  "amaro": [],
+  "impizioni": [],
+  "lore": [
+    {
+      "author": "Sio",
+      "description": "Ogni 79 puntate, Sio puó suonare ukulele, come spiegato a 22:20 nella puntata 79 (ma in questa puntata sio si sbaglia e pensa fosse la 314)",
+      "tags": [
+        "ukulele"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1
+      }
+    }
+  ],
+  "others": []
 }

@@ -1,15 +1,179 @@
 {
   "title": "318: Switch al Sugo",
   "number": 318,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
+  "meta": {
+    "user": "PePPPeroni",
+    "date": "2026-11-17T19:18:22.767Z"
+  },
+  "menews": [
+    {
+      "author": "Sio",
+      "description": "Elon Musk che fa il saluto nazista",
+      "tags": [
+        "politica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Nintendo Click",
+      "tags": [
+        "nintendo",
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 40
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Dalla ricetta di una torta (??) si prova a prevedere la data di uscita di Silksong, ma è sbagliata + altre teorie sulla data",
+      "tags": [
+        "videogames",
+        "hollow-knight",
+        "cibo"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 15,
+        "seconds": 25
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "La Nintendo Switch 2 Experience + il nuovo Mario Kart",
+      "tags": [
+        "nintendo",
+        "switch",
+        "eventi"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 18,
+        "seconds": 35
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Il cessate il fuoco finto di Israele + l’elezione di Trump e il Green Deal + varie decisioni prese da Trump",
+      "tags": [
+        "politica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 21,
+        "seconds": 40
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Sio",
+      "description": "Decade in italiano può significare sia 10 giorni che 10 anni",
+      "tags": [],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 3,
+        "seconds": 35
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Le previsioni sulla Nintendo Switch 2, i leak e la sua presentazione: i colori, l’hardware e il costo + retrocompatibilità dei Joycon della switch 1 (a 19:55) + il video di presentazione della switch 2 dura 2 minuti e 22 (a 30:30) + la retrocompatibilità dei giochi e della libreria digitale (a 40:40)",
+      "tags": [
+        "switch",
+        "nintendo",
+        "bingo-card"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 8,
+        "seconds": 0
+      }
+    }
+  ],
+  "main": [
+    {
+      "author": "Nick",
+      "description": "Nine Sols",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 31,
+        "seconds": 0
+      },
+      "pizza": {
+        "slices": 9,
+        "description": "Marinara con i fiori eduli sopra"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Arcane 2",
+      "tags": [
+        "serie",
+        "animazione"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 41,
+        "seconds": 30
+      },
+      "pizza": {
+        "slices": 7,
+        "description": "Pizza rovesciata con sotto 10 ingredienti"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "The stimulation game",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 44,
+        "seconds": 30
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Wicked (voto dato nella puntata speciale)",
+      "tags": [
+        "film",
+        "musical"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 48,
+        "seconds": 35
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Wicked (voto dato nella puntata speciale)",
+      "tags": [
+        "film",
+        "musical"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 48,
+        "seconds": 36
+      }
+    }
+  ],
   "dolcetto": [],
   "amaro": [],
+  "impizioni": [],
   "lore": [],
-  "others": [],
-  "meta": {
-    "user": null,
-    "date": "2025-09-29T14:00:27.304Z"
-  }
+  "others": []
 }

@@ -1,32 +1,128 @@
 {
   "title": "303: Spaziatura",
-  "menews": [],
-  "lorrowap": [],
+  "number": 303,
+  "meta": {
+    "user": ["PePPPeroni","giudycorda"],
+    "date": "2026-11-17T19:18:22.767Z"
+  },
+  "menews": [
+    {
+      "author": "Nick",
+      "description": "Il talk Tuah podcast",
+      "tags": [
+        "podcast"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 40
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Cards Against Humanity vs Elon Musk",
+      "tags": [
+        "politica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 9,
+        "seconds": 30
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "I maxi licenziamenti in Pixar e le condizioni di lavoro per Inside Out 2",
+      "tags": [
+        "animazione",
+        "politica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 45
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Il remake di the Office australiano che non è un remake ma è uno spin off",
+      "tags": [
+        "serie"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 17,
+        "seconds": 40
+      }
+    }
+  ],
+  "lorrowap": [
+    {
+      "author": "Sio",
+      "description": "La mano sinistra dell’oscurità",
+      "tags": [
+        "libri"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 30
+      }
+    }
+  ],
   "main": [
     {
+      "author": "Nick",
+      "description": "Uglies",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 19,
+        "seconds": 30
+      },
+      "pizza": {
+        "slices": 0,
+        "description": "La pizzeria è chiusa"
+      }
+    },
+    {
       "author": "Lorro",
-      "description": "Fancy dance",
+      "description": "Fancy Dance",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 36,
+        "seconds": 15
+      },
       "pizza": {
         "slices": 6,
-        "description": "Pizza con ingredienti che piacciono, bella esteticamente"
+        "description": "Pizza con ingredienti che ti piacciono e esteticamente bella, ma poi quando la mangi è un po meh"
       }
     },
     {
       "author": "Sio",
       "description": "Presunto innocente",
+      "tags": [
+        "serie"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 42,
+        "seconds": 10
+      },
       "pizza": {
         "slices": 7,
-        "description": "Solo mozzarella, buona"
+        "description": "Pizza con solo mozzarella ma molto buona"
       }
     }
   ],
   "dolcetto": [],
   "amaro": [],
+  "impizioni": [],
   "lore": [],
-  "others": [],
-  "meta": {
-    "user": "giudycorda",
-    "date": "2025-09-28T19:57:39.781Z"
-  },
-  "number": 303
+  "others": []
 }

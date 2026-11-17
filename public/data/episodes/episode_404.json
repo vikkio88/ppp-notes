@@ -1,15 +1,87 @@
 {
   "title": "404: Live @ Lucca 2026",
   "number": 404,
-  "main": [],
+  "meta": {
+    "user": "PePPPeroni",
+    "date": "2026-11-17T19:18:22.767Z"
+  },
   "menews": [],
   "lorrowap": [],
+  "main": [
+    {
+      "author": "Nick",
+      "description": "I vecchi nei film, fumetti, videogiochi e altre cose o luoghi + voto alla vecchiaia",
+      "tags": [
+        "film",
+        "fumetti",
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 0
+      },
+      "pizza": {
+        "slices": 8,
+        "description": "Pizza frullata perché hai dimenticato la dentiera nell’altra stanza e hai un’ernia"
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "La Tier List delle cose vecchie: Star Trek, le Montagne, i Rogue-Like, il mare, Shigeru Miyamoto, le piramidi, un ombrello, Lenin, l’aria, Street Fighter (film del 1994), la polvere, il pane, il Culo pazzo di Merda",
+      "tags": [
+        "serie-tv",
+        "videogames",
+        "politica",
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 22,
+        "seconds": 10
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "La recensione dell’agricoltura (con riferimento all’ansia e all’arte da lei generate)",
+      "tags": [],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 47,
+        "seconds": 0
+      },
+      "pizza": {
+        "slices": 7.5,
+        "description": "Margherita con i peperoni"
+      }
+    }
+  ],
   "dolcetto": [],
   "amaro": [],
-  "lore": [],
-  "others": [],
-  "meta": {
-    "user": null,
-    "date": "2026-11-13T10:50:08.890Z"
-  }
+  "impizioni": [],
+  "lore": [
+    {
+      "author": "Fabio Antonelli",
+      "description": "Live a Lucca con intro di Fabio Antonelli",
+      "tags": [
+        "eventi"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "La tradizionale slide di nick nelle live",
+      "tags": [],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 25
+      }
+    }
+  ],
+  "others": []
 }

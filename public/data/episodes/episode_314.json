@@ -1,15 +1,131 @@
 {
   "title": "314: Ambulanca",
   "number": 314,
-  "main": [],
-  "menews": [],
+  "meta": {
+    "user": "PePPPeroni",
+    "date": "2026-11-17T19:18:22.767Z"
+  },
+  "menews": [
+    {
+      "author": "Lorro",
+      "description": "RRR: behind and beyond (documentario)",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 6,
+        "seconds": 25
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Bloccato l’acquisto di InfoWars da The Onion",
+      "tags": [
+        "politica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 11,
+        "seconds": 0
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Un nuova roba (?) per Elden Ring",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 11,
+        "seconds": 40
+      }
+    }
+  ],
   "lorrowap": [],
+  "main": [
+    {
+      "author": "Nick",
+      "description": "Buy Now (documentario)",
+      "tags": [
+        "politica",
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 0
+      },
+      "pizza": {
+        "slices": 7,
+        "description": "Pizza con gli avanzi del giorno prima"
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "La leggendaria storia degli 883",
+      "tags": [
+        "serie",
+        "musica"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 29,
+        "seconds": 25
+      },
+      "pizza": {
+        "slices": 8.83,
+        "description": "Pizza con gamberi e zucchine"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Little Big Boy di Nick Kroll",
+      "tags": [
+        "stand-up-comedy"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 44,
+        "seconds": 30
+      },
+      "pizza": {
+        "slices": 9,
+        "description": "Pizza con le fettuccine Alfredo"
+      }
+    }
+  ],
   "dolcetto": [],
   "amaro": [],
-  "lore": [],
-  "others": [],
-  "meta": {
-    "user": null,
-    "date": "2025-09-29T14:00:27.304Z"
-  }
+  "impizioni": [
+    {
+      "author": "Nick",
+      "description": "Nine Sols",
+      "tags": [
+        "videogames",
+        "sioddisfatto"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 7,
+        "seconds": 35
+      }
+    }
+  ],
+  "lore": [
+    {
+      "author": "Sio",
+      "description": "Puntata senza Sio",
+      "tags": [
+        "hosts"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 0,
+        "seconds": 1
+      }
+    }
+  ],
+  "others": []
 }
