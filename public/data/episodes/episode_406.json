@@ -1,15 +1,180 @@
 {
   "title": "406: Bastoncino del Finale",
   "number": 406,
-  "main": [],
-  "menews": [],
-  "lorrowap": [],
-  "dolcetto": [],
+  "main": [
+    {
+      "author": "Sio",
+      "description": "Il barone rampante di Italo Calvino",
+      "tags": [
+        "libri"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 18,
+        "seconds": 10
+      },
+      "pizza": {
+        "slices": 8,
+        "description": "Pizza bianca con la zucca"
+      }
+    },
+    {
+      "author": "Nick",
+      "description": "Wild Horse Nine",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 24,
+        "seconds": 10
+      },
+      "pizza": {
+        "slices": 8,
+        "description": "Pizza vegana con cavolo rosso non del tutto cotto che pensi sia meh e poi è buonissima"
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Queen‘s Domain",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 33,
+        "seconds": 35
+      },
+      "pizza": {
+        "slices": 8,
+        "description": "Pizza che non si sa ancora cosa sia"
+      }
+    }
+  ],
+  "menews": [
+    {
+      "author": "Lorro",
+      "description": "Il trailer di Gatto della Pixar",
+      "tags": [
+        "film",
+        "animazione"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 8,
+        "seconds": 35
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Il concerto dell’anniversario di Zelda + i Limp Bizkit + il tour di KPop Demon Hunters",
+      "tags": [
+        "film",
+        "animazione",
+        "eventi",
+        "zelda"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 8,
+        "seconds": 35
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "L’abbonamento al Cyber Cab della Tesla",
+      "tags": [
+        "tech"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 13,
+        "seconds": 15
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Robert Pattinson é il nuovo James Bond",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 15,
+        "seconds": 30
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "La serie animata su Garfield",
+      "tags": [
+        "serie",
+        "animazione"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 17,
+        "seconds": 0
+      }
+    }
+  ],
+  "lorrowap": [    
+  {
+      "author": "Sio",
+      "description": "Road Star",
+      "tags": [
+        "manga"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 4,
+        "seconds": 55
+      }
+    },
+  {
+      "author": "Lorro",
+      "description": "Superman di James Gunn fa flop al botteghino + Lanterns che va alla grande",
+      "tags": [
+        "film"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 5,
+        "seconds": 35
+      }
+    },
+  {
+      "author": "Nick",
+      "description": "Castlevania: Belmont's Curse",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 42,
+        "seconds": 15
+      }
+    }
+  ],
+  "dolcetto": [
+    {
+      "author": "Sio",
+      "description": "Cursor Camp su Neal.Fun",
+      "tags": [
+        "videogames"
+      ],
+      "timestamp": {
+        "hours": 0,
+        "minutes": 47,
+        "seconds": 45
+      }
+    }
+  ],
   "amaro": [],
   "lore": [],
   "others": [],
   "meta": {
-    "user": null,
+    "user": "PePPPeroni",
     "date": "2026-11-20T09:15:02.454Z"
   }
 }
